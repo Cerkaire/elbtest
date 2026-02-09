@@ -1,0 +1,849 @@
+{
+    "codex": {
+        "id": "eldars_noirs",
+        "name": "Eldars Noirs",
+        "version": "1.2",
+        "faction": "Eldars Noirs",
+        "color": "#6100be",
+        "categorie": "Armées Xénos",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.33,
+            "valeur_strategique_t1": 5,
+            "valeur_strategique": 4,
+            "initiative_defaut": "2+",
+            "initiative_elites": "1+"
+        }
+    },
+    "ameliorations": [
+        {
+            "id": "voivode",
+            "name": "Voïvode",
+            "cout": 25,
+            "description": "Commandant",
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "grand_voivode",
+            "name": "Grand Voïvode",
+            "cout": 75,
+            "description": "Commandant suprême, Charismatique, Sauvegarde Invulnérable, Blindage renforcé, Virtuose",
+            "limiteOptionGlobal": 1,
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "succube",
+            "name": "Succube",
+            "cout": 25,
+            "description": "Armes d'assaut, +2A, MA - Commandant",
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "tourmenteur",
+            "name": "Tourmenteur",
+            "cout": 50,
+            "description": "Armes d'assaut, +1A - Charismatique, Meneur, Sauvegarde Invulnérable",
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "sybarite",
+            "name": "Sybarite",
+            "cout": 25,
+            "description": "Charismatique",
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "executeur",
+            "name": "Executeur",
+            "cout": 25,
+            "description": "Armes d'assaut, +1A - Charismatique",
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "portail_noir",
+            "name": "Portail Noir",
+            "cout": 50,
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "barge_tantale",
+            "name": "Barge Tantale",
+            "cout": 100,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "barge_tantale",
+                    "name": "Barge Tantale",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "venom",
+            "name": "Vénom",
+            "cout": 25,
+            "cout_par_unite": true,
+            "description": "Ajouter des Vénom",
+            "unites": [
+                {
+                    "id": "venom",
+                    "name": "Vénom",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "raider",
+            "name": "Raider",
+            "cout": 25,
+            "cout_par_unite": true,
+            "description": "Ajouter des Raider",
+            "unites": [
+                {
+                    "id": "raider",
+                    "name": "Raider",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "raider_banshee",
+            "name": "Banshee",
+            "cout": 50,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "raider_banshee",
+                    "name": "Raider Banshee",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "teleportation",
+            "name": "Téléportation",
+            "cout": 50,
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "grotesques_2",
+            "name": "2 Grotesques",
+            "cout": 25,
+            "description": "Remplacer jusqu'à 6 unités par autant d'unités de Grotesques",
+            "unique": "grotesques",
+            "unites": [
+                {
+                    "id": "grotesque",
+                    "name": "Grotesque",
+                    "nombre": 2
+                }
+            ]
+        },
+        {
+            "id": "grotesques_4",
+            "name": "4 Grotesques",
+            "cout": 50,
+            "description": "Remplacer jusqu'à 6 unités par autant d'unités de Grotesques",
+            "unique": "grotesques",
+            "unites": [
+                {
+                    "id": "grotesque",
+                    "name": "Grotesque",
+                    "nombre": 4
+                }
+            ]
+        },
+        {
+            "id": "grotesques_6",
+            "name": "6 Grotesques",
+            "cout": 75,
+            "description": "Remplacer jusqu'à 6 unités par autant d'unités de Grotesques",
+            "unique": "grotesques",
+            "unites": [
+                {
+                    "id": "grotesque",
+                    "name": "Grotesque",
+                    "nombre": 6
+                }
+            ]
+        },
+        {
+            "id": "talos",
+            "name": "Machine de Tourment - Talos",
+            "cout": 50,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 2,
+            "unites": [
+                {
+                    "id": "talos",
+                    "name": "Talos",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "cronos",
+            "name": "Machine de Tourment - Cronos",
+            "cout": 50,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 2,
+            "unites": [
+                {
+                    "id": "cronos",
+                    "name": "Cronos",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "escorteurs_corsaire",
+            "name": "Escorteurs de classe Corsaire",
+            "cout": 100,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 3,
+            "rare": true,
+            "unites": [
+                {
+                    "id": "escorteur_corsaire",
+                    "name": "Escorteur de classe Corsaire",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "reaper_remplacement",
+            "name": "Remplacer Ravageur par Reaper",
+            "cout": 25,
+            "cout_par_unite": true,
+            "description": "Remplacer 1 Ravageur par 1 Reaper (max 2)",
+            "min": 1,
+            "max": 2,
+            "type_remplacement": {
+                "remplace_unites": [
+                    "ravageur_tenebres",
+                    "ravageur_desintegrateur"
+                ],
+                "par_unite": "reaper"
+            },
+            "unites": [
+                {
+                    "id": "reaper",
+                    "name": "Reaper",
+                    "nombre": 1
+                }
+            ]
+        }
+    ],
+    "groupes": [
+        {
+            "id": "formations_principales",
+            "name": "FORMATIONS PRINCIPALES ELDARS NOIRS",
+            "type": "principale",
+            "description": "Chaque formation principale permet de choisir jusqu'à 3 formations soit dans la liste des formations associées à cette formation principale soit dans la liste des formations d'élites",
+            "min_formations": 1,
+            "formations": [
+                {
+                    "id": "cabale_eldars_noirs",
+                    "name": "Cabale Eldars Noirs",
+                    "cout": 175,
+                    "initiative": "2+",
+                    "FormationLimitationTag": {
+                        "A": 3
+                    },
+                    "unites": [
+                        {
+                            "id": "guerrier_cabaliste",
+                            "name": "Guerriers Cabalistes",
+                            "nombre": 8
+                        }
+                    ],
+                    "ameliorations": [
+                        "voivode",
+                        "portail_noir",
+                        "barge_tantale",
+                        "venom",
+                        "raider",
+                        "raider_banshee"
+                    ]
+                },
+                {
+                    "id": "culte_ceraste",
+                    "name": "Culte Céraste",
+                    "cout": 150,
+                    "initiative": "2+",
+                    "FormationLimitationTag": {
+                        "C": 3
+                    },
+                    "unites": [
+                        {
+                            "id": "ceraste",
+                            "name": "Cérastes",
+                            "nombre": 8
+                        }
+                    ],
+                    "ameliorations": [
+                        "succube",
+                        "portail_noir",
+                        "barge_tantale",
+                        "venom",
+                        "raider"
+                    ]
+                },
+                {
+                    "id": "coterie_tourmenteur",
+                    "name": "Coterie du Tourmenteur",
+                    "cout": 175,
+                    "initiative": "2+",
+                    "FormationLimitationTag": {
+                        "B": 3
+                    },
+                    "unites": [
+                        {
+                            "id": "gorgone",
+                            "name": "Gorgones",
+                            "nombre": 8
+                        }
+                    ],
+                    "ameliorations": [
+                        "tourmenteur",
+                        "portail_noir",
+                        "grotesques_2",
+                        "grotesques_4",
+                        "grotesques_6",
+                        "talos",
+                        "cronos",
+                        "barge_tantale",
+                        "venom",
+                        "raider"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "formations_cabale",
+            "name": "FORMATIONS DE LA CABALE ELDARS NOIRS",
+            "type": "associee",
+            "description": "Formations associées à la Cabale",
+            "LimitationTag": "A",
+            "max_par_tag": 3,
+            "formations": [
+                {
+                    "id": "immacules",
+                    "name": "Immaculés",
+                    "cout": 225,
+                    "initiative": "1+",
+                    "FormationLimite": 1,
+                    "unites": [
+                        {
+                            "id": "immacules",
+                            "name": "Immaculés",
+                            "nombre": 6
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "grande",
+                            "name": "8 unités",
+                            "multiplicateur": 1.33,
+                            "cout": 300
+                        }
+                    ],
+                    "ameliorations": [
+                        "voivode",
+                        "grand_voivode",
+                        "sybarite",
+                        "barge_tantale",
+                        "venom",
+                        "raider",
+                        "portail_noir"
+                    ]
+                },
+                {
+                    "id": "ravageurs_cabale",
+                    "name": "Ravageurs",
+                    "cout": 0,
+                    "initiative": "2+",
+                    "composition_personnalisee": {
+                        "type": "choix_multiples",
+                        "min_total": 4,
+                        "max_total": 6,
+                        "description": "Choisir 4 à 6 Ravageurs (tous types)",
+                        "principale": true,
+                        "options": [
+                            {
+                                "id": "ravageur_tenebres",
+                                "name": "Ravageur des ténèbres",
+                                "unitId": "ravageur_tenebres",
+                                "cout": 50,
+                                "min": 0,
+                                "max": 6
+                            },
+                            {
+                                "id": "ravageur_desintegrateur",
+                                "name": "Ravageur désintégrateur",
+                                "unitId": "ravageur_desintegrateur",
+                                "cout": 50,
+                                "min": 0,
+                                "max": 6
+                            }
+                        ]
+                    },
+                    "ameliorations": [
+                        "raider_banshee",
+                        "reaper_remplacement"
+                    ]
+                },
+                {
+                    "id": "barge_souffrance_cabale",
+                    "name": "Barge de souffrance",
+                    "cout": 275,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "barge_souffrances",
+                            "name": "Barge de souffrance",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                }
+            ]
+        },
+        {
+            "id": "formations_tourmenteur",
+            "name": "FORMATIONS DE LA COTERIE DU TOURMENTEUR",
+            "type": "associee",
+            "description": "Formations associées à la Coterie du Tourmenteur",
+            "LimitationTag": "B",
+            "max_par_tag": 3,
+            "formations": [
+                {
+                    "id": "hemoxytes",
+                    "name": "Hémoxytes",
+                    "cout": 200,
+                    "initiative": "1+",
+                    "FormationLimite": 1,
+                    "unites": [
+                        {
+                            "id": "hemoxyte",
+                            "name": "Hémoxytes",
+                            "nombre": 6
+                        }
+                    ],
+                    "ameliorations": [
+                        "grand_voivode",
+                        "tourmenteur",
+                        "portail_noir",
+                        "grotesques_2",
+                        "grotesques_4",
+                        "grotesques_6",
+                        "talos",
+                        "cronos",
+                        "barge_tantale",
+                        "venom",
+                        "raider"
+                    ]
+                },
+                {
+                    "id": "talos_formation",
+                    "name": "Talos",
+                    "cout": 200,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "talos",
+                            "name": "Talos",
+                            "nombre": 4
+                        }
+                    ],
+                    "ameliorations": [
+                        "talos",
+                        "cronos"
+                    ]
+                },
+                {
+                    "id": "ravageurs_tourmenteur",
+                    "name": "Ravageurs",
+                    "cout": 0,
+                    "initiative": "2+",
+                    "composition_personnalisee": {
+                        "type": "choix_multiples",
+                        "min_total": 4,
+                        "max_total": 6,
+                        "description": "Choisir 4 à 6 Ravageurs (tous types)",
+                        "principale": true,
+                        "options": [
+                            {
+                                "id": "ravageur_tenebres",
+                                "name": "Ravageur des ténèbres",
+                                "unitId": "ravageur_tenebres",
+                                "cout": 50,
+                                "min": 0,
+                                "max": 6
+                            },
+                            {
+                                "id": "ravageur_desintegrateur",
+                                "name": "Ravageur désintégrateur",
+                                "unitId": "ravageur_desintegrateur",
+                                "cout": 50,
+                                "min": 0,
+                                "max": 6
+                            }
+                        ]
+                    },
+                    "ameliorations": [
+                        "raider_banshee"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "formations_culte",
+            "name": "FORMATIONS DU CULTE CERASTE",
+            "type": "associee",
+            "description": "Formations associées au Culte Céraste",
+            "LimitationTag": "C",
+            "max_par_tag": 3,
+            "formations": [
+                {
+                    "id": "maitresses_sang",
+                    "name": "Maîtresses de sang Hekatrix",
+                    "cout": 225,
+                    "initiative": "1+",
+                    "FormationLimite": 1,
+                    "unites": [
+                        {
+                            "id": "maitresse_sang_hekatrix",
+                            "name": "Maîtresses de sang Hekatrix",
+                            "nombre": 6
+                        }
+                    ],
+                    "ameliorations": [
+                        "grand_voivode",
+                        "succube",
+                        "barge_tantale",
+                        "venom",
+                        "raider",
+                        "portail_noir"
+                    ]
+                },
+                {
+                    "id": "hellions",
+                    "name": "Hellions",
+                    "cout": 200,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "helion",
+                            "name": "Hellions",
+                            "nombre": 6
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "reavers",
+                    "name": "Reavers",
+                    "cout": 200,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "reaver",
+                            "name": "Reavers",
+                            "nombre": 6
+                        }
+                    ],
+                    "ameliorations": [
+                        "succube",
+                        "portail_noir"
+                    ]
+                },
+                {
+                    "id": "barge_souffrance_culte",
+                    "name": "Barge de souffrance",
+                    "cout": 275,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "barge_souffrances",
+                            "name": "Barge de souffrance",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                }
+            ]
+        },
+        {
+            "id": "formations_elites",
+            "name": "FORMATIONS D'ÉLITES ELDARS NOIRS",
+            "type": "elite",
+            "description": "Formations d'élites accessibles par toutes les formations principales",
+            "LimitationTag": [
+                "A",
+                "B",
+                "C"
+            ],
+            "max_par_tag": 3,
+            "formations": [
+                {
+                    "id": "incubes",
+                    "name": "Incubes",
+                    "cout": 250,
+                    "initiative": "1+",
+                    "FormationLimite": 1,
+                    "unites": [
+                        {
+                            "id": "incube",
+                            "name": "Incubes",
+                            "nombre": 6
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "grande",
+                            "name": "8 unités",
+                            "nombre_exact": 8,
+                            "cout": 350
+                        }
+                    ],
+                    "ameliorations": [
+                        "grand_voivode",
+                        "voivode",
+                        "executeur",
+                        "barge_tantale",
+                        "venom",
+                        "raider",
+                        "portail_noir"
+                    ]
+                },
+                {
+                    "id": "fleaux",
+                    "name": "Fléaux",
+                    "cout": 175,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "fleau",
+                            "name": "Fléaux",
+                            "nombre": 6
+                        }
+                    ],
+                    "ameliorations": [
+                        "teleportation"
+                    ]
+                },
+                {
+                    "id": "maitres_betes",
+                    "name": "Maîtres des Bêtes",
+                    "cout": 150,
+                    "initiative": "2+",
+                    "FormationLimite": 2,
+                    "unites": [
+                        {
+                            "id": "maitre_bete",
+                            "name": "Maîtres des bêtes",
+                            "nombre": 6
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "mandragores",
+                    "name": "Mandragores",
+                    "cout": 150,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "mandragore",
+                            "name": "Mandragores",
+                            "nombre": 4
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "moyenne",
+                            "name": "6 unités",
+                            "nombre_exact": 6,
+                            "cout": 225
+                        },
+                        {
+                            "id": "grande",
+                            "name": "8 unités",
+                            "nombre_exact": 8,
+                            "cout": 300
+                        }
+                    ],
+                    "ameliorations": [
+                        "teleportation"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "flotte_guerre",
+            "name": "FLOTTE DE GUERRE ELDARS NOIRS",
+            "type": "rare",
+            "description": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+            "rare": true,
+            "max_points_ratio": 0.33,
+            "formations": [
+                {
+                    "id": "escadrille_intercepteurs",
+                    "name": "Escadrille d'Intercepteurs",
+                    "cout": 100,
+                    "cout_par_unite": true,
+                    "initiative": "2+",
+                    "rare": true,
+                    "nombre_variable": {
+                        "min": 2,
+                        "max": 3,
+                        "description": "2 à 3 Razorwings"
+                    },
+                    "unites": [
+                        {
+                            "id": "razorwing",
+                            "name": "Razorwing",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "escadrille_voidravens",
+                    "name": "Escadrille de Voidravens",
+                    "cout": 250,
+                    "initiative": "2+",
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "voidraven",
+                            "name": "Voidraven",
+                            "nombre": 2
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "transporteur",
+                    "name": "Transporteur",
+                    "cout": 200,
+                    "initiative": "2+",
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "slavebringer",
+                            "name": "Slavebringer",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "soutien_orbital",
+                    "name": "Soutien Orbital",
+                    "cout": 200,
+                    "initiative": "2+",
+                    "rare": true,
+                    "composition_personnalisee": {
+                        "type": "choix_unique",
+                        "description": "Choisir le type de soutien orbital",
+                        "options": [
+                            {
+                                "id": "croiseur_torture",
+                                "name": "1 Croiseur Torture",
+                                "unitId": "croiseur_torture",
+                                "nombre": 1,
+                                "cout": 200
+                            },
+                            {
+                                "id": "escorteurs_seuls",
+                                "name": "Escorteurs de classe Corsaire (sans croiseur)",
+                                "unitId": "escorteur_corsaire",
+                                "nombre": 0,
+                                "cout": 0,
+                                "note": "Vous devez ajouter 1-3 escorteurs via améliorations"
+                            }
+                        ]
+                    },
+                    "ameliorations": [
+                        "escorteurs_corsaire"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "soutien_titanique",
+            "name": "SOUTIEN TITANIQUE DES ELDARS NOIRS",
+            "type": "rare",
+            "description": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+            "rare": true,
+            "max_points_ratio": 0.33,
+            "formations": [
+                {
+                    "id": "titans_tourmenteurs",
+                    "name": "Titans Tourmenteurs",
+                    "cout": 350,
+                    "cout_par_unite": true,
+                    "initiative": "1+",
+                    "rare": true,
+                    "nombre_variable": {
+                        "min": 1,
+                        "max": 2,
+                        "description": "1 à 2 Titans Tourmenteurs"
+                    },
+                    "unites": [
+                        {
+                            "id": "titan_tourmenteur",
+                            "name": "Titan Tourmenteur",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "titan_moissoneur",
+                    "name": "Titan Moissoneur",
+                    "cout": 650,
+                    "initiative": "1+",
+                    "FormationLimite": 1,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "moissoneur",
+                            "name": "Moissoneur",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "horreur_vect",
+                    "name": "Horreur de Vect",
+                    "cout": 750,
+                    "initiative": "1+",
+                    "FormationLimite": 1,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "horreur_vect",
+                            "name": "Horreur de Vect",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                }
+            ]
+        }
+    ]
+}

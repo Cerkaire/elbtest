@@ -1,0 +1,783 @@
+{
+    "codex": {
+        "id": "empire_tau",
+        "name": "Empire T'au",
+        "version": "REV-1.3.1",
+        "faction": "Tau",
+        "color": "#0080c0",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.33,
+            "valeur_strategique": 3
+        }
+    },
+    "ameliorations": [
+        {
+            "id": "commandeur",
+            "name": "Commandeur",
+            "cout": 50,
+            "description": "Ajouter 1 Shas'El à une unité de la formation (0-1 Shas'O gratuit en remplacement)",
+            "limiteOptionGlobal": 1,
+            "limit": 1,
+            "unique": "commandeur",
+            "unites": []
+        },
+        {
+            "id": "drones_attaque_2",
+            "name": "Drones d'attaque (x2)",
+            "cout": 25,
+            "cout_par_unite": false,
+            "limit": null,
+            "IsNotOption": true,
+            "nbacti": false,
+            "unites": [
+                {
+                    "id": "drone_attaque",
+                    "name": "Drone d'attaque",
+                    "nombre": 2
+                }
+            ]
+        },
+        {
+            "id": "drones_attaque_4",
+            "name": "Drones d'attaque (x4)",
+            "cout": 50,
+            "limit": null,
+            "IsNotOption": true,
+            "nbacti": false,
+            "unites": [
+                {
+                    "id": "drone_attaque",
+                    "name": "Drone d'attaque",
+                    "nombre": 4
+                }
+            ]
+        },
+        {
+            "id": "drones_lourds_2",
+            "name": "Drones lourds (x2)",
+            "cout": 75,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "drone_lourd",
+                    "name": "Drone lourd",
+                    "nombre": 2
+                }
+            ]
+        },
+        {
+            "id": "drones_lourds_4",
+            "name": "Drones lourds (x4)",
+            "cout": 150,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "drone_lourd",
+                    "name": "Drone lourd",
+                    "nombre": 4
+                }
+            ]
+        },
+        {
+            "id": "talissera",
+            "name": "Ta'lissera",
+            "cout": 25,
+            "description": "Ajouter la Note Meneur à 1 unité de la formation",
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "skyray",
+            "name": "Skyray",
+            "cout": 75,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "skyray",
+                    "name": "Skyray",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "devilfish_4",
+            "name": "Devilfish (x4)",
+            "cout": 100,
+            "description": "Vous ne pouvez pas prendre plus de Devilfish que nécessaire",
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "devilfish",
+                    "name": "Devilfish",
+                    "nombre": 4
+                }
+            ]
+        },
+        {
+            "id": "devilfish_6",
+            "name": "Devilfish (x6)",
+            "cout": 150,
+            "description": "Vous ne pouvez pas prendre plus de Devilfish que nécessaire",
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "devilfish",
+                    "name": "Devilfish",
+                    "nombre": 6
+                }
+            ]
+        },
+        {
+            "id": "ethere",
+            "name": "Ethéré",
+            "cout": 50,
+            "description": "Ajouter 1 Ethéré à une unité de la formation",
+            "limiteOptionGlobal": 1,
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "cibleurs",
+            "name": "Cibleurs (x2 + 1 Devilfish)",
+            "cout": 100,
+            "limit": null,
+            "unites": [
+                {
+                    "id": "cibleur",
+                    "name": "Cibleur",
+                    "nombre": 2
+                },
+                {
+                    "id": "devilfish",
+                    "name": "Devilfish",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "cibleurs_remplacement",
+            "name": "Remplacer 2 Strike team par 2 Cibleurs",
+            "cout": 25,
+            "description": "Remplace des unités existantes",
+            "limit": null,
+            "unites": []
+        },
+        {
+            "id": "drones_snipers",
+            "name": "Drones Snipers",
+            "cout": 50,
+            "cout_par_unite": true,
+            "description": "1 à 4 unités",
+            "min": 1,
+            "max": 4,
+            "limiteOptionGlobal": 1,
+            "unites": [
+                {
+                    "id": "drone_sniper",
+                    "name": "Drone Sniper",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "blindes_tau",
+            "name": "Blindés T'au (x3)",
+            "cout": 175,
+            "description": "Ajouter 3 véhicules parmi : Hammerheads (tous types), Stingray",
+            "limit": null,
+            "unites": []
+        },
+        {
+            "id": "drone_communication",
+            "name": "Drone de communication",
+            "cout": 25,
+            "description": "Ajouter la Note Meneur à 1 véhicule de la formation",
+            "limit": 1,
+            "unites": []
+        }
+    ],
+    "groupes": [
+        {
+            "id": "cadres_tau",
+            "name": "CADRES DE T'AU",
+            "type": "principale",
+            "min_formations": 1,
+            "description": "Au moins 1 Cadre obligatoire",
+            "formations": [
+                {
+                    "id": "cadre_exo_armures_crisis",
+                    "name": "Cadres d'Exo-armures Crisis",
+                    "cout": 200,
+                    "initiative": "1+",
+                    "FormationLimite": null,
+                    "rare": false,
+                    "limiteOptionFormation": 4,
+                    "FormationLimitationTag": {
+                        "soutien": 2
+                    },
+                    "unites": [
+                        {
+                            "id": "xv8_crisis",
+                            "name": "XV8 Crisis",
+                            "nombre": 4
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "grande",
+                            "name": "6 unités",
+                            "multiplicateur": 1.5,
+                            "cout": 300
+                        }
+                    ],
+                    "ameliorations": [
+                        "drones_lourds_2",
+                        "drones_lourds_4",
+                        "drones_attaque_2",
+                        "drones_attaque_4",
+                        "commandeur",
+                        "talissera"
+                    ]
+                },
+                {
+                    "id": "cadre_blinde",
+                    "name": "Cadre blindé",
+                    "cout": 375,
+                    "initiative": "2+",
+                    "FormationLimitationTag": {
+                        "soutien": 2
+                    },
+                    "composition_personnalisee": {
+                        "type": "choix_multiples",
+                        "total": 6,
+                        "description": "Choisir 6 Hammerheads (tous types)",
+                        "principale": true,
+                        "options": [
+                            {
+                                "id": "hammerhead_rail",
+                                "name": "Hammerhead (Canon rail)",
+                                "unitId": "hammerhead_rail",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 6
+                            },
+                            {
+                                "id": "hammerhead_ion",
+                                "name": "Hammerhead (Canon à ion)",
+                                "unitId": "hammerhead_ion",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 6
+                            }
+                        ]
+                    },
+                    "ameliorations": [
+                        "blindes_tau",
+                        "skyray",
+                        "drone_communication"
+                    ]
+                },
+                {
+                    "id": "cadre_guerrier_feu",
+                    "name": "Cadre de Guerrier de feu",
+                    "cout": 225,
+                    "initiative": "2+",
+                    "FormationLimitationTag": {
+                        "soutien": 2,
+                        "auxiliaire": 1
+                    },
+                    "unites": [
+                        {
+                            "id": "strike_team",
+                            "name": "Strike team",
+                            "nombre": 8
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "grande",
+                            "name": "12 unités",
+                            "multiplicateur": 1.5,
+                            "cout": 325
+                        }
+                    ],
+                    "ameliorations": [
+                        "ethere",
+                        "cibleurs",
+                        "cibleurs_remplacement",
+                        "drones_attaque_2",
+                        "drones_attaque_4",
+                        "skyray",
+                        "talissera",
+                        "drones_snipers",
+                        "devilfish_4",
+                        "devilfish_6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "formations_soutien",
+            "name": "FORMATIONS DE SOUTIEN",
+            "type": "soutien",
+            "description": "Jusqu'à 2 formations de soutien par cadre",
+            "LimitationTag": "soutien",
+            "max_par_tag": 2,
+            "formations": [
+                {
+                    "id": "exo_armures_stealth",
+                    "name": "Exo-armures Stealth",
+                    "cout": 250,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "xv15_stealth",
+                            "name": "XV15 Stealth",
+                            "nombre": 6
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "grande",
+                            "name": "9 unités",
+                            "multiplicateur": 1.5,
+                            "cout": 375
+                        }
+                    ],
+                    "ameliorations": [
+                        "talissera"
+                    ]
+                },
+                {
+                    "id": "exo_armures_broadsides",
+                    "name": "Exo-armures Broadsides",
+                    "cout": 250,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "xv88_broadside",
+                            "name": "XV88 Broadside",
+                            "nombre": 4
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "grande",
+                            "name": "6 unités",
+                            "multiplicateur": 1.5,
+                            "cout": 350
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "groupe_cibleurs",
+                    "name": "Groupe de Cibleurs",
+                    "cout": 175,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "cibleur",
+                            "name": "Cibleur",
+                            "nombre": 4
+                        },
+                        {
+                            "id": "devilfish",
+                            "name": "Devilfish",
+                            "nombre": 2
+                        }
+                    ],
+                    "ameliorations": [
+                        "cibleurs"
+                    ]
+                },
+                {
+                    "id": "groupe_reconnaissance",
+                    "name": "Groupe de Reconnaissance",
+                    "cout": 175,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "tetra",
+                            "name": "Tetra",
+                            "nombre": 6
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "grande",
+                            "name": "9 unités",
+                            "multiplicateur": 1.5,
+                            "cout": 250
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "vague_piranhas",
+                    "name": "Vague Piranhas",
+                    "cout": 175,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "piranha_ci",
+                            "name": "Piranha (Canon à induction)",
+                            "nombre": 6
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "grande",
+                            "name": "9 unités",
+                            "multiplicateur": 1.5,
+                            "cout": 250
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "groupe_appui_feu",
+                    "name": "Groupe d'Appui-feu",
+                    "cout": 200,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "stingray",
+                            "name": "Stingray",
+                            "nombre": 3
+                        }
+                    ],
+                    "ameliorations": [
+                        "skyray",
+                        "blindes_tau"
+                    ]
+                },
+                {
+                    "id": "groupe_interdiction_blinde",
+                    "name": "Groupe d'interdiction blindé",
+                    "cout": 275,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "hammerhead_rail",
+                            "name": "Hammerhead (Canon rail)",
+                            "nombre": 4
+                        }
+                    ],
+                    "ameliorations": [
+                        "skyray"
+                    ]
+                },
+                {
+                    "id": "drones_attaque_formation",
+                    "name": "Drones d'attaques",
+                    "cout": 150,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "drone_attaque",
+                            "name": "Drone d'attaque",
+                            "nombre": 6
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "aile_skysweep",
+                    "name": "Aile Skysweep",
+                    "cout": 250,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "skyray",
+                            "name": "Skyray",
+                            "nombre": 3
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "exo_armures_riptides",
+                    "name": "Exo-armures Riptides",
+                    "cout": 75,
+                    "cout_par_unite": true,
+                    "initiative": "1+",
+                    "composition_personnalisee": {
+                        "type": "choix_multiples",
+                        "min_total": 3,
+                        "max_total": 6,
+                        "description": "Choisir entre 3 et 6 XV104 Riptides",
+                        "principale": true,
+                        "options": [
+                            {
+                                "id": "xv104_riptide_cil",
+                                "name": "XV104 Riptide (Canon à induction lourd)",
+                                "unitId": "riptide_cil",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 6
+                            },
+                            {
+                                "id": "xv104_riptide_ai",
+                                "name": "XV104 Riptide (Accélérateur à ion)",
+                                "unitId": "riptide_ai",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 6
+                            }
+                        ]
+                    },
+                    "ameliorations": [
+                        "drones_attaque_2",
+                        "drones_attaque_4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "formations_auxiliaires",
+            "name": "FORMATIONS D'AUXILIAIRES",
+            "type": "auxiliaire",
+            "description": "Jusqu'à 1 formation d'auxiliaires par cadre de guerriers de feu",
+            "LimitationTag": "auxiliaire",
+            "max_par_tag": 1,
+            "formations": [
+                {
+                    "id": "harde_kroots",
+                    "name": "Harde de Kroots",
+                    "cout": 175,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "mentor_kroot",
+                            "name": "Mentor Kroot",
+                            "nombre": 1
+                        },
+                        {
+                            "id": "carnivore_kroot",
+                            "name": "Carnivores Kroots",
+                            "nombre": 10
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "essaim_vespid",
+                    "name": "Essaim Vespid",
+                    "cout": 150,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "kabridan",
+                            "name": "Ka'Bri'Dan",
+                            "nombre": 1
+                        },
+                        {
+                            "id": "frelon_vespid",
+                            "name": "Frelons Vespid",
+                            "nombre": 6
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "moyenne",
+                            "name": "+3 unités",
+                            "ajout_unites": 3,
+                            "cout": 225
+                        },
+                        {
+                            "id": "grande",
+                            "name": "+6 unités",
+                            "ajout_unites": 6,
+                            "cout": 300
+                        }
+                    ],
+                    "ameliorations": []
+                }
+            ]
+        },
+        {
+            "id": "engins_guerre_caste_air",
+            "name": "ENGINS DE GUERRE ET CASTE DE L'AIR",
+            "type": "rare",
+            "description": "Jusqu'à 1/3 des points disponibles",
+            "rare": true,
+            "max_points_ratio": 0.33,
+            "formations": [
+                {
+                    "id": "exo_armure_supremacy_rail",
+                    "name": "Exo-armure Supremacy (Artillerie rail)",
+                    "cout": 350,
+                    "initiative": "1+",
+                    "FormationLimite": 2,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "kx139_taunar_rail",
+                            "name": "KX 139 Ta'Unar (Art. Rail)",
+                            "nombre": 1
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "double",
+                            "name": "2 unités",
+                            "multiplicateur": 2,
+                            "cout": 650
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "exo_armure_supremacy_impulsion",
+                    "name": "Exo-armure Supremacy (Artillerie à impulsion)",
+                    "cout": 350,
+                    "initiative": "1+",
+                    "FormationLimite": 2,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "kx139_taunar_imp",
+                            "name": "KX 139 Ta'Unar (Art. Imp.)",
+                            "nombre": 1
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "double",
+                            "name": "2 unités",
+                            "multiplicateur": 2,
+                            "cout": 650
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "escadrille_interception",
+                    "name": "Escadrille d'Interception",
+                    "cout": 175,
+                    "initiative": "1+",
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "barracuda",
+                            "name": "Barracuda",
+                            "nombre": 2
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "grande",
+                            "name": "4 unités",
+                            "multiplicateur": 2,
+                            "cout": 325
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "escadrille_bombardiers",
+                    "name": "Escadrille de bombardiers",
+                    "cout": 300,
+                    "initiative": "1+",
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "tiger_shark",
+                            "name": "Tiger Shark",
+                            "nombre": 2
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "escadrille_attaque_sol",
+                    "name": "Escadrille d'attaque au sol",
+                    "cout": 175,
+                    "cout_par_unite": true,
+                    "initiative": "1+",
+                    "rare": true,
+                    "nombre_variable": {
+                        "min": 1,
+                        "max": 2,
+                        "description": "1 ou 2 Tiger Sharks AX-1-0"
+                    },
+                    "unites": [
+                        {
+                            "id": "tiger_shark_ax10",
+                            "name": "Tiger Shark AX-1-0",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "destroyer_manta",
+                    "name": "Destroyer Manta",
+                    "cout": 850,
+                    "initiative": "1+",
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "manta",
+                            "name": "Destroyer Manta",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "transporteur_orca",
+                    "name": "Transporteur Orca",
+                    "cout": 200,
+                    "initiative": "1+",
+                    "limiteOptionGlobal": 1,
+                    "description": "0-1 par Cadre de Guerrier de feu et/ou d'Exo-armures Crisis",
+                    "rare": true,
+                    "LimitationTag": [
+                        "cadre_guerrier_feu",
+                        "cadre_exo_armures_crisis"
+                    ],
+                    "unites": [
+                        {
+                            "id": "orca",
+                            "name": "Transporteur Orca",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "soutien_orbital_emissary",
+                    "name": "Soutien Orbital (Croiseur Emissary)",
+                    "cout": 200,
+                    "initiative": "1+",
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "emissary",
+                            "name": "Croiseur de classe Emissary",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "soutien_orbital_custodian",
+                    "name": "Soutien Orbital (Cuirassé Custodian)",
+                    "cout": 300,
+                    "initiative": "1+",
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "custodian",
+                            "name": "Cuirassé de classe Custodian",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                }
+            ]
+        }
+    ]
+}

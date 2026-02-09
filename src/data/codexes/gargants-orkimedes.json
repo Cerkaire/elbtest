@@ -1,0 +1,1164 @@
+{
+  "codex": {
+    "id": "gargants_orkimedes",
+    "name": "Gargants d'Orkimedes",
+    "version": "REV-1.0",
+    "faction": "Orks",
+    "color": "#4a7c59"
+  },
+  "ameliorations": [
+    {
+      "id": "grokalibr",
+      "name": "Grokalibr'",
+      "cout": 25,
+      "unites": [
+        {
+          "id": "grokalibr",
+          "name": "Grokalibr'",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "boit_kitu",
+      "name": "Boit' kitu",
+      "cout": 25,
+      "unites": [
+        {
+          "id": "boit_kitu",
+          "name": "Boit' kitu",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "dreadnought",
+      "name": "Dreadnought",
+      "cout": 35,
+      "unites": [
+        {
+          "id": "dreadnought",
+          "name": "Dreadnought",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "kopter",
+      "name": "Kopter",
+      "cout": 35,
+      "unites": [
+        {
+          "id": "kopter",
+          "name": "Kopter",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "chariot_flak",
+      "name": "Chariot Flak (x2)",
+      "cout": 50,
+      "unites": [
+        {
+          "id": "chariot_flak",
+          "name": "Chariot Flak",
+          "nombre": 2
+        }
+      ]
+    },
+    {
+      "id": "krabouillator",
+      "name": "Krabouillator",
+      "cout": 65,
+      "unites": [
+        {
+          "id": "krabouillator",
+          "name": "Krabouillator",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "chariot_guerre",
+      "name": "Chariot de Guerre",
+      "cout": 25,
+      "unites": [
+        {
+          "id": "chariot_guerre",
+          "name": "Chariot de Guerre",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "chariot_kanon",
+      "name": "Chariot Kanon",
+      "cout": 35,
+      "unites": [
+        {
+          "id": "chariot_kanon",
+          "name": "Chariot Kanon",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "nobz",
+      "name": "Nobz",
+      "cout": 35,
+      "unites": [
+        {
+          "id": "nobz",
+          "name": "Nobz",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "forteresse_bataille",
+      "name": "Forteresse de Bataille Unik' ou Forteresse à Kanons Surmezur'",
+      "cout": 125,
+      "unites": [
+        {
+          "id": "forteresse_bataille_unik",
+          "name": "Forteresse de Bataille Unik'",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "boyz_gretchin",
+      "name": "Boyz (+ 1 Gretchin gratuit)",
+      "cout": 25,
+      "unites": [
+        {
+          "id": "boyz",
+          "name": "Boyz",
+          "nombre": 1
+        },
+        {
+          "id": "gretchins",
+          "name": "Gretchin",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "super_krabouillator_extra",
+      "name": "Super Krabouillator Personalizé",
+      "cout": 225,
+      "unites": [
+        {
+          "id": "super_krabouillator_personalize",
+          "name": "Super Krabouillator Personalizé",
+          "nombre": 1,
+          "options": [
+            {
+              "id": "arme_1",
+              "name": "Arme 1",
+              "requis": true,
+              "max_cout": 25,
+              "items": [
+                {
+                  "id": "mega_kikoup",
+                  "name": "Mega-Kikoup'",
+                  "cout": 0
+                },
+                {
+                  "id": "poing_tronconneur",
+                  "name": "Poing Tronçonneur",
+                  "cout": 0
+                },
+                {
+                  "id": "kanon_gatling",
+                  "name": "Kanon Gatling",
+                  "cout": 25
+                },
+                {
+                  "id": "super_kanon",
+                  "name": "Super Kanon",
+                  "cout": 25
+                },
+                {
+                  "id": "super_leva_lacha",
+                  "name": "Super Leva-Lacha",
+                  "cout": 25
+                },
+                {
+                  "id": "super_zap",
+                  "name": "Super Zap",
+                  "cout": 25
+                }
+              ]
+            },
+            {
+              "id": "arme_2",
+              "name": "Arme 2",
+              "requis": true,
+              "max_cout": 25,
+              "items": [
+                {
+                  "id": "mega_kikoup",
+                  "name": "Mega-Kikoup'",
+                  "cout": 0
+                },
+                {
+                  "id": "poing_tronconneur",
+                  "name": "Poing Tronçonneur",
+                  "cout": 0
+                },
+                {
+                  "id": "kanon_gatling",
+                  "name": "Kanon Gatling",
+                  "cout": 25
+                },
+                {
+                  "id": "super_kanon",
+                  "name": "Super Kanon",
+                  "cout": 25
+                },
+                {
+                  "id": "super_leva_lacha",
+                  "name": "Super Leva-Lacha",
+                  "cout": 25
+                },
+                {
+                  "id": "super_zap",
+                  "name": "Super Zap",
+                  "cout": 25
+                }
+              ]
+            },
+            {
+              "id": "arme_3",
+              "name": "Arme 3",
+              "requis": true,
+              "max_cout": 25,
+              "items": [
+                {
+                  "id": "mega_kikoup",
+                  "name": "Mega-Kikoup'",
+                  "cout": 0
+                },
+                {
+                  "id": "poing_tronconneur",
+                  "name": "Poing Tronçonneur",
+                  "cout": 0
+                },
+                {
+                  "id": "kanon_gatling",
+                  "name": "Kanon Gatling",
+                  "cout": 25
+                },
+                {
+                  "id": "super_kanon",
+                  "name": "Super Kanon",
+                  "cout": 25
+                },
+                {
+                  "id": "super_leva_lacha",
+                  "name": "Super Leva-Lacha",
+                  "cout": 25
+                },
+                {
+                  "id": "super_zap",
+                  "name": "Super Zap",
+                  "cout": 25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chassa_bomba_extra",
+      "name": "Chassa-Bomba",
+      "cout": 50,
+      "unites": [
+        {
+          "id": "chassa_bomba",
+          "name": "Chassa-Bomba",
+          "nombre": 1
+        }
+      ]
+    }
+  ],
+  "groupes": [
+    {
+      "id": "bandes_orkimedes",
+      "name": "BANDES D'ORKIMEDES",
+      "type": "principale",
+      "formations": [
+        {
+          "id": "bande_gargant",
+          "name": "Bande de Gargant",
+          "cout": 550,
+          "unites": [
+            {
+              "id": "gargant_tre_kustom",
+              "name": "Gargant Tré Kustom'",
+              "nombre": 1,
+              "options": [
+                {
+                  "id": "arme_bras_1",
+                  "name": "Arme de bras 1",
+                  "requis": true,
+                  "max_cout": 25,
+                  "items": [
+                    {
+                      "id": "mega_kikoup",
+                      "name": "Mega-Kikoup'",
+                      "cout": 0
+                    },
+                    {
+                      "id": "poing_tronconneur",
+                      "name": "Poing Tronçonneur",
+                      "cout": 0
+                    },
+                    {
+                      "id": "kanon_gatling",
+                      "name": "Kanon Gatling",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_kanon",
+                      "name": "Super Kanon",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_leva_lacha",
+                      "name": "Super Leva-Lacha",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_zap",
+                      "name": "Super Zap",
+                      "cout": 25
+                    }
+                  ]
+                },
+                {
+                  "id": "arme_bras_2",
+                  "name": "Arme de bras 2",
+                  "requis": true,
+                  "max_cout": 25,
+                  "items": [
+                    {
+                      "id": "mega_kikoup",
+                      "name": "Mega-Kikoup'",
+                      "cout": 0
+                    },
+                    {
+                      "id": "poing_tronconneur",
+                      "name": "Poing Tronçonneur",
+                      "cout": 0
+                    },
+                    {
+                      "id": "kanon_gatling",
+                      "name": "Kanon Gatling",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_kanon",
+                      "name": "Super Kanon",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_leva_lacha",
+                      "name": "Super Leva-Lacha",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_zap",
+                      "name": "Super Zap",
+                      "cout": 25
+                    }
+                  ]
+                },
+                {
+                  "id": "arme_principale",
+                  "name": "Arme principale",
+                  "requis": true,
+                  "max_cout": 50,
+                  "items": [
+                    {
+                      "id": "kanon_dla_mort",
+                      "name": "Kanon d'la Mort",
+                      "cout": 50
+                    },
+                    {
+                      "id": "mega_zap",
+                      "name": "Mega-Zap",
+                      "cout": 50
+                    },
+                    {
+                      "id": "missiles_grots_2x",
+                      "name": "2x Missiles Grots",
+                      "cout": 50
+                    },
+                    {
+                      "id": "mega_lobba",
+                      "name": "Mega-Lobba",
+                      "cout": 50
+                    },
+                    {
+                      "id": "mega_kanon",
+                      "name": "Mega-Kanon",
+                      "cout": 50
+                    },
+                    {
+                      "id": "snapper",
+                      "name": "Snapper",
+                      "cout": 25
+                    }
+                  ]
+                },
+                {
+                  "id": "ekipment_kustom",
+                  "name": "Ekip'ment Kust'om",
+                  "requis": false,
+                  "multiple": true,
+                  "items": [
+                    {
+                      "id": "boucliers_en_rab",
+                      "name": "Boucliers en rab'",
+                      "cout": 25,
+                      "unique": false
+                    },
+                    {
+                      "id": "chaudiere_renforcee",
+                      "name": "Chaudière Renforcée",
+                      "cout": 50,
+                      "unique": false
+                    },
+                    {
+                      "id": "blindage_supplementaire",
+                      "name": "Blindage Supplémentaire",
+                      "cout": 50,
+                      "unique": false
+                    },
+                    {
+                      "id": "cibleurs_grots",
+                      "name": "Cibleurs Grots",
+                      "cout": 50,
+                      "unique": false
+                    },
+                    {
+                      "id": "grot_bidouilleur",
+                      "name": "Grot Bidouilleur",
+                      "cout": 25,
+                      "unique": false
+                    },
+                    {
+                      "id": "kaptain",
+                      "name": "Kaptain",
+                      "cout": 25,
+                      "unique": false
+                    },
+                    {
+                      "id": "tete_de_gork",
+                      "name": "Tête de Gork",
+                      "cout": 50,
+                      "unique": true
+                    },
+                    {
+                      "id": "takatakataka",
+                      "name": "TAKATAKATAKA",
+                      "cout": 50,
+                      "unique": true
+                    },
+                    {
+                      "id": "transport",
+                      "name": "Transport",
+                      "cout": 25,
+                      "unique": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "ameliorations": [
+            "grokalibr",
+            "boit_kitu",
+            "dreadnought",
+            "kopter",
+            "chariot_flak",
+            "krabouillator"
+          ]
+        },
+        {
+          "id": "bande_super_krabous",
+          "name": "Bande de Super Krabous",
+          "cout": 425,
+          "unites": [
+            {
+              "id": "super_krabouillator_personalize_1",
+              "name": "Super Krabouillator Personalizé",
+              "nombre": 1,
+              "options": [
+                {
+                  "id": "arme_1",
+                  "name": "Arme 1",
+                  "requis": true,
+                  "max_cout": 25,
+                  "items": [
+                    {
+                      "id": "mega_kikoup",
+                      "name": "Mega-Kikoup'",
+                      "cout": 0
+                    },
+                    {
+                      "id": "poing_tronconneur",
+                      "name": "Poing Tronçonneur",
+                      "cout": 0
+                    },
+                    {
+                      "id": "kanon_gatling",
+                      "name": "Kanon Gatling",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_kanon",
+                      "name": "Super Kanon",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_leva_lacha",
+                      "name": "Super Leva-Lacha",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_zap",
+                      "name": "Super Zap",
+                      "cout": 25
+                    }
+                  ]
+                },
+                {
+                  "id": "arme_2",
+                  "name": "Arme 2",
+                  "requis": true,
+                  "max_cout": 25,
+                  "items": [
+                    {
+                      "id": "mega_kikoup",
+                      "name": "Mega-Kikoup'",
+                      "cout": 0
+                    },
+                    {
+                      "id": "poing_tronconneur",
+                      "name": "Poing Tronçonneur",
+                      "cout": 0
+                    },
+                    {
+                      "id": "kanon_gatling",
+                      "name": "Kanon Gatling",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_kanon",
+                      "name": "Super Kanon",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_leva_lacha",
+                      "name": "Super Leva-Lacha",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_zap",
+                      "name": "Super Zap",
+                      "cout": 25
+                    }
+                  ]
+                },
+                {
+                  "id": "arme_3",
+                  "name": "Arme 3",
+                  "requis": true,
+                  "max_cout": 25,
+                  "items": [
+                    {
+                      "id": "mega_kikoup",
+                      "name": "Mega-Kikoup'",
+                      "cout": 0
+                    },
+                    {
+                      "id": "poing_tronconneur",
+                      "name": "Poing Tronçonneur",
+                      "cout": 0
+                    },
+                    {
+                      "id": "kanon_gatling",
+                      "name": "Kanon Gatling",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_kanon",
+                      "name": "Super Kanon",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_leva_lacha",
+                      "name": "Super Leva-Lacha",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_zap",
+                      "name": "Super Zap",
+                      "cout": 25
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "super_krabouillator_personalize_2",
+              "name": "Super Krabouillator Personalizé",
+              "nombre": 1,
+              "options": [
+                {
+                  "id": "arme_1",
+                  "name": "Arme 1",
+                  "requis": true,
+                  "max_cout": 25,
+                  "items": [
+                    {
+                      "id": "mega_kikoup",
+                      "name": "Mega-Kikoup'",
+                      "cout": 0
+                    },
+                    {
+                      "id": "poing_tronconneur",
+                      "name": "Poing Tronçonneur",
+                      "cout": 0
+                    },
+                    {
+                      "id": "kanon_gatling",
+                      "name": "Kanon Gatling",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_kanon",
+                      "name": "Super Kanon",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_leva_lacha",
+                      "name": "Super Leva-Lacha",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_zap",
+                      "name": "Super Zap",
+                      "cout": 25
+                    }
+                  ]
+                },
+                {
+                  "id": "arme_2",
+                  "name": "Arme 2",
+                  "requis": true,
+                  "max_cout": 25,
+                  "items": [
+                    {
+                      "id": "mega_kikoup",
+                      "name": "Mega-Kikoup'",
+                      "cout": 0
+                    },
+                    {
+                      "id": "poing_tronconneur",
+                      "name": "Poing Tronçonneur",
+                      "cout": 0
+                    },
+                    {
+                      "id": "kanon_gatling",
+                      "name": "Kanon Gatling",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_kanon",
+                      "name": "Super Kanon",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_leva_lacha",
+                      "name": "Super Leva-Lacha",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_zap",
+                      "name": "Super Zap",
+                      "cout": 25
+                    }
+                  ]
+                },
+                {
+                  "id": "arme_3",
+                  "name": "Arme 3",
+                  "requis": true,
+                  "max_cout": 25,
+                  "items": [
+                    {
+                      "id": "mega_kikoup",
+                      "name": "Mega-Kikoup'",
+                      "cout": 0
+                    },
+                    {
+                      "id": "poing_tronconneur",
+                      "name": "Poing Tronçonneur",
+                      "cout": 0
+                    },
+                    {
+                      "id": "kanon_gatling",
+                      "name": "Kanon Gatling",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_kanon",
+                      "name": "Super Kanon",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_leva_lacha",
+                      "name": "Super Leva-Lacha",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_zap",
+                      "name": "Super Zap",
+                      "cout": 25
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "ameliorations": [
+            "grokalibr",
+            "boit_kitu",
+            "dreadnought",
+            "kopter",
+            "chariot_flak",
+            "krabouillator",
+            "super_krabouillator_extra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bandes_en_rab",
+      "name": "BANDES EN RAB'",
+      "type": "rab",
+      "formations": [
+        {
+          "id": "super_krabou",
+          "name": "Super Krabou",
+          "cout": 225,
+          "unites": [
+            {
+              "id": "super_krabouillator_personalize",
+              "name": "Super Krabouillator Personalizé",
+              "nombre": 1,
+              "options": [
+                {
+                  "id": "arme_1",
+                  "name": "Arme 1",
+                  "requis": true,
+                  "max_cout": 25,
+                  "items": [
+                    {
+                      "id": "mega_kikoup",
+                      "name": "Mega-Kikoup'",
+                      "cout": 0
+                    },
+                    {
+                      "id": "poing_tronconneur",
+                      "name": "Poing Tronçonneur",
+                      "cout": 0
+                    },
+                    {
+                      "id": "kanon_gatling",
+                      "name": "Kanon Gatling",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_kanon",
+                      "name": "Super Kanon",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_leva_lacha",
+                      "name": "Super Leva-Lacha",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_zap",
+                      "name": "Super Zap",
+                      "cout": 25
+                    }
+                  ]
+                },
+                {
+                  "id": "arme_2",
+                  "name": "Arme 2",
+                  "requis": true,
+                  "max_cout": 25,
+                  "items": [
+                    {
+                      "id": "mega_kikoup",
+                      "name": "Mega-Kikoup'",
+                      "cout": 0
+                    },
+                    {
+                      "id": "poing_tronconneur",
+                      "name": "Poing Tronçonneur",
+                      "cout": 0
+                    },
+                    {
+                      "id": "kanon_gatling",
+                      "name": "Kanon Gatling",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_kanon",
+                      "name": "Super Kanon",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_leva_lacha",
+                      "name": "Super Leva-Lacha",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_zap",
+                      "name": "Super Zap",
+                      "cout": 25
+                    }
+                  ]
+                },
+                {
+                  "id": "arme_3",
+                  "name": "Arme 3",
+                  "requis": true,
+                  "max_cout": 25,
+                  "items": [
+                    {
+                      "id": "mega_kikoup",
+                      "name": "Mega-Kikoup'",
+                      "cout": 0
+                    },
+                    {
+                      "id": "poing_tronconneur",
+                      "name": "Poing Tronçonneur",
+                      "cout": 0
+                    },
+                    {
+                      "id": "kanon_gatling",
+                      "name": "Kanon Gatling",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_kanon",
+                      "name": "Super Kanon",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_leva_lacha",
+                      "name": "Super Leva-Lacha",
+                      "cout": 25
+                    },
+                    {
+                      "id": "super_zap",
+                      "name": "Super Zap",
+                      "cout": 25
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "ameliorations": [
+            "boit_kitu",
+            "dreadnought",
+            "kopter",
+            "chariot_flak",
+            "krabouillator"
+          ]
+        },
+        {
+          "id": "batterie_grokalibr",
+          "name": "Batterie de Grokalibr'",
+          "cout": 125,
+          "unites": [
+            {
+              "id": "grokalibr",
+              "name": "Grokalibr'",
+              "nombre": 5
+            }
+          ],
+          "variantes": [
+            {
+              "id": "mastok",
+              "name": "Mastok'",
+              "multiplicateur": 2,
+              "cout": 225
+            },
+            {
+              "id": "tre_mastok",
+              "name": "Tré Mastok'",
+              "multiplicateur": 3,
+              "cout": 325
+            }
+          ],
+          "ameliorations": [
+            "grokalibr",
+            "chariot_guerre",
+            "chariot_flak"
+          ]
+        },
+        {
+          "id": "bande_guerre_pillards",
+          "name": "Bande de Guerre de Pillards",
+          "cout": 150,
+          "unites": [
+            {
+              "id": "boyz",
+              "name": "Boyz",
+              "nombre": 6
+            },
+            {
+              "id": "gretchins",
+              "name": "Gretchin",
+              "nombre": 2
+            }
+          ],
+          "variantes": [
+            {
+              "id": "mastok",
+              "name": "Mastok'",
+              "multiplicateur": 2,
+              "cout": 250
+            },
+            {
+              "id": "tre_mastok",
+              "name": "Tré Mastok'",
+              "multiplicateur": 3,
+              "cout": 350
+            }
+          ],
+          "ameliorations": [
+            "boyz_gretchin",
+            "grokalibr",
+            "boit_kitu",
+            "chariot_guerre",
+            "dreadnought",
+            "kopter",
+            "chariot_kanon",
+            "nobz",
+            "chariot_flak",
+            "forteresse_bataille"
+          ]
+        },
+        {
+          "id": "bande_krabous",
+          "name": "Bande de Krabous",
+          "cout": 200,
+          "unites": [
+            {
+              "id": "krabouillator",
+              "name": "Krabouillator",
+              "nombre": 3
+            }
+          ],
+          "variantes": [
+            {
+              "id": "mastok",
+              "name": "Mastok'",
+              "multiplicateur": 2,
+              "cout": 375
+            },
+            {
+              "id": "tre_mastok",
+              "name": "Tré Mastok'",
+              "multiplicateur": 3,
+              "cout": 550
+            }
+          ],
+          "ameliorations": [
+            "boit_kitu",
+            "dreadnought",
+            "kopter",
+            "chariot_flak",
+            "krabouillator"
+          ]
+        },
+        {
+          "id": "bande_koupkoup",
+          "name": "Bande de Koupkoup'",
+          "cout": 125,
+          "unites": [
+            {
+              "id": "dreadnought",
+              "name": "Dreadnought",
+              "nombre": 2
+            },
+            {
+              "id": "boit_kitu",
+              "name": "Boit' kitu",
+              "nombre": 2
+            }
+          ],
+          "variantes": [
+            {
+              "id": "mastok",
+              "name": "Mastok'",
+              "multiplicateur": 2,
+              "cout": 225
+            },
+            {
+              "id": "tre_mastok",
+              "name": "Tré Mastok'",
+              "multiplicateur": 3,
+              "cout": 325
+            }
+          ],
+          "ameliorations": [
+            "boit_kitu",
+            "dreadnought",
+            "kopter",
+            "chariot_flak"
+          ]
+        },
+        {
+          "id": "bande_forteresses",
+          "name": "Bande de Forteresses",
+          "cout": 250,
+          "unites": [
+            {
+              "id": "forteresse_bataille_unik",
+              "name": "Forteresse de Bataille Unik'",
+              "nombre": 2,
+              "options": [
+                {
+                  "id": "ekipment_kustom",
+                  "name": "Ekip'ment Kust'om",
+                  "requis": false,
+                  "multiple": true,
+                  "items": [
+                    {
+                      "id": "boucliers_en_rab",
+                      "name": "Boucliers en rab'",
+                      "cout": 25,
+                      "unique": false
+                    },
+                    {
+                      "id": "chaudiere_renforcee",
+                      "name": "Chaudière Renforcée",
+                      "cout": 50,
+                      "unique": false
+                    },
+                    {
+                      "id": "blindage_supplementaire",
+                      "name": "Blindage Supplémentaire",
+                      "cout": 50,
+                      "unique": false
+                    },
+                    {
+                      "id": "cibleurs_grots",
+                      "name": "Cibleurs Grots",
+                      "cout": 50,
+                      "unique": false
+                    },
+                    {
+                      "id": "grot_bidouilleur",
+                      "name": "Grot Bidouilleur",
+                      "cout": 25,
+                      "unique": false
+                    },
+                    {
+                      "id": "kaptain",
+                      "name": "Kaptain",
+                      "cout": 25,
+                      "unique": false
+                    },
+                    {
+                      "id": "tete_de_gork",
+                      "name": "Tête de Gork",
+                      "cout": 50,
+                      "unique": true
+                    },
+                    {
+                      "id": "takatakataka",
+                      "name": "TAKATAKATAKA",
+                      "cout": 50,
+                      "unique": true
+                    },
+                    {
+                      "id": "transport",
+                      "name": "Transport",
+                      "cout": 25,
+                      "unique": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "variantes": [
+            {
+              "id": "mastok",
+              "name": "Mastok'",
+              "multiplicateur": 2,
+              "cout": 475
+            },
+            {
+              "id": "tre_mastok",
+              "name": "Tré Mastok'",
+              "multiplicateur": 3,
+              "cout": 675
+            }
+          ],
+          "ameliorations": [
+            "kopter",
+            "chariot_kanon",
+            "nobz",
+            "chariot_flak",
+            "forteresse_bataille"
+          ]
+        },
+        {
+          "id": "chassa_bomba",
+          "name": "Chassa bomba",
+          "cout": 200,
+          "unites": [
+            {
+              "id": "chassa_bomba",
+              "name": "Chassa-Bomba",
+              "nombre": 4
+            }
+          ],
+          "ameliorations": [
+            "chassa_bomba_extra"
+          ]
+        },
+        {
+          "id": "drop_rok",
+          "name": "Drop Rok",
+          "cout": 225,
+          "unites": [
+            {
+              "id": "drop_rok",
+              "name": "Drop Rok",
+              "nombre": 1
+            }
+          ],
+          "ameliorations": []
+        }
+      ]
+    }
+  ]
+}
