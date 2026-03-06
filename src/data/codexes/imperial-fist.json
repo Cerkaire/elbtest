@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "imperial_fist",
+        "name": "Imperial Fist",
+        "version": "1.1",
+        "faction": "Astartes",
+        "color": "#aba646",
+        "logo": "if.png",
+        "categorie": "armees-astartes",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 5,
+            "initiative_defaut": "1+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "premier_nes_vostroyens",
+        "name": "Premier-nés Vostroyens",
+        "version": "1.3",
+        "faction": "Impérium",
+        "color": "#610505",
+        "logo": "vostro.png",
+        "categorie": "armees-imperiales",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 2,
+            "initiative_defaut": "2+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

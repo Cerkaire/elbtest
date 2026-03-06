@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "death_guard",
+        "name": "Death Guard",
+        "version": "1.2.1",
+        "faction": "Chaos",
+        "color": "#588300",
+        "logo": "dg.png",
+        "categorie": "armees-chaos",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 4,
+            "initiative_defaut": "1+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

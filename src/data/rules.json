@@ -1,0 +1,978 @@
+[
+    {
+        "title1": "Principe de base",
+        "kwgenerique": [
+            "Cohésion",
+            "Formation",
+            "Pion impact"
+        ],
+        "content": "<b>Unités</b> : Représentées par une figurine pour les Véhicules Blindés (VB), un socle pour l’Infanterie (INF)<br/><b>Formation</b> : Les unités sont regroupées en formations. Les unités d'une même formation doivent respecter une distance de cohésion de 5 cm.<br/><b>Pions Impact (PI)</b> : Vos formations recevront des pions impact lorsqu'elles se retrouveront sous le feu ennemi, perdront des unités, participeront à des assauts ou rateront des tests d'action."
+    },
+    {
+        "titlesup": "Principe de base",
+        "title2": "Séquence de jeu",
+        "kwgenerique": [
+            "Valeur stratégique",
+            "Tour"
+        ],
+        "kwphase": [
+            "Ralliement"
+        ],
+        "content": "<p><strong>Phase de Stratégie :</strong><span > Chaque joueur jette 1D6 et ajoute sa Valeur Stratégique au résultat. Celui qui obtient le total le plus élevé choisit s'il joue en premier ou en deuxi&egrave;me lors de la phase d'action. En cas d'égalité, le joueur qui a perdu ce jet lors du tour précédent l'emporte pour ce tour-ci.</span></p><p><strong>Phase d'Action </strong><span >: Les joueurs activent &agrave; tour de r&ocirc;le leurs formations non démoralisées. Chaque formation peut accomplir une seule action par tour.&nbsp;</span></p><p><strong>Fin du Tour :</strong><span > Phase de ralliement puis vérification des conditions de victoire</span></p>"
+    },
+    {
+        "title1": "La phase d’action",
+        "keywords": [],
+        "content": ""
+    },
+    {
+        "titlesup": "La phase d’action",
+        "title2": "Accomplir une action",
+        "keywords": [
+            ""
+        ],
+        "content": "<ul><li><strong><span >Désignez une formation non démoralisée.</span></strong></li></ul><ul><li><span >Déclarez l'action qu'elle compte accomplir.</span></li></ul><ul><li><span >Effectuer un test d'action.</span></li></ul>"
+    },
+    {
+        "titlesup": "Accomplir une action",
+        "title2": "Test d'action",
+        "kwphase": [
+            "Avance",
+            "Avance rapide",
+            "Redéploiement",
+            "Assaut",
+            "Tir soutenu",
+            "État d'Alerte",
+            "Regroupement",
+            "Tenir",
+            "Mouvement",
+            "Se regrouper"
+        ],
+        "kwgenerique": [
+            "Initiative",
+            "Tir",
+            "Pion impact"
+        ],
+        "content": "<p><span >vous devez jeter 1D6 et obtenir un résultat supérieur ou égal &agrave; la valeur d'initiative de la formation. Le test d'action subit une pénalité de -1 si la formation qui l'effectue poss&egrave;de un ou plusieurs pions d'impact, et une autre pénalité de -1 si elle tente de conserver l'initiative&nbsp;</span></p><p><span >Si le test est réussi, la formation peut résoudre l'action annoncée. Sinon, elle re&ccedil;oit un pion d'impact puis elle effectue l'action Tenir.</span></p><h3 style='text-align: justify;'><span >Les Différents Types d'Actions :</span></h3><ul><li style='text-align: justify;'><strong>Avance :</strong><span > La formation peut effectuer un </span><strong>MOUVEMENT</strong><span > puis </span><strong>TIRER</strong><span >.</span></li><li style='text-align: justify;'><strong>Avance Rapide :</strong><span > La formation peut effectuer deux </span><strong>MOUVEMENT</strong><span >, puis </span><strong>TIRER</strong><span > avec un malus de -1 pour toucher.</span></li><li style='text-align: justify;'><strong>Redéploiement :</strong><span > La formation peut effectuer trois </span><strong>MOUVEMENT</strong><span >.</span></li><li style='text-align: justify;'><strong>Assaut :</strong><span > La formation peut effectuer un mouvement de charge puis livrer un </span><strong>ASSAUT</strong><span > .</span></li><li style='text-align: justify;'><strong>Tir Soutenu :</strong><span > La formation peut </span><strong>TIRER</strong><span > avec un bonus de +1 pour toucher. Vous ne pouvez pas choisir cette action si la formation a perdu sa cohésion.</span></li><li style='text-align: justify;'><strong>état d'alerte :</strong><span > La formation entre en </span><strong>état d'alerte</strong><span >. Vous ne pouvez pas choisir cette action si la formation a perdu sa cohésion</span></li><li style='text-align: justify;'><strong>Regroupement :</strong><span > La formation peut </span><strong>TIRER</strong><span > avec un malus de -1 pour toucher puis </span><strong>SE REGROUPER</strong><span >, ou effectuer un </span><strong>MOUVEMENT</strong><span > puis se </span><strong>SE REGROUPER</strong><span >.</span></li><li style='text-align: justify;'><strong>Tenir :</strong><span > Cette action est la seule que peut accomplir une formation ayant raté son test d'action. La formation peut effectuer un </span><strong>MOUVEMENT</strong><span > ou </span><strong>TIRER</strong><span > ou </span><strong>SE REGROUPER</strong><span >.&nbsp; </span></li></ul>"
+    },
+    {
+        "titlesup": "Test d'action",
+        "title3": "Conserver l'Initiative",
+        "kwgenerique": [
+            "Initiative"
+        ],
+        "kwphase": [
+            "Tenir"
+        ],
+        "content": "<p>Apr&egrave;s une action (autre que Tenir), vous pouvez tenter de <strong>conserver l'initiative</strong> de fa&ccedil;on &agrave; accomplir immédiatement une <span style='text-decoration: underline;'>deuxi&egrave;me action avec une autre formation</span> : désigner une nouvelle formation et annoncer l'action qu'elle va entreprendre, puis effectuer un nouveau <strong>test d'action avec une pénalité de -1</strong>. Apr&egrave;s avoir conserver l'initiative, vous <span style='text-decoration: underline;'>devez</span> rendre la main &agrave; l'adversaire.</p>"
+    },
+    {
+        "titlesup": "La phase d’action",
+        "title2": "Mouvement",
+        "kwgenerique": [
+            "Mouvement",
+            "Zone de contrôle",
+            "Transport",
+            "Embarquer / débarquer",
+            "Engagée",
+            "Démoralisée"
+        ],
+        "kwunite": [
+            "Infanterie"
+        ],
+        "kwphase": [
+            "Assaut",
+            "Charge",
+            "Contre-charge"
+        ],
+        "content": "<p>Lors de chacun de ces mouvements, une unité peut se déplacer d'une distance maximum égale &agrave; la caractéristique de vitesse indiquée sur sa fiche d'unité. Chaque unité peut pivoter librement lors de ces déplacements.</p><p><strong>Autres Unités</strong> : Des unités adverses ne peuvent en aucun cas se déplacer l'une par dessus (ou &laquo; au travers de &raquo;) l'autre.&nbsp;&nbsp;Les unités d'infanterie peuvent &laquo; traverser &raquo; ou &laquo; &ecirc;tre traversé &raquo; par une autre unité amie.&nbsp;</p><p><strong>Zones de Contr&ocirc;le </strong>: Toute unité dispose d'une zone de contr&ocirc;le qui s'étend dans un rayon de 5 cm autour de l&rsquo;unité. Une unité ne peut entrer dans la zone de contr&ocirc;le d'un ennemi lors de son mouvement, &agrave; moins d'effectuer une action Assaut.&nbsp;Une unité engagée au contact d'un ennemi perd sa zone de contr&ocirc;le.&nbsp;Une unité démoralisée ne perd pas sa zone de contr&ocirc;le.<br />Si une unité se retrouve, au début de son action, dans la zone de contr&ocirc;le d'un ennemi, elle doit soit le charger, soit s&rsquo;en éloigner.</p><p><strong>Cohésion</strong> : la cohésion de la formation est vérifiée &agrave; la fin de chaque mouvement.</p><p><strong>Véhicules de Transport</strong> : Les véhicules de transport peuvent embarquer et transporter une unité dans le cadre de leur mouvement. Le véhicule se déplace au contact de l'unité qu'il souhaite faire embarquer, puis poursuit son déplacement sans pénalité.&nbsp;Ils ne peuvent embarquer que des unités de leur propre formation.</p><p>Les unités transportées n'ont pas le droit de se déplacer lors du <strong>MOUVEMENT</strong> o&ugrave; elles embarquent.</p><p>Les unités transportées peuvent débarquer &agrave; la fin de n'importe quel <strong>MOUVEMENT</strong> autre que celui lors duquel elles ont embarqué.</p><p>Les unités ayant débarqué sont placées dans un rayon de 5 cm autour de leur transport. Si la formation accomplit une action Assaut, elles peuvent &ecirc;tre placées au contact avec l'ennemi, dans tout autre cas, elles ne peuvent débarquer dans une zone de contr&ocirc;le adverse.</p><p>Une unité peut embarquer ou débarquer dans le cadre d'un <strong>MOUVEMENT</strong> de Charge ou de Contre-charge , &agrave; moins que le véhicule qui la transporte ne soit déj&agrave; en contact avec deux unités ennemies, auquel cas elle doit rester embarquée, emp&ecirc;chée de sortir par l'ennemi !</p>"
+    },
+    {
+        "titlesup": "Mouvement",
+        "title2": "Terrain",
+        "kwtable": [
+            "Terrain",
+            "Couvert",
+            "Route",
+            "Fortification"
+        ],
+        "kwgenerique": [
+            "Sauvegarde",
+            "Mouvement"
+        ],
+        "kwphase": [
+            "Redéploiement",
+            "État d'Alerte"
+        ],
+        "content": "<p><strong>Terrain dangereux</strong> : jetez 1D6 lorsqu'une unité entre ou se déplace dans un terrain dangereux. Sur un résultat de 1, l'unité est détruite sans aucune sauvegarde permise, mais la formation dont elle fait partie ne re&ccedil;oit aucun pion d'impact supplémentaire.</p><p>Une unité peut se déplacer prudemment : <span style='text-decoration: underline;'>sa vitesse est réduite &agrave; 5 cm</span>, mais elle pourra relancer ses tests de terrain dangereux ratés.</p><p><strong>Terrain infranchissable</strong> : l'unité ne peut le traverser en aucun cas.</p><p><strong>Couvert</strong> : les unités se trouvant dans du terrain les cachant partiellement de l'attaquant se font tirer dessus avec une pénalité de <span style='text-decoration: underline;'>-1 pour etre toucher</span> . L'infanterie compte comme étant &agrave; couvert si elle est en <strong>contact</strong> avec un véhicule blindé ou un Engin de guerre (EG)</p><p><strong>Sauvegardes de Couvert</strong> : une unité d'infanterie peut bénéficier de cette sauvegarde, en plus du malus de -1 pour toucher que subit l'ennemi, &agrave; la place de sa sauvegarde d'armure ordinaire.</p><p><strong>Fortifications / Bunkers :</strong> les unités abritées par des Fortifications ou des Bunkers sont &agrave; couvert et gagne Blindage arri&egrave;re renforcé. Les Fortifications et Bunkers sont traités comme du terrain infranchissable pour les véhicules &agrave; moins qu'ils aient été spécifiquement con&ccedil;us pour eux.</p><p><strong>Terrain découvert</strong> : l'infanterie en <strong>état d'alerte</strong> en terrain découvert compte comme étant &agrave; couvert et bénéficie d'une sauvegarde de couvert de 5+. Notez que la sauvegarde de couvert est perdue une fois que l'infanterie a tiré.</p><p><strong>Collines</strong> : les unités sur une colline comptent comme étant en terrain découvert (ou dans le type de terrain qui recouvre la colline : route, bois, etc.)</p><p><strong>Routes</strong> : les unités effectuant un MOUVEMENT complet sur une route peuvent parcourir 5 cm de plus.</p><table style='border-collapse: collapse; width: 100%; text-align: left; font-size: 12px;'><tbody><tr><td colspan='4'><p>Tableau des Terrains</p></td></tr><tr><td><p>Terrain&nbsp;</p></td><td><p>Infanterie&nbsp;</p></td><td><p>Véhicule</p></td><td><p>Engin de guerre (EG)</p></td></tr><tr><td><p>B&acirc;timents&nbsp;</p></td><td><p>Svg. de couvert 4+&nbsp;</p></td><td><p>Infranchissable</p></td><td><p>Infranchissable</p></td></tr><tr><td><p>Ruines, Décombres</p></td><td><p>Svg. de couvert 4+&nbsp;</p></td><td><p>Dangereux</p></td><td><p>Dangereux</p></td></tr><tr><td><p>Fortifications, Bunkers</p></td><td><p>Svg. de couvert 3+ (voir r&egrave;gles)&nbsp;</p></td><td><p>Voir r&egrave;gles&nbsp;</p></td><td><p>Infranchissable</p></td></tr><tr><td><p>Emplacements d'artillerie&nbsp;</p></td><td><p>Svg. de couvert 4+&nbsp;</p></td><td><p>Svg. de couvert 5+&nbsp;</p></td><td><p>Aucun effet</p></td></tr><tr><td><p>Tranchées/ Lignes de défense&nbsp;</p></td><td><p>Svg. de couvert 4+&nbsp;</p></td><td><p>Dangereux</p></td><td><p>Aucun effet</p></td></tr><tr><td><p>Barbelés&nbsp;</p></td><td><p>Dangereux&nbsp;</p></td><td><p>Aucun effet</p></td><td><p>Aucun effet</p></td></tr><tr><td><p>Routes&nbsp;</p></td><td><p>Voir r&egrave;gles&nbsp;</p></td><td><p>Voir r&egrave;gles</p></td><td><p>Voir r&egrave;gles</p></td></tr><tr><td><p>Jungles&nbsp;</p></td><td><p>Svg. de couvert 4+&nbsp;</p></td><td><p>Infranchissable</p></td><td><p>Dangereux</p></td></tr><tr><td><p>For&ecirc;ts&nbsp;</p></td><td><p>Svg. de couvert 5+&nbsp;</p></td><td><p>Dangereux</p></td><td><p>Dangereux</p></td></tr><tr><td><p>Broussailles&nbsp;</p></td><td><p>Svg. de couvert 6+&nbsp;</p></td><td><p>Aucun effet</p></td><td><p>Aucun effet</p></td></tr><tr><td><p>Falaises&nbsp;</p></td><td><p>Infranchissable</p></td><td><p>Infranchissable</p></td><td><p>Infranchissable</p></td></tr><tr><td><p>Terrain découvert, Collines&nbsp;</p></td><td><p>Aucun effet / 5+ en état d'alerte&nbsp;</p></td><td><p>Aucun effet</p></td><td><p>Aucun effet</p></td></tr><tr><td><p>Rivi&egrave;res&nbsp;</p></td><td><p>Svg. de couvert 6+, Dangereux</p></td><td><p>Infranchissable</p></td><td><p>Aucun effet</p></td></tr><tr><td><br /><p>Marécages&nbsp;</p></td><td><p>Svg. de couvert 6+, Dangereux</p></td><td><p>Dangereux</p></td><td><p>Dangereux</p></td></tr></tbody></table><p>Si une <span style='text-decoration: underline;'>formation enti&egrave;re</span> se trouve sur une route avant son activation, vous pouvez lui faire déclarer une action de <strong>Redéploiement sur route</strong>. La formation effectue alors une action de Redéploiement et réussit automatiquement son test d'action. Toutes les unités de la formation doivent demeurer sur la route durant la totalité de leurs trois mouvements.</p>"
+    },
+    {
+        "titlesup": "La phase d’action",
+        "title2": "Tirer",
+        "kwgenerique": [
+            "Tir",
+            "Unités Neutralisées",
+            "Antipersonnel (AP)",
+            "Antichar (AC)"
+        ],
+        "kwunite": [
+            "Engin de guerre (EG)",
+            "Véhicule blindé",
+            "Infanterie"
+        ],
+        "kwtable": [
+            "Ligne de vue",
+            "Terrain"
+        ],
+        "content": "<p><strong>Choisir une cible</strong> : Un joueur faisant tirer l'une de ses formations doit désigner la formation visée. Une formation ne peut pas répartir ses tirs entre plusieurs formations ennemies.</p><p><strong>Ligne de Vue</strong> : La ligne de vue est bloquée par des éléments de décor tels que les bois, les b&acirc;timents, les collines etc.</p><p>Les éléments de décors ne bloquent pas les lignes de vue <span style='text-decoration: underline;'>partant de</span> ou <span style='text-decoration: underline;'>allant vers</span> les unités qui <span style='text-decoration: underline;'>s'y trouvent</span>, &agrave; moins que cette ligne ne traverse plus de 10 cm de ce terrain&nbsp;</p><p>Les seules unités qui bloquent les lignes de vue sont les <strong>Engin de guerre (EG)</strong>.&nbsp;</p><p><strong>Unités Neutralisées</strong> : Pour chaque pion d'impact que poss&egrave;de la formation qui tire, l'une des unités pouvant tirer sur l'ennemi (c'est-&agrave;-dire ayant une ligne de vue et étant &agrave; portée de l'ennemi) est neutralisée.</p><p>Les unités sont neutralisées &laquo; <span style='text-decoration: underline;'>d'arri&egrave;re en avant</span> &raquo;. Les unités neutralisées <span style='text-decoration: underline;'>ne tirent pas</span>.</p><p style='text-align: justify;'><strong>Puissance de Feu</strong> : antipersonnel (AP) ou antichar (AC). La caractéristique Antipersonnel (AP) est utilisée lors des tirs contre l'infanterie, tandis que l'Antichar (AC) est utilisée lors des tirs contre les véhicules blindés. Une arme possédant &agrave; la fois une valeur Antipersonnel (AP) et Antichar (AC) peut choisir d'utiliser l'une ou l'autre lorsqu'elle attaque, mais pas les deux lors du m&ecirc;me tour. La valeur indiquée pour chaque arme est le résultat minimum &agrave; obtenir sur un dé pour infliger une touche. </p>"
+    },
+    {
+        "titlesup": "Tirer",
+        "title3": "Procédure de Tir",
+        "kwgenerique": [
+            "Tir",
+            "Pion impact"
+        ],
+        "kwphase": [
+            "Avance rapide",
+            "Regroupement",
+            "Tir soutenu"
+        ],
+        "kwtable": [
+            "Couvert"
+        ],
+        "kwspeciale": [
+            "Macro-arme"
+        ],
+        "content": "<p>&nbsp;</p><ul><li style='text-align: justify;'>Placer un <strong>pion d'impact</strong> sur la formation visée.</li></ul><ul style='text-align: justify;'><li>Jeter les dés pour toucher.</li></ul><ul style='text-align: justify;'><li>Allouer les touches <strong>normales</strong>, effectuer les sauvegardes et retirer les pertes.</li></ul><ul style='text-align: justify;'><li>Allouer les touches <strong>Macro-armes (MA)</strong>, effectuer les sauvegardes et retirer les pertes.</li></ul><ul style='text-align: justify;'><li>Placer les <strong>pions d'impact supplémentaires</strong> en fonction des pertes et vérifier que la cible ne soit pas démoralisée.</li></ul><p style='text-align: justify;'>&nbsp;</p><p style='text-align: justify;'><strong>Pions Impact (PI)</strong> : La formation visée re&ccedil;oit 1 PI si au moins une de vos unités peut lui tirer dessus plus 1&nbsp; PI supplémentaire pour chacune des unités détruites par les tirs. Une formation se faisant tirer dessus re&ccedil;oit 1 PI m&ecirc;me si l'ennemi ne peut pas lui causer de dommages.</p><p style='text-align: justify;'><strong>Jet pour Toucher</strong> : Lancez 1D6 pour chaque tir. Pour toucher, vous devez obtenir un résultat supérieur ou égal &agrave; la valeur indiquée (par exemple, une arme notée AP4+ devra obtenir un résultat de 4 ou plus sur 1D6).&nbsp;</p><p style='text-align: justify;'>Un résultat de 1 avant application de tout modificateur <span style='text-decoration: underline;'>est toujours un échec</span>.</p><table><tbody><tr><th colspan='2'><p style='text-align: justify;'>Tableau des modificateurs pour toucher</p></th></tr><tr><td><p>La cible est &agrave; couvert</p></td><td><p>-1*</p></td></tr><tr><td><p>Le tireur effectue une action Avance rapide, ou Regroupement</p></td><td><p>-1</p></td></tr><tr><td><p>Le tireur effectue une action Tir soutenu&nbsp;</p></td><td><p>+1</p></td></tr><tr><td colspan='2'><p>* Le tireur peut choisir d'ignorer cette pénalité si certaines des unités de la formation cible sont &agrave; découvert et d'autres non. En revanche, ces tirs ne pourront &ecirc;tre alloués qu'aux unités &agrave; découvert.</p></td></tr></tbody></table><p style='text-align: justify;'>&nbsp;</p><table style='width: 265px;' border='1'><tbody><tr><th style='width: 247px;' colspan='2'><p>7 ou + pour Toucher</p></th></tr><tr><th style='width: 38.8594px;'><p>Résultat</p></th><th style='width: 208.141px;'><p>Score requis</p></th></tr><tr><td style='width: 38.8594px;'><p>7</p></td><td style='width: 208.141px;'><p>6 suivi de 4, 5 ou 6</p></td></tr><tr><td style='width: 38.8594px;'><p>8</p></td><td style='width: 208.141px;'><p>6 suivi de 5 ou 6</p></td></tr><tr><td style='width: 38.8594px;'><p>9</p></td><td style='width: 208.141px;'><p>6 suivi d'un 6</p></td></tr><tr><td style='width: 38.8594px;'><p>10</p></td><td style='width: 208.141px;'><p>Impossible</p></td></tr></tbody></table>"
+    },
+    {
+        "titlesup": "Tirer",
+        "title3": "Allouer les Touches",
+        "kwgenerique": [
+            "Tir",
+            "Sauvegarde",
+            "Antichar (AC)",
+            "Antipersonnel (AP)",
+            "Démoralisée"
+        ],
+        "kwspeciale": [
+            "Macro-arme"
+        ],
+        "content": "<p>Le <span style='text-decoration: underline;'>défenseur</span> alloue les touches infligées &agrave; sa formation parmi les unités se trouvant en vue et &agrave; portée des armes de l'ennemi.Les touches sont allouées &laquo; d'avant en arri&egrave;re &raquo;.</p><p>Les touches d'armes Antipersonnel (AP) ne peuvent &ecirc;tre allouées qu'&agrave; de l'infanterie, celles des armes Antichar (AC) ne peuvent l'&ecirc;tre qu'&agrave; des véhicules blindés. Vous ne pouvez allouer une deuxi&egrave;me touche &agrave; une unité tant que toutes les autres cibles potentielles n'ont pas été touchées au moins une fois.</p><p><strong>Effectuer les Sauvegardes</strong> : le défenseur effectue ensuite le jet de sauvegarde d'armure des unités touchées, indiqué dans leur caractéristique blindage, ou leur éventuel jet de sauvegarde de couvert, indiqué dans le tableau des terrains. Si la sauvegarde échoue, l'unité est détruite.&nbsp;</p><p><strong>Macro-arme</strong> : si une formation attaquante inflige des touches normales et des touches macro-arme, le joueur adverse doit d'abord allouer et sauvegarder les touches normales, puis faire de m&ecirc;me pour les touches macro-arme.&nbsp;</p><p><strong>Vérifier si la cible est démoralisée</strong> : Une fois tous les tirs résolus, vous devez vérifier si la cible n'est pas DéMORALISéE par le nombre de pions d'impact qu'elle a re&ccedil;us.</p>"
+    },
+    {
+        "titlesup": "Tirer",
+        "title3": "Bonus de feu croisé",
+        "kwgenerique": [
+            "Tir",
+            "Feu croisé",
+            "Pion impact",
+            "Sauvegarde",
+            "Démoralisée"
+        ],
+        "kwphase": [
+            "Redéploiement"
+        ],
+        "content": "<p>Lors d&rsquo;un tir, une formation peut se voir accorder ce bonus s'il est possible de tracer une ligne de <strong>45 cm maximum</strong>, reliant l'une des unités de la formation &agrave; une autre unité d'une formation amie, et que cette ligne passe au travers d'une unité de la formation visée.</p><p>L'unité amie qui se trouve au bout de cette ligne imaginaire doit avoir une ligne de vue sur au moins l'une des unités de la cible, <span style='text-decoration: underline;'>mais n'est pas obligée d'&ecirc;tre &agrave; portée de tir.</span></p><p>Les formations <strong>Démoralisées</strong> ou en <strong>Redéploiement</strong> ne peuvent &ecirc;tre utilisées pour obtenir ce bonus de Feu croisé.</p><p>Toutes les unités d'une formation subissant un Feu croisé souffrent <strong>d'un malus de -1 sur leurs jets de sauvegarde</strong>. De plus, une formation prise dans un Feu croisé <strong>re&ccedil;oit deux pions d'impact</strong> pour la premi&egrave;re unité détruite, et non un seul comme ce serait normalement le cas.</p>"
+    },
+    {
+        "titlesup": "Tirer",
+        "title3": "Barrage d'artillerie",
+        "kwgenerique": [
+            "Tir",
+            "Point de Barrage",
+            "Pion impact"
+        ],
+        "kwspeciale": [
+            "Gabarit"
+        ],
+        "content": "<p>Une unité dont l'arme inflige des <strong>points de barrage</strong> (<strong>PB</strong>) poss&egrave;de une mécanique spécifique. La formation tire en une seule fois, on <span style='text-decoration: underline;'>additionne les points de barrage</span> fournis par chaque unité &agrave; portée et ayant une ligne de vue.</p><table style='width: 585px;' border='1'><tbody><tr style='height: 51px;'><th style='width: 174px; height: 102px;' rowspan='2'><p>Points de Barrage</p></th><th style='width: 100.469px; height: 102px;' rowspan='2'><p>Gabarits supp.</p></th><th style='width: 107.531px; height: 102px;' rowspan='2'><p>PI supp.</p></th><th style='width: 396px; height: 51px;' colspan='2'><p>Jet pour toucher</p></th></tr><tr style='height: 51px;'><th style='width: 128px; height: 51px;'><p>Antipersonnel (AP)</p></th><th style='width: 268px; height: 51px;'><p>Antichar (AC)</p></th></tr><tr style='height: 51px;'><td style='width: 174px; text-align: center; vertical-align: middle; height: 51px;'><p>1</p></td><td style='width: 100.469px; text-align: center; vertical-align: middle; height: 51px;'><p>-</p></td><td style='width: 107.531px; text-align: center; vertical-align: middle; height: 51px;'><p>-</p></td><td style='width: 128px; text-align: center; vertical-align: middle; height: 51px;'><p>6+</p></td><td style='width: 268px; text-align: center; vertical-align: middle; height: 51px;'><p>6+</p></td></tr><tr style='height: 18px;'><td style='width: 174px; text-align: center; vertical-align: middle; height: 18px;'><p>2</p></td><td style='width: 100.469px; text-align: center; vertical-align: middle; height: 18px;'><p>-</p></td><td style='width: 107.531px; text-align: center; vertical-align: middle; height: 18px;'><p>-</p></td><td style='width: 128px; text-align: center; vertical-align: middle; height: 18px;'><p>5+</p></td><td style='width: 268px; text-align: center; vertical-align: middle; height: 18px;'><p>6+</p></td></tr><tr style='height: 51px;'><td style='width: 174px; text-align: center; vertical-align: middle; height: 51px;'><p>3</p></td><td style='width: 100.469px; text-align: center; vertical-align: middle; height: 51px;'><p>-</p></td><td style='width: 107.531px; text-align: center; vertical-align: middle; height: 51px;'><p>-</p></td><td style='width: 128px; text-align: center; vertical-align: middle; height: 51px;'><p>4+</p></td><td style='width: 268px; text-align: center; vertical-align: middle; height: 51px;'><p>5+</p></td></tr><tr style='height: 51px;'><td style='width: 174px; text-align: center; vertical-align: middle; height: 51px;'><p>4-5</p></td><td style='width: 100.469px; text-align: center; vertical-align: middle; height: 51px;'><p>1</p></td><td style='width: 107.531px; text-align: center; vertical-align: middle; height: 51px;'><p>-</p></td><td style='width: 128px; text-align: center; vertical-align: middle; height: 51px;'><p>4+</p></td><td style='width: 268px; text-align: center; vertical-align: middle; height: 51px;'><p>5+</p></td></tr><tr style='height: 51px;'><td style='width: 174px; text-align: center; vertical-align: middle; height: 51px;'><p>6-7</p></td><td style='width: 100.469px; text-align: center; vertical-align: middle; height: 51px;'><p>1</p></td><td style='width: 107.531px; text-align: center; vertical-align: middle; height: 51px;'><p>1</p></td><td style='width: 128px; text-align: center; vertical-align: middle; height: 51px;'><p>4+</p></td><td style='width: 268px; text-align: center; vertical-align: middle; height: 51px;'><p>5+</p></td></tr><tr style='height: 51px;'><td style='width: 174px; text-align: center; vertical-align: middle; height: 51px;'><p>8-9</p></td><td style='width: 100.469px; text-align: center; vertical-align: middle; height: 51px;'><p>2</p></td><td style='width: 107.531px; text-align: center; vertical-align: middle; height: 51px;'><p>1</p></td><td style='width: 128px; text-align: center; vertical-align: middle; height: 51px;'><p>4+</p></td><td style='width: 268px; text-align: center; vertical-align: middle; height: 51px;'><p>5+</p></td></tr><tr style='height: 51px;'><td style='width: 174px; text-align: center; vertical-align: middle; height: 51px;'><p>10-12</p></td><td style='width: 100.469px; text-align: center; vertical-align: middle; height: 51px;'><p>2</p></td><td style='width: 107.531px; text-align: center; vertical-align: middle; height: 51px;'><p>2</p></td><td style='width: 128px; text-align: center; vertical-align: middle; height: 51px;'><p>4+</p></td><td style='width: 268px; text-align: center; vertical-align: middle; height: 51px;'><p>5+</p></td></tr><tr style='height: 51px;'><td style='width: 174px; text-align: center; vertical-align: middle; height: 51px;'><p>13-15</p></td><td style='width: 100.469px; text-align: center; vertical-align: middle; height: 51px;'><p>2</p></td><td style='width: 107.531px; text-align: center; vertical-align: middle; height: 51px;'><p>3</p></td><td style='width: 128px; text-align: center; vertical-align: middle; height: 51px;'><p>4+</p></td><td style='width: 268px; text-align: center; vertical-align: middle; height: 51px;'><p>5+</p></td></tr><tr style='height: 51px;'><td style='width: 174px; text-align: center; vertical-align: middle; height: 51px;'><p>16-18</p></td><td style='width: 100.469px; text-align: center; vertical-align: middle; height: 51px;'><p>2</p></td><td style='width: 107.531px; text-align: center; vertical-align: middle; height: 51px;'><p>4</p></td><td style='width: 128px; text-align: center; vertical-align: middle; height: 51px;'><p>4+</p></td><td style='width: 268px; text-align: center; vertical-align: middle; height: 51px;'><p>5+</p></td></tr></tbody></table><p>On utilise le <strong>gabarit de barrage</strong> d&rsquo;un diam&egrave;tre 7,5 cm.</p><p>Le <strong>premier gabarit</strong> doit &ecirc;tre placé de mani&egrave;re &agrave; couvrir <span style='text-decoration: underline;'>un maximum d&rsquo;unités de la formation cible</span>, en respectant les restrictions normales de ligne de vue et de portée (les unités attaquantes doivent &ecirc;tre &agrave; portée et voir au moins une unité de la formation cible).</p><p>Les <strong>gabarits supplémentaires</strong> doivent &ecirc;tre placés au contact (sans chevauchement) du premier gabarit <strong>ET</strong> de mani&egrave;re &agrave; couvrir <span style='text-decoration: underline;'>un maximum d&rsquo;unités</span> de la formation cible. Par contre, <span style='text-decoration: underline;'>aucune restriction de ligne de vue</span> ou <span style='text-decoration: underline;'>de portée</span> ne s&rsquo;applique au placement de ces gabarits.</p>"
+    },
+    {
+        "titlesup": "La phase d’action",
+        "title2": "État d'alerte",
+        "kwgenerique": [
+            "Tir",
+            "Mouvement",
+            "Embarquer / débarquer",
+            "Tour"
+        ],
+        "kwphase": [
+            "État d'Alerte"
+        ],
+        "content": "<p>Une formation en <strong>état d'alerte</strong> peut tirer sur une formation ennemie juste apr&egrave;s qu'elle a fini d'accomplir un MOUVEMENT ou de débarquer des troupes.</p><p>Une fois qu'elle a tiré, la formation <span style='text-decoration: underline;'>n'est plus considérée comme étant en état d'alerte</span>.</p><p>La formation demeure en <strong>état d'alerte</strong> jusqu'&agrave; qu'elle tire ou entreprenne une nouvelle action lors du tour suivant. Cela implique qu'une unité peut se mettre en état d'alerte lors d'un tour, mais ne tirer que lors du tour suivant. Si ce cas de figure se présente, le tir de la formation compte comme étant son action lors du tour o&ugrave; elle a lieu, elle ne pourra donc pas en entreprendre une autre lors de la m&ecirc;me phase d'action.</p>"
+    },
+    {
+        "titlesup": "Assaut",
+        "title2": "Notions",
+        "kwgenerique": [
+            "Mouvement",
+            "Zone de contrôle",
+            "Engagée"
+        ],
+        "kwphase": [
+            "Assaut",
+            "Charge",
+            "Contre-charge"
+        ],
+        "content": "<p><strong>Formations Mélangées</strong> : Deux formations sont dites mélangées si elles ne sont séparées que par<strong> 5 cm ou moins</strong>.</p><p><strong>Mouvement de Charge</strong> : c&rsquo;est un MOUVEMENT avec une spécificité:<br />Les unités effectuant un mouvement de charge <span style='text-decoration: underline;'>ont le droit d'entrer dans la zone de contr&ocirc;le</span> d'un ennemi pour aller au contact d'une unité de la formation attaquée.</p><p>&nbsp;</p><ul><li>Les unités sont libres de se déplacer dans n'importe quelle direction</li><li>Les unités en charge ne peuvent pas traverser les zones de contr&ocirc;le d'unités n'appartenant pas &agrave; la formation attaquée.</li><li>Un maximum de <strong>deux unités</strong> peuvent aller au contact d'une seule unité.</li><li>Une unité allant au contact doit engager l'unité ennemie <span style='text-decoration: underline;'>la plus proche dont elle a traversé la zone de contr&ocirc;le</span>.</li><li>Une fois qu'une unité est au contact d'un ennemi, <span style='text-decoration: underline;'>il n'a plus de zone de contr&ocirc;le</span>, et d'autres unités peuvent ainsi passer pr&egrave;s de lui.</li></ul><p>&nbsp;</p><p><strong>Mouvement de Contre-charges</strong> : c&rsquo;est comme un mouvement de Charge avec deux spécificités :</p><ul><li>vitesse réduite &agrave; 10 cm si vitesse de&nbsp;30cm,sinon &agrave; 5 cm&nbsp;</li><li>l&rsquo;unité doit avancer directement vers l'unité ennemie la plus proche.</li></ul><p><strong>Unité directement engagée dans le combat</strong> : une unité appartenant &agrave; la formation attaquée ou attaquante et qui se trouve dans un rayon de 15 cm de l'ennemi apr&egrave;s que les mouvements de charge et de contre-charge aient été terminés.</p>"
+    },
+    {
+        "titlesup": "Assaut",
+        "title2": "Procédure d'Assaut",
+        "kwgenerique": [
+            "Démoralisée",
+            "Tir de soutien",
+            "Pion impact",
+            "Fusillade (FF)",
+            "Corps-à-corps (CC)"
+        ],
+        "kwphase": [
+            "Assaut",
+            "Charge",
+            "Contre-charge"
+        ],
+        "content": "<p><strong>I.&nbsp;Choisir la formation attaquée :</strong> n'importe quelle formation ennemie peut &ecirc;tre visée.</p><p><em>Lorsqu'un joueur désigne la cible d'une charge, il peut s'il le désire désigner également toute autre <strong>Formation Mélangée</strong> avec sa cible. Lors de l'assaut, les Formations Mélangées comptent comme une seule formation</em></p><p><strong>II.&nbsp;Effectuer le Mouvement de Charge :</strong> Une fois ce mouvement terminé, la formation attaquante doit avoir au moins l'une de ses unités <span style='text-decoration: underline;'>dans un rayon de 15 cm</span> autour d'une unité ennemie de la formation visée. Si ce n'est pas le cas, aucun assaut n'a lieu et l'action prend fin.</p><p><strong>III. Effectuer les Mouvement de Contre-charges :</strong> les unités de la formation attaquée (le défenseur) qui ne sont pas en contact avec des unités ennemies peuvent effectuer un <strong>mouvement de Contre-charge.</strong>&nbsp;</p><p><em>Les formations dont des unités se retrouvent au contact des unités qui contre-chargent, sont entra&icirc;nées dans l'assaut. Toutes les formations de l'attaquant impliquées dans l'assaut comptent &agrave; tous points de vue comme une seule formation pour la durée de l'assaut.</em></p><p><strong>IV.&nbsp;Résoudre les Attaques :</strong> Lors d'un assaut, les deux camps combattent <span style='text-decoration: underline;'>simultanément</span>. Les unités au contact de l'ennemi utilisent leur valeur de <strong>Corps-à-corps (CC)</strong>, celles qui ne le sont pas mais sont dans un rayon de <span style='text-decoration: underline;'>15 cm</span> autour d'une unité ennemie sur laquelle elles ont une <span style='text-decoration: underline;'>ligne de vue</span> leur valeur de <strong>fusillade (FF)</strong>.&nbsp;</p><p>Lancez 1D6 pour chaque unité pouvant attaquer. Comparez &agrave; la valeur de Corps-à-corps (CC) ou de Fusillade (FF) suivant le cas. Chaque succ&egrave;s provoque une touche.</p><p>Les <span style='text-decoration: underline;'>pions d'impact ne neutralisent pas les unités</span> au cours d'un assaut.&nbsp;Aucun modificateur n'est appliqué &agrave; ce jet de dés.</p><p>Chaque joueur alloue les touches re&ccedil;ues et effectue ses sauvegardes, selon la m&ecirc;me procédure que pour les tirs. Les touches ne peuvent &ecirc;tre allouées <span style='text-decoration: underline;'>qu'aux unités impliquées</span> dans le combat. Seul le défenseur peut utiliser les sauvegardes de couvert.</p><p>L'ajout des pions impact et la vérification de la démoralisation ne seront effectués qu&rsquo;une fois que le résultat du combat aura été déterminé (<strong>phase VI</strong>).</p><p><strong>Bilan des attaques :&nbsp;</strong></p><ul><li><strong>Cas n&deg;1</strong> : Toutes les unités de la formation attaquée sont détruites et au moins un attaquant survit, la formation attaquante gagne et l'assaut est terminé (passez &agrave; <strong>l&rsquo;étape VIII</strong> Les Vainqueurs Consolident).</li><li><strong>Cas n&deg;2</strong> : Toutes les unités attaquantes directement engagées dans l'assaut sont détruites, l'assaut se termine immédiatement sur une victoire du défenseur (passez &agrave; <strong>l&rsquo;étape VII</strong> Le&nbsp; perdant se replie).</li><li><strong>Cas n&deg;3</strong> : Au moins une unité attaquante est encore directement engagée apr&egrave;s la résolution des attaques, l'assaut se poursuit et les deux camps peuvent bénéficier de <strong>tirs de soutien</strong>&nbsp;</li></ul><p><strong>V.&nbsp;Tir de Soutien :</strong>&nbsp;permet aux unités <span style='text-decoration: underline;'>d'autres formations</span> d'attaquer en utilisant leur valeur de <strong>Fusillade (FF)</strong> si elles se trouvent <span style='text-decoration: underline;'>&agrave; moins de 15cm d'une unité ennemie</span>&nbsp;engagée dans l'assaut et élligible au tir. Les unités faisant partie de formations démoralisées ou ayant re&ccedil;u un ordre de redéploiement ne peuvent pas effectuer de tir de soutien.</p><p>Lancez pour toucher en utilisant la valeur de Fusillade (FF) des formations en soutien, puis utilisez la procédure des tirs pour allouer les touches et effectuer les sauvegardes.</p><p><strong>VI.&nbsp;Résultat du Combat :&nbsp;</strong></p><p>Les joueurs lancent chacun <strong>2D6</strong>, <span style='text-decoration: underline;'>garde le meilleur</span>, et ajoutent les modificateurs ci-dessous.&nbsp;</p><table border='1'><tbody><tr style='height: 51px;'><th style='height: 51px;'><p>Modificateurs d'Assaut</p></th><td style='height: 51px;'>&nbsp;</td></tr><tr style='height: 51px;'><td style='height: 51px;'><p>Chaque perte que vous aurez infligée &agrave; l'ennemi lors de l'assaut</p></td><td style='height: 51px;'><p>+1</p></td></tr><tr style='height: 51px;'><td style='height: 51px;'><p>Vous avez plus d'unités que la formation ennemie</p></td><td style='height: 51px;'><p>+1*</p></td></tr><tr style='height: 51px;'><td style='height: 51px;'><p>Vous avez plus de deux fois plus d'unités que la formation ennemie</p></td><td style='height: 51px;'><p>+1*</p></td></tr><tr style='height: 51px;'><td style='height: 51px;'><p>Votre formation n'a aucun pion d'impact</p></td><td style='height: 51px;'><p>+1**</p></td></tr><tr style='height: 51px;'><td style='height: 51px;'><p>La formation ennemie a plus de pions d'impact que la v&ocirc;tre</p></td><td style='height: 51px;'><p>+1**</p></td></tr><tr style='height: 51px;'><td style='height: 51px;'><p>Par personnage charismatique.</p></td><td style='height: 51px;'><p>+1</p></td></tr><tr style='height: 86px;'><td style='height: 86px;' colspan='2'><p>*nombre total d'unités restantes (pas les soutiens)</p><p>**Les formations démoralisées comptent comme ayant autant de pions d'impact que d'unités.</p></td></tr></tbody></table><p>Celui qui obtient le <span style='text-decoration: underline;'>total le plus élevé</span> gagne l'assaut. La formation perdante re&ccedil;oit un nombre de <strong>touches supplémentaires</strong> égal &agrave; la différence entre les deux scores. Ces touches <span style='text-decoration: underline;'>ne peuvent pas &ecirc;tre sauvegardées</span></p><p>Si un camp en extermine totalement un autre, il est le vainqueur.</p><p>En cas <strong>d'égalité</strong>, jouez immédiatement un deuxi&egrave;me assaut en reprenant &agrave; <strong>l'étape IV.</strong> Les unités des deux camps ont le droit d'effectuer un mouvement de contre-charge avant que le deuxi&egrave;me assaut ne débute, en commen&ccedil;ant par l'attaquant. Les <span style='text-decoration: underline;'>pertes infligées durant le premier round comptent</span> pour ce qui est de la résolution. Ainsi de suite jusqu'&agrave; ce qu'un vainqueur émerge.</p><p><strong>VII. Les Perdants se Replient</strong> : La formation perdante est&nbsp; <strong>DéMORALISéE</strong>. Si elle l&rsquo;était déj&agrave; au début de l&rsquo;assaut, elle est détruite.</p><p>Toutes les formations amies qui se trouvaient en position de soutenir la formation perdante re&ccedil;oivent chacune 1 PI.</p><p><strong>VIII. Les Vainqueurs Consolident :</strong> La formation victorieuse re&ccedil;oit autant de pions d'impact que le nombre d'unités perdues lors de l'assaut.</p><p><em>Notez qu'il est ainsi possible de remporter un assaut et d'&ecirc;tre démoralisé par les pertes subies ! Dans ce cas, la formation est&nbsp; DéMORALISéE , mais n'a pas &agrave; effectuer de mouvement de retraite, m&ecirc;me si des ennemis se trouvent dans un rayon de 15 cm.</em></p><p>Si la formation victorieuse était déj&agrave; démoralisée au début de l'assaut, elle ne re&ccedil;oit aucun pion d'impact supplémentaire.</p><p>Toutes les unités de la formation victorieuse peuvent alors effectuer un mouvement de 5 cm.</p><p>&nbsp;</p>"
+    },
+    {
+        "titlesup": "La phase d’action",
+        "title2": "Se regrouper",
+        "kwgenerique": [
+            "Pion impact"
+        ],
+        "kwphase": [
+            "Regroupement"
+        ],
+        "content": "<p>Les formations effectuant une action de <strong>Regroupement</strong> ont le droit de se regrouper pour se débarrasser de leurs pions d'impact et éviter d'&ecirc;tre démoralisées.&nbsp;</p><p><strong>Se regrouper</strong> : Lancez 2D6, gardez le plus haut résultat et retirez autant de pions d'impact.</p>"
+    },
+    {
+        "titlesup": "La phase d’action",
+        "title2": "Démoralisation",
+        "kwgenerique": [
+            "Retraite",
+            "Pion impact",
+            "Démoralisée",
+            "Zone de contrôle"
+        ],
+        "content": "<p><strong>Devenir Démoralisé</strong> : Une formation est démoralisée lorsqu'elle re&ccedil;oit un nombre de <span style='text-decoration: underline;'>pions d'impact égal &agrave; son nombre d'unités</span>, ou si elle <span style='text-decoration: underline;'>perd un assaut</span>. Les formations démoralisées ne peuvent pas entreprendre d'action lors de la phase d'action.</p><p>Chaque fois qu'une formation re&ccedil;oit des pions d'impact , vous devez vérifier qu'elle n'est pas démoralisée. Vous devez enti&egrave;rement résoudre une action ou un assaut avant d'appliquer les effets de la démoralisation&nbsp;</p><p>Lorsqu'une formation est démoralisée, retirez tous ses pions d'impact et représentez son état d'une fa&ccedil;on ou d&rsquo;une autre.</p><p><strong>Mouvements de Retraite :</strong> Une formation <strong>doit</strong> effectuer un mouvement de retraite juste apr&egrave;s que l'action qui a causé la démoralisation a été résolue. Si la démoralisation survient au milieu d'une action que la formation m&ecirc;me est en train d'accomplir (comme par exemple si elle re&ccedil;oit un pion d'impact pour avoir raté un test d'action, ou lors d'un tir en état d'alerte), elle effectue sa retraite <strong>immédiatement</strong> et perd le reste de son action.</p><p>Une formation effectuant un <span style='text-decoration: underline;'>mouvement de retraite</span> peut accomplir deux <strong>MOUVEMENT</strong> :&nbsp;</p><ul><li>Si une unité termine son deuxi&egrave;me mouvement &agrave; moins de 15cm d'une unité ennemie, <strong>elle est détruite</strong>.</li><li>Les unités en retraite <span style='text-decoration: underline;'>ignorent les zones de contr&ocirc;le ennemies</span>, mais ne peuvent toujours pas &laquo; traverser &raquo; une unité ennemie.&nbsp;</li></ul><p><strong>Pions Impact et Formations Démoralisées</strong> :&nbsp;</p><p>Les formations démoralisées comptent comme ayant <span style='text-decoration: underline;'>autant de pions d'impact que d'unités</span>.</p><p><strong>Une fois démoralisée</strong>, une formation <span style='text-decoration: underline;'>ne re&ccedil;oit plus de pions d'impact</span> tant qu'elle n'est pas ralliée. Au lieu de cela, chaque pion d'impact qu'elle devrait normalement recevoir entra&icirc;ne <strong>une touche sans sauvegarde</strong>. Les pertes sont retirées comme lors d'un tir (de l'avant &agrave; l'arri&egrave;re de la formation).</p>"
+    },
+    {
+        "titlesup": "La phase d’action",
+        "title2": "Fin du tour",
+        "kwgenerique": [
+            "Retraite",
+            "Pion impact",
+            "Démoralisée"
+        ],
+        "kwphase": [
+            "Ralliement"
+        ],
+        "content": "<p>La fin du tour a lieu une fois que les deux joueurs o<span style='text-decoration: underline;'>nt activé toutes leurs formations non démoralisées</span>.</p><p><strong>Rallier les Formations :</strong> les deux joueurs tentent &agrave; tour de r&ocirc;le de rallier leurs formations <strong>démoralisées</strong> ou <strong>possédant des pions d'impact.</strong> Les formations se rallient une par une en commen&ccedil;ant par le joueur disposant de la plus haute valeur stratégique.</p><p>Pour rallier une formation, vous devez lancer 1D6 et obtenir un résultat <span style='text-decoration: underline;'>supérieur ou égal</span> &agrave; sa valeur d'initiative .</p><table border='1'><tbody><tr><th colspan='2'><p>Modificateurs aux Tests de Ralliement (cumulatifs)</p></th></tr><tr><td><p>Formation démoralisée&nbsp;</p></td><td><p>-2</p></td></tr><tr><td><p>Ennemis dans un rayon de 30 cm</p></td><td><p>-1</p></td></tr></tbody></table><p>Si le<strong> test échoue</strong>, une formation démoralisée doit effectuer &agrave; nouveau un <strong>mouvement de retraite</strong>, alors qu'une formation non démoralisée reste sur place mais garde tous ses pions d'impacts.</p><p>Si le <strong>test réussi</strong>, retirer la <span style='text-decoration: underline;'>moitié des pions d'impact</span> de la formation, arrondie au supérieur</p><p>Une <strong>formation démoralisée</strong> parvenant &agrave; se rallier ne l'est plus. Par exemple, une formation démoralisée contenant sept unités (en comptant donc comme ayant sept pions d'impact) et parvenant &agrave; se rallier se retrouve avec trois pions d'impact et n'est plus démoralisée.</p>"
+    },
+    {
+        "title1": "Unités & armes spéciales",
+        "content": ""
+    },
+    {
+        "titlesup": "Unités & armes spéciales",
+        "title2": "Unités spéciales",
+        "content": ""
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Antigrav",
+        "kwspeciale": [
+            "Attaque surprise",
+            "Mouvement",
+            "Fusillade (FF)"
+        ],
+        "kwunite": [
+            "Antigrav"
+        ],
+        "kwgenerique": [
+            "Mouvement"
+        ],
+        "content": "<p><strong>Mouvement</strong> : Les <strong>Antigrav</strong> peuvent ignorer les terrains dangereux et infranchissables quand ils se déplacent. Ils ne peuvent pas atterrir en terrain infranchissable et s'ils atterrissent sur un terrain dangereux, ils doivent effectuer un test de terrain dangereux. Les Antigrav peuvent voler au-dessus d'unités amies.</p><p>Les unités et zones de contr&ocirc;le de l'ennemi les affectent normalement.</p><p><strong>Pop Up</strong> : Un <strong>Antigrav</strong> peut déclarer qu'il effectue une <strong>attaque surprise</strong> au début de l'une des ses actions, y compris quand il se met en état d'alerte. Un Antigrav ne peut pas effectuer une attaque surprise dans le cadre d'un Tir Soutenu ou d'un Redéploiement. Cette action compte comme un <strong>MOUVEMENT</strong> et peut déclencher le tir d'un ennemi en état d'alerte.</p><p><span style='text-decoration: underline;'>Apr&egrave;s</span> son attaque surprise , un Antigrav redescend. Les Antigrav en état d'alerte ne redescendent pas tant qu'ils n'ont pas effectué leur tir sur une cible. Les Antigrav ayant une capacité de transport ne peuvent embarquer ou débarquer des unités tant qu'ils sont en train d'effectuer une attaque surprise et s'ils sont détruits &agrave; ce moment l&agrave; , toutes les unités qu'ils transportaient sont également détruites sans sauvegarde d'armure possible.</p><p>On consid&egrave;re qu'un Antigrav qui effectue une attaque surprise vole assez haut pour voir par dessus les obstacles proches situés entre sa cible et lui. Pour vérifier la ligne de vue de l'Antigrav, mesurez la distance entre l'Antigrav et l'élément de terrain, puis entre l'élément de terrain et la formation cible :&nbsp;</p><ul><li>Si <strong>l'Antigrav</strong> <span style='text-decoration: underline;'>est plus proche</span> de l'élément de terrain que sa cible, sa ligne de vue est <span style='text-decoration: underline;'>dégagée</span>.</li><li>Si <strong>l'Antigrav</strong> et sa cible sont &agrave; <span style='text-decoration: underline;'>égale distance</span> de l'élément de terrain, les deux formations ont une ligne de vue <span style='text-decoration: underline;'>dégagée</span> l'une sur l'autre, mais elles comptent comme <span style='text-decoration: underline;'>étant &agrave; couvert</span> et le modificateur pour toucher une cible &agrave; couvert s'applique.</li></ul><p><strong>Assaut</strong> : Les <strong>Antigrav</strong> peuvent toujours choisir d'utiliser leur caractéristique de <strong>Fusillade (FF)</strong> lors d'un assaut, <span style='text-decoration: underline;'>m&ecirc;me si des unités ennemies sont en contact socle &agrave; socle</span> avec eux. S'ils le font, les unités ennemies doivent elles aussi utiliser leurs caractéristiques de Fusillade (FF).</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Blindage Renforcé",
+        "kwgenerique": [
+            "Sauvegarde"
+        ],
+        "kwspeciale": [
+            "Blindage Renforcé",
+            "Macro-arme"
+        ],
+        "content": "<p>Permet de <strong>relancer</strong> les <strong>sauvegardes</strong> d'armures ratées contre les touches n<span style='text-decoration: underline;'>'étant pas infligées par des Macro-armes (MA)</span>, et d&rsquo;effectuer une <span style='text-decoration: underline;'>sauvegarde sans relance</span> contre une <strong>Macro-arme</strong>.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Blindage Arrière Renforcé",
+        "kwgenerique": [
+            "Sauvegarde",
+            "Feu croisé"
+        ],
+        "kwspeciale": [
+            "Blindage Arrière Renforcé"
+        ],
+        "content": "<p>Permet <span style='text-decoration: underline;'>d'ignorer</span> le modificateur de sauvegarde de -1 lorsqu'ils sont pris dans un <strong>Feu croisé</strong>.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Charismatique",
+        "kwphase": [
+            "Assaut"
+        ],
+        "kwspeciale": [
+            "Charismatique"
+        ],
+        "content": "<p>ajoute +1 au résultat du dé lors de la résolution de l&rsquo;assaut.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Commandant Suprême",
+        "kwgenerique": [
+            "Initiative"
+        ],
+        "kwspeciale": [
+            "Commandant Suprême",
+            "Meneur",
+            "Commandant"
+        ],
+        "content": "<p>Les <strong>Commandants Supr&ecirc;mes</strong> comptent &agrave; la fois comme des <strong>Commandants</strong> et des <strong>Meneurs</strong>. De plus, il permet au joueur de <span style='text-decoration: underline;'>relancer un seul test d'initiative raté</span> (de tout type) une fois par tour.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Commandant",
+        "kwphase": [
+            "Assaut"
+        ],
+        "kwspeciale": [
+            "Commandant"
+        ],
+        "kwgenerique": [
+            "Pion impact"
+        ],
+        "content": "<p>Un <strong>Commandant</strong> peut ordonner &agrave; un maximum de <span style='text-decoration: underline;'>trois formations en plus de la sienne</span> de le suivre lorsqu'il lance un assaut, tant que ces derni&egrave;res ont au moins une unité &agrave; moins de 5 cm d'une unité de la formation du Commandant et qu'elles n'ont pas encore agi au cours de ce tour.</p><p>Faites <span style='text-decoration: underline;'>un seul test d'initiative</span> pour toutes les formations, avec un <strong>malus de -1</strong> si au moins l'une d'entre elles est sous l'effet d'un ou plusieurs pions d'impact.</p><ul><li>Si le <strong>test est raté</strong>, la formation du Commandant re&ccedil;oit un pion d'impact et doit recevoir l'ordre <strong>Tenir</strong>, mais les autres formations ne sont pas affectées (et pourront agir plus tard dans le tour).</li><li>Si le<strong> test réussi</strong> alors toutes les formations concernées peuvent recevoir un ordre d'Assaut. Traitez-les comme une seule formation pendant la durée de l'assaut. Si l'attaquant perd le combat, toutes ses formations sont démoralisées. S'il gagne, ses formations re&ccedil;oivent un nombre de pions d'impact égal aux pertes qu'elles ont subies pendant le combat.</li></ul>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Éclaireurs",
+        "kwgenerique": [
+            "Zone de contrôle"
+        ],
+        "kwspeciale": [
+            "Éclaireurs"
+        ],
+        "content": "<p>Les unités <strong>d'éclaireurs</strong> ne doivent rester qu'&agrave; moins de <strong>20 cm</strong> de leur formation au lieu des 5 cm habituels. De plus, leur <strong>zone de contr&ocirc;le</strong> est de <strong>10 cm</strong>.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Infiltrateur",
+        "kwgenerique": [
+            "Zone de contrôle"
+        ],
+        "kwspeciale": [
+            "Infiltrateur"
+        ],
+        "kwphase": [
+            "Charge"
+        ],
+        "content": "<p>Permet de <strong>doubler sa vitesse</strong> lors d&rsquo;une <strong>charge</strong> (pas en contre-charge) et d&rsquo;ignorer les zones de contr&ocirc;le de la formation chargée.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Marcheur",
+        "kwtable": [
+            "Terrain"
+        ],
+        "kwspeciale": [
+            "Marcheur"
+        ],
+        "content": "<p>Les <strong>Marcheurs</strong> peuvent relancer leurs tests de terrains dangereux ratés.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Meneur",
+        "kwspeciale": [
+            "Meneur"
+        ],
+        "kwphase": [
+            "Regroupement",
+            "Ralliement"
+        ],
+        "kwgenerique": [
+            "Pion impact"
+        ],
+        "content": "<p>Une formation incluant des <strong>Meneurs</strong> peut retirer un pion d'impact supplémentaire <span style='text-decoration: underline;'>par Meneur</span> quand elle se <strong>regroupe</strong> ou réussit &agrave; se <strong>rallier</strong>.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Montés",
+        "kwunite": [
+            "Infanterie",
+            "Véhicule blindé"
+        ],
+        "kwspeciale": [
+            "Montés"
+        ],
+        "kwtable": [
+            "Terrain"
+        ],
+        "content": "<p>Les unités <strong>Montées</strong> comptent comme des <span style='text-decoration: underline;'><strong>véhicules</strong> pour les effets du terrain</span> et comme de <span style='text-decoration: underline;'><strong>l'infanterie</strong> dans tous les autres cas</span>.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Métal Organique",
+        "kwspeciale": [
+            "Métal Organique",
+            "Macro-arme",
+            "Tueur de titan",
+            "Sniper",
+            "Blindage Renforcé"
+        ],
+        "kwgenerique": [
+            "Sauvegarde"
+        ],
+        "content": "<p>Les unités faites de <strong>Métal Organique</strong> peuvent effectuer une <strong>sauvegarde de Blindage Renforcé</strong> contre les armes <span style='text-decoration: underline;'>normales</span>, <span style='text-decoration: underline;'>Macro-armes (MA)</span> et les <span style='text-decoration: underline;'>Lances</span> : elles peuvent donc effectuer <strong>deux sauvegardes</strong> lorsqu'elles sont touchées par ces armes. De plus, leur sauvegarde ne peut &ecirc;tre réduite par la capacité Sniper. Les attaques Tueur de Titans sont automatiquement réduites &agrave; <strong>Tueur de Titans (1)</strong> lorsqu'elles touchent une unité en Métal Organique, et l'unité en Métal Organique <span style='text-decoration: underline;'>peut effectuer</span> une unique sauvegarde m&ecirc;me contre ces attaques</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Obstinées",
+        "kwphase": [
+            "Assaut"
+        ],
+        "kwgenerique": [
+            "Pion impact",
+            "Démoralisée"
+        ],
+        "kwspeciale": [
+            "Obstinées"
+        ],
+        "content": "<p>Une formation d'unité <strong>Obstinées</strong> est démoralisée d&egrave;s qu'elle a accumulé un nombre de pions impact <strong>égal &agrave; 1 + le nombre d'unités</strong>. Lorsqu'une formation d'unités Obstinées perd en assaut, elle subit <span style='text-decoration: underline;'>une perte de moins</span> lors de la résolution des touches supplémentaires.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Personnage",
+        "kwspeciale": [
+            "Personnage"
+        ],
+        "content": "<p>Un <strong>personnage</strong> est incorporé &agrave; des unités existantes de l'armée. L'unité qui accueille le personnage bénéficie de ses capacités et de son armement. Notez que les personnages peuvent &ecirc;tre ajoutés &agrave; n'importe quel type d'unité. Les personnages pris comme amélioration d'une formation doivent rejoindre une unité de la formation ayant acc&egrave;s &agrave; cette amélioration.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Réacteurs Dorsaux",
+        "kwgenerique": [
+            "Zone de contrôle"
+        ],
+        "kwtable": [
+            "Terrain"
+        ],
+        "kwspeciale": [
+            "Réacteurs Dorsaux"
+        ],
+        "content": "<p>Les unités équipées de <strong>Réacteurs dorsaux</strong> peuvent <span style='text-decoration: underline;'>ignorer les terrains dangereux</span> et <span style='text-decoration: underline;'>infranchissables</span> lorsqu'elles se déplacent (elles sautent par-dessus). Elles ne peuvent pas atterrir sur un terrain infranchissable et doivent effectuer un test de <strong>terrain dangereux</strong> si elles atterrissent dans un terrain dangereux. Les unités équipées de Réacteurs dorsaux peuvent aussi passer par dessus des unités amies pendant leur mouvement, mais ne peuvent pas atterrir sur ces derni&egrave;res. Elles sont <span style='text-decoration: underline;'>affectées normalement par les zones de contr&ocirc;le</span> et les <span style='text-decoration: underline;'>unités de l'ennemi</span> et <span style='text-decoration: underline;'>ne peuvent pas se déplacer par-dessus des formations ennemies</span></p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Sans Peur",
+        "kwphase": [
+            "Assaut"
+        ],
+        "kwgenerique": [
+            "Démoralisée",
+            "Retraite",
+            "Zone de contrôle"
+        ],
+        "kwspeciale": [
+            "Sans Peur"
+        ],
+        "content": "<p>Les unités <strong>Sans peur</strong> sont <span style='text-decoration: underline;'>immunisées</span> aux dommages entrainés par une défaite lors d'un assaut (touches supplémentaires ou destruction si la formation était déj&agrave; démoralisée), et aux dég&acirc;ts infligés par les pions d'impact en cas de démoralisation.</p><p>Les unités <strong>Sans peur</strong> démoralisées ou devant effectuer un mouvement de retraite peuvent choisir de <strong>rester immobile,</strong> auquel cas elles sont <span style='text-decoration: underline;'>immunisées</span> aux dommages supplémentaires. Si elles choisissent de se replier, elles seront détruites si elles terminent leur mouvement dans un rayon de <strong>5 cm</strong> de l'ennemi (au lieu des 15 cm habituels). Notez que les unités de la formation n'étant pas Sans peur seront affectées normalement par les touches supplémentaires causées par des pions d'impact si elles perdent un assaut ou pour toute autre raison. Aucune touche ne peut &ecirc;tre allouée aux unités Sans peur mais les autres les subissent normalement.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Sauvegarde Invulnérable",
+        "kwgenerique": [
+            "Sauvegarde"
+        ],
+        "kwspeciale": [
+            "Sauvegarde Invulnérable"
+        ],
+        "content": "<p>Une unité ayant cette capacité re&ccedil;oit une deuxi&egrave;me <strong>sauvegarde de 6+</strong> <span style='text-decoration: underline;'>non modifiable</span>. Elles peuvent effectuer cette deuxi&egrave;me tentative contre n'importe quelle attaque, m&ecirc;me celles qui annulent normalement les sauvegardes d'armures.&nbsp;</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Sacrifiable",
+        "kwphase": [
+            "Assaut"
+        ],
+        "kwspeciale": [
+            "Sacrifiable"
+        ],
+        "kwgenerique": [
+            "Pion impact"
+        ],
+        "content": "<p>Les unités qui sont considérées comme <strong>Sacrifiables</strong>, ne gén&egrave;rent pas de <strong>pion d'impact</strong> lorsqu'elles sont détruites. Ceci inclus les effets spéciaux créant des pions d'impact lorsqu&rsquo;une unité sacrifiable est ciblée, c'est-&agrave;-dire lorsque les touches sont allouées &agrave; l'unité. Cependant, les unités <strong>Sacrifiables</strong> comptent dans le calcul des pertes lors de la résolution d'un assaut.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Snipers",
+        "kwgenerique": [
+            "Sauvegarde"
+        ],
+        "kwspeciale": [
+            "Sniper"
+        ],
+        "content": "<p>Vous pouvez choisir quelle unité ennemie est touchée parmi celles &agrave; portées et dans la ligne de vue de l'unité <strong>Sniper</strong>. De plus, la cible subit un <span style='text-decoration: underline;''>modificateur de sauvegarde de -1</span>.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Téléportation",
+        "kwgenerique": [
+            "Pion impact",
+            "Zone de contrôle"
+        ],
+        "kwspeciale": [
+            "Téléportation"
+        ],
+        "kwtable": [
+            "Terrain"
+        ],
+        "content": "<p>Les formations dont toutes les unités ont cette capacité peuvent &ecirc;tre gardées en dehors de la table pour appara&icirc;tre au début de n'importe quel tour.</p><p>Placez une unité de la formation &agrave; téléporter n'importe o&ugrave; sur la table <span style='text-decoration: underline;'>avant de déterminer qui gagne le jet de stratégie</span>. Les unités restantes doivent &ecirc;tre placées &agrave; <span style='text-decoration: underline;'>moins de 5 cm</span> des unités de la m&ecirc;me formation déj&agrave; en jeu.</p><p>Toutes les unités doivent &ecirc;tre placées <span style='text-decoration: underline;'>en-dehors des zones de contr&ocirc;les</span> ennemies. Si elles sont placées en terrain dangereux, un test de terrain dangereux doit &ecirc;tre effectué lorsque l'unité est placée sur la table.</p><p>Lancez <strong>1D6</strong> par unité quand elles se téléportent. Sur un résultat de <strong>1</strong> la formation de l'unité re&ccedil;oit <strong>un pion d'impact</strong>.</p>"
+    },
+    {
+        "titlesup": "Unités spéciales",
+        "title3": "Véhicules Légers (VL)",
+        "kwunite": [
+            "Véhicules Légers (VL)"
+        ],
+        "kwgenerique": [
+            "Antichar (AC)",
+            "Antipersonnel (AP)"
+        ],
+        "content": "<p>Les <strong>véhicules légers</strong> peuvent &ecirc;tre affectés &agrave; la fois par des tirs <strong>antichar</strong> et <strong>Antipersonnel (AP)</strong>.<br /><br /></p>"
+    },
+    {
+        "titlesup": "Unités & armes spéciales",
+        "title2": "Armes spéciales",
+        "content": ""
+    },
+    {
+        "titlesup": "Armes spéciales",
+        "title3": "Armes Antiaériennes (AA)",
+        "kwspeciale": [
+            "Armes Antiaériennes (AA)"
+        ],
+        "content": "<p>Les armes <strong>Antiaériennes</strong> ont une caractéristique <strong>AA</strong> et peuvent faire des <strong>tirs antiaérien</strong></p>"
+    },
+    {
+        "titlesup": "Armes spéciales",
+        "title3": "Attaque Supplémentaire",
+        "kwspeciale": [
+            "Attaque Supplémentaire"
+        ],
+        "kwgenerique": [
+            "Tir",
+            "Corps-à-corps (CC)",
+            "Fusillade (FF)"
+        ],
+        "content": "<p>Les unités ainsi équipées re&ccedil;oivent le nombre d'attaques supplémentaires indiqué. Les Attaques supplémentaires peuvent s'appliquer &agrave; des <strong>tirs</strong>, des <strong>Corps-à-corps (CC)</strong> ou des <strong>Fusillade (FF)</strong>.</p>"
+    },
+    {
+        "titlesup": "Armes spéciales",
+        "title3": "Frappe en Premier",
+        "kwspeciale": [
+            "Frappe en Premier",
+            "Attaque Supplémentaire"
+        ],
+        "kwphase": [
+            "Assaut"
+        ],
+        "content": "<p>En <strong>assaut</strong>, résolvez les attaques et les dommages de l'arme avant de faire attaquer les unités ennemies.</p><p>Si cette capacité s'applique &agrave; une arme ayant des <strong>Attaques supplémentaires</strong>, alors <span style='text-decoration: underline;'>seules les Attaques Supplémentaires</span> bénéficient de la capacité <strong>Frappe en Premier</strong>. Si deux unités ennemies ont la capacité Frappe en premier, leurs attaques sont résolues simultanément et les résultats appliqués avant que les autres attaques ne soient effectuées.</p>"
+    },
+    {
+        "titlesup": "Armes spéciales",
+        "title3": "Ignore les Couverts",
+        "keywords": [
+            "Ignore les Couverts"
+        ],
+        "kwtable": [
+            "Terrain",
+            "Couvert"
+        ],
+        "kwgenerique": [
+            "Sauvegarde"
+        ],
+        "content": "<p>Ces armes <span style='text-decoration: underline;'>ignorent</span> les modificateurs de jet pour toucher conférés par les couverts et <strong>annulent</strong> les sauvegardes de couverts</p>"
+    },
+    {
+        "titlesup": "Armes spéciales",
+        "title3": "Lance",
+        "kwspeciale": [
+            "Lance",
+            "Blindage Renforcé"
+        ],
+        "kwgenerique": [
+            "Sauvegarde"
+        ],
+        "content": "<p>Annule la relance de <strong>Blindage renforcé</strong></p>"
+    },
+    {
+        "titlesup": "Armes spéciales",
+        "title3": "Macro-armes (MA)",
+        "keywords": [
+            "Macro-armes (MA)",
+            "Blindage Renforcé",
+            "Attaque Supplémentaire"
+        ],
+        "kwtable": [
+            "Terrain",
+            "Couvert"
+        ],
+        "kwgenerique": [
+            "Sauvegarde"
+        ],
+        "content": "<p>Annule les <strong>sauvegardes</strong> de <span style='text-decoration: underline;'>blindage</span> <span style='text-decoration: underline;'>et de couvert</span>, annule la <strong>relance</strong> du Blindage Renforcé.</p><p>Elles peuvent affecter n'importe quel type de cible.</p><p>Les unités &agrave; bord d'un <strong>véhicule de transport</strong> détruit par une <strong>Macro-arme</strong> n'effectuent un jet de sauvegarde que si elles y ont elles-m&ecirc;mes normalement droit contres de telles armes.</p><p>Certaines armes conf&egrave;rent des <strong>Attaques supplémentaires</strong> ayant la capacité <strong>Macro-arme</strong>. Dans ce cas, cette capacité s'applique <span style='text-decoration: underline;'>seulement aux Attaques supplémentaires</span>.</p><p>Si une formation réalise des touches avec des armes <strong>ordinaires</strong> et des <strong>Macro-armes (MA)</strong>, l'adversaire désigne d'abord les cibles touchées par les <span style='text-decoration: underline;'>attaques ordinaires</span> et fait ses jets de <strong>sauvegarde</strong> puis choisit ensuite les unités touchées par les<strong> Macro-armes (MA)</strong> et fait ses jets de sauvegarde le cas échéant.</p>"
+    },
+    {
+        "titlesup": "Armes spéciales",
+        "title3": "Rupture",
+        "kwgenerique": [
+            "Pion impact"
+        ],
+        "kwspeciale": [
+            "Rupture"
+        ],
+        "content": "<p>Les armes <strong>Rupture</strong> <span style='text-decoration: underline;'>ajoutent un pion d'impact</span> aux formations ennemies pour chaque <span style='text-decoration: underline;'>touche</span> qu'elles infligent <span style='text-decoration: underline;'>plut&ocirc;t que pour chaque perte</span>.</p>"
+    },
+    {
+        "titlesup": "Armes spéciales",
+        "title3": "Rechargement",
+        "kwspeciale": [
+            "Rechargement"
+        ],
+        "content": "<p>Doit passer un tour entier &agrave; se recharger en munitions apr&egrave;s avoir tiré.&nbsp;</p>"
+    },
+    {
+        "titlesup": "Armes spéciales",
+        "title3": "Tir Indirect",
+        "kwphase": [
+            "Tir soutenu"
+        ],
+        "kwspeciale": [
+            "Tir Indirect"
+        ],
+        "content": "<p>Les armes ayant cette capacité peuvent effectuer des <strong>tirs indirects</strong> (sans ligne de vue) lors d'une action de <strong>Tir soutenu.</strong>&nbsp;</p><p>Les <strong>Tirs indirects</strong> bénéficient d'une <span style='text-decoration: underline;'>portée doublée</span>, mais sont soumis &agrave; une <span style='text-decoration: underline;'>portée minimum de 30 cm</span>.</p>"
+    },
+    {
+        "titlesup": "Armes spéciales",
+        "title3": "Tir Unique",
+        "kwspeciale": [
+            "Tir Unique"
+        ],
+        "content": "<p>Un seul tir par bataille.</p>"
+    },
+    {
+        "titlesup": "Armes spéciales",
+        "title3": "Tueur de Titans",
+        "kwgenerique": [
+            "Sauvegarde"
+        ],
+        "kwspeciale": [
+            "Tueur de titan",
+            "Blindage Renforcé"
+        ],
+        "kwtable": [
+            "Couvert"
+        ],
+        "content": "<p>Les unités ennemies touchées par de telles armes <span style='text-decoration: underline;'>ne peuvent pas effectuer de jet de <strong>sauvegarde</strong></span> (m&ecirc;me un jet de sauvegarde de couvert et m&ecirc;me si elles ont la capacité Blindage renforcé). De plus, chaque touche inflige <strong>X</strong> points de dég&acirc;ts aux Engin de guerre (EG).</p>"
+    },
+    {
+        "titlesup": "Unités & armes spéciales",
+        "title2": "Engin de guerre (EG)",
+        "kwunite": [
+            "Engin de guerre (EG)"
+        ],
+        "content": ""
+    },
+    {
+        "titlesup": "Engin de guerre (EG)",
+        "title3": "Capacité de dommage (CD)",
+        "kwunite": [
+            "Engin de guerre (EG)",
+            "Capacité de dommage (CD)"
+        ],
+        "kwgenerique": [
+            "Pion impact"
+        ],
+        "content": "<p>Elle correspond au nombre de <strong>dég&acirc;ts</strong> qu'un <strong>Engin de Guerre (EG)</strong> peut absorber avant d'&ecirc;tre détruit. Chaque touche non sauvegardée réduit la <strong>Capacité de dommages</strong> de l'Engin de guerre (EG) d'un point, et il est détruit lorsque cette caractéristique tombe &agrave; 0.</p><p>Un <strong>Engin de guerre (EG)</strong> équivaut &agrave; un nombre d'unités <span style='text-decoration: underline;'>égal &agrave; sa CD de départ,</span> cette caractéristique détermine également le <span style='text-decoration: underline;'>nombre de dés dont il dispose en assaut</span>, la quantité de pions d'impact requis pour le démoraliser et ainsi de suite.</p>"
+    },
+    {
+        "titlesup": "Engin de guerre (EG)",
+        "title3": "Mouvement des Engin de guerre",
+        "kwunite": [
+            "Engin de guerre (EG)",
+            "Capacité de dommage (CD)"
+        ],
+        "kwgenerique": [
+            "Zone de contrôle",
+            "Mouvement",
+            "Transport",
+            "Embarquer / débarquer",
+            "Tir"
+        ],
+        "kwphase": [
+            "Assaut"
+        ],
+        "content": "<p><strong>Terrain dangereux</strong>: Un Engin de guerre (EG) qui rate un test de terrain dangereux subit un dégat</p><p><strong>Distance de cohésion</strong> : Capacité de Dommages de départ x 5 cm.</p><p><strong>Zone de contr&ocirc;le</strong> : 5cm, perdue si en contact avec un nombre d'unités au moins égal &agrave; leur CD de départ.</p><p><strong>Transport d&rsquo;unité de sa propre formation</strong> : r&egrave;gle identique aux Véhicules de Transport, voir <strong>MOUVEMENT</strong></p><p><strong>Transport d&rsquo;unité d&rsquo;une autre formation</strong> : un Engin de guerre (EG) peut transporter des unités issues d'autres formations, tant que la formation enti&egrave;re peut embarquer dans l'Engin de guerre (EG) lors d'un m&ecirc;me mouvement.&nbsp;</p><p>Pour qu'une formation puisse <strong>embarquer</strong>, les unités qui la constituent doivent <span style='text-decoration: underline;'>se déplacer</span> de fa&ccedil;on &agrave; &ecirc;tre en contact socle &agrave; socle avec l'Engin de guerre (EG) durant leur action. L'Engin de guerre (EG) peut entreprendre une action avant que l'autre formation n'embarque, mais en aucun cas apr&egrave;s. Les unités ne peuvent pas entreprendre d'action durant le transport, mais elles peuvent tenter de se rallier &agrave; la fin du tour.</p><p>Les unités peuvent débarquer normalement &agrave; la fin d&rsquo;un <strong>MOUVEMENT</strong> (elles sont placées dans un rayon de 5cm de l&rsquo;Engin de guerre (EG))</p><p>Une formation débarquant ne peut entreprendre d'action lors du tour o&ugrave; elle débarque, mais peut <strong>TIRER</strong> ou participer &agrave; un <strong>ASSAUTS</strong> s'il en va de m&ecirc;me pour l'Engin de guerre (EG) et les unités transportées comptent comme une unique formation jusqu'&agrave; la résolution des tirs ou de l'assaut. L'Engin de guerre (EG) et la formation débarquée sont considérés comme des formations séparées une fois que l'Engin de guerre (EG) &agrave; compl&egrave;tement terminé son action.</p>"
+    },
+    {
+        "titlesup": "Engin de guerre (EG)",
+        "title3": "Tir des Engin de guerre",
+        "kwunite": [
+            "Engin de guerre (EG)",
+            "Capacité de dommage (CD)",
+            "Boucliers",
+            "Critique",
+            "Corps-à-corps (CC)",
+            "Fusillade (FF)"
+        ],
+        "kwphase": [
+            "Se regrouper"
+        ],
+        "kwgenerique": [
+            "Tir",
+            "Pion impact",
+            "Démoralisée"
+        ],
+        "kwspeciale": [
+            "Gabarit"
+        ],
+        "content": "<p>De mani&egrave;re générale, les Engin de guerre (EG) sont considéré comme des <strong>Véhicules Blindés</strong></p><p><strong>Arc de tir</strong> :&nbsp;</p><p><strong>Allouer les touches aux Engin de guerre (EG)</strong> : on alloue un nombre de touches égal &agrave; la <span style='text-decoration: underline;'>CD de départ</span> de l'Engin de guerre (EG) avant de passer &agrave; une autre unité.</p><p><strong>Formations mixtes</strong> : Si une formation comprend &agrave; la fois des Engin de guerre (EG) et d'autres unités, l'attaquant doit déclarer si certaines attaques sont allouées aux Engin de guerre ou aux autres unités de la formation.</p><p><strong>Gabarit</strong> : si un Engin de guerre (EG) se trouve <span style='text-decoration: underline;'>sous le centre</span> d'un <strong>gabarit</strong>, il subit un nombre d'attaques égal &agrave; la <span style='text-decoration: underline;'>moitié de sa CD</span>, arrondie au supérieur.</p><p><strong>Touches Critiques</strong> : un dég&acirc;t peut infliger un dommage <strong>critique</strong> sur un 6 (sur 1d6)&nbsp;</p><p><strong>Pions Impact</strong> : Lorsqu'un Engin de guerre (EG) perd un point de dommages, la formation dont il fait partie re&ccedil;oit un PI. Si un Engin de guerre (EG) est détruit par une touche critique, sa formation re&ccedil;oit un nombre de PI supplémentaires égal &agrave; la Capacité de Dommages restant qu'aurait d&ucirc; avoir l'Engin de guerre (EG) s'il n'avait pas été détruit.</p><p><strong>Neutralisation/démoralisation</strong> : Il faut un nombre de PI égal &agrave; la CD de départ d'un Engin de guerre (EG) pour le neutraliser ou le démoraliser.</p><p><strong>Boucliers</strong> : Chaque bouclier stoppe automatiquement une touche avant de se désactiver. Ne faites pas de sauvegarde, <span style='text-decoration: underline;'>n'ajoutez pas</span> non plus de pion d'impact pour chaque bouclier désactivé. Une fois que tous les boucliers sont désactivés, l'Engin de guerre (EG) peut &ecirc;tre endommagé normalement.&nbsp;</p><p>Les touches de <strong>Corps-à-corps (CC)</strong> lors d'un assaut <span style='text-decoration: underline;'>ignorent les boucliers</span>, mais pas les unités utilisant leur valeur de Fusillade (FF).</p><p>Un Engin de guerre (EG) récup&egrave;re automatiquement un bouclier désactivé &agrave; la fin de chaque tour.</p><p><strong>Se regrouper </strong>: un Engin de guerre (EG) peut utiliser le résultat de son dé pour retirer des PI ou pour réparer des boucliers.</p>"
+    },
+    {
+        "titlesup": "Engin de guerre (EG)",
+        "title3": "Assaut des Engin de guerre",
+        "kwunite": [
+            "Engin de guerre (EG)",
+            "Capacité de dommage (CD)",
+            "Corps-à-corps (CC)",
+            "Fusillade (FF)"
+        ],
+        "kwphase": [
+            "Assaut"
+        ],
+        "content": "<p><strong>Mouvement de charge</strong> : un Engin de guerre (EG) peut &laquo; pousser &raquo; toute unité n'étant pas un EG et appartenant &agrave; la formation ciblée pendant son mouvement de charge. Déplacez l'Engin de guerre (EG) sur la distance souhaitée, puis placez toutes les unités poussées aussi pr&egrave;s que possible de leur point de départ, mais en contact avec l'Engin de guerre (EG). Un EG peut pousser au max deux unités par point de CD de départ.</p><p>Un Engin de guerre (EG) peut &ecirc;tre chargé par jusqu'&agrave; deux unités par point de sa CD de départ.</p><p><strong>Corps-à-corps (CC) et Fusillade (FF)</strong> : Au lieu d'effectuer un seul jet pour toucher par Engin de guerre (EG) en assaut, jetez un nombre de dés égal &agrave; la CD de départ de chaque Engin de guerre (EG). Vous pouvez diviser ces jets entre les Corps-à-corps (CC) et les Fusillade (FF), sachant que les jets de Corps-à-corps (CC) n'affecteront que les unités en contact tandis que les jets de Fusillade (FF) n'affecteront que les unités situées dans un rayon de 15 cm ne se trouvant pas en contact</p><p><strong>Jets de Résultat</strong> : Pour déterminer les résultats d'un assaut impliquant un Engin de guerre (EG), comptez chaque point de dommage infligé comme une &laquo; perte &raquo;.</p><p>Chaque Engin de guerre (EG) opérationnel compte comme un nombre d'unités égal &agrave; sa CD de départ pour déterminer quel camp est en infériorité numérique. Un Engin de guerre (EG) perdant un assaut encaisse un point de dommage pour chaque point d'écart avec le gagnant. Déterminez normalement les touches critiques.</p>"
+    },
+    {
+        "titlesup": "Unités & armes spéciales",
+        "title2": "Aéronefs",
+        "kwunite": [
+            "Aéronef"
+        ],
+        "content": ""
+    },
+    {
+        "titlesup": "Aéronefs",
+        "title3": "Actions des Aéronefs",
+        "kwunite": [
+            "Aéronef"
+        ],
+        "content": "<p>Les formations aéronavales ne sont pas déployées en même temps que les autres. Elles sont gardées <strong>hors de la table</strong> et peuvent arriver en jeu quand elles entreprennent une action.</p>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Test d'action des aéronefs",
+        "kwunite": [
+            "Aéronef"
+        ],
+        "kwgenerique": [
+            "Pion impact"
+        ],
+        "content": "<p>Le test d'action subit une pénalité de <strong>-1 par Pion Impact </strong>(cumulatif), et une autre pénalité de -1 si la formation tente de <span style='text-decoration: underline;'>conserver l'initiative</span>.</p><p>Tous les PI sont retirés apr&egrave;s ce test, <span style='text-decoration: underline;'>qu'il soit réussi ou non</span>.</p><p>Si le test est <strong>réussi</strong>, la formation peut résoudre l'action annoncée. <strong>Sinon</strong>, elle effectue l'action <span style='text-decoration: underline;'>En attente</span>.</p>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Les Différents Types d'Actions",
+        "kwunite": [
+            "Aéronef",
+            "Chasseurs",
+            "Chasseurs-bombardiers"
+        ],
+        "kwspeciale": [
+            "Flak"
+        ],
+        "kwphase": [
+            "Interception",
+            "Mouvement d'approche",
+            "Désengagement",
+            "Attaque au Sol",
+            "Patrouille Aérienne"
+        ],
+        "content": "<p><strong>Interception</strong> : Chasseurs et Chasseurs-bombardiers <span style='text-decoration: underline;'>uniquement</span>.&nbsp;</p><p>&nbsp;</p><ul><li>placez la formation au contact de votre bord de table.</li><li>faire un <strong>MOUVEMENT D'APPROCHE</strong></li><li>résoudre les éventuelles <strong>FLAK ATTACKS</strong> ennemi</li><li><strong>ATTAQUER LES UNITéS AéRIENNES</strong> ennemies</li><li>A la fin du tour, faire un mouvement de <strong>DéSENGAGEMENT</strong>&nbsp;</li></ul><p>&nbsp;</p><p><strong>Attaque au Sol</strong> :&nbsp;</p><p>&nbsp;</p><ul><li>placez la formation au contact de votre bord de table</li><li>faire un <strong>MOUVEMENT D'APPROCHE</strong></li><li>résoudre les éventuelles <strong>FLAK ATTACKS</strong> ennemi</li><li><strong>ATTAQUER LES UNITéS TERRESTRES</strong> ennemies</li><li>A la fin du tour, faire un mouvement de <strong>DéSENGAGEMENT</strong></li></ul><p><strong>Patrouille Aérienne</strong> : Chasseurs et Chasseurs-bombardiers <span style='text-decoration: underline;'>uniquement</span>.</p><p>Placez la formation en contact avec votre bord de table pour bien désigner son point d'entrée.</p><p>Une formation en <strong>Patrouille Aérienne</strong> peut décider d'entreprendre une action <strong>d'Interception</strong> en réaction &agrave; une action <strong>Attaque au Sol</strong> <span style='text-decoration: underline;'>ennemie</span>. Aucun test d'initiative n'est requis pour réussir l'Interception. Elle a lieu apr&egrave;s que la formation ennemie a réalisé son mouvement d'approche, mais avant que d'éventuelles armes antiaériennes au sol aient tiré sur les attaquants ou que ceux-ci aient fait feu.</p><p>Pas plus d'une formation en <strong>Patrouille Aérienne</strong> ne peut intercepter une formation ennemie remplissant une action Attaque au Sol.&nbsp;</p><p><strong>En Attente</strong> : La formation ne réalise aucune action</p>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Mouvement d'approche",
+        "kwunite": [
+            "Aéronef",
+            "Chasseurs",
+            "Chasseurs-bombardiers"
+        ],
+        "kwphase": [
+            "Interception",
+            "Mouvement d'approche",
+            "Attaque au Sol"
+        ],
+        "content": "<p>Les aéronefs en mouvement <strong>d'approche</strong> peuvent se déplacer d'une distance illimitée. Ils <span style='text-decoration: underline;'>ignorent les terrains</span>, les <span style='text-decoration: underline;'>zones de contr&ocirc;le</span> et <span style='text-decoration: underline;'>toutes les unités</span>. De la m&ecirc;me fa&ccedil;on, les autres unités ignorent les aéronefs.&nbsp;</p><p>Les aéronefs <span style='text-decoration: underline;'>doivent</span> se déplacer en ligne droite d&rsquo;au <strong>minimum 30 cm</strong> avant chaque virage.</p><p><strong>Chasseurs</strong> : un virage de 90&deg; maximum&nbsp;</p><p><strong>Bombardiers</strong> : un virage de 45&deg; maximum&nbsp;</p><p><strong>Chasseurs-bombardiers</strong> : Les Chasseurs-bombardiers se comportent comme des <strong>Bombardiers</strong> quand ils font un mouvement d'approche avant une <strong>Attaque au Sol</strong> (ils sont chargés de bombes et de roquettes) et comme des <strong>Chasseurs</strong> dans tous les autres cas.</p>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Mouvement d'approche",
+        "kwunite": [
+            "Aéronef",
+            "Chasseurs",
+            "Chasseurs-bombardiers"
+        ],
+        "kwphase": [
+            "Interception",
+            "Mouvement d'approche",
+            "Attaque au Sol"
+        ],
+        "content": "<p>Les aéronefs en mouvement <strong>d'approche</strong> peuvent se déplacer d'une distance illimitée. Ils <span style='text-decoration: underline;'>ignorent les terrains</span>, les <span style='text-decoration: underline;'>zones de contr&ocirc;le</span> et <span style='text-decoration: underline;'>toutes les unités</span>. De la m&ecirc;me fa&ccedil;on, les autres unités ignorent les aéronefs.&nbsp;</p><p>Les aéronefs <span style='text-decoration: underline;'>doivent</span> se déplacer en ligne droite d&rsquo;au <strong>minimum 30 cm</strong> avant chaque virage.</p><p><strong>Chasseurs</strong> : un virage de 90&deg; maximum&nbsp;</p><p><strong>Bombardiers</strong> : un virage de 45&deg; maximum&nbsp;</p><p><strong>Chasseurs-bombardiers</strong> : Les Chasseurs-bombardiers se comportent comme des <strong>Bombardiers</strong> quand ils font un mouvement d'approche avant une <strong>Attaque au Sol</strong> (ils sont chargés de bombes et de roquettes) et comme des <strong>Chasseurs</strong> dans tous les autres cas.</p>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Attaquer les unités aériennes",
+        "kwunite": [
+            "Aéronef",
+            "Chasseurs",
+            "Chasseurs-bombardiers"
+        ],
+        "kwphase": [
+            "Mouvement d'approche",
+            "Attaque au Sol"
+        ],
+        "kwspeciale": [
+            "Armes Antiaériennes (AA)"
+        ],
+        "content": "<p>Seules les armes <strong>anti aérienne (AA)</strong> peuvent &ecirc;tre utilisées. Les aéronefs ajoutent <strong>+1</strong> &agrave; leurs jets pour toucher.</p><p>Ignorez les terrains qui bloquent normalement les lignes de vue et la r&egrave;gle du Feu Croisé ne s'applique pas.&nbsp;</p>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Attaquer les unités terrestre",
+        "kwunite": [
+            "Aéronef"
+        ],
+        "kwphase": [
+            "Attaque au Sol"
+        ],
+        "content": "<p>Résolvez les tirs de la fa&ccedil;on habituelle.&nbsp;<span style='text-decoration: underline;'>Ignorez les terrains</span> qui bloquent normalement les lignes de vue&nbsp;</p><p>La r&egrave;gle du Feu Croisé ne s'applique pas. </p>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Flak attack",
+        "kwunite": [
+            "Aéronef"
+        ],
+        "kwphase": [
+            "Désengagement"
+        ],
+        "kwspeciale": [
+            "Armes Antiaériennes (AA)",
+            "Flak"
+        ],
+        "content": "<p>Elles peuvent provenir <strong>d'aéronefs</strong> ou <strong>d'unités terrestres</strong>. Seules les armes <strong>anti-aériennes (AA)</strong> peuvent &ecirc;tre utilisées.</p><p>Ignorez les terrains qui bloquent normalement les lignes de vue. La r&egrave;gle du Feu Croisé ne s'applique pas.&nbsp;</p><p><strong>Flak des aéronefs</strong> : Possible si l&rsquo;aéronef ennemi se trouve dans l&rsquo;arc de tir &agrave; la fin de son mouvement d&rsquo;approche ou de désengagement.</p><p><strong>Flak des unités terrestres</strong> : Possible si l&rsquo;aéronef ennemi est passé dans l&rsquo;arc de tir &agrave; n&rsquo;importe quel moment de son mouvement d&rsquo;approche ou de désengagement.</p><ul><li>ne brise pas l'état d'alerte / ne peut pas &ecirc;tre effectuée par une <span style='text-decoration: underline;'>formation démoralisée</span> ou en <span style='text-decoration: underline;'>redéploiement</span>.</li><li>n'emp&ecirc;che pas les formations les ayant réalisées de tirer plus tard dans le tour.</li></ul><p>Une arme <strong>AA</strong> peut effectuer <span style='text-decoration: underline;'>plusieurs flak attacks par tour</span> sur différentes formations tant qu'elle n'attaque pas la m&ecirc;me plus d'une fois.</p><p>Les flak attacks lors du <strong>désengagement</strong> se font avec un <strong>malus de -1 pour toucher</strong> si l&rsquo;unité terrestre a fait un <span style='text-decoration: underline;'>mouvement</span> durant le tour.</p>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Esquive",
+        "kwunite": [
+            "Aéronef",
+            "Chasseurs",
+            "Chasseurs-bombardiers"
+        ],
+        "kwspeciale": [
+            "Esquive"
+        ],
+        "kwgenerique": [
+            "Sauvegarde"
+        ],
+        "content": "<p>Les <strong>Chasseurs</strong> et <strong>Chasseurs-bombardiers</strong> peuvent choisir d&rsquo;effectuer un <strong>jet de sauvegarde &agrave; 4+</strong> au lieu de leur sauvegarde normale.</p><p>Si vous choisissez de le faire, tous les aéronefs de la formation <span style='text-decoration: underline;'>perdent leurs attaques</span> s'ils ne les ont pas encore faites</p>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Désengagement",
+        "kwunite": [
+            "Aéronef"
+        ],
+        "kwphase": [
+            "Désengagement"
+        ],
+        "content": "<p>Il s'effectue &agrave; la fin du tour, avant de faire les <strong>tests de ralliement</strong> des formations. Les aéronefs peuvent sortir par n'importe quel bord de table. Déplacez l'aéronef comme lors du mouvement d'approche jusqu'&agrave; ce qu'il atteigne un bord.&nbsp;</p>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Pions d'impacts",
+        "kwunite": [
+            "Aéronef"
+        ],
+        "kwphase": [
+            "Mouvement d'approche",
+            "Désengagement"
+        ],
+        "kwgenerique": [
+            "Pion impact"
+        ],
+        "content": "<p>+1 PI pour &ecirc;tre pris sous le feu de l'ennemi. (max 1PI pendant son <strong>mouvement d'approche</strong> et un autre pendant son <strong>désengagement</strong>)</p><p>+1 PI par <strong>perte</strong> (ou par point de dommage) qu'elle subit</p><p>+1 PI si <span style='text-decoration: underline;'>elle ne sort pas par un bord de table <strong>autre que le sien</strong></span></p><p>Les <strong>aéronefs</strong> ne sont jamais <strong>neutralisés</strong> ou <strong>démoralisés</strong> mais ne sont pas non plus autorisés &agrave; se rallier &agrave; la fin du tour.</p><p>Les aéronefs qui atterrissent sont affectés normalement par les PI, et sont autorisés &agrave; se rallier &agrave; la fin du tour.</p>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Transporter des unités terrestres",
+        "kwunite": [
+            "Aéronef"
+        ],
+        "kwgenerique": [
+            "Embarquer / débarquer"
+        ],
+        "kwphase": [
+            "Attaque au Sol"
+        ],
+        "content": "<p>Un <strong>aéronef de transport</strong> doit effectuer une <strong>Attaque au Sol</strong> s'il veut <span style='text-decoration: underline;'>débarquer ou récupérer des troupes</span>. Les aéronefs de transport sont gérés de la m&ecirc;me fa&ccedil;on que les Engin de guerre ayant une capacité de transport.</p><p>Si un <strong>aéronef de transport</strong> est détruit en l'air alors qu'il transportait des troupes, celles-ci sont également perdues (pas de sauvegarde d'aucune sorte !)</p><p><strong>Au sol,</strong> un aéronef est traité<span style='text-decoration: underline;'> comme une unité terrestre</span> avec une vitesse de 0 (il ne peut pas se déplacer). Il ne peut pas entreprendre d'action lors du tour o&ugrave; il atterrit. S'il est engagé dans un assaut perdu par son camp, il est détruit.</p><p>Les aéronefs de transport peuvent déposer ou récupérer des unités en <strong>ATTERRISSANT</strong> ou en effectuant un <strong>ASSAUT AéRIEN</strong>.</p>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Procédure d'atterrissage",
+        "kwunite": [
+            "Aéronef"
+        ],
+        "kwphase": [
+            "Atterrissage",
+            "Attaque au Sol",
+            "Désengagement"
+        ],
+        "kwgenerique": [
+            "Embarquer / débarquer",
+            "Tir"
+        ],
+        "content": "<ol><li>placez la formation au contact de votre bord de table.</li><li>faire un <strong>MOUVEMENT D'APPROCHE</strong></li><li>résoudre les éventuelles <strong>FLAK ATTACKS</strong> ennemi</li><li><strong>Atterrissage de l&rsquo;aéronef</strong> : S'il atterrit en terrain dangereux, il doit effectuer un test de terrain dangereux.</li><li><strong>Débarquement/Embarquement</strong> : Les unités transportées peuvent débarquer et &ecirc;tre placées dans un rayon de 5 cm autour de l'aéronef (les <strong>Antigrav</strong> et les unités équipées de <strong>Réacteurs Dorsaux</strong> peuvent &ecirc;tre placées dans un rayon de 15 cm).Les aéronefs peuvent aussi embarquer des unités amies dans un rayon de 5 cm.</li><li>L&rsquo;aéronef et les unités débarquées peuvent effectuer un <strong>TIR</strong> : Les restrictions s'appliquant aux unités débarquant d'un Engin de guerre (EG) s'appliquent &agrave; celles débarquant d'un aéronef (pas d'action mais peuvent faire feu en m&ecirc;me temps que l'aéronef).</li><li>A la fin du tour, mouvement de <strong>DéSENGAGEMENT</strong> éventuel.</li></ol>"
+    },
+    {
+        "titlesup": "Actions des Aéronefs",
+        "title3": "Procédure d'assaut aérien",
+        "kwunite": [
+            "Aéronef"
+        ],
+        "kwphase": [
+            "Atterrissage",
+            "Assaut",
+            "Désengagement"
+        ],
+        "kwspeciale": [
+            "Flak"
+        ],
+        "content": "<ol><li>placez la formation au contact de votre bord de table.</li><li>choisir la formation attaquée</li><li>faire un <strong>MOUVEMENT D'APPROCHE</strong></li><li>résoudre les éventuelles <strong>FLAK ATTACKS</strong> ennemi</li><li><strong>Atterrissage de l&rsquo;aéronef</strong> : L'aéronef <span style='text-decoration: underline;'>peut entrer dans les zones de contr&ocirc;le</span> de l'ennemi comme s'ils chargeaient.&nbsp;S'il atterrit en terrain dangereux, il doit effectuer un test de terrain dangereux.</li><li><strong>Débarquement/Embarquement</strong> : Les unités transportées peuvent débarquer et &ecirc;tre placées dans un <span style='text-decoration: underline;'>rayon de 5 cm autour de l'aéronef</span> (les Antigrav et les unités équipées de Réacteurs Dorsaux peuvent &ecirc;tre placées dans un rayon de 15 cm).&nbsp;Les unités qui débarquent peuvent entrer dans les zones de contr&ocirc;le de l'ennemi comme s'ils chargeaient. Les aéronefs peuvent aussi embarquer des unités amies dans un rayon de 5 cm.</li><li>On résout <strong>l&rsquo;ASSAUT</strong>, &agrave; partir de la phase III '<em>effectuer les mouvement de contre charge</em>' :&nbsp;L'aéronef et toutes unités qu'il débarque sont traités comme une seule formation pour toute la durée de l'assaut. Si l'aéronef perd un assaut, <span style='text-decoration: underline;'>il est détruit.</span></li><li>A la fin du tour, mouvement de <strong>DéSENGAGEMENT</strong> éventuel.</li></ol>"
+    }
+]

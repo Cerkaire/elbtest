@@ -1,0 +1,1038 @@
+{
+  "codex": "Black légion",
+  "color": "#3B2F2F",
+  "version": "1.6.1",
+  "logo": "bl.png",
+  "categorie": "Armées du Chaos",
+  "faction": "Chaos",
+  "codexRare": 0.33333333,
+  "strategie": "4",
+  "initiative": "Initiative 1+. Les démons mineurs qui n’incluent pas de un démon majeur et la Flotte de Guerre du Chaos : initiative 2+",
+  "groupes": [
+    {
+      "name": "DÉTACHEMENTS DE LA BLACK LEGION",
+      "detail": "Chaque amélioration ne peut être prise qu'une seule fois par détachement et chaque détachement peut recevoir au plus 4 améliorations",
+      "formation": [
+        {
+          "name": "Suite de la Black Légion",
+          "limiteOptionFormation": 4,
+          "GrpPrincipal": true,
+          "limit": 1,
+          "FormationLimitationTag": [
+            {
+              "B": 1
+            }
+          ],
+          "options": [
+            {
+              "name": "8 unités de Marines du Chaos",
+              "ref": "Space Marines du Chaos",
+              "principale": true,
+              "limit": 1,
+              "value": 250
+            },
+            {
+              "name": "Personnage du Chaos / Prince démon",
+              "limit": 1,
+              "tagrefoptions": "SC",
+              "nbrefoptions": 1,
+              "value": 0
+            },
+            {
+              "name": "(0-1) Seigneur du Chaos (Perso)",
+              "ref": "Seigneur du Chaos",
+              "value": 50,
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "refoption": "SC",
+              "min": 0,
+              "max": 1,
+              "note": "Commandant suprême, Sauvegarde Invulnérable"
+            },
+            {
+              "name": "Champion Exalté du Chaos (Perso)",
+              "ref": "Champion Exalté du Chaos",
+              "value": 25,
+              "limit": 1,
+              "refoption": "SC",
+              "min": 0,
+              "max": 1,
+              "note": "Commandant, Meneur, Sauvegarde Invulnérable"
+            },
+            {
+              "name": "Sorcier du Chaos (Perso)",
+              "ref": "Sorcier du Chaos",
+              "value": 25,
+              "limit": 1,
+              "min": 0,
+              "max": 1,
+              "refoption": "SC",
+              "note": "Commandant, Meneur, Sauvegarde Invulnérable"
+            },
+            {
+              "name": "0-1 Prince Démon / Seigneur",
+              "ref": [
+                "Prince Démon",
+                "Seigneur du Chaos"
+              ],
+              "value": 100,
+              "limit": 1,
+              "min": 0,
+              "max": 1,
+              "refoption": "SC"
+            },
+            {
+              "name": "0-1 Prince Démon / Champion",
+              "ref": [
+                "Prince Démon"
+              ],
+              "value": 75,
+              "min": 0,
+              "max": 1,
+              "limit": 1,
+              "refoption": "SC"
+            },
+            {
+              "name": "Porte-icône",
+              "OptionLimitationTag": [
+                {
+                  "A": 1
+                }
+              ],
+              "value": 25,
+              "limit": 1,
+              "note": "Une formation démoniaque peut être prise pour chaque amélioration de porte-icone"
+            },
+            {
+              "name": "Marines du Chaos",
+              "ref": "Space Marines du Chaos",
+              "value": 125,
+              "limit": 1,
+              "note": "4 unités de Space Marines du Chaos (ou Marines du culte)"
+            },
+            {
+              "name": "4 Havocs",
+              "ref": "Havocs",
+              "value": 150,
+              "limit": 1,
+              "note": "Ajoutez 4 unités de Havocs à la formation"
+            },
+            {
+              "name": "1 Obliterators",
+              "ref": "Obliterators",
+              "value": 75,
+              "limit": 1,
+              "note": "Ajoutez jusqu'à 3 unité d'Obliterators à la formation"
+            },
+            {
+              "name": "2 Obliterators",
+              "ref": "Obliterators",
+              "value": 125,
+              "limit": 1,
+              "note": "Ajoutez jusqu'à 3 unité d'Obliterators à la formation"
+            },
+            {
+              "name": "Dreadnoughts",
+              "ref": "Dreadnought du Chaos",
+              "value": 50,
+              "limit": 1,
+              "min": 0,
+              "max": 4,
+              "note": "Ajoutez jusqu’à 4 Dreadnoughts du Chaos à la formation"
+            },
+            {
+              "name": "Transports - Rhinos ou Dreadclaws",
+              "ref": [
+                "Rhino du Chaos",
+                "Dreadclaw"
+              ],
+              "value": 50,
+              "limit": 1,
+              "note": "Ajoutez suffisamment de Rhinos Chaos pour transporter la formation",
+              "nbrefoptions": 1,
+              "tagrefoptions": "TR"
+            },
+            {
+              "name": "Dreadclaw",
+              "ref": "Dreadclaw",
+              "value": 0,
+              "limit": 1,
+              "note": "Ajoutez suffisamment de Dreadclaws pour transporter la formation",
+              "refoption": "TR",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Rhinos",
+              "ref": "Rhino du Chaos",
+              "value": 0,
+              "limit": 1,
+              "note": "Ajoutez suffisamment de Rhinos Chaos pour transporter la formation",
+              "refoption": "TR",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Defilers",
+              "ref": "Defiler",
+              "value": 0,
+              "limit": 1,
+              "nbrefoptions": 1,
+              "tagrefoptions": "DE"
+            },
+            {
+              "name": "Defilers x1",
+              "ref": "Defiler",
+              "value": 75,
+              "refoption": "DE",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Defilers x2",
+              "ref": "Defiler",
+              "value": 125,
+              "refoption": "DE",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "1 Stalker",
+              "ref": "Stalker",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Support Lourds",
+              "ref": [
+                "Vindicator du Chaos",
+                "Prédator du Chaos"
+              ],
+              "value": 75,
+              "limit": 1,
+              "nbrefoptions": 1,
+              "tagrefoptions": "SL"
+            },
+            {
+              "name": "2 Vindicators du Chaos",
+              "ref": "Vindicator du Chaos",
+              "value": 75,
+              "min": 0,
+              "max": 1,
+              "refoption": "SL"
+            },
+            {
+              "name": "2 Prédators du Chaos",
+              "ref": "Prédator du Chaos",
+              "value": 75,
+              "min": 0,
+              "max": 1,
+              "refoption": "SL"
+            },
+            {
+              "name": "Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 0,
+              "nbrefoptions": 1,
+              "tagrefoptions": "LR",
+              "limit": 1
+            },
+            {
+              "name": "1 Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 75,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "2 Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 125,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "3 Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 200,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "4 Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 250,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "5 Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 325,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "6 Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 400,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "0-2 Suite d'élus",
+          "FormationLimite": 2,
+          "limiteOptionFormation": 4,
+          "options": [
+            {
+              "name": "unités d’Élus Terminators du Chaos",
+              "ref": "Élus Terminators du Chaos",
+              "principale": true,
+              "value": 50,
+              "limit": 1,
+              "min": 4,
+              "max": 6
+            },
+            {
+              "name": "Personnage du Chaos / Prince démon",
+              "limit": 1,
+              "tagrefoptions": "SC",
+              "nbrefoptions": 1,
+              "value": 0
+            },
+            {
+              "name": "(0-1) Seigneur du Chaos (Perso)",
+              "ref": "Seigneur du Chaos",
+              "value": 50,
+              "limit": 1,
+              "limiteOptionGlobal": 1,
+              "refoption": "SC",
+              "min": 0,
+              "max": 1,
+              "note": "Commandant suprême, Sauvegarde Invulnérable"
+            },
+            {
+              "name": "Champion Exalté du Chaos (Perso)",
+              "ref": "Champion Exalté du Chaos",
+              "value": 25,
+              "limit": 1,
+              "refoption": "SC",
+              "min": 0,
+              "max": 1,
+              "note": "Commandant, Meneur, Sauvegarde Invulnérable"
+            },
+            {
+              "name": "Sorcier du Chaos (Perso)",
+              "ref": "Sorcier du Chaos",
+              "value": 25,
+              "limit": 1,
+              "min": 0,
+              "max": 1,
+              "refoption": "SC",
+              "note": "Commandant, Meneur, Sauvegarde Invulnérable"
+            },
+            {
+              "name": "0-1 Prince Démon / Seigneur",
+              "ref": [
+                "Prince Démon",
+                "Seigneur du Chaos"
+              ],
+              "value": 100,
+              "limit": 1,
+              "min": 0,
+              "max": 1,
+              "refoption": "SC"
+            },
+            {
+              "name": "0-1 Prince Démon / Champion",
+              "ref": [
+                "Prince Démon"
+              ],
+              "value": 75,
+              "limit": 1,
+              "min": 0,
+              "max": 1,
+              "refoption": "SC"
+            },
+            {
+              "name": "Porte-icône",
+              "OptionLimitationTag": [
+                {
+                  "A": 1
+                }
+              ],
+              "value": 25,
+              "limit": 1,
+              "note": "Une formation démoniaque peut être prise pour chaque amélioration de porte-icone"
+            },
+            {
+              "name": "1 Obliterators",
+              "ref": "Obliterators",
+              "value": 75,
+              "limit": 1,
+              "note": "Ajoutez jusqu'à 3 unité d'Obliterators à la formation"
+            },
+            {
+              "name": "2 Obliterators",
+              "ref": "Obliterators",
+              "value": 125,
+              "limit": 1,
+              "note": "Ajoutez jusqu'à 3 unité d'Obliterators à la formation"
+            },
+            {
+              "name": "Dreadnoughts",
+              "ref": "Dreadnought du Chaos",
+              "value": 50,
+              "limit": 1,
+              "min": 0,
+              "max": 4,
+              "note": "Ajoutez jusqu’à 4 Dreadnoughts du Chaos à la formation"
+            },
+            {
+              "name": "Transports - Elus",
+              "value": 0,
+              "tagrefoptions": "TE",
+              "nbrefoptions": 1,
+              "limit": 1
+            },
+            {
+              "name": "Transports - Dreadclaws",
+              "value": 25,
+              "limit": 1,
+              "refoption": "TE",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Transports - Téléportation",
+              "value": 50,
+              "limit": 1,
+              "refoption": "TE",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Defilers",
+              "ref": "Defiler",
+              "value": 0,
+              "limit": 1,
+              "nbrefoptions": 1,
+              "tagrefoptions": "DE"
+            },
+            {
+              "name": "Defilers x1",
+              "ref": "Defiler",
+              "value": 75,
+              "limit": 1,
+              "refoption": "DE",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Defilers x2",
+              "ref": "Defiler",
+              "value": 125,
+              "limit": 1,
+              "refoption": "DE",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "1 Stalker",
+              "ref": "Stalker",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Support Lourds",
+              "ref": [
+                "Vindicator du Chaos",
+                "Prédator du Chaos"
+              ],
+              "value": 75,
+              "limit": 1,
+              "nbrefoptions": 1,
+              "tagrefoptions": "SL"
+            },
+            {
+              "name": "2 Vindicators du Chaos",
+              "ref": "Vindicator du Chaos",
+              "value": 75,
+              "limit": 1,
+              "min": 0,
+              "max": 1,
+              "refoption": "SL"
+            },
+            {
+              "name": "2 Prédators du Chaos",
+              "ref": "Prédator du Chaos",
+              "value": 75,
+              "limit": 1,
+              "min": 0,
+              "max": 1,
+              "refoption": "SL"
+            },
+            {
+              "name": "Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 0,
+              "nbrefoptions": 1,
+              "tagrefoptions": "LR",
+              "limit": 1
+            },
+            {
+              "name": "1 Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 75,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "2 Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 125,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "3 Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 200,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "4 Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 250,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "5 Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 325,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "6 Land Raiders",
+              "ref": "Land Raider du Chaos",
+              "value": 400,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "0-1 Culte Raptor",
+          "FormationLimite": 1,
+          "limiteOptionFormation": 4,
+          "options": [
+            {
+              "name": "6 unités de Raptors",
+              "ref": "Raptors",
+              "principale": true,
+              "unique": "A",
+              "limit": 1,
+              "value": 200
+            },
+            {
+              "name": "8 unités de Raptors",
+              "ref": "Raptors",
+              "principale": true,
+              "unique": "A",
+              "limit": 1,
+              "value": 275
+            },
+            {
+              "name": "Personnage du Chaos / Prince démon",
+              "limit": 1,
+              "LimitationTagOption": "PC",
+              "tagrefoptions": "SC",
+              "nbrefoptions": 1,
+              "value": 0
+            },
+            {
+              "name": "(0-1) Seigneur du Chaos (Perso)",
+              "ref": "Seigneur du Chaos",
+              "value": 50,
+              "limiteOptionGlobal": 1,
+              "refoption": "SC",
+              "limit": 1,
+              "min": 0,
+              "max": 1,
+              "note": "Commandant suprême, Sauvegarde Invulnérable"
+            },
+            {
+              "name": "Champion Exalté du Chaos (Perso)",
+              "ref": "Champion Exalté du Chaos",
+              "value": 25,
+              "limit": 1,
+              "refoption": "SC",
+              "min": 0,
+              "max": 1,
+              "note": "Commandant, Meneur, Sauvegarde Invulnérable"
+            },
+            {
+              "name": "Sorcier du Chaos (Perso)",
+              "ref": "Sorcier du Chaos",
+              "value": 25,
+              "limit": 1,
+              "min": 0,
+              "max": 1,
+              "refoption": "SC",
+              "note": "Commandant, Meneur, Sauvegarde Invulnérable"
+            },
+            {
+              "name": "0-1 Prince Démon / Seigneur",
+              "ref": [
+                "Prince Démon",
+                "Seigneur du Chaos"
+              ],
+              "value": 100,
+              "min": 0,
+              "max": 1,
+              "limit": 1,
+              "refoption": "SC"
+            },
+            {
+              "name": "0-1 Prince Démon / Champion",
+              "ref": [
+                "Prince Démon"
+              ],
+              "value": 75,
+              "min": 0,
+              "max": 1,
+              "limit": 1,
+              "refoption": "SC"
+            },
+            {
+              "name": "Porte-icône",
+              "OptionLimitationTag": [
+                {
+                  "A": 1
+                }
+              ],
+              "value": 25,
+              "limit": 1,
+              "note": "Une formation démoniaque peut être prise pour chaque amélioration de porte-icone"
+            }
+          ]
+        },
+        {
+          "name": "Forlorn Hope (0-1 par Suite de la BL)",
+          "limiteOptionFormation": 4,
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "4 unités de Forlorn Hope et 2 Rhinos du Chaos",
+              "ref": [
+                "Forlorn Hope",
+                "Rhino du Chaos"
+              ],
+              "principale": true,
+              "limit": 1,
+              "value": 150
+            }
+          ]
+        },
+        {
+          "name": "Compagnie de Motos",
+          "limiteOptionFormation": 4,
+          "options": [
+            {
+              "name": "8 unités de Motos du Chaos",
+              "ref": "Motos du Chaos",
+              "principale": true,
+              "limit": 1,
+              "value": 250
+            },
+            {
+              "name": "Personnage du Chaos",
+              "limiteOptionGlobal": 1,
+              "tagrefoptions": "SC",
+              "nbrefoptions": 1,
+              "limit": 1,
+              "value": 0
+            },
+            {
+              "name": "(0-1) Seigneur du Chaos (Perso)",
+              "ref": "Seigneur du Chaos",
+              "value": 50,
+              "limiteOptionGlobal": 1,
+              "refoption": "SC",
+              "unique": "PC",
+              "limit": 1,
+              "min": 0,
+              "max": 1,
+              "note": "Commandant suprême, Sauvegarde Invulnérable"
+            },
+            {
+              "name": "Champion Exalté du Chaos (Perso)",
+              "ref": "Champion Exalté du Chaos",
+              "value": 25,
+              "refoption": "SC",
+              "unique": "PC",
+              "min": 0,
+              "max": 1,
+              "limit": 1,
+              "note": "Commandant, Meneur, Sauvegarde Invulnérable"
+            },
+            {
+              "name": "Sorcier du Chaos (Perso)",
+              "ref": "Sorcier du Chaos",
+              "value": 25,
+              "min": 0,
+              "max": 1,
+              "limit": 1,
+              "unique": "PC",
+              "refoption": "SC",
+              "note": "Commandant, Meneur, Sauvegarde Invulnérable"
+            },
+            {
+              "name": "Porte-icône",
+              "GrpPrincipal": true,
+              "OptionLimitationTag": [
+                {
+                  "A": 1
+                }
+              ],
+              "value": 25,
+              "limit": 1,
+              "note": "Une formation démoniaque peut être prise pour chaque amélioration de porte-icone"
+            }
+          ]
+        },
+        {
+          "name": "Compagnie Blindée",
+          "limiteOptionFormation": 4,
+          "options": [
+            {
+              "name": "4 Land Raiders du Chaos",
+              "ref": "Land Raider du Chaos",
+              "principale": true,
+              "unique": "B",
+              "limit": 1,
+              "value": 300
+            },
+            {
+              "name": "4 Predators du Chaos",
+              "ref": "Prédator du Chaos",
+              "principale": true,
+              "unique": "B",
+              "limit": 1,
+              "value": 200
+            },
+            {
+              "name": "1 Stalker",
+              "ref": "Stalker",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Support Lourd - 2 Vindicators du Chaos",
+              "ref": "Vindicator du Chaos",
+              "limit": 1,
+              "value": 75
+            },
+            {
+              "name": "Support Lourd - 4 Vindicators du Chaos",
+              "ref": "Vindicator du Chaos",
+              "limit": 1,
+              "value": 150
+            },
+            {
+              "name": "Support Lourd - 2 Predators du Chaos",
+              "ref": "Prédator du Chaos",
+              "limit": 1,
+              "value": 75
+            },
+            {
+              "name": "Support Lourd - 4 Predators du Chaos",
+              "ref": "Prédator du Chaos",
+              "limit": 1,
+              "value": 150
+            },
+            {
+              "name": "1 Land Raiders du Chaos",
+              "ref": "Land Raider du Chaos",
+              "limit": 1,
+              "value": 75
+            },
+            {
+              "name": "2 Land Raiders du Chaos",
+              "ref": "Land Raider du Chaos",
+              "limit": 1,
+              "value": 125
+            },
+            {
+              "name": "3 Land Raiders du Chaos",
+              "ref": "Land Raider du Chaos",
+              "limit": 1,
+              "value": 200
+            },
+            {
+              "name": "4 Land Raiders du Chaos ",
+              "ref": "Land Raider du Chaos",
+              "limit": 1,
+              "value": 250
+            }
+          ]
+        },
+        {
+          "name": "Compagnie d'Assaut",
+          "limiteOptionFormation": 4,
+          "options": [
+            {
+              "name": "Decimators",
+              "ref": "Decimator",
+              "principale": true,
+              "value": 225,
+              "limit": 1,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "1 Stalker",
+              "ref": "Stalker",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "+1 Defilers",
+              "ref": "Defiler",
+              "limit": 1,
+              "value": 75
+            },
+            {
+              "name": "+2 Defilers",
+              "ref": "Defiler",
+              "limit": 1,
+              "value": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "POOL DÉMONIAQUE",
+      "detail": "Une formation démoniaque peut être prise pour chaque amélioration de porte-icone",
+      "formation": [
+        {
+          "name": "0-2 Démons Mineurs",
+          "FormationLimite": 2,
+          "LimitationTagOption": "A",
+          "options": [
+            {
+              "name": "8 unités de Démons Mineurs",
+              "ref": [
+                "Bêtes démoniaques",
+                "Sanguinaires",
+                "Incendiaires",
+                "Portepestes",
+                "Démonettes"
+              ],
+              "principale": true,
+              "limit": 1,
+              "value": 175
+            },
+            {
+              "name": "0-1 Démon Majeur",
+              "ref": [
+                "Buveur de Sang",
+                "Duc du Changement",
+                "Grand Immonde",
+                "Gardien des Secrets"
+              ],
+              "value": 50,
+              "limit": 1,
+              "note": "Uniquement si le Démon Majeur n’a pas été pris comme choix de Détachement"
+            }
+          ]
+        },
+        {
+          "name": "0-1 Démon Majeur",
+          "FormationLimite": 1,
+          "LimitationTagOption": "A",
+          "options": [
+            {
+              "name": "Buveur de Sang",
+              "ref": "Buveur de Sang",
+              "principale": true,
+              "unique": "D",
+              "limit": 1,
+              "limiteOptionGlobal": 1,
+              "value": 200
+            },
+            {
+              "name": "Duc du Changement",
+              "ref": "Duc du Changement",
+              "principale": true,
+              "unique": "D",
+              "limit": 1,
+              "limiteOptionGlobal": 1,
+              "value": 200
+            },
+            {
+              "name": "Grand Immonde",
+              "ref": "Grand Immonde",
+              "principale": true,
+              "unique": "D",
+              "limit": 1,
+              "limiteOptionGlobal": 1,
+              "value": 200
+            },
+            {
+              "name": "Gardien des Secrets",
+              "ref": "Gardien des Secrets",
+              "principale": true,
+              "unique": "D",
+              "limit": 1,
+              "limiteOptionGlobal": 1,
+              "value": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLOTTE DE GUERRE DU CHAOS",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Escadrille d’Intercepteurs Hellblade",
+          "rare": true,
+          "options": [
+            {
+              "name": "3 Hellblades",
+              "limit": 1,
+              "ref": "Intercepteur Hellblade",
+              "principale": true,
+              "value": 200
+            }
+          ]
+        },
+        {
+          "name": "Escadrille de Chasseurs-Bombardiers Helltalon",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Helltalons",
+              "limit": 1,
+              "ref": "Chasseur-Bombardier Helltalon",
+              "principale": true,
+              "value": 225
+            }
+          ]
+        },
+        {
+          "name": "Soutien Orbital",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Croiseur Devastation",
+              "ref": "Croiseur de Classe Devastation",
+              "principale": true,
+              "limit": 1,
+              "unique": "E",
+              "value": 200
+            },
+            {
+              "name": "1 Cuirassé Despoiler",
+              "ref": "Cuirassé de Classe Despoiler",
+              "principale": true,
+              "limit": 1,
+              "unique": "E",
+              "value": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SOUTIEN TITANIQUE DES LÉGIONS RENÉGATES",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "DeathWheel",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 DeathWheel",
+              "ref": "Deathweel",
+              "principale": true,
+              "limit": 1,
+              "value": 275
+            }
+          ]
+        },
+        {
+          "name": "Titan Feral",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Feral",
+              "ref": "Titan Feral",
+              "principale": true,
+              "limit": 1,
+              "value": 300
+            }
+          ]
+        },
+        {
+          "name": "Titan Ravager",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Ravager",
+              "ref": "Titan Ravager",
+              "principale": true,
+              "limit": 1,
+              "value": 650
+            }
+          ]
+        },
+        {
+          "name": "Titan Banelord",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Banelord",
+              "ref": "Titan Banelord",
+              "principale": true,
+              "limit": 1,
+              "value": 850
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1315 @@
+{
+  "codex": "Death Korps of Krieg",
+  "color": "#30545e",
+  "version": "1.3.2",
+  "logo": "dkok.png",
+  "categorie": "Armées de l Imperium",
+  "faction": "Impérium",
+  "codexRare": 0.33333333,
+  "strategie": "2",
+  "initiative": "Initiative de 2+, sauf soutiens de l’Adeptus Titanicus initiative 1+",
+  "groupes": [
+    {
+      "name": "COMPAGNIES DE LA DEATH KORPS DE KRIEG",
+      "detail": "Chaque amélioration ne peut être prise qu'une seule fois par formation et jusqu'à un maximum de 3",
+      "formation": [
+        {
+          "name": "0-1 QG Régimentaire",
+          "FormationLimite": 1,
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "1 unité de Quartier Général DKOK + 12 unités de Fantassins DKOK",
+              "value": 250,
+              "ref": [
+                "Quartier Général DKOK",
+                "Fantassins DKOK",
+                "Commissaire"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Peloton Appui-feu DKOK (x4)",
+              "ref": "Appui-feu DKOK",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Peloton d’Infanterie (x6)",
+              "value": 100,
+              "ref": "Fantassins DKOK",
+              "limit": 1
+            },
+            {
+              "name": "Peloton de support",
+              "note": "Ajouter 4 Quads Launchers ou 4 Mortiers Lourds",
+              "value": 125,
+              "limit": 1,
+              "tagrefoptions": "PS",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Quads Launchers (x4)",
+              "ref": "Quad Launcher",
+              "value": 0,
+              "refoption": "PS",
+              "min": 0,
+              "max": 1,
+              "limit": 1
+            },
+            {
+              "name": "Mortiers Lourds (x4)",
+              "ref": "Mortier Lourd DKOK",
+              "value": 0,
+              "refoption": "PS",
+              "min": 0,
+              "max": 1,
+              "limit": 1
+            },
+            {
+              "name": "Transport de Siège",
+              "note": "Ajouter 2 Gorgones ou 2 Gorgones Mortiers",
+              "value": 175,
+              "limit": 1,
+              "tagrefoptions": "TS",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Gorgones (x2)",
+              "ref": "Gorgone",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "TS",
+              "limit": 1
+            },
+            {
+              "name": "Gorgone Mortiers (x2)",
+              "ref": "Gorgone (Mortiers)",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "TS",
+              "limit": 1
+            },
+            {
+              "name": "Escadron de Chars Leman Russ",
+              "note": "Ajouter 3 Leman Russ ou 3 Leman Russ Thunderer",
+              "value": 175,
+              "limit": 1,
+              "tagrefoptions": "LR",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Leman Russ x3",
+              "ref": "Leman Russ",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "Leman Russ Thunderer x3",
+              "ref": "Leman Russ Thunderer",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "Escadron de 3 Hellhounds",
+              "ref": "Hellhound",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Batterie de Griffons",
+              "ref": "Griffon",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Char Lourds",
+              "note": "Ajouter 1 Macharius Vulcain ou 1 Macharius",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "CL",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Macharius Vulcain",
+              "ref": "Macharius Vulcain",
+              "value": 150,
+              "limit": 1,
+              "refoption": "CL",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Macharius",
+              "ref": "Macharius",
+              "value": 125,
+              "limit": 1,
+              "refoption": "CL",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        },
+        {
+          "name": "Compagnie d’Infanterie",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "1 unité de Commandant DKOK + 12 unités de Fantassins DKOK",
+              "value": 200,
+              "ref": [
+                "Commandement DKOK",
+                "Fantassins DKOK",
+                "Commissaire"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Peloton Appui-feu DKOK (x4)",
+              "ref": "Appui-feu DKOK",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Peloton d’Infanterie (x6)",
+              "value": 100,
+              "ref": "Fantassins DKOK",
+              "limit": 1
+            },
+            {
+              "name": "Peloton de support",
+              "note": "Ajouter 4 Quads Launchers ou 4 Mortiers Lourds",
+              "value": 125,
+              "limit": 1,
+              "tagrefoptions": "PS",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Quads Launchers (x4)",
+              "ref": "Quad Launcher",
+              "value": 0,
+              "refoption": "PS",
+              "min": 0,
+              "max": 1,
+              "limit": 1
+            },
+            {
+              "name": "Mortiers Lourds (x4)",
+              "ref": "Mortier Lourd DKOK",
+              "value": 0,
+              "refoption": "PS",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Transport de Siège",
+              "note": "Ajouter 2 Gorgones ou 2 Gorgones Mortiers",
+              "value": 175,
+              "limit": 1,
+              "tagrefoptions": "TS",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Gorgones (x2)",
+              "ref": "Gorgone",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "TS",
+              "limit": 1
+            },
+            {
+              "name": "Gorgone Mortiers (x2)",
+              "ref": "Gorgone (Mortiers)",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "TS",
+              "limit": 1
+            },
+            {
+              "name": "Escadron de Chars Leman Russ",
+              "note": "Ajouter 3 Leman Russ ou 3 Leman Russ Thunderer",
+              "value": 175,
+              "limit": 1,
+              "tagrefoptions": "LR",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Leman Russ x3",
+              "ref": "Leman Russ",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "Leman Russ Thunderer x3",
+              "ref": "Leman Russ Thunderer",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "Escadron de 3 Hellhounds",
+              "ref": "Hellhound",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Batterie de Griffons",
+              "ref": "Griffon",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Char Lourds",
+              "value": 0,
+              "limit": 1,
+              "unique": "M",
+              "tagrefoptions": "CL",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "1 Macharius Vulcain",
+              "ref": "Macharius Vulcain",
+              "value": 150,
+              "limit": 1,
+              "refoption": "CL",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "1 Macharius",
+              "ref": "Macharius",
+              "value": 125,
+              "limit": 1,
+              "refoption": "CL",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        },
+        {
+          "name": "Compagnie de Death Riders",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "1 unité de Commandant Death Riders + 11 unités de Death Riders",
+              "value": 250,
+              "ref": [
+                "Commandement Death Riders",
+                "Death Riders",
+                "Commissaire"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Peloton Appui-feu DKOK (x4)",
+              "ref": "Appui-feu DKOK",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Peloton d’Infanterie (x6)",
+              "value": 100,
+              "ref": "Fantassins DKOK",
+              "limit": 1
+            },
+            {
+              "name": "Peloton de support",
+              "note": "Ajouter 4 Quads Launchers ou 4 Mortiers Lourds",
+              "value": 125,
+              "limit": 1,
+              "tagrefoptions": "PS",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Quads Launchers (x4)",
+              "ref": "Quad Launcher",
+              "value": 0,
+              "refoption": "PS",
+              "min": 0,
+              "max": 1,
+              "limit": 1
+            },
+            {
+              "name": "Mortiers Lourds (x4)",
+              "ref": "Mortier Lourd DKOK",
+              "value": 0,
+              "refoption": "PS",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Escadron de Chars Leman Russ",
+              "note": "Ajouter 3 Leman Russ ou 3 Leman Russ Thunderer",
+              "value": 175,
+              "limit": 1,
+              "tagrefoptions": "LR",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Leman Russ x3",
+              "ref": "Leman Russ",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "Leman Russ Thunderer x3",
+              "ref": "Leman Russ Thunderer",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "Escadron de 3 Hellhounds",
+              "ref": "Hellhound",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Batterie de Griffons",
+              "ref": "Griffon",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Char Lourds",
+              "value": 0,
+              "limit": 1,
+              "unique": "M",
+              "tagrefoptions": "CL",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "1 Macharius Vulcain",
+              "ref": "Macharius Vulcain",
+              "value": 150,
+              "limit": 1,
+              "refoption": "CL",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "1 Macharius",
+              "ref": "Macharius",
+              "value": 125,
+              "limit": 1,
+              "refoption": "CL",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        },
+        {
+          "name": "Compagnie d'Artillerie",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "9 unités parmi : Canon Antiaérien Lourd, Canon Séisme et Canon Medusa (+ 9 emplacements d’artillerie)",
+              "value": 400,
+              "ref": [
+                "Commissaire"
+              ],
+              "principale": true,
+              "tagrefoptions": "CA",
+              "nbrefoptions": 9
+            },
+            {
+              "name": "Canon Séisme",
+              "ref": "Canon Séisme",
+              "value": 0,
+              "refoption": "CA",
+              "min": 0,
+              "max": 9
+            },
+            {
+              "name": "Canon Antiaérien Lourd",
+              "ref": "Canon Antiaérien Lourd",
+              "value": 0,
+              "refoption": "CA",
+              "min": 0,
+              "max": 9
+            },
+            {
+              "name": "Canon Medusa",
+              "ref": "Plateforme Medusa",
+              "value": 0,
+              "refoption": "CA",
+              "min": 0,
+              "max": 9
+            },
+            {
+              "name": "Peloton Appui-feu DKOK (x4)",
+              "ref": "Appui-feu DKOK",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Peloton d’Infanterie (x6)",
+              "value": 100,
+              "ref": "Fantassins DKOK",
+              "limit": 1
+            },
+            {
+              "name": "Peloton de support",
+              "note": "Ajouter 4 Quads Launchers ou 4 Mortiers Lourds",
+              "value": 125,
+              "limit": 1,
+              "tagrefoptions": "PS",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Quads Launchers (x4)",
+              "ref": "Quad Launcher",
+              "value": 0,
+              "refoption": "PS",
+              "min": 0,
+              "max": 1,
+              "limit": 1
+            },
+            {
+              "name": "Mortiers Lourds (x4)",
+              "ref": "Mortier Lourd DKOK",
+              "value": 0,
+              "refoption": "PS",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Escadron de Chars Leman Russ",
+              "note": "Ajouter 3 Leman Russ ou 3 Leman Russ Thunderer",
+              "value": 175,
+              "limit": 1,
+              "tagrefoptions": "LR",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Leman Russ x3",
+              "ref": "Leman Russ",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "Leman Russ Thunderer x3",
+              "ref": "Leman Russ Thunderer",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "Escadron de 3 Hellhounds",
+              "ref": "Hellhound",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Batterie de Griffons",
+              "ref": "Griffon",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Char Lourds",
+              "value": 0,
+              "limit": 1,
+              "unique": "M",
+              "tagrefoptions": "CL",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "1 Macharius Vulcain",
+              "ref": "Macharius Vulcain",
+              "value": 150,
+              "limit": 1,
+              "refoption": "CL",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "1 Macharius",
+              "ref": "Macharius",
+              "value": 125,
+              "limit": 1,
+              "refoption": "CL",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        },
+        {
+          "name": "Compagnie de Chars Lourds",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "2 Macharius et 1 Char Lourd de Commandement Macharius",
+              "ref": [
+                "Commissaire",
+                "Macharius",
+                "Char de Commandement Macharius"
+              ],
+              "value": 325,
+              "principale": true,
+              "unique": "CCL"
+            },
+            {
+              "name": "3 Macharius Vulcain",
+              "ref": [
+                "Commissaire",
+                "Macharius Vulcain"
+              ],
+              "value": 375,
+              "principale": true,
+              "unique": "CCL"
+            },
+            {
+              "name": "Peloton Appui-feu DKOK (x4)",
+              "ref": "Appui-feu DKOK",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Peloton d’Infanterie (x6)",
+              "value": 100,
+              "ref": "Fantassins DKOK",
+              "limit": 1
+            },
+            {
+              "name": "Peloton de support",
+              "note": "Ajouter 4 Quads Launchers ou 4 Mortiers Lourds",
+              "value": 125,
+              "limit": 1,
+              "tagrefoptions": "PS",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Quads Launchers (x4)",
+              "ref": "Quad Launcher",
+              "value": 0,
+              "refoption": "PS",
+              "min": 0,
+              "max": 1,
+              "limit": 1
+            },
+            {
+              "name": "Mortiers Lourds (x4)",
+              "ref": "Mortier Lourd DKOK",
+              "value": 0,
+              "refoption": "PS",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Escadron de Chars Leman Russ",
+              "note": "Ajouter 3 Leman Russ ou 3 Leman Russ Thunderer",
+              "value": 175,
+              "limit": 1,
+              "tagrefoptions": "LR",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Leman Russ x3",
+              "ref": "Leman Russ",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "Leman Russ Thunderer x3",
+              "ref": "Leman Russ Thunderer",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "Escadron de 3 Hellhounds",
+              "ref": "Hellhound",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Batterie de Griffons",
+              "ref": "Griffon",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Char Lourds",
+              "value": 0,
+              "limit": 1,
+              "unique": "M",
+              "tagrefoptions": "CL",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "1 Macharius Vulcain",
+              "ref": "Macharius Vulcain",
+              "value": 150,
+              "limit": 1,
+              "refoption": "CL",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "1 Macharius",
+              "ref": "Macharius",
+              "value": 125,
+              "limit": 1,
+              "refoption": "CL",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        },
+        {
+          "name": "Compagnie de Leman Russ",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "1 Leman Russ Vanquisher et 9 Leman Russ",
+              "ref": [
+                "Commissaire",
+                "Leman Russ Vanquisher",
+                "Leman Russ"
+              ],
+              "value": 600,
+              "principale": true
+            },
+            {
+              "name": "Peloton Appui-feu DKOK (x4)",
+              "ref": "Appui-feu DKOK",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Peloton d’Infanterie (x6)",
+              "value": 100,
+              "ref": "Fantassins DKOK",
+              "limit": 1
+            },
+            {
+              "name": "Peloton de support",
+              "note": "Ajouter 4 Quads Launchers ou 4 Mortiers Lourds",
+              "value": 125,
+              "limit": 1,
+              "tagrefoptions": "PS",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Quads Launchers (x4)",
+              "ref": "Quad Launcher",
+              "value": 0,
+              "refoption": "PS",
+              "min": 0,
+              "max": 1,
+              "limit": 1
+            },
+            {
+              "name": "Mortiers Lourds (x4)",
+              "ref": "Mortier Lourd DKOK",
+              "value": 0,
+              "refoption": "PS",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Escadron de Chars Leman Russ",
+              "note": "Ajouter 3 Leman Russ ou 3 Leman Russ Thunderer",
+              "value": 175,
+              "limit": 1,
+              "tagrefoptions": "LR",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Leman Russ x3",
+              "ref": "Leman Russ",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "Leman Russ Thunderer x3",
+              "ref": "Leman Russ Thunderer",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "LR",
+              "limit": 1
+            },
+            {
+              "name": "Escadron de 3 Hellhounds",
+              "ref": "Hellhound",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Batterie de Griffons",
+              "ref": "Griffon",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Char Lourds",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "CL",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "1 Macharius Vulcain",
+              "ref": "Macharius Vulcain",
+              "value": 150,
+              "limit": 1,
+              "refoption": "CL",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "1 Macharius",
+              "ref": "Macharius",
+              "value": 125,
+              "limit": 1,
+              "refoption": "CL",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS D'APPUI DE LA DEATH KORPS DE KRIEG",
+      "detail": "Jusqu’à 2 formations de support par compagnie",
+      "formation": [
+        {
+          "name": "Peloton de Grenadiers",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "8 unités de Grenadiers",
+              "ref": [
+                "Grenadiers DKOK"
+              ],
+              "value": 175,
+              "principale": true,
+              "tagrefoptions": "GRE",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "8 Centaures",
+              "ref": [
+                "Centaure"
+              ],
+              "value": 75,
+              "refoption": "GRE",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "1 Gorgone Mortiers",
+              "ref": [
+                "Gorgone (Mortiers)"
+              ],
+              "value": 100,
+              "refoption": "GRE",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "1 Gorgone",
+              "ref": [
+                "Gorgone"
+              ],
+              "value": 100,
+              "refoption": "GRE",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "4 Chimères Storm",
+              "ref": [
+                "Chimère Storm"
+              ],
+              "value": 125,
+              "refoption": "GRE",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Peloton d’Ingénieurs",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités d’Ingénieurs de la Death Korps",
+              "ref": [
+                "Ingénieurs DKOK"
+              ],
+              "value": 200,
+              "principale": true
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Peloton de Death Riders",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 escouades de Death Riders",
+              "note": "toutes les unités gagnent la capacité Éclaireur",
+              "ref": [
+                "Death Riders"
+              ],
+              "value": 150,
+              "principale": true
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "0-1 Silo Deathstrike",
+          "LimitationTag": "A",
+          "FormationLimite": 1,
+          "options": [
+            {
+              "name": "1 Silo à missile Deathstrike",
+              "ref": [
+                "Silo à missiles Deathstrike"
+              ],
+              "value": 250,
+              "principale": true
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Batterie Légère de Support",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "4 Quads Launchers",
+              "ref": [
+                "Quad Launcher"
+              ],
+              "value": 200,
+              "principale": true,
+              "unique": "BLS"
+            },
+            {
+              "name": "4 Mortiers Lourds et 4 Centaures",
+              "ref": [
+                "Mortier Lourd DKOK",
+                "Centaure"
+              ],
+              "value": 200,
+              "principale": true,
+              "unique": "BLS"
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Batterie Lourde de Support",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "Batterie Lourde de Support",
+              "note": "3 Canons Séisme ou 3 Canons Medusa ou 3 Canons Antiaériens Lourds",
+              "value": 0,
+              "principale": true,
+              "tagrefoptions": "BLS",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Canons Séisme x3",
+              "ref": "Canon Séisme",
+              "value": 150,
+              "refoption": "BLS",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Canons Medusa x3",
+              "ref": "Plateforme Medusa",
+              "value": 150,
+              "refoption": "BLS",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Canons Antiaériens Lourds x3",
+              "ref": "Canon Antiaérien Lourd",
+              "value": 100,
+              "refoption": "BLS",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "3 Emplacements d'artillerie ou 3 Trojans",
+              "note": "+ 3 emplacements d'artillerie ou 3 Trojans",
+              "value": 25,
+              "tagrefoptions": "OPT",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Emplacements d'artillerie x3",
+              "ref": "Emplacement d’artillerie",
+              "value": 0,
+              "refoption": "OPT",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Trojans x3",
+              "ref": "Trojan",
+              "value": 0,
+              "refoption": "OPT",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Batterie Lourde de Siège",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "3 Bombardes",
+              "ref": [
+                "Bombarde"
+              ],
+              "value": 250,
+              "principale": true
+            },
+            {
+              "name": "3 emplacements d'artillerie (1)",
+              "ref": [
+                "Emplacement d’artillerie"
+              ],
+              "value": 25
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Peloton de Leman Russ",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 Leman Russ",
+              "ref": [
+                "Leman Russ"
+              ],
+              "value": 350,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Peloton de Hellhounds",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 Hellhounds",
+              "ref": [
+                "Hellhound"
+              ],
+              "value": 300,
+              "principale": true
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Peloton de char Super Lourd",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "1 Baneblade",
+              "ref": [
+                "Baneblade"
+              ],
+              "value": 200,
+              "principale": true,
+              "unique": "SL"
+            },
+            {
+              "name": "1 Shadowsword",
+              "ref": [
+                "Shadowsword"
+              ],
+              "value": 200,
+              "principale": true,
+              "unique": "SL"
+            },
+            {
+              "name": "1 Stormsword",
+              "ref": [
+                "Stormsword"
+              ],
+              "value": 200,
+              "principale": true,
+              "unique": "SL"
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORTIFICATIONS DE LA DEATH KORPS DE KRIEG",
+      "detail": "Jusqu'à 1 fortification par QG Régimentaire et Compagnies d'infanterie",
+      "formation": [
+        {
+          "name": "Positions fortifiées",
+          "LimitationTag": "B",
+          "rare": true,
+          "options": [
+            {
+              "name": "Jusqu’à 80cm de Tranchées, 3 Bunkers et jusqu’à 80cm de Barbelés",
+              "ref": [
+                "Tranchées",
+                "Bunkers",
+                "Barbelés"
+              ],
+              "value": 100,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLOTTES DE L'AERONAUTICA IMPERIALIS",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Escadrille d’Intercepteurs",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Chasseurs Thunderbolts",
+              "ref": "Thunderbolt",
+              "value": 150,
+              "principale": true
+            },
+            {
+              "name": "4 Chasseurs Thunderbolts",
+              "ref": "Thunderbolt",
+              "value": 300,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Escadrille de Bombardiers",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Bombardiers Marauders",
+              "ref": "Bombardier Marauder",
+              "value": 250,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Soutien Orbital",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Croiseur Lunar",
+              "ref": "Croiseur Classe Lunar",
+              "value": 100,
+              "principale": true
+            },
+            {
+              "name": "1 Cuirassé Emperor",
+              "ref": "Cuirassé Emperor",
+              "value": 300,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SOUTIENS DE L'ADEPTUS TITANICUS",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Titan Warhound",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Warhound",
+              "ref": "Warhound",
+              "value": 275,
+              "principale": true,
+              "unique": "TW"
+            },
+            {
+              "name": "2 Titan Warhound",
+              "ref": "Warhound",
+              "value": 500,
+              "principale": true,
+              "unique": "TW"
+            }
+          ]
+        },
+        {
+          "name": "Titan Reaver",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Reaver",
+              "ref": "Reaver",
+              "value": 650,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Titan Warlord",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Warlord",
+              "ref": "Warlord",
+              "value": 850,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

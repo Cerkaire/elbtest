@@ -1,0 +1,517 @@
+{
+  "codex": "Nécrons",
+  "color": "#696969",
+  "version": "1.3",
+  "logo": "nec.png",
+  "categorie": "Armées Xénos",
+  "faction": "Nécrons",
+  "codexRare": 0.33333333,
+  "strategie": "1",
+  "initiative": "Initiative de 1+",
+  "groupes": [
+    {
+      "name": "PHALANGES NÉCRONS",
+      "detail": "Chaque amélioration ne peut être prise qu'une seule fois par formation",
+      "formation": [
+        {
+          "name": "Portail Nécron",
+          "options": [
+            {
+              "name": "1 Portail Nécron",
+              "value": 75,
+              "principale": true,
+              "nbacti": false
+            }
+          ]
+        },
+        {
+          "name": "Phalange de Guerriers",
+          "obligatoire": true,
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "options": [
+            {
+              "name": "1 unité de Seigneur Nécron et 7 unités de Guerriers",
+              "ref": [
+                "Seigneur Nécron",
+                "Guerriers Nécrons"
+              ],
+              "value": 250,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Commandant Suprême",
+              "ref": "Seigneur de Guerre Nécron",
+              "note": "Remplacer une unité de Seigneur Nécron par une unité de Seigneur de Guerre Nécron",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "4 Guerriers",
+              "ref": "Guerriers Nécrons",
+              "note": "Ajouter 4 unités de Guerriers Nécrons à la formation",
+              "value": 125,
+              "limit": 1
+            },
+            {
+              "name": "Gardes",
+              "ref": [
+                "Immortels",
+                "Factionnaires"
+              ],
+              "note": "Remplacez jusqu’à 3 unités de Guerriers Nécrons par des unités d’Immortels ou de Factionnaires",
+              "value": 25,
+              "min": 1,
+              "max": 3,
+              "limit": 1
+            },
+            {
+              "name": "Transport",
+              "ref": "Arche Fantôme",
+              "note": "Ajouter autant d’Arches Fantômes que nécessaire pour transporter toutes les unités de la formation",
+              "value": 25,
+              "min": 0,
+              "max": 8,
+              "limit": 1
+            },
+            {
+              "name": "Intendance,",
+              "ref": "Araignée Canoptek",
+              "note": "Ajouter 1 à 3 unités d’Araignée Canoptek à la formation",
+              "value": 50,
+              "min": 0,
+              "max": 3,
+              "limit": 1
+            },
+            {
+              "name": "Barge de commandement",
+              "note": "Les unités de Seigneur (Nécron, Destroyer, Seigneur de Guerre Nécron et Destroyer) de la formation gagnent : Blindage Renforcé, Réanimation",
+              "value": 50,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Nuées Canoptek",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2
+            }
+          ],
+          "options": [
+            {
+              "name": "1 unité d’Araignée Canoptek et 6 unités de Scarabées Canoptek",
+              "ref": [
+                "Araignée Canoptek",
+                "Scarabées Canopteks"
+              ],
+              "value": 200,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Intendance,",
+              "ref": "Araignée Canoptek",
+              "note": "Ajouter 1 à 3 unités d’Araignée Canoptek à la formation",
+              "value": 50,
+              "min": 0,
+              "max": 3,
+              "limit": 1
+            },
+            {
+              "name": "2 Spectres",
+              "ref": "Spectres Canoptek",
+              "note": "Remplacer n’importe quel nombre d’unités de Scarabées par des unités de Spectres",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "4 Spectres",
+              "note": "Remplacer n’importe quel nombre d’unités de Scarabées par des unités de Spectres",
+              "ref": "Spectres Canoptek",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "6 Spectres",
+              "note": "Remplacer n’importe quel nombre d’unités de Scarabées par des unités de Spectres",
+              "ref": "Spectres Canoptek",
+              "value": 75,
+              "limit": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS DE SOUTIEN NÉCRONS",
+      "detail": "Jusqu’à 2 formations de soutien Nécrons par phalange Nécron",
+      "formation": [
+        {
+          "name": "Phalange d’Immortels",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "1 Seigneur Nécron et 7 unités d’immortels",
+              "ref": [
+                "Seigneur Nécron",
+                "Immortels"
+              ],
+              "value": 325,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Commandant Suprême",
+              "note": "Remplacer une unité de Seigneur Nécron par une unité de Seigneur de Guerre Nécron",
+              "ref": [
+                "Seigneur de Guerre Nécron"
+              ],
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Transport",
+              "ref": "Arche Fantôme",
+              "note": "Ajouter autant d’Arches Fantômes que nécessaire pour transporter toutes les unités de la formation",
+              "value": 25,
+              "min": 0,
+              "max": 8,
+              "limit": 1
+            },
+            {
+              "name": "Intendance,",
+              "ref": "Araignée Canoptek",
+              "note": "Ajouter 1 à 3 unités d’Araignée Canoptek à la formation",
+              "value": 50,
+              "min": 0,
+              "max": 3,
+              "limit": 1
+            },
+            {
+              "name": "Barge de commandement",
+              "note": "Les unités de Seigneur (Nécron, Seigneur de Guerre Nécron) de la formation gagnent : Blindage Renforcé, Réanimation",
+              "value": 50,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "0-1 Dépeceurs",
+          "LimitationTag": "A",
+          "FormationLimite": 1,
+          "options": [
+            {
+              "name": "4 unités de Dépeceurs",
+              "ref": "Dépeceurs",
+              "principale": true,
+              "unique": "A",
+              "value": 125,
+              "limit": 1
+            },
+            {
+              "name": "8 unités de Dépeceurs",
+              "ref": "Dépeceurs",
+              "principale": true,
+              "unique": "A",
+              "value": 250,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Rôdeurs du triarcat",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "4 unités de Rôdeurs du Triarcat",
+              "ref": "Rôdeur du Triarcat",
+              "principale": true,
+              "value": 200,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Arches du Jugement Dernier",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités d’Arches du Jugement Dernier",
+              "ref": "Arche du Jugement Dernier",
+              "principale": true,
+              "value": 350,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Pylônes sentinels",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "4 unités de Pylônes Sentinelles",
+              "ref": "Pylône Sentinelle",
+              "principale": true,
+              "value": 200,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Consoles d’annihilation",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "5 unités de Consoles d’annihilation",
+              "ref": "Console d'annihilation",
+              "principale": true,
+              "value": 200,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Destroyers",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "1 unité de Seigneur Destroyer et 5 unités parmi : Destroyers, Destroyers Lourds",
+              "ref": "Seigneur Destroyer",
+              "principale": true,
+              "value": 250,
+              "tagrefoptions": "D",
+              "nbrefoptions": 5,
+              "limit": 1
+            },
+            {
+              "name": "Destroyers",
+              "ref": [
+                "Destroyers"
+              ],
+              "value": 0,
+              "refoption": "D",
+              "min": 0,
+              "max": 5
+            },
+            {
+              "name": "Destroyers Lourds",
+              "ref": [
+                "Destroyers Lourds"
+              ],
+              "value": 0,
+              "refoption": "D",
+              "min": 0,
+              "max": 5
+            },
+            {
+              "name": "0-1 Commandant Suprême",
+              "note": "Remplacer une unité de Seigneur Destroyer par une unité de Seigneur de Guerre Destroyer",
+              "ref": "Seigneur de Guerre Destroyer",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "0-1 Garde Prétorienne",
+          "LimitationTag": "A",
+          "FormationLimite": 1,
+          "options": [
+            {
+              "name": "6 unités de Prétoriens",
+              "ref": "Prétoriens",
+              "principale": true,
+              "unique": "B",
+              "value": 300
+            },
+            {
+              "name": "8 unités de Prétoriens",
+              "ref": "Prétoriens",
+              "principale": true,
+              "unique": "B",
+              "value": 400
+            }
+          ]
+        },
+        {
+          "name": "Mécanoptères",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Mécanoptères",
+              "ref": "Mécanoptères",
+              "principale": true,
+              "value": 250
+            }
+          ]
+        },
+        {
+          "name": "Traqueurs",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Traqueurs",
+              "ref": "Traqueurs",
+              "principale": true,
+              "value": 250
+            }
+          ]
+        },
+        {
+          "name": "0-1 Ancres Nécrons (par Phalange de Guerriers)",
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "1 Monolithe et 1 Obélisque",
+              "ref": [
+                "Monolithe",
+                "Obélisque"
+              ],
+              "principale": true,
+              "value": 250
+            },
+            {
+              "name": "Remplacer 1 Obélisque par 1 Monolithe",
+              "value": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS DE SUPPORT - FLOTTE NÉCRONS",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Moisson",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Doom Scythe",
+              "ref": "Doom Scythe",
+              "principale": true,
+              "value": 225
+            },
+            {
+              "name": "Ajouter 1 Doom Scythe",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "name": "Linceul",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Night Shroud",
+              "ref": "Nightshroud Bomber",
+              "principale": true,
+              "value": 250
+            }
+          ]
+        },
+        {
+          "name": "0-1 Vaisseau Orbital",
+          "FormationLimite": 1,
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Vaisseau de classe Scythe",
+              "ref": "Vaisseau de classe Scythe",
+              "principale": true,
+              "unique": "D",
+              "value": 150
+            },
+            {
+              "name": "1 Vaisseau de classe Cairn",
+              "ref": "Vaisseau de classe Cairn",
+              "principale": true,
+              "unique": "D",
+              "value": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS DE SUPPORT - SOUTIENS RARES",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Pylône",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Pylône",
+              "ref": "Pylône",
+              "principale": true,
+              "value": 225
+            }
+          ]
+        },
+        {
+          "name": "Mégalithe",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Mégalithe",
+              "ref": "Mégalithe",
+              "principale": true,
+              "value": 300
+            }
+          ]
+        },
+        {
+          "name": "0-1 Écharde C’tan",
+          "FormationLimite": 1,
+          "rare": true,
+          "options": [
+            {
+              "name": "1 C’tan Deceiver",
+              "ref": "C’Tan Deceiver",
+              "principale": true,
+              "unique": "E",
+              "value": 325
+            },
+            {
+              "name": "1 C’tan Nightbringer",
+              "ref": "C’Tan Nightbringer",
+              "principale": true,
+              "unique": "E",
+              "value": 325
+            }
+          ]
+        },
+        {
+          "name": "0-1 Titans des Æons",
+          "FormationLimite": 1,
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Abattoir",
+              "ref": "Abattoir",
+              "principale": true,
+              "unique": "F",
+              "value": 500
+            },
+            {
+              "name": "1 Orbe des Aeons",
+              "ref": "Orbe des Æons",
+              "principale": true,
+              "unique": "F",
+              "value": 500
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

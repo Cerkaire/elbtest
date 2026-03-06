@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "adeptus_sororitas",
+        "name": "Adeptus Sororitas",
+        "version": "1.0.1",
+        "faction": "Impérium",
+        "color": "#610505",
+        "logo": "sororita.png",
+        "categorie": "armees-imperiales",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 3,
+            "initiative_defaut": "1+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

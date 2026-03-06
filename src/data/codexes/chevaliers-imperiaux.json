@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "chevaliers_imperiaux",
+        "name": "Chevaliers Impériaux",
+        "version": "1.4",
+        "faction": "Titanicus",
+        "color": "#004b58",
+        "logo": "chevalier.png",
+        "categorie": "armees-imperiales",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 3,
+            "initiative_defaut": "2+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

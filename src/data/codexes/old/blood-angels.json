@@ -1,0 +1,1638 @@
+{
+  "codex": "Blood Angels",
+  "color": "#a20000",
+  "version": "1.0.1",
+  "logo": "ba.png",
+  "categorie": "Chapitres Astartes",
+  "faction": "Astartes",
+  "codexRare": 0.33333333,
+  "strategie": "5",
+  "initiative": "Initiative de 1+",
+  "groupes": [
+    {
+      "name": "DÉTACHEMENTS PRINCIPAUX BLOOD ANGELS",
+      "formation": [
+        {
+          "name": "Compagnie de la Mort",
+          "GrpPrincipal": true,
+          "limiteOptionFormation": 3,
+          "FormationLimitationTag": [
+            {
+              "A": 3
+            }
+          ],
+          "FormationLimite": 1,
+          "options": [
+            {
+              "name": "6 unités Tactiques de la Compagnie de la Mort + Chapelain + Transports",
+              "value": 425,
+              "ref": [
+                "Tactiques de la Compagnie de la Mort",
+                "Chapelain",
+                "Rhino"
+              ],
+              "principale": true,
+              "unique": "A"
+            },
+            {
+              "name": "Remplacer les transports par 1 Dreadnought ou Modules d'atterrissage",
+              "value": 0,
+              "unique": "TR",
+              "tagrefoptions": "DMA",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Dreadnought",
+              "ref": "Dreadnought",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Modules d'atterrissage",
+              "ref": "Module d'atterrissage",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "4 unités d'Assaut de la Compagnie de la mort + Chapelain",
+              "value": 300,
+              "ref": [
+                "Assaut de la Compagnie de la Mort",
+                "Chapelain"
+              ],
+              "principale": true,
+              "unique": "A"
+            },
+            {
+              "name": "Dreadnoughts",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "D",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Feu d'Enfer",
+              "ref": [
+                "Dreadnought Feu d'Enfer"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought",
+              "ref": [
+                "Dreadnought"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Furioso",
+              "ref": [
+                "Dreadnought Furioso"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Assaut",
+          "GrpPrincipal": true,
+          "limiteOptionFormation": 3,
+          "FormationLimitationTag": [
+            {
+              "A": 3
+            }
+          ],
+          "options": [
+            {
+              "name": "4 unités de Marines d'Assaut",
+              "value": 175,
+              "ref": "Marines d'Assaut",
+              "principale": true
+            },
+            {
+              "name": "Commandant",
+              "value": 50,
+              "limit": 1,
+              "tagrefoptions": "COM",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Commandant : Capitaine",
+              "ref": [
+                "Capitaine"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Commandant : Chapelain",
+              "ref": [
+                "Chapelain"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Archiviste",
+              "ref": [
+                "Archiviste"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            }
+          ]
+        },
+        {
+          "name": "Tactique d'Assaut",
+          "GrpPrincipal": true,
+          "limiteOptionFormation": 3,
+          "FormationLimitationTag": [
+            {
+              "A": 3
+            }
+          ],
+          "options": [
+            {
+              "name": "4 unités de Tactiques d'Assaut + Transports",
+              "value": 175,
+              "ref": [
+                "Tactiques d'Assaut",
+                "Rhino"
+              ],
+              "principale": true,
+              "unique": "B"
+            },
+            {
+              "name": "6 unités de Tactiques d'Assaut + Transports",
+              "value": 275,
+              "ref": [
+                "Tactiques d'Assaut",
+                "Rhino"
+              ],
+              "principale": true,
+              "unique": "B"
+            },
+            {
+              "name": "Remplacer les transports par 1 Dreadnought ou Modules d'atterrissage",
+              "value": 0,
+              "unique": "TR",
+              "tagrefoptions": "DMA",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Dreadnought",
+              "ref": "Dreadnought",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Modules d'atterrissage",
+              "ref": "Module d'atterrissage",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Dreadnoughts",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "D",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Feu d'Enfer",
+              "ref": [
+                "Dreadnought Feu d'Enfer"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought",
+              "ref": [
+                "Dreadnought"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Furioso",
+              "ref": [
+                "Dreadnought Furioso"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Commandant",
+              "value": 50,
+              "limit": 1,
+              "tagrefoptions": "COM",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Commandant : Capitaine",
+              "ref": [
+                "Capitaine"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Commandant : Chapelain",
+              "ref": [
+                "Chapelain"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Archiviste",
+              "ref": [
+                "Archiviste"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DETACHEMENT DE SOUTIEN",
+      "detail": "Jusqu'à 3 Détachements de Soutien par Détachement principal",
+      "formation": [
+        {
+          "name": "0-1 Garde Sanguinienne",
+          "LimitationTag": "A",
+          "limiteOptionFormation": 3,
+          "FormationLimite": 1,
+          "options": [
+            {
+              "name": "4 unités de Gardes Sanguiniens",
+              "ref": "Gardes Sanguiniens",
+              "value": 300,
+              "principale": true,
+              "unique": "C"
+            },
+            {
+              "name": "6 unités de Gardes Sanguiniens",
+              "ref": "Gardes Sanguiniens",
+              "value": 450,
+              "principale": true,
+              "unique": "C"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Support lourd",
+              "value": 65,
+              "note": "N'importe quelle combinaison : Predators Annihilator ou Destructor ou Baal, Vindicator",
+              "tagrefoptions": "SL",
+              "nbrefoptions": 1,
+              "min": 1,
+              "max": 2,
+              "limit": 1
+            },
+            {
+              "name": "Predator Annihilator",
+              "ref": "Predator Annihilator",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Predator Destructor",
+              "ref": "Predator Destructor",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Predator Baal",
+              "ref": "Predator Baal",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Vindicator",
+              "ref": "Vindicator",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Land Raider",
+              "ref": "Land Raider",
+              "value": 75,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            }
+          ]
+        },
+        {
+          "name": "Tactique",
+          "limiteOptionFormation": 3,
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Tactiques + Transports",
+              "ref": [
+                "Tactiques",
+                "Rhino"
+              ],
+              "value": 275,
+              "principale": true
+            },
+            {
+              "name": "Remplacer les transports par 1 Dreadnought ou Modules d'atterrissage",
+              "value": 0,
+              "unique": "TR",
+              "tagrefoptions": "DMA",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Dreadnought",
+              "ref": "Dreadnought",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Modules d'atterrissage",
+              "ref": "Module d'atterrissage",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Commandant",
+              "value": 50,
+              "limit": 1,
+              "tagrefoptions": "COM",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Commandant : Capitaine",
+              "ref": [
+                "Capitaine"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Commandant : Chapelain",
+              "ref": [
+                "Chapelain"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Archiviste",
+              "ref": [
+                "Archiviste"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Support lourd : Predators Annihilator / Destructor / Baal, Vindicator",
+              "value": 0,
+              "note": "N'importe quelle combinaison : Predators Annihilator ou Destructor ou Baal, Vindicator",
+              "nbrefoptions": 1,
+              "min": 1,
+              "max": 2,
+              "tagrefoptions": "SL"
+            },
+            {
+              "name": "Predators Destructor",
+              "ref": [
+                "Predator Destructor"
+              ],
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Predators Annihilator",
+              "ref": [
+                "Predator Annihilator"
+              ],
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Predators Baal",
+              "ref": [
+                "Predator Baal"
+              ],
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Vindicator",
+              "ref": [
+                "Vindicator"
+              ],
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Land Raiders",
+              "ref": "Land Raider",
+              "value": 75,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Dreadnoughts",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "D",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Feu d'Enfer",
+              "ref": [
+                "Dreadnought Feu d'Enfer"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought",
+              "ref": [
+                "Dreadnought"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Furioso",
+              "ref": [
+                "Dreadnought Furioso"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Razorback",
+              "value": 25,
+              "min": 0,
+              "max": 6,
+              "tagrefoptions": "RAZ",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Razorback Bolters Lourds",
+              "ref": [
+                "Razorback Bolters Lourds"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 6,
+              "refoption": "RAZ"
+            },
+            {
+              "name": "Razorback Canons Laser",
+              "ref": [
+                "Razorback Canons Laser"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 6,
+              "refoption": "RAZ"
+            },
+            {
+              "name": "1 Hunter",
+              "ref": "Hunter",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "0-1 Devastator",
+          "LimitationTag": "A",
+          "limiteOptionFormation": 3,
+          "FormationLimite": 1,
+          "options": [
+            {
+              "name": "4 unités de Dévastators + Transports",
+              "ref": [
+                "Devastators",
+                "Rhino"
+              ],
+              "value": 250,
+              "principale": true
+            },
+            {
+              "name": "Remplacer les transports par 1 Dreadnought ou Modules d'atterrissage",
+              "value": 0,
+              "unique": "TR",
+              "tagrefoptions": "DMA",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Dreadnought",
+              "ref": "Dreadnought",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Modules d'atterrissage",
+              "ref": "Module d'atterrissage",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Commandant",
+              "value": 50,
+              "limit": 1,
+              "tagrefoptions": "COM",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Commandant : Capitaine",
+              "ref": [
+                "Capitaine"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Commandant : Chapelain",
+              "ref": [
+                "Chapelain"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Archiviste",
+              "ref": [
+                "Archiviste"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Support lourd : Predators Annihilator / Destructor / Baal, Vindicator, Land Raider",
+              "value": 0,
+              "note": "N'importe quelle combinaison : Predators Annihilator ou Destructor, Vindicator",
+              "limit": 1,
+              "nbrefoptions": 1,
+              "min": 1,
+              "max": 2,
+              "tagrefoptions": "SL"
+            },
+            {
+              "name": "Predators Destructor",
+              "ref": "Predator Destructor",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Predators Annihilator",
+              "ref": "Predator Annihilator",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Predators Baal",
+              "ref": "Predator Baal",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Vindicator",
+              "ref": "Vindicator",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Land Raiders",
+              "ref": "Land Raider",
+              "value": 75,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Dreadnoughts",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "D",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Feu d'Enfer",
+              "ref": [
+                "Dreadnought Feu d'Enfer"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought",
+              "ref": [
+                "Dreadnought"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Furioso",
+              "ref": [
+                "Dreadnought Furioso"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Razorback",
+              "value": 25,
+              "min": 0,
+              "max": 6,
+              "tagrefoptions": "RAZ",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Razorback Bolters Lourds",
+              "ref": [
+                "Razorback Bolters Lourds"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 6,
+              "refoption": "RAZ"
+            },
+            {
+              "name": "Razorback Canons Laser",
+              "ref": [
+                "Razorback Canons Laser"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 6,
+              "refoption": "RAZ"
+            },
+            {
+              "name": "1 Hunter",
+              "ref": "Hunter",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "Terminator",
+          "limiteOptionFormation": 3,
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "4 unités de Terminators",
+              "ref": "Terminators",
+              "value": 300,
+              "principale": true
+            },
+            {
+              "name": "Commandant",
+              "value": 50,
+              "limit": 1,
+              "tagrefoptions": "COM",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Commandant : Capitaine",
+              "ref": [
+                "Capitaine"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Commandant : Chapelain",
+              "ref": [
+                "Chapelain"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Archiviste",
+              "ref": [
+                "Archiviste"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Land Raiders",
+              "ref": "Land Raider",
+              "value": 75,
+              "min": 0,
+              "max": 4
+            },
+            {
+              "name": "Téléportation",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "Scouts",
+          "limiteOptionFormation": 3,
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "4 unités de Scouts + Transports",
+              "value": 150,
+              "ref": [
+                "Scouts",
+                "Rhino"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Remplacer les transports par 1 Dreadnought ou Modules d'atterrissage",
+              "value": 0,
+              "unique": "TR",
+              "tagrefoptions": "DMA",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Dreadnought",
+              "ref": "Dreadnought",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Modules d'atterrissage",
+              "ref": "Module d'atterrissage",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Commandant",
+              "value": 50,
+              "limit": 1,
+              "tagrefoptions": "COM",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Commandant : Capitaine",
+              "ref": [
+                "Capitaine"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Commandant : Chapelain",
+              "ref": [
+                "Chapelain"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Archiviste",
+              "ref": [
+                "Archiviste"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Razorback",
+              "value": 25,
+              "min": 0,
+              "max": 4,
+              "tagrefoptions": "RAZ",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Razorback Bolters Lourds",
+              "ref": [
+                "Razorback Bolters Lourds"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 4,
+              "refoption": "RAZ"
+            },
+            {
+              "name": "Razorback Canons Laser",
+              "ref": [
+                "Razorback Canons Laser"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 4,
+              "refoption": "RAZ"
+            },
+            {
+              "name": "Sniper",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "Motos",
+          "LimitationTag": "A",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "5 unités de Motos et/ou Motos d'Assaut",
+              "value": 200,
+              "principale": true,
+              "limit": 1,
+              "tagrefoptions": "M",
+              "nbrefoptions": 5
+            },
+            {
+              "name": "5 unités de Motos",
+              "ref": [
+                "Motos"
+              ],
+              "value": 0,
+              "refoption": "M",
+              "min": 0,
+              "max": 5
+            },
+            {
+              "name": "Motos d'Assaut",
+              "ref": [
+                "Motos d'Assaut"
+              ],
+              "value": 0,
+              "refoption": "M",
+              "min": 0,
+              "max": 5
+            },
+            {
+              "name": "Commandant",
+              "value": 50,
+              "limit": 1,
+              "tagrefoptions": "COM",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Commandant : Capitaine",
+              "ref": [
+                "Capitaine"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Commandant : Chapelain",
+              "ref": [
+                "Chapelain"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Archiviste",
+              "ref": [
+                "Archiviste"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            }
+          ]
+        },
+        {
+          "name": "Land Speeders",
+          "LimitationTag": "A",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "5 Land Speeders",
+              "value": 200,
+              "principale": true,
+              "limit": 1,
+              "tagrefoptions": "LS",
+              "nbrefoptions": 5
+            },
+            {
+              "name": "Land Speeders",
+              "ref": "Land Speeder",
+              "value": 0,
+              "min": 0,
+              "max": 5,
+              "refoption": "LS"
+            },
+            {
+              "name": "Tornado",
+              "ref": "Land Speeder Tornado",
+              "value": 5,
+              "min": 0,
+              "max": 5,
+              "refoption": "LS"
+            },
+            {
+              "name": "Typhoon",
+              "ref": "Land Speeder Typhoon",
+              "value": 15,
+              "min": 0,
+              "max": 5,
+              "refoption": "LS"
+            },
+            {
+              "name": "Commandant",
+              "value": 50,
+              "limit": 1,
+              "tagrefoptions": "COM",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Commandant : Capitaine",
+              "ref": [
+                "Capitaine"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Commandant : Chapelain",
+              "ref": [
+                "Chapelain"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Archiviste",
+              "ref": [
+                "Archiviste"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            }
+          ]
+        },
+        {
+          "name": "Land Raiders",
+          "LimitationTag": "A",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "4 Land Raiders",
+              "ref": "Land Raider",
+              "value": 350,
+              "principale": true
+            },
+            {
+              "name": "Commandant",
+              "value": 50,
+              "limit": 1,
+              "tagrefoptions": "COM",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Commandant : Capitaine",
+              "ref": [
+                "Capitaine"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Commandant : Chapelain",
+              "ref": [
+                "Chapelain"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Archiviste",
+              "ref": [
+                "Archiviste"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Vindicator",
+              "ref": "Vindicator",
+              "value": 65,
+              "min": 0,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Prédators",
+          "LimitationTag": "A",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "4 Predators Destructor",
+              "ref": "Predator Destructor",
+              "value": 225,
+              "principale": true,
+              "unique": "D"
+            },
+            {
+              "name": "4 Predators Annihilator",
+              "ref": "Predator Annihilator",
+              "value": 275,
+              "principale": true,
+              "unique": "D"
+            },
+            {
+              "name": "4 Predators Baal",
+              "ref": "Predator Baal",
+              "value": 275,
+              "principale": true,
+              "unique": "D"
+            },
+            {
+              "name": "Vindicator",
+              "ref": "Vindicator",
+              "value": 65,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Commandant",
+              "value": 50,
+              "limit": 1,
+              "tagrefoptions": "COM",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Commandant : Capitaine",
+              "ref": [
+                "Capitaine"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Commandant : Chapelain",
+              "ref": [
+                "Chapelain"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Archiviste",
+              "ref": [
+                "Archiviste"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            }
+          ]
+        },
+        {
+          "name": "Vindicator",
+          "limiteOptionFormation": 3,
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "4 Vindicator",
+              "ref": "Vindicator",
+              "value": 250,
+              "principale": true
+            },
+            {
+              "name": "Commandant",
+              "value": 50,
+              "limit": 1,
+              "tagrefoptions": "COM",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Commandant : Capitaine",
+              "ref": [
+                "Capitaine"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Commandant : Chapelain",
+              "ref": [
+                "Chapelain"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            },
+            {
+              "name": "Commandant : Archiviste",
+              "ref": [
+                "Archiviste"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "COM"
+            }
+          ]
+        },
+        {
+          "name": "0-1 Whirlwinds",
+          "limiteOptionFormation": 3,
+          "LimitationTag": "A",
+          "FormationLimite": 1,
+          "options": [
+            {
+              "name": "4 Whirlwinds",
+              "ref": "Whirlwind",
+              "value": 300,
+              "principale": true
+            },
+            {
+              "name": "1 Hunter",
+              "ref": "Hunter",
+              "value": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLOTTE BLOOD ANGELS",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Thunderhawks Transporteurs",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Thunderhawk Transporteurs",
+              "ref": "Thunderhawk Transporteur",
+              "value": 300,
+              "principale": true,
+              "unique": "E"
+            },
+            {
+              "name": "3 Thunderhawk Transporteur",
+              "ref": "Thunderhawk Transporteur",
+              "value": 450,
+              "principale": true,
+              "unique": "E"
+            }
+          ]
+        },
+        {
+          "name": "Thunderhawk",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Thunderhawk",
+              "ref": "Thunderhawk",
+              "value": 225,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Barge de Débarquement",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Barge de Débarquement",
+              "ref": "Barge de Débarquement",
+              "value": 400,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Intercepteurs Stormtalons",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Stormtalons Destructor",
+              "ref": "Stormtalon Destructor",
+              "value": 200,
+              "principale": true,
+              "unique": "F"
+            },
+            {
+              "name": "2 Stormtalons Annihilator",
+              "ref": "Stormtalon Annihilator",
+              "value": 250,
+              "principale": true,
+              "unique": "F"
+            }
+          ]
+        },
+        {
+          "name": "Stormeagles",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Stormeagles",
+              "ref": "Stormeagle",
+              "value": 275,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Stormravens",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Stormravens",
+              "ref": "Stormraven",
+              "value": 275,
+              "principale": true,
+              "unique": "G"
+            },
+            {
+              "name": "3 Stormravens",
+              "ref": "Stormraven",
+              "value": 400,
+              "principale": true,
+              "unique": "G"
+            },
+            {
+              "name": "4 Stormravens",
+              "ref": "Stormraven",
+              "value": 525,
+              "principale": true,
+              "unique": "G"
+            }
+          ]
+        },
+        {
+          "name": "Béliers d’Assaut Caestus",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Caestus",
+              "ref": "Bélier d'Assaut Caestus",
+              "value": 250,
+              "principale": true,
+              "unique": "H"
+            },
+            {
+              "name": "3 Caestus",
+              "ref": "Bélier d'Assaut Caestus",
+              "value": 350,
+              "principale": true,
+              "unique": "H"
+            }
+          ]
+        },
+        {
+          "name": "0-1 Soutien Orbital",
+          "FormationLimite": 1,
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Croiseur d'attaque",
+              "ref": "Croiseur d'Attaque",
+              "value": 200,
+              "principale": true,
+              "unique": "I"
+            },
+            {
+              "name": "1 barge de bataille",
+              "ref": "Barge de Bataille",
+              "value": 350,
+              "principale": true,
+              "unique": "I"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SOUTIENS DES LÉGIONS TITANIQUES",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Titan Warhound",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Warhound",
+              "ref": "Warhound",
+              "value": 275,
+              "principale": true,
+              "unique": "J"
+            },
+            {
+              "name": "2 Titan Warhound",
+              "ref": "Warhound",
+              "value": 500,
+              "principale": true,
+              "unique": "J"
+            }
+          ]
+        },
+        {
+          "name": "Titan Reaver",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Reaver",
+              "ref": "Reaver",
+              "value": 650,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Titan Warlord",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Warlord",
+              "ref": "Warlord",
+              "value": 850,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

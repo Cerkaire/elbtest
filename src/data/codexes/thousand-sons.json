@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "thousand_sons",
+        "name": "Thousand Sons",
+        "version": "1.2",
+        "faction": "Chaos",
+        "color": "#79e8d9",
+        "logo": "ts.png",
+        "categorie": "armees-chaos",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 4,
+            "initiative_defaut": "1+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

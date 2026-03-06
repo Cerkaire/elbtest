@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "egares_et_damnes",
+        "name": "Égarés et Damnés",
+        "version": "1.6.1",
+        "faction": "Chaos",
+        "color": "#086b6f",
+        "logo": "eed.png",
+        "categorie": "armees-chaos",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 2,
+            "initiative_defaut": "2+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

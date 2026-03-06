@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "world_eaters",
+        "name": "World Eaters",
+        "version": "1.2",
+        "faction": "Chaos",
+        "color": "#ac2001",
+        "logo": "we.png",
+        "categorie": "armees-chaos",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 4,
+            "initiative_defaut": "1+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

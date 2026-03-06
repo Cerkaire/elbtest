@@ -1,0 +1,766 @@
+{
+    "codex": {
+        "id": "adeptus_astartes",
+        "name": "Adeptus Astartes",
+        "version": "1.2",
+        "faction": "Astartes",
+        "color": "#0043de",
+        "logo": "asta.png",
+        "categorie": "Chapitres Astartes",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 5,
+            "initiative_defaut": "1+"
+        }
+    },
+    "ameliorations": [
+        {
+            "id": "commandant",
+            "name": "Commandant",
+            "cout": 50,
+            "limit": 1,
+            "choix": [
+                {
+                    "id": "capitaine",
+                    "name": "Capitaine"
+                },
+                {
+                    "id": "maitre_chapitre",
+                    "name": "Maître de Chapitre",
+                    "limiteOptionGlobal": 1
+                },
+                {
+                    "id": "chapelain",
+                    "name": "Chapelain"
+                },
+                {
+                    "id": "archiviste",
+                    "name": "Archiviste"
+                }
+            ],
+            "unites": []
+        },
+        {
+            "id": "transport_dreadnought",
+            "name": "Remplacer transports : Dreadnought",
+            "cout": 0,
+            "limit": 1,
+            "IsNotOption": true,
+            "description": "Remplacer les Rhinos par 1 Dreadnought",
+            "unites": [
+                {
+                    "id": "dreadnought",
+                    "name": "Dreadnought",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "transport_pod",
+            "name": "Remplacer transports : Module d'atterrissage",
+            "cout": 0,
+            "limit": 1,
+            "IsNotOption": true,
+            "description": "Remplacer les Rhinos par 1 Module d'atterrissage",
+            "unites": [
+                {
+                    "id": "module_atterrissage",
+                    "name": "Module d'atterrissage",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "sl_predator_destructor",
+            "name": "Support lourd : Predator Destructor",
+            "cout": 65,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 2,
+            "limit": 1,
+            "description": "Max 2 véhicules au total dans le groupe Support lourd",
+            "unites": [
+                {
+                    "id": "predator_destructor",
+                    "name": "Predator Destructor",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "sl_predator_annihilator",
+            "name": "Support lourd : Predator Annihilator",
+            "cout": 65,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 2,
+            "limit": 1,
+            "description": "Max 2 véhicules au total dans le groupe Support lourd",
+            "unites": [
+                {
+                    "id": "predator_annihilator",
+                    "name": "Predator Annihilator",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "sl_vindicator",
+            "name": "Support lourd : Vindicator",
+            "cout": 65,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 2,
+            "limit": 1,
+            "description": "Max 2 véhicules au total dans le groupe Support lourd",
+            "unites": [
+                {
+                    "id": "vindicator",
+                    "name": "Vindicator",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "sl_land_raider",
+            "name": "Support lourd : Land Raider",
+            "cout": 75,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 2,
+            "limit": 1,
+            "description": "Max 2 véhicules au total dans le groupe Support lourd",
+            "unites": [
+                {
+                    "id": "land_raider",
+                    "name": "Land Raider",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "razorback_bolters_lourds",
+            "name": "Razorback Bolters Lourds",
+            "cout": 25,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 6,
+            "unites": [
+                {
+                    "id": "razorback_bolters_lourds",
+                    "name": "Razorback Bolters Lourds",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "razorback_canons_laser",
+            "name": "Razorback Canons Laser",
+            "cout": 25,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 6,
+            "unites": [
+                {
+                    "id": "razorback_canons_laser",
+                    "name": "Razorback Canons Laser",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "razorback_scouts",
+            "name": "Razorbacks",
+            "cout": 25,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 4,
+            "limit": 1,
+            "description": "Razorback Bolters Lourds ou Canons Laser",
+            "unites": [
+                {
+                    "id": "razorback_bolters_lourds",
+                    "name": "Razorback Bolters Lourds",
+                    "nombre": 1
+                },
+                {
+                    "id": "razorback_canons_laser",
+                    "name": "Razorback Canons Laser",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "dreadnought_50",
+            "name": "Dreadnought",
+            "cout": 50,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 2,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "dreadnought",
+                    "name": "Dreadnought",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "hunter",
+            "name": "1 Hunter",
+            "cout": 50,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "hunter",
+                    "name": "Hunter",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "teleportation",
+            "name": "Téléportation",
+            "cout": 50,
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "sniper",
+            "name": "Sniper",
+            "cout": 50,
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "land_raider_terminator",
+            "name": "Land Raiders",
+            "cout": 75,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 4,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "land_raider",
+                    "name": "Land Raider",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "vindicator_bonus",
+            "name": "Vindicator",
+            "cout": 65,
+            "cout_par_unite": true,
+            "min": 0,
+            "max": 2,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "vindicator",
+                    "name": "Vindicator",
+                    "nombre": 1
+                }
+            ]
+        }
+    ],
+    "groupes": [
+        {
+            "id": "detachements_space_marines",
+            "name": "DÉTACHEMENTS SPACE MARINES",
+            "type": "principale",
+            "formations": [
+                {
+                    "id": "tactique",
+                    "name": "Tactique",
+                    "cout": 275,
+                    "initiative": "1+",
+                    "unites": [
+                        {
+                            "id": "tactiques",
+                            "name": "Tactiques",
+                            "nombre": 6
+                        },
+                        {
+                            "id": "rhino",
+                            "name": "Rhino",
+                            "nombre": 4
+                        }
+                    ],
+                    "ameliorations": [
+                        "transport_dreadnought",
+                        "transport_pod",
+                        "commandant",
+                        "sl_predator_destructor",
+                        "sl_predator_annihilator",
+                        "sl_vindicator",
+                        "sl_land_raider",
+                        "dreadnought_50",
+                        "razorback_bolters_lourds",
+                        "razorback_canons_laser",
+                        "hunter"
+                    ]
+                },
+                {
+                    "id": "devastator",
+                    "name": "Devastator",
+                    "cout": 250,
+                    "initiative": "1+",
+                    "unites": [
+                        {
+                            "id": "devastators",
+                            "name": "Devastators",
+                            "nombre": 4
+                        },
+                        {
+                            "id": "rhino",
+                            "name": "Rhino",
+                            "nombre": 4
+                        }
+                    ],
+                    "ameliorations": [
+                        "transport_dreadnought",
+                        "transport_pod",
+                        "commandant",
+                        "sl_predator_destructor",
+                        "sl_predator_annihilator",
+                        "sl_vindicator",
+                        "sl_land_raider",
+                        "dreadnought_50",
+                        "razorback_bolters_lourds",
+                        "razorback_canons_laser",
+                        "hunter"
+                    ]
+                },
+                {
+                    "id": "assaut",
+                    "name": "Assaut",
+                    "cout": 175,
+                    "initiative": "1+",
+                    "unites": [
+                        {
+                            "id": "marines_assaut",
+                            "name": "Marines d'Assaut",
+                            "nombre": 4
+                        }
+                    ],
+                    "ameliorations": [
+                        "commandant"
+                    ]
+                },
+                {
+                    "id": "terminator",
+                    "name": "Terminator",
+                    "cout": 300,
+                    "initiative": "1+",
+                    "unites": [
+                        {
+                            "id": "terminators",
+                            "name": "Terminators",
+                            "nombre": 4
+                        }
+                    ],
+                    "ameliorations": [
+                        "commandant",
+                        "land_raider_terminator",
+                        "teleportation"
+                    ]
+                },
+                {
+                    "id": "scouts",
+                    "name": "Scouts",
+                    "cout": 150,
+                    "initiative": "1+",
+                    "unites": [
+                        {
+                            "id": "scouts",
+                            "name": "Scouts",
+                            "nombre": 4
+                        },
+                        {
+                            "id": "rhino",
+                            "name": "Rhino",
+                            "nombre": 4
+                        }
+                    ],
+                    "ameliorations": [
+                        "transport_dreadnought",
+                        "transport_pod",
+                        "commandant",
+                        "razorback_scouts",
+                        "sniper"
+                    ]
+                },
+                {
+                    "id": "motos",
+                    "name": "Motos",
+                    "cout": 200,
+                    "initiative": "1+",
+                    "composition_personnalisee": {
+                        "type": "choix_multiples",
+                        "total": 5,
+                        "description": "Choisir 5 unités parmi Motos et/ou Motos d'Assaut",
+                        "principale": true,
+                        "options": [
+                            {
+                                "id": "motos",
+                                "name": "Motos",
+                                "unitId": "motos",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 5
+                            },
+                            {
+                                "id": "motos_assaut",
+                                "name": "Motos d'Assaut",
+                                "unitId": "motos_assaut",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 5
+                            }
+                        ]
+                    },
+                    "ameliorations": [
+                        "commandant"
+                    ]
+                },
+                {
+                    "id": "land_speeders",
+                    "name": "Land Speeders",
+                    "cout": 200,
+                    "initiative": "1+",
+                    "composition_personnalisee": {
+                        "type": "choix_multiples",
+                        "total": 5,
+                        "description": "Choisir 5 Land Speeders (Tornado +5 pts/unité, Typhoon +15 pts/unité)",
+                        "principale": true,
+                        "options": [
+                            {
+                                "id": "land_speeder",
+                                "name": "Land Speeder",
+                                "unitId": "land_speeder",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 5
+                            },
+                            {
+                                "id": "land_speeder_tornado",
+                                "name": "Land Speeder Tornado",
+                                "unitId": "land_speeder_tornado",
+                                "cout": 5,
+                                "min": 0,
+                                "max": 5
+                            },
+                            {
+                                "id": "land_speeder_typhoon",
+                                "name": "Land Speeder Typhoon",
+                                "unitId": "land_speeder_typhoon",
+                                "cout": 15,
+                                "min": 0,
+                                "max": 5
+                            }
+                        ]
+                    },
+                    "ameliorations": [
+                        "commandant"
+                    ]
+                },
+                {
+                    "id": "land_raiders",
+                    "name": "Land Raiders",
+                    "cout": 350,
+                    "initiative": "1+",
+                    "unites": [
+                        {
+                            "id": "land_raider",
+                            "name": "Land Raider",
+                            "nombre": 4
+                        }
+                    ],
+                    "ameliorations": [
+                        "commandant",
+                        "vindicator_bonus"
+                    ]
+                },
+                {
+                    "id": "predators_destructor",
+                    "name": "Prédators Destructor",
+                    "cout": 225,
+                    "initiative": "1+",
+                    "unites": [
+                        {
+                            "id": "predator_destructor",
+                            "name": "Predator Destructor",
+                            "nombre": 4
+                        }
+                    ],
+                    "ameliorations": [
+                        "commandant",
+                        "vindicator_bonus"
+                    ]
+                },
+                {
+                    "id": "predators_annihilator",
+                    "name": "Prédators Annihilator",
+                    "cout": 275,
+                    "initiative": "1+",
+                    "unites": [
+                        {
+                            "id": "predator_annihilator",
+                            "name": "Predator Annihilator",
+                            "nombre": 4
+                        }
+                    ],
+                    "ameliorations": [
+                        "commandant",
+                        "vindicator_bonus"
+                    ]
+                },
+                {
+                    "id": "vindicators",
+                    "name": "Vindicators",
+                    "cout": 250,
+                    "initiative": "1+",
+                    "unites": [
+                        {
+                            "id": "vindicator",
+                            "name": "Vindicator",
+                            "nombre": 4
+                        }
+                    ],
+                    "ameliorations": [
+                        "commandant"
+                    ]
+                },
+                {
+                    "id": "whirlwinds",
+                    "name": "Whirlwinds",
+                    "cout": 300,
+                    "initiative": "1+",
+                    "unites": [
+                        {
+                            "id": "whirlwind",
+                            "name": "Whirlwind",
+                            "nombre": 4
+                        }
+                    ],
+                    "ameliorations": [
+                        "hunter"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "flotte_astartes",
+            "name": "FLOTTE DE L'ADEPTUS ASTARTES",
+            "type": "rare",
+            "description": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+            "formations": [
+                {
+                    "id": "thunderhawk_transporteurs",
+                    "name": "Thunderhawks Transporteurs",
+                    "cout": 300,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "thunderhawk_transporteur",
+                            "name": "Thunderhawk Transporteur",
+                            "nombre": 2
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "3",
+                            "name": "3 Thunderhawk Transporteurs",
+                            "cout": 450,
+                            "multiplicateur": 1.5
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "thunderhawk",
+                    "name": "Thunderhawk",
+                    "cout": 225,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "thunderhawk",
+                            "name": "Thunderhawk",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "barge_debarquement",
+                    "name": "Barge de Débarquement",
+                    "cout": 400,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "barge_debarquement",
+                            "name": "Barge de Débarquement",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "stormtalons_destructor",
+                    "name": "Intercepteurs Stormtalons Destructor",
+                    "cout": 200,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "stormtalon_destructor",
+                            "name": "Stormtalon Destructor",
+                            "nombre": 2
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "stormtalons_annihilator",
+                    "name": "Intercepteurs Stormtalons Annihilator",
+                    "cout": 250,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "stormtalon_annihilator",
+                            "name": "Stormtalon Annihilator",
+                            "nombre": 2
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "stormeagles",
+                    "name": "Stormeagles",
+                    "cout": 275,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "stormeagle",
+                            "name": "Stormeagle",
+                            "nombre": 2
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "caestus",
+                    "name": "Béliers d'Assaut Caestus",
+                    "cout": 250,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "belier_assaut_caestus",
+                            "name": "Bélier d'Assaut Caestus",
+                            "nombre": 2
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "3",
+                            "name": "3 Caestus",
+                            "cout": 350,
+                            "multiplicateur": 1.5
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "croiseur_attaque",
+                    "name": "Soutien Orbital : Croiseur d'Attaque",
+                    "cout": 200,
+                    "rare": true,
+                    "FormationLimite": 1,
+                    "unites": [
+                        {
+                            "id": "croiseur_attaque",
+                            "name": "Croiseur d'Attaque",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "barge_bataille",
+                    "name": "Soutien Orbital : Barge de Bataille",
+                    "cout": 350,
+                    "rare": true,
+                    "FormationLimite": 1,
+                    "unites": [
+                        {
+                            "id": "barge_bataille",
+                            "name": "Barge de Bataille",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                }
+            ]
+        },
+        {
+            "id": "soutiens_legions_titaniques",
+            "name": "SOUTIENS DES LÉGIONS TITANIQUES",
+            "type": "rare",
+            "description": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+            "formations": [
+                {
+                    "id": "warhound",
+                    "name": "Titan Warhound",
+                    "cout": 275,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "warhound",
+                            "name": "Warhound",
+                            "nombre": 1
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "2",
+                            "name": "2 Titans Warhound",
+                            "cout": 500,
+                            "multiplicateur": 2
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "reaver",
+                    "name": "Titan Reaver",
+                    "cout": 650,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "reaver",
+                            "name": "Reaver",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "warlord",
+                    "name": "Titan Warlord",
+                    "cout": 850,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "warlord",
+                            "name": "Warlord",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                }
+            ]
+        }
+    ]
+}

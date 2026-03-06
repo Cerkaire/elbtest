@@ -1,0 +1,809 @@
+{
+    "codex": {
+        "id": "eldars_biel_tan",
+        "name": "Eldars de Biel-Tan",
+        "version": "1.4",
+        "faction": "Eldars",
+        "color": "#4aa612",
+        "categorie": "Armées Xénos",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.33,
+            "valeur_strategique": 4,
+            "initiative_defaut": "2+",
+            "initiative_elites": "1+"
+        }
+    },
+    "ameliorations": [
+        {
+            "id": "transport_falcon",
+            "name": "Transport - Falcon",
+            "cout": 50,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "falcon",
+                    "name": "Falcon",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "transport_wave_serpent",
+            "name": "Transport - Wave Serpent",
+            "cout": 50,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "wave_serpent",
+                    "name": "Wave Serpent",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "transport_2_wave_serpents",
+            "name": "Transport - 2 Wave Serpents",
+            "cout": 75,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "wave_serpent",
+                    "name": "Wave Serpent",
+                    "nombre": 2
+                }
+            ]
+        },
+        {
+            "id": "remplacement_plateforme",
+            "name": "Plate-formes d'Armes Lourdes",
+            "cout": 0,
+            "cout_par_unite": true,
+            "description": "Remplacer jusqu'à 3 Gardiens par des Plate-formes d'Armes Lourdes",
+            "min": 1,
+            "max": 3,
+            "type_remplacement": {
+                "remplace_unites": ["gardien"],
+                "par_unite": "plateforme_arme_lourde"
+            },
+            "unites": [
+                {
+                    "id": "plateforme_arme_lourde",
+                    "name": "Plate-forme d'Armes Lourdes",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "plateformes_support",
+            "name": "Plate-formes d'Armes Lourdes",
+            "cout": 0,
+            "cout_par_unite": true,
+            "description": "Remplacer jusqu'à 3 Gardiens par des Plate-formes d'Armes Lourdes",
+            "min": 1,
+            "max": 3,
+            "type_remplacement": {
+                "remplace_unites": ["gardien"],
+                "par_unite": "plateforme_arme_lourde"
+            },
+            "unites": [
+                {
+                    "id": "plateforme_arme_lourde",
+                    "name": "Plate-forme d'Armes Lourdes",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "gardes_fantomes",
+            "name": "Gardes Fantômes",
+            "cout": 50,
+            "cout_par_unite": true,
+            "description": "Ajouter 2 à 3 Gardes Fantômes",
+            "min": 2,
+            "max": 3,
+            "unites": [
+                {
+                    "id": "garde_fantome",
+                    "name": "Garde Fantôme",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "seigneurs_fantomes",
+            "name": "3 Seigneurs Fantômes",
+            "cout": 175,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "seigneur_fantome",
+                    "name": "Seigneur Fantôme",
+                    "nombre": 3
+                }
+            ]
+        },
+        {
+            "id": "firestorm_gardiens",
+            "name": "Firestorm",
+            "cout": 75,
+            "limit": 1,
+            "unites": [
+                {
+                    "id": "firestorm",
+                    "name": "Firestorm",
+                    "nombre": 1
+                }
+            ]
+        },
+        {
+            "id": "exarque",
+            "name": "Exarque",
+            "cout": 25,
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "autarque",
+            "name": "0-1 Autarque",
+            "cout": 75,
+            "limiteOptionGlobal": 1,
+            "limit": 1,
+            "unites": []
+        },
+        {
+            "id": "remplacement_firestorm",
+            "name": "Remplacement Firestorm",
+            "cout": 25,
+            "cout_par_unite": true,
+            "description": "Remplacer 1 à 2 véhicules par des Firestorms",
+            "min": 1,
+            "max": 2,
+            "type_remplacement": {
+                "remplace_unites": ["tisseur_nuit", "falcon", "warp_hunter", "prisme_feu"],
+                "par_unite": "firestorm"
+            },
+            "unites": [
+                {
+                    "id": "firestorm",
+                    "name": "Firestorm",
+                    "nombre": 1
+                }
+            ]
+        }
+    ],
+    "groupes": [
+        {
+            "id": "personnages_biel_tan",
+            "name": "PERSONNAGE/OPTION DE BIEL-TAN",
+            "type": "principale",
+            "description": "Personnages et options spéciales de Biel-Tan",
+            "formations": [
+                {
+                    "id": "portail_fantome",
+                    "name": "Portail Fantôme",
+                    "cout": 50,
+                    "FormationLimite": 1,
+                    "unites": [
+                        {
+                            "id": "portail_fantome",
+                            "name": "Portail Fantôme",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "avatar",
+                    "name": "Avatar",
+                    "cout": 100,
+                    "FormationLimite": 1,
+                    "unites": [
+                        {
+                            "id": "avatar",
+                            "name": "Avatar",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                }
+            ]
+        },
+        {
+            "id": "ost_guerre_biel_tan",
+            "name": "OST DE GUERRE DE BIEL-TAN",
+            "type": "principale",
+            "description": "Formations principales de l'Ost de Guerre de Biel-Tan",
+            "min_formations": 1,
+            "formations": [
+                {
+                    "id": "ost_guerre_gardiens",
+                    "name": "Ost de Guerre de Gardiens",
+                    "cout": 150,
+                    "initiative": "2+",
+                    "FormationLimitationTag": {
+                        "A": 3
+                    },
+                    "unites": [
+                        {
+                            "id": "grand_prophete",
+                            "name": "Grand Prophète",
+                            "nombre": 1
+                        },
+                        {
+                            "id": "gardien",
+                            "name": "Gardiens",
+                            "nombre": 7
+                        }
+                    ],
+                    "ameliorations": [
+                        "transport_falcon",
+                        "transport_wave_serpent",
+                        "transport_2_wave_serpents",
+                        "remplacement_plateforme",
+                        "plateformes_support",
+                        "gardes_fantomes",
+                        "seigneurs_fantomes",
+                        "firestorm_gardiens"
+                    ]
+                },
+                {
+                    "id": "ost_guerre_guerriers_aspects",
+                    "name": "Ost de Guerre de Guerriers Aspects",
+                    "cout": 300,
+                    "initiative": "1+",
+                    "FormationLimitationTag": {
+                        "A": 3
+                    },
+                    "composition_personnalisee": {
+                        "type": "choix_multiples",
+                        "total": 8,
+                        "description": "Choisir 8 Guerriers Aspects",
+                        "principale": true,
+                        "options": [
+                            {
+                                "id": "lance_lumiere",
+                                "name": "Lances de Lumière",
+                                "unitId": "lance_lumiere",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 8
+                            },
+                            {
+                                "id": "araignee_spectrale",
+                                "name": "Araignées Spectrales",
+                                "unitId": "araignee_spectrale",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 8
+                            },
+                            {
+                                "id": "banshee",
+                                "name": "Banshees",
+                                "unitId": "banshee",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 8
+                            },
+                            {
+                                "id": "faucheur_noir",
+                                "name": "Faucheurs Noirs",
+                                "unitId": "faucheur_noir",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 8
+                            },
+                            {
+                                "id": "vengeur",
+                                "name": "Vengeurs",
+                                "unitId": "vengeur",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 8
+                            },
+                            {
+                                "id": "dragon_feu",
+                                "name": "Dragons de Feu",
+                                "unitId": "dragon_feu",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 8
+                            },
+                            {
+                                "id": "guerrier_scorpion",
+                                "name": "Guerriers Scorpions",
+                                "unitId": "guerrier_scorpion",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 8
+                            },
+                            {
+                                "id": "aigle_chasseur",
+                                "name": "Aigles Chasseurs",
+                                "unitId": "aigle_chasseur",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 8
+                            }
+                        ]
+                    },
+                    "ameliorations": [
+                        "transport_falcon",
+                        "transport_wave_serpent",
+                        "transport_2_wave_serpents",
+                        "exarque",
+                        "autarque"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ost_support_biel_tan",
+            "name": "OST DE SUPPORT DE BIEL-TAN",
+            "type": "associee",
+            "description": "Formations de support de Biel-Tan",
+            "LimitationTag": "A",
+            "max_par_tag": 3,
+            "formations": [
+                {
+                    "id": "peloton_guerriers_aspects",
+                    "name": "0-1 Peloton de Guerriers Aspects",
+                    "cout": 175,
+                    "initiative": "1+",
+                    "FormationLimite": 1,
+                    "composition_personnalisee": {
+                        "type": "choix_multiples",
+                        "total": 4,
+                        "description": "Choisir 4 Guerriers Aspects",
+                        "principale": true,
+                        "options": [
+                            {
+                                "id": "lance_lumiere",
+                                "name": "Lances de Lumière",
+                                "unitId": "lance_lumiere",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 4
+                            },
+                            {
+                                "id": "araignee_spectrale",
+                                "name": "Araignées Spectrales",
+                                "unitId": "araignee_spectrale",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 4
+                            },
+                            {
+                                "id": "banshee",
+                                "name": "Banshees",
+                                "unitId": "banshee",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 4
+                            },
+                            {
+                                "id": "faucheur_noir",
+                                "name": "Faucheurs Noirs",
+                                "unitId": "faucheur_noir",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 4
+                            },
+                            {
+                                "id": "vengeur",
+                                "name": "Vengeurs",
+                                "unitId": "vengeur",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 4
+                            },
+                            {
+                                "id": "dragon_feu",
+                                "name": "Dragons de Feu",
+                                "unitId": "dragon_feu",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 4
+                            },
+                            {
+                                "id": "guerrier_scorpion",
+                                "name": "Guerriers Scorpions",
+                                "unitId": "guerrier_scorpion",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 4
+                            },
+                            {
+                                "id": "aigle_chasseur",
+                                "name": "Aigles Chasseurs",
+                                "unitId": "aigle_chasseur",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 4
+                            }
+                        ]
+                    },
+                    "ameliorations": [
+                        "transport_falcon",
+                        "transport_wave_serpent",
+                        "transport_2_wave_serpents",
+                        "exarque",
+                        "autarque"
+                    ]
+                },
+                {
+                    "id": "peloton_rangers",
+                    "name": "Peloton de Rangers",
+                    "cout": 25,
+                    "cout_par_unite": true,
+                    "initiative": "2+",
+                    "nombre_variable": {
+                        "min": 6,
+                        "max": 8,
+                        "description": "6 à 8 Rangers"
+                    },
+                    "unites": [
+                        {
+                            "id": "ranger",
+                            "name": "Rangers",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "peloton_windrider",
+                    "name": "Peloton Windrider",
+                    "cout": 200,
+                    "initiative": "2+",
+                    "composition_personnalisee": {
+                        "type": "choix_multiples",
+                        "total": 6,
+                        "description": "Choisir 6 unités parmi Motojets et Vypers",
+                        "principale": true,
+                        "options": [
+                            {
+                                "id": "motojet_wind_rider",
+                                "name": "Motojet Wind Rider",
+                                "unitId": "motojet_wind_rider",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 6
+                            },
+                            {
+                                "id": "vyper_wild_rider",
+                                "name": "Vyper Wild Rider",
+                                "unitId": "vyper_wild_rider",
+                                "cout": 0,
+                                "min": 0,
+                                "max": 6
+                            }
+                        ]
+                    },
+                    "ameliorations": []
+                },
+                {
+                    "id": "escadron_marcheurs",
+                    "name": "Escadron de Marcheurs",
+                    "cout": 200,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "marcheur_combat",
+                            "name": "Marcheur de Combat",
+                            "nombre": 6
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "escadron_bouclier_vaul",
+                    "name": "Escadron Bouclier de Vaul",
+                    "cout": 175,
+                    "initiative": "2+",
+                    "unites": [
+                        {
+                            "id": "tisseur_nuit",
+                            "name": "Tisseur de Nuit",
+                            "nombre": 3
+                        }
+                    ],
+                    "variantes": [
+                        {
+                            "id": "avec_firestorm",
+                            "name": "2 Tisseurs + 1 Firestorm",
+                            "cout": 175,
+                            "unites_override": [
+                                {
+                                    "id": "tisseur_nuit",
+                                    "name": "Tisseur de Nuit",
+                                    "nombre": 2
+                                },
+                                {
+                                    "id": "firestorm",
+                                    "name": "Firestorm",
+                                    "nombre": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "ameliorations": [
+                        "remplacement_firestorm"
+                    ]
+                },
+                {
+                    "id": "escadron_lame_vaul",
+                    "name": "Escadron Lame de Vaul",
+                    "cout": 0,
+                    "initiative": "2+",
+                    "composition_personnalisee": {
+                        "type": "choix_multiples",
+                        "min_total": 5,
+                        "max_total": 6,
+                        "description": "Choisir 5 à 6 véhicules",
+                        "principale": true,
+                        "options": [
+                            {
+                                "id": "falcon",
+                                "name": "Falcon",
+                                "unitId": "falcon",
+                                "cout": 50,
+                                "min": 0,
+                                "max": 6
+                            },
+                            {
+                                "id": "warp_hunter",
+                                "name": "Warp Hunter",
+                                "unitId": "warp_hunter",
+                                "cout": 50,
+                                "min": 0,
+                                "max": 6
+                            },
+                            {
+                                "id": "prisme_feu",
+                                "name": "Prisme de Feu",
+                                "unitId": "prisme_feu",
+                                "cout": 50,
+                                "min": 0,
+                                "max": 6
+                            }
+                        ]
+                    },
+                    "ameliorations": [
+                        "remplacement_firestorm"
+                    ]
+                },
+                {
+                    "id": "escadron_machine_vaul",
+                    "name": "Escadron Machine de Vaul",
+                    "cout": 50,
+                    "initiative": "2+",
+                    "composition_personnalisee": {
+                        "type": "choix_multiples",
+                        "min_total": 1,
+                        "max_total": 3,
+                        "description": "Choisir 1 à 3 engins de guerre",
+                        "principale": true,
+                        "options": [
+                            {
+                                "id": "cobra",
+                                "name": "Cobra",
+                                "unitId": "cobra",
+                                "cout": 200,
+                                "min": 0,
+                                "max": 3
+                            },
+                            {
+                                "id": "scorpion",
+                                "name": "Scorpion",
+                                "unitId": "scorpion",
+                                "cout": 200,
+                                "min": 0,
+                                "max": 3
+                            },
+                            {
+                                "id": "storm_serpent",
+                                "name": "Storm Serpent",
+                                "unitId": "storm_serpent",
+                                "cout": 200,
+                                "min": 0,
+                                "max": 3
+                            },
+                            {
+                                "id": "tisseur_neant",
+                                "name": "Tisseur de Néant",
+                                "unitId": "tisseur_neant",
+                                "cout": 225,
+                                "min": 0,
+                                "max": 3
+                            }
+                        ]
+                    },
+                    "ameliorations": []
+                }
+            ]
+        },
+        {
+            "id": "flotte_eldar",
+            "name": "FLOTTE ELDAR",
+            "type": "rare",
+            "description": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+            "rare": true,
+            "max_points_ratio": 0.33,
+            "formations": [
+                {
+                    "id": "croiseur_eldar",
+                    "name": "0-1 Croiseur Eldar",
+                    "cout": 0,
+                    "FormationLimite": 1,
+                    "rare": true,
+                    "composition_personnalisee": {
+                        "type": "choix_unique",
+                        "description": "Choisir le type de croiseur",
+                        "options": [
+                            {
+                                "id": "vaisseau_fantome",
+                                "name": "Vaisseau Fantôme",
+                                "unitId": "vaisseau_fantome",
+                                "nombre": 1,
+                                "cout": 100
+                            },
+                            {
+                                "id": "vaisseau_dragon",
+                                "name": "Vaisseau Dragon",
+                                "unitId": "vaisseau_dragon",
+                                "nombre": 1,
+                                "cout": 300
+                            }
+                        ]
+                    },
+                    "ameliorations": []
+                },
+                {
+                    "id": "escadrille_nightwings",
+                    "name": "Escadrille de Nightwings",
+                    "cout": 100,
+                    "cout_par_unite": true,
+                    "initiative": "1+",
+                    "rare": true,
+                    "nombre_variable": {
+                        "min": 2,
+                        "max": 3,
+                        "description": "2 à 3 Chasseurs Nightwing"
+                    },
+                    "unites": [
+                        {
+                            "id": "chasseur_nightwing",
+                            "name": "Chasseur Nightwing",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "escadrille_bombardiers_phoenix",
+                    "name": "Escadrille de Bombardiers Phoenix",
+                    "cout": 250,
+                    "initiative": "1+",
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "bombardier_phoenix",
+                            "name": "Bombardier Phoenix",
+                            "nombre": 2
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "vampire_raider",
+                    "name": "Vampire Raider",
+                    "cout": 225,
+                    "initiative": "1+",
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "vampire_raider",
+                            "name": "Vampire Raider",
+                            "nombre": 1
+                        }
+                    ],
+                    "ameliorations": []
+                }
+            ]
+        },
+        {
+            "id": "soutien_titanique_eldar",
+            "name": "SOUTIEN TITANIQUE ELDAR",
+            "type": "rare",
+            "description": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+            "rare": true,
+            "max_points_ratio": 0.33,
+            "formations": [
+                {
+                    "id": "titan_archonte",
+                    "name": "0-1 Titan Archonte",
+                    "cout": 850,
+                    "initiative": "1+",
+                    "FormationLimite": 1,
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "titan_archonte",
+                            "name": "Titan Archonte",
+                            "nombre": 1,
+                            "options": [
+                                {
+                                    "id": "armement",
+                                    "name": "Armement",
+                                    "requis": true,
+                                    "items": [
+                                        {
+                                            "id": "lance_psychique_laser_pulsar",
+                                            "name": "Lance Psychique + Laser Pulsar",
+                                            "cout": 0
+                                        },
+                                        {
+                                            "id": "lance_psychique_poing_energetique",
+                                            "name": "Lance Psychique + Poing Énergétique",
+                                            "cout": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "titan_fantome",
+                    "name": "Titan Fantôme",
+                    "cout": 750,
+                    "initiative": "1+",
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "titan_fantome",
+                            "name": "Titan Fantôme",
+                            "nombre": 1,
+                            "options": [
+                                {
+                                    "id": "armement",
+                                    "name": "Armement",
+                                    "requis": true,
+                                    "items": [
+                                        {
+                                            "id": "2_lasers_pulsars",
+                                            "name": "2 Lasers Pulsars",
+                                            "cout": 0
+                                        },
+                                        {
+                                            "id": "laser_pulsar_poing_energetique",
+                                            "name": "Laser Pulsar + Poing Énergétique",
+                                            "cout": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "ameliorations": []
+                },
+                {
+                    "id": "escadron_titans_revenants",
+                    "name": "Escadron de Titans Revenants",
+                    "cout": 650,
+                    "initiative": "1+",
+                    "rare": true,
+                    "unites": [
+                        {
+                            "id": "titan_revenant",
+                            "name": "Titan Revenant",
+                            "nombre": 2
+                        }
+                    ],
+                    "ameliorations": []
+                }
+            ]
+        }
+    ]
+}

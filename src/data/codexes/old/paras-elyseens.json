@@ -1,0 +1,484 @@
+{
+  "codex": "Paras Élyséens",
+  "color": "#1e3f59",
+  "version": "1.2.1",
+  "logo": "para.png",
+  "categorie": "Armées de l Imperium",
+  "faction": "Impérium",
+  "codexRare": 0.33333333,
+  "strategie": "3",
+  "initiative": "Toutes les formations ont une initiative de 2+",
+  "groupes": [
+    {
+      "name": "COMPAGNIES DES PARAS ÉLYSIENS",
+      "detail": "Jusqu’à 2 formations d'appui par Compagnie / Jusqu'à 3 améliorations différentes par Compagnie",
+      "formation": [
+        {
+          "name": "0-1 QG Régimentaire",
+          "FormationLimite": 1,
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "1 QG Régimentaire Élysien, 7 unités de Paras Élysiens, 4 Valkyries",
+              "value": 350,
+              "ref": [
+                "Quartier Général Élysien",
+                "Paras Élysiens",
+                "Valkyrie Élysienne",
+                "Commissaire"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Appui-feu (2 unités d'Appui-Feu et 1 Valkyrie Élysienne)",
+              "ref": [
+                "Appui-feu",
+                "Valkyrie Élysienne"
+              ],
+              "value": 75,
+              "limit": 1
+            },
+            {
+              "name": "Infanterie (6 unités de Paras Élysiens et 3 Valkyries Élysiennes)",
+              "value": 200,
+              "ref": [
+                "Paras Élysiens",
+                "Valkyrie Élysienne"
+              ],
+              "limit": 1
+            },
+            {
+              "name": "2 Vendetta (Remplacement)",
+              "ref": "Valkyrie Vendetta",
+              "note": "Remplacer 2 Valkyries Élysiennes par autant de Valkyries Vendetta",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "2 Vultures Punisher",
+              "ref": "Vulture Punisher",
+              "value": 75,
+              "limit": 1
+            },
+            {
+              "name": "2 Vultures Élysiennes",
+              "ref": "Vulture Élysienne",
+              "value": 100,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Compagnie d’Infanterie",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "1 unité de Commandement Élysienne, 7 unités de Paras Élysiens, 4 Valkyries",
+              "value": 300,
+              "ref": [
+                "Quartier Général Élysien",
+                "Paras Élysiens",
+                "Valkyrie Élysienne",
+                "Commissaire"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Appui-feu (2 unités d'Appui-Feu et 1 Valkyrie Élysienne)",
+              "ref": [
+                "Appui-feu",
+                "Valkyrie Élysienne"
+              ],
+              "value": 75,
+              "limit": 1
+            },
+            {
+              "name": "Infanterie (6 unités de Paras Élysiens et 3 Valkyries Élysiennes)",
+              "value": 200,
+              "ref": [
+                "Paras Élysiens",
+                "Valkyrie Élysienne"
+              ],
+              "limit": 1
+            },
+            {
+              "name": "2 Vendetta (Remplacement)",
+              "ref": "Valkyrie Vendetta",
+              "note": "Remplacer 2 Valkyries Élysiennes par autant de Valkyries Vendetta",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "2 Vultures Punisher",
+              "ref": "Vulture Punisher",
+              "value": 75,
+              "limit": 1
+            },
+            {
+              "name": "2 Vultures Élysiennes",
+              "ref": "Vulture Élysienne",
+              "value": 100,
+              "limit": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS D'APPUI DES PARAS ÉLYSIENS",
+      "detail": "Jusqu’à 2 formations d'appui par compagnie",
+      "formation": [
+        {
+          "name": "Tarentules",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 Tarentules aéroportées",
+              "ref": "Tarentule aéroportée",
+              "value": 150,
+              "principale": true
+            },
+            {
+              "name": "Téléportation",
+              "value": 50,
+              "principale": true
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Escadron de Sentinelles",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "4 Sentinelles Aéroportées",
+              "ref": "Sentinelle aéroportée",
+              "value": 100,
+              "principale": true,
+              "unique": "A",
+              "limit": 1
+            },
+            {
+              "name": "4 Sentinelles de Soutien",
+              "ref": "Sentinelle de soutien",
+              "value": 150,
+              "principale": true,
+              "unique": "A",
+              "limit": 1
+            },
+            {
+              "name": "+2 Sentinelles Aéroportées",
+              "ref": "Sentinelle aéroportée",
+              "value": 50,
+              "unique": "AB",
+              "limit": 1
+            },
+            {
+              "name": "+2 Sentinelles de Soutien",
+              "ref": "Sentinelle de soutien",
+              "value": 75,
+              "unique": "AB",
+              "limit": 1
+            },
+            {
+              "name": "Téléportation",
+              "value": 50,
+              "unique": "AC",
+              "limit": 1
+            },
+            {
+              "name": "Valkyrie Sky Talons",
+              "ref": "Valkyrie Sky Talon",
+              "value": 25,
+              "unique": "AC",
+              "limit": 1,
+              "min": 2,
+              "max": 3
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Peloton de Vétérans",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 Vétérans (Saboteurs)",
+              "ref": "Vétérans (saboteurs)",
+              "value": 200,
+              "principale": true,
+              "unique": "B"
+            },
+            {
+              "name": "6 Vétérans (Snipers)",
+              "ref": "Vétérans (snipers)",
+              "value": 200,
+              "principale": true,
+              "unique": "B"
+            },
+            {
+              "name": "Téléportation",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Militarum Tempestus",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "8 unités de Tempestus Scions",
+              "ref": "Tempestus Scions",
+              "value": 200,
+              "principale": true
+            },
+            {
+              "name": "Téléportation",
+              "value": 50,
+              "unique": "C",
+              "limit": 1
+            },
+            {
+              "name": "Valkyries Élysienne",
+              "ref": "Valkyrie Élysienne",
+              "value": 150,
+              "unique": "C",
+              "limit": 1
+            },
+            {
+              "name": "2 Valkyries Vendetta (Remplacement)",
+              "ref": "Valkyrie Vendetta",
+              "note": "Remplacer 2 Valkyries par 2 Valkyries Vendetta",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Peloton d'Appui-Feu",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités d'Appui-Feu",
+              "ref": "Appui-feu",
+              "value": 175,
+              "principale": true,
+              "unique": "D"
+            },
+            {
+              "name": "6 unités de Mortiers",
+              "ref": "Mortiers",
+              "value": 175,
+              "principale": true,
+              "unique": "D"
+            },
+            {
+              "name": "3 Valkyries Élysienne",
+              "ref": "Valkyrie Élysienne",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "2 Valkyries Vendetta (Remplacement)",
+              "ref": "Valkyrie Vendetta",
+              "note": "Remplacer 2 Valkyries par 2 Valkyries Vendetta",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Escadron de Tauros",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités parmi : Tauros, Tauros Venator",
+              "value": 250,
+              "principale": true,
+              "nbrefoptions": 6,
+              "tagrefoptions": "A"
+            },
+            {
+              "name": "Tauros",
+              "ref": "Tauros",
+              "value": 0,
+              "min": 0,
+              "max": 6,
+              "refoption": "A"
+            },
+            {
+              "name": "Tauros Venator",
+              "ref": "Tauros Venator",
+              "value": 0,
+              "min": 0,
+              "max": 6,
+              "refoption": "A"
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Escadrille de Vultures",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "4 Vultures Élysiennes",
+              "ref": "Vulture Élysienne",
+              "value": 300,
+              "principale": true,
+              "unique": "E"
+            },
+            {
+              "name": "(0-1) 4 Vultures Punisher",
+              "ref": "Vulture Punisher",
+              "value": 225,
+              "principale": true,
+              "limiteOptionGlobal": 1,
+              "unique": "E"
+            },
+            {
+              "name": "+2 Vultures Élysiennes",
+              "ref": "Vulture Élysienne",
+              "value": 100,
+              "unique": "EE"
+            },
+            {
+              "name": "+2 Vultures Punisher",
+              "ref": "Vulture Punisher",
+              "value": 75,
+              "unique": "EE"
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUPPORTS DES PARAS ÉLYSIENS",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Escadrille Lightning",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Lightning Strike Fighters",
+              "ref": "Lightning Strike Fighter",
+              "value": 175,
+              "principale": true,
+              "unique": "F"
+            },
+            {
+              "name": "3 Lightning Strike Fighters",
+              "ref": "Lightning Strike Fighter",
+              "value": 250,
+              "principale": true,
+              "unique": "F"
+            }
+          ]
+        },
+        {
+          "name": "Escadrille de Bombardiers",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Bombardiers Marauders",
+              "ref": "Bombardier Marauder",
+              "value": 250,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Escadrille de Destroyer",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Bombardiers Destroyer",
+              "ref": "Marauder Destroyer",
+              "value": 300,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Soutien Orbital",
+          "rare": true,
+          "FormationLimite": 1,
+          "options": [
+            {
+              "name": "1 Frégate Claymore",
+              "ref": "Frégate Claymore",
+              "value": 175,
+              "principale": true
+            },
+            {
+              "name": "1 Cuirassé Emperor",
+              "ref": "Cuirassé Emperor",
+              "value": 300,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

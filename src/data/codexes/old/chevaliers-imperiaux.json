@@ -1,0 +1,1633 @@
+{
+  "codex": "Chevaliers Impériaux",
+  "color": "#004b58",
+  "version": "1.4",
+  "logo": "chevalier.png",
+  "categorie": "Armées de l Imperium",
+  "faction": "Titanicus",
+  "codexRare": 0.33333333,
+  "strategie": "3",
+  "initiative": "Les formations de l’armée ont une valeur d’initiative de 2+",
+  "groupes": [
+    {
+      "name": "LANCE DU BAN DES CHEVALIERS IMPÉRIAUX",
+      "detail": "",
+      "formation": [
+        {
+          "name": "Questoris Paladin",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "options": [
+            {
+              "name": "3 Paladins",
+              "value": 375,
+              "ref": [
+                "Paladin"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Chevaliers",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Paladin",
+              "value": 125,
+              "ref": "Paladin",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Errant",
+              "value": 125,
+              "ref": "Errant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Croisé",
+              "value": 150,
+              "ref": "Croisé",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Galant",
+              "value": 100,
+              "ref": "Galant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden",
+              "value": 100,
+              "ref": "Warden",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden Agressor",
+              "value": 125,
+              "ref": "Warden Agressor",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Précepteur",
+              "value": 150,
+              "limiteOptionGlobal": 1,
+              "ref": "Précepteur",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Vaillant",
+              "value": 175,
+              "limiteOptionGlobal": 1,
+              "ref": "Vaillant",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Castellan",
+              "value": 200,
+              "limiteOptionGlobal": 1,
+              "ref": "Castellan",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Noble",
+              "ref": "Lord Scion",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Sans fief",
+              "ref": "Sans fief",
+              "value": 50,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Sénéchal",
+              "ref": "Sénéchal",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Porte-Bannière",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Questoris Errant",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "options": [
+            {
+              "name": "3 Errant",
+              "value": 325,
+              "ref": [
+                "Errant"
+              ],
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Chevaliers",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Paladin",
+              "value": 125,
+              "ref": "Paladin",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Errant",
+              "value": 125,
+              "ref": "Errant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Croisé",
+              "value": 150,
+              "ref": "Croisé",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Galant",
+              "value": 100,
+              "ref": "Galant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden",
+              "value": 100,
+              "ref": "Warden",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden Agressor",
+              "value": 125,
+              "ref": "Warden Agressor",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Précepteur",
+              "value": 150,
+              "limiteOptionGlobal": 1,
+              "ref": "Précepteur",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Vaillant",
+              "value": 175,
+              "limiteOptionGlobal": 1,
+              "ref": "Vaillant",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Castellan",
+              "value": 200,
+              "limiteOptionGlobal": 1,
+              "ref": "Castellan",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Noble",
+              "ref": "Lord Scion",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Sans fief",
+              "ref": "Sans fief",
+              "value": 50,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Sénéchal",
+              "ref": "Sénéchal",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Porte-Bannière",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Questoris Warden",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "options": [
+            {
+              "name": "3 Warden",
+              "value": 300,
+              "ref": [
+                "Warden"
+              ],
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Chevaliers",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Paladin",
+              "value": 125,
+              "ref": "Paladin",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Errant",
+              "value": 125,
+              "ref": "Errant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Croisé",
+              "value": 150,
+              "ref": "Croisé",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Galant",
+              "value": 100,
+              "ref": "Galant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden",
+              "value": 100,
+              "ref": "Warden",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden Agressor",
+              "value": 125,
+              "ref": "Warden Agressor",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Précepteur",
+              "value": 150,
+              "limiteOptionGlobal": 1,
+              "ref": "Précepteur",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Vaillant",
+              "value": 175,
+              "limiteOptionGlobal": 1,
+              "ref": "Vaillant",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Castellan",
+              "value": 200,
+              "limiteOptionGlobal": 1,
+              "ref": "Castellan",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Noble",
+              "ref": "Lord Scion",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Sans fief",
+              "ref": "Sans fief",
+              "value": 50,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Sénéchal",
+              "ref": "Sénéchal",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Porte-Bannière",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Questoris Warden Aggressor",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "options": [
+            {
+              "name": "3 Warden Aggressor",
+              "value": 350,
+              "ref": [
+                "Warden Agressor"
+              ],
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Chevaliers",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Paladin",
+              "value": 125,
+              "ref": "Paladin",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Errant",
+              "value": 125,
+              "ref": "Errant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Croisé",
+              "value": 150,
+              "ref": "Croisé",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Galant",
+              "value": 100,
+              "ref": "Galant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden",
+              "value": 100,
+              "ref": "Warden",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden Agressor",
+              "value": 125,
+              "ref": "Warden Agressor",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Précepteur",
+              "value": 150,
+              "limiteOptionGlobal": 1,
+              "ref": "Précepteur",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Vaillant",
+              "value": 175,
+              "limiteOptionGlobal": 1,
+              "ref": "Vaillant",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Castellan",
+              "value": 200,
+              "limiteOptionGlobal": 1,
+              "ref": "Castellan",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Noble",
+              "ref": "Lord Scion",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Sans fief",
+              "ref": "Sans fief",
+              "value": 50,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Sénéchal",
+              "ref": "Sénéchal",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Porte-Bannière",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Questoris Galants",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "options": [
+            {
+              "name": "3 Galants",
+              "value": 300,
+              "ref": [
+                "Galant"
+              ],
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Chevaliers",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Paladin",
+              "value": 125,
+              "ref": "Paladin",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Errant",
+              "value": 125,
+              "ref": "Errant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Croisé",
+              "value": 150,
+              "ref": "Croisé",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Galant",
+              "value": 100,
+              "ref": "Galant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden",
+              "value": 100,
+              "ref": "Warden",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden Agressor",
+              "value": 125,
+              "ref": "Warden Agressor",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Précepteur",
+              "value": 150,
+              "limiteOptionGlobal": 1,
+              "ref": "Précepteur",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Vaillant",
+              "value": 175,
+              "limiteOptionGlobal": 1,
+              "ref": "Vaillant",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Castellan",
+              "value": 200,
+              "limiteOptionGlobal": 1,
+              "ref": "Castellan",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Noble",
+              "ref": "Lord Scion",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Sans fief",
+              "ref": "Sans fief",
+              "value": 50,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Sénéchal",
+              "ref": "Sénéchal",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Porte-Bannière",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LANCE DE SOUTIEN DES CHEVALIERS IMPÉRIAUX",
+      "detail": "Deux formations par Lance du Ban",
+      "formation": [
+        {
+          "name": "Armigères",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "4 Armigères (tous types)",
+              "value": 200,
+              "principale": true,
+              "limit": 1,
+              "tagrefoptions": "A",
+              "nbrefoptions": 4,
+              "unique": "AA"
+            },
+            {
+              "name": "Armigère Hastaire",
+              "ref": [
+                "Armigère Hastaire"
+              ],
+              "value": 0,
+              "principale": true,
+              "refoption": "A",
+              "min": 0,
+              "max": 4
+            },
+            {
+              "name": "Armigère Helvérien",
+              "ref": [
+                "Armigère Helvérien"
+              ],
+              "value": 0,
+              "principale": true,
+              "refoption": "A",
+              "min": 0,
+              "max": 4
+            },
+            {
+              "name": "6 Armigères (tous types)",
+              "value": 300,
+              "principale": true,
+              "tagrefoptions": "B",
+              "nbrefoptions": 6,
+              "unique": "AA"
+            },
+            {
+              "name": "Armigère Hastaire",
+              "ref": [
+                "Armigère Hastaire"
+              ],
+              "value": 0,
+              "principale": true,
+              "refoption": "B",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Armigère Helvérien",
+              "ref": [
+                "Armigère Helvérien"
+              ],
+              "value": 0,
+              "principale": true,
+              "refoption": "B",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Noble",
+              "ref": "Lord Scion",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Sans fief",
+              "ref": "Sans fief",
+              "value": 50,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Précepteur",
+              "ref": "Précepteur",
+              "value": 150,
+              "limite": 1
+            }
+          ]
+        },
+        {
+          "name": "Questoris Magæra",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "3 Magæra",
+              "value": 350,
+              "principale": true,
+              "ref": [
+                "Magæra"
+              ],
+              "limit": 1,
+              "unique": "BB"
+            },
+            {
+              "name": "4 Magæra",
+              "value": 475,
+              "principale": true,
+              "ref": [
+                "Magæra"
+              ],
+              "limit": 1,
+              "unique": "BB"
+            },
+            {
+              "name": "Chevaliers",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Paladin",
+              "value": 125,
+              "ref": "Paladin",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Errant",
+              "value": 125,
+              "ref": "Errant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Croisé",
+              "value": 150,
+              "ref": "Croisé",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Galant",
+              "value": 100,
+              "ref": "Galant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden",
+              "value": 100,
+              "ref": "Warden",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden Agressor",
+              "value": 125,
+              "ref": "Warden Agressor",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Précepteur",
+              "value": 150,
+              "limiteOptionGlobal": 1,
+              "ref": "Précepteur",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Vaillant",
+              "value": 175,
+              "limiteOptionGlobal": 1,
+              "ref": "Vaillant",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Castellan",
+              "value": 200,
+              "limiteOptionGlobal": 1,
+              "ref": "Castellan",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Noble",
+              "ref": "Lord Scion",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Sans fief",
+              "ref": "Sans fief",
+              "value": 50,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Sénéchal",
+              "ref": "Sénéchal",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Porte-Bannière",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Questoris Styrix",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "3 Styrix",
+              "value": 350,
+              "principale": true,
+              "ref": [
+                "Styrix"
+              ],
+              "limit": 1,
+              "unique": "CC"
+            },
+            {
+              "name": "4 Styrix",
+              "value": 475,
+              "principale": true,
+              "ref": [
+                "Styrix"
+              ],
+              "limit": 1,
+              "unique": "CC"
+            },
+            {
+              "name": "Chevaliers",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Paladin",
+              "value": 125,
+              "ref": "Paladin",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Errant",
+              "value": 125,
+              "ref": "Errant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Croisé",
+              "value": 150,
+              "ref": "Croisé",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Galant",
+              "value": 100,
+              "ref": "Galant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden",
+              "value": 100,
+              "ref": "Warden",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden Agressor",
+              "value": 125,
+              "ref": "Warden Agressor",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Précepteur",
+              "value": 150,
+              "limiteOptionGlobal": 1,
+              "ref": "Précepteur",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Vaillant",
+              "value": 175,
+              "limiteOptionGlobal": 1,
+              "ref": "Vaillant",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Castellan",
+              "value": 200,
+              "limiteOptionGlobal": 1,
+              "ref": "Castellan",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Noble",
+              "ref": "Lord Scion",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Sans fief",
+              "ref": "Sans fief",
+              "value": 50,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Sénéchal",
+              "ref": "Sénéchal",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Porte-Bannière",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Questoris Acheron",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "3 Acheron",
+              "value": 325,
+              "principale": true,
+              "ref": [
+                "Acheron"
+              ],
+              "limit": 1,
+              "unique": "DD"
+            },
+            {
+              "name": "4 Acheron",
+              "value": 450,
+              "principale": true,
+              "ref": [
+                "Acheron"
+              ],
+              "limit": 1,
+              "unique": "DD"
+            },
+            {
+              "name": "Chevaliers",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Paladin",
+              "value": 125,
+              "ref": "Paladin",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Errant",
+              "value": 125,
+              "ref": "Errant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Croisé",
+              "value": 150,
+              "ref": "Croisé",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Galant",
+              "value": 100,
+              "ref": "Galant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden",
+              "value": 100,
+              "ref": "Warden",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden Agressor",
+              "value": 125,
+              "ref": "Warden Agressor",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Précepteur",
+              "value": 150,
+              "limiteOptionGlobal": 1,
+              "ref": "Précepteur",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Vaillant",
+              "value": 175,
+              "limiteOptionGlobal": 1,
+              "ref": "Vaillant",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Castellan",
+              "value": 200,
+              "limiteOptionGlobal": 1,
+              "ref": "Castellan",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Noble",
+              "ref": "Lord Scion",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Sans fief",
+              "ref": "Sans fief",
+              "value": 50,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Sénéchal",
+              "ref": "Sénéchal",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Porte-Bannière",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Questoris Castigators",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "3 Castigators",
+              "value": 375,
+              "principale": true,
+              "ref": [
+                "Castigator"
+              ],
+              "limit": 1,
+              "unique": "EE"
+            },
+            {
+              "name": "4 Castigators",
+              "value": 525,
+              "principale": true,
+              "ref": [
+                "Castigator"
+              ],
+              "limit": 1,
+              "unique": "EE"
+            },
+            {
+              "name": "Chevaliers",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Paladin",
+              "value": 125,
+              "ref": "Paladin",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Errant",
+              "value": 125,
+              "ref": "Errant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Croisé",
+              "value": 150,
+              "ref": "Croisé",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Galant",
+              "value": 100,
+              "ref": "Galant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden",
+              "value": 100,
+              "ref": "Warden",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden Agressor",
+              "value": 125,
+              "ref": "Warden Agressor",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Précepteur",
+              "value": 150,
+              "limiteOptionGlobal": 1,
+              "ref": "Précepteur",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Vaillant",
+              "value": 175,
+              "limiteOptionGlobal": 1,
+              "ref": "Vaillant",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Castellan",
+              "value": 200,
+              "limiteOptionGlobal": 1,
+              "ref": "Castellan",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Noble",
+              "ref": "Lord Scion",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Sans fief",
+              "ref": "Sans fief",
+              "value": 50,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Sénéchal",
+              "ref": "Sénéchal",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Porte-Bannière",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Questoris Lancer",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "3 Lancer",
+              "value": 325,
+              "principale": true,
+              "ref": [
+                "Lancer"
+              ],
+              "limit": 1,
+              "unique": "FF"
+            },
+            {
+              "name": "4 Lancer",
+              "value": 475,
+              "principale": true,
+              "ref": [
+                "Lancer"
+              ],
+              "limit": 1,
+              "unique": "FF"
+            },
+            {
+              "name": "Chevaliers",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Paladin",
+              "value": 125,
+              "ref": "Paladin",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Errant",
+              "value": 125,
+              "ref": "Errant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Croisé",
+              "value": 150,
+              "ref": "Croisé",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Galant",
+              "value": 100,
+              "ref": "Galant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden",
+              "value": 100,
+              "ref": "Warden",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden Agressor",
+              "value": 125,
+              "ref": "Warden Agressor",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Précepteur",
+              "value": 150,
+              "limiteOptionGlobal": 1,
+              "ref": "Précepteur",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Vaillant",
+              "value": 175,
+              "limiteOptionGlobal": 1,
+              "ref": "Vaillant",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Castellan",
+              "value": 200,
+              "limiteOptionGlobal": 1,
+              "ref": "Castellan",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Noble",
+              "ref": "Lord Scion",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Sans fief",
+              "ref": "Sans fief",
+              "value": 50,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Sénéchal",
+              "ref": "Sénéchal",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Porte-Bannière",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Questoris Atrapos",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "3 Atrapos",
+              "value": 375,
+              "principale": true,
+              "ref": [
+                "Atrapos"
+              ],
+              "limit": 1,
+              "unique": "GG"
+            },
+            {
+              "name": "4 Atrapos",
+              "value": 500,
+              "principale": true,
+              "ref": [
+                "Atrapos"
+              ],
+              "limit": 1,
+              "unique": "GG"
+            },
+            {
+              "name": "Chevaliers",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Paladin",
+              "value": 125,
+              "ref": "Paladin",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Errant",
+              "value": 125,
+              "ref": "Errant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Croisé",
+              "value": 150,
+              "ref": "Croisé",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Galant",
+              "value": 100,
+              "ref": "Galant",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden",
+              "value": 100,
+              "ref": "Warden",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warden Agressor",
+              "value": 125,
+              "ref": "Warden Agressor",
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Précepteur",
+              "value": 150,
+              "limiteOptionGlobal": 1,
+              "ref": "Précepteur",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Vaillant",
+              "value": 175,
+              "limiteOptionGlobal": 1,
+              "ref": "Vaillant",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Castellan",
+              "value": 200,
+              "limiteOptionGlobal": 1,
+              "ref": "Castellan",
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Noble",
+              "ref": "Lord Scion",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Sans fief",
+              "ref": "Sans fief",
+              "value": 50,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Sénéchal",
+              "ref": "Sénéchal",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Porte-Bannière",
+              "value": 75,
+              "limiteOptionGlobal": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LANCE D'APPUI LOURD DES CHEVALIERS IMPÉRIAUX",
+      "detail": "Une formation par Lance du Ban",
+      "formation": [
+        {
+          "name": "Acastus Porphyrion",
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "1 Porphyrion",
+              "ref": "Porphyrion",
+              "value": 300,
+              "principale": true,
+              "unique": "HH"
+            },
+            {
+              "name": "2 Porphyrion",
+              "ref": "Porphyrion",
+              "value": 550,
+              "principale": true,
+              "unique": "HH"
+            }
+          ]
+        },
+        {
+          "name": "Acastus Asterius",
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "1 Asterius",
+              "ref": "Asterius",
+              "value": 300,
+              "principale": true,
+              "unique": "II"
+            },
+            {
+              "name": "2 Asterius",
+              "ref": "Asterius",
+              "value": 550,
+              "principale": true,
+              "unique": "II"
+            }
+          ]
+        },
+        {
+          "name": "Dominus Valiant",
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "1 Vaillant",
+              "ref": "Vaillant",
+              "value": 175,
+              "principale": true,
+              "unique": "JJ"
+            },
+            {
+              "name": "2 Vaillant",
+              "ref": "Vaillant",
+              "value": 300,
+              "principale": true,
+              "unique": "JJ"
+            }
+          ]
+        },
+        {
+          "name": "Dominus Castellan",
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "1 Castellan",
+              "ref": "Castellan",
+              "value": 200,
+              "principale": true,
+              "unique": "KK"
+            },
+            {
+              "name": "2 Castellan",
+              "ref": "Castellan",
+              "value": 350,
+              "principale": true,
+              "unique": "KK"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

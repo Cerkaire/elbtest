@@ -89,7 +89,7 @@ export class ValidationEngine {
         if (!limiteGlobaleResult.valid) return limiteGlobaleResult;
 
         // Unicité
-        const uniqueResult = AmeliorationValidator.validateUnique(formation, ameliorationDef);
+        const uniqueResult = AmeliorationValidator.validateUnique(formation, ameliorationDef, this.codex);
         if (!uniqueResult.valid) return uniqueResult;
 
         // Limite d'options de la formation

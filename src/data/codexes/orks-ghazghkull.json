@@ -1,0 +1,393 @@
+{
+  "codex": {
+    "id": "orks_ghazghkull",
+    "name": "Orks de Ghazghkull",
+    "version": "1.5.1",
+    "faction": "Orks",
+    "color": "#236d44",
+    "logo": "ork.png",
+    "categorie": "armees-xenos",
+    "regles_speciales": {
+      "max_formations_rares_ratio": 0.33,
+      "valeur_strategique": 3,
+      "initiative_defaut": "3+"
+    }
+  },
+  "ameliorations": [
+    {
+      "id": "boyz_gretchin",
+      "name": "Boyz (+1 Gretchin)",
+      "description": "Ajoute 1 unité de Boyz et 1 Gretchin",
+      "cout": 25,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 2,
+      "unites": [
+        { "id": "boyz", "name": "Boyz", "nombre": 1 },
+        { "id": "gretchin", "name": "Gretchin", "nombre": 1 }
+      ]
+    },
+    {
+      "id": "kommandos",
+      "name": "Kommandos",
+      "cout": 25,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 6,
+      "unites": [{ "id": "kommandos", "name": "Kommandos", "nombre": 1 }]
+    },
+    {
+      "id": "chokboyz",
+      "name": "Chokboyz",
+      "cout": 25,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 6,
+      "unites": [{ "id": "chokboyz", "name": "Chokboyz", "nombre": 1 }]
+    },
+    {
+      "id": "motos",
+      "name": "Motos",
+      "cout": 25,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 6,
+      "unites": [{ "id": "motos", "name": "Motos", "nombre": 1 }]
+    },
+    {
+      "id": "buggy",
+      "name": "Buggy",
+      "cout": 25,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 6,
+      "unites": [{ "id": "buggy", "name": "Buggy", "nombre": 1 }]
+    },
+    {
+      "id": "karbonisator",
+      "name": "Karbonisator",
+      "cout": 25,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 6,
+      "unites": [{ "id": "karbonisator", "name": "Karbonisator", "nombre": 1 }]
+    },
+    {
+      "id": "boit_kitu",
+      "name": "Boit'Kitu",
+      "cout": 25,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 6,
+      "unites": [{ "id": "boit_kitu", "name": "Boit'Kitu", "nombre": 1 }]
+    },
+    {
+      "id": "nobz",
+      "name": "Nobz",
+      "cout": 35,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 2,
+      "unites": [{ "id": "nobz", "name": "Nobz", "nombre": 1 }]
+    },
+    {
+      "id": "kopter",
+      "name": "Kopter",
+      "cout": 35,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 6,
+      "unites": [{ "id": "kopter", "name": "Kopter", "nombre": 1 }]
+    },
+    {
+      "id": "dreadnought",
+      "name": "Dreadnought",
+      "cout": 35,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 4,
+      "unites": [{ "id": "dreadnought", "name": "Dreadnought", "nombre": 1 }]
+    },
+    {
+      "id": "grokalibr",
+      "name": "Grokalibr",
+      "cout": 25,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 6,
+      "unites": [{ "id": "grokalibr", "name": "Grokalibr", "nombre": 1 }]
+    },
+    {
+      "id": "chariot_flak",
+      "name": "2× Chariot Flak",
+      "cout": 50,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 4,
+      "unites": [{ "id": "chariot_flak", "name": "Chariot Flak", "nombre": 2 }]
+    },
+    {
+      "id": "chariot_kanon",
+      "name": "Chariot Kanon",
+      "cout": 35,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 4,
+      "unites": [{ "id": "chariot_kanon", "name": "Chariot Kanon", "nombre": 1 }]
+    },
+    {
+      "id": "chariot_guerre",
+      "name": "Chariot de Guerre",
+      "cout": 25,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 4,
+      "unites": [{ "id": "chariot_guerre", "name": "Chariot de Guerre", "nombre": 1 }]
+    },
+    {
+      "id": "brikolo",
+      "name": "Brikolo",
+      "cout": 50,
+      "cout_par_unite": false,
+      "max": 1,
+      "unites": [{ "id": "brikolo", "name": "Brikolo", "nombre": 1 }]
+    },
+    {
+      "id": "krabouillators_amelio",
+      "name": "Krabouillator",
+      "cout": 65,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 4,
+      "unites": [{ "id": "krabouillator", "name": "Krabouillator", "nombre": 1 }]
+    },
+    {
+      "id": "forteresse_bataille",
+      "name": "Forteresse de Bataille",
+      "description": "Exclusif avec Forteresse à Kanons (unique B)",
+      "cout": 125,
+      "cout_par_unite": false,
+      "max": 1,
+      "unites": [{ "id": "forteresse_bataille", "name": "Forteresse de Bataille", "nombre": 1 }]
+    },
+    {
+      "id": "forteresse_kanons",
+      "name": "Forteresse à Kanons",
+      "description": "Exclusif avec Forteresse de Bataille (unique B)",
+      "cout": 125,
+      "cout_par_unite": false,
+      "max": 1,
+      "unites": [{ "id": "forteresse_kanons", "name": "Forteresse à Kanons", "nombre": 1 }]
+    },
+    {
+      "id": "chassa_bomba_supp",
+      "name": "Chassa-Bomba supplémentaire",
+      "cout": 50,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 5,
+      "unites": [{ "id": "chassa_bomba", "name": "Chassa-Bomba", "nombre": 1 }]
+    }
+  ],
+  "groupes": [
+    {
+      "id": "bandes_orks",
+      "name": "BANDES ORKS",
+      "type": "principale",
+      "formations": [
+        {
+          "id": "bande_guerre",
+          "name": "Bande de Guerre",
+          "cout": 200,
+          "unites": [
+            { "id": "nobz", "name": "Nobz", "nombre": 2 },
+            { "id": "boyz", "name": "Boyz", "nombre": 6 },
+            { "id": "gretchin", "name": "Gretchin", "nombre": 2 }
+          ],
+          "variantes": [
+            { "id": "mastok", "name": "Mastok'", "multiplicateur": 2, "cout": 350 },
+            { "id": "tre_mastok", "name": "Tré Mastok'", "multiplicateur": 3, "cout": 500 }
+          ],
+          "ameliorations": [
+            "boyz_gretchin", "kommandos", "chokboyz", "motos", "buggy", "karbonisator",
+            "boit_kitu", "nobz", "kopter", "dreadnought", "grokalibr",
+            "chariot_flak", "chariot_kanon", "chariot_guerre",
+            "brikolo", "krabouillators_amelio",
+            "forteresse_bataille", "forteresse_kanons"
+          ]
+        },
+        {
+          "id": "kulte_vitesse",
+          "name": "Kulte d'la Vitesse",
+          "cout": 200,
+          "composition_personnalisee": {
+            "type": "choix_multiples",
+            "total": 8,
+            "description": "Choisir parmi Buggys, Motos, Karbonisators",
+            "options": [
+              { "id": "buggy", "unitId": "buggy", "name": "Buggy", "cout": 0, "min": 0, "max": 8 },
+              { "id": "motos", "unitId": "motos", "name": "Motos", "cout": 0, "min": 0, "max": 8 },
+              { "id": "karbonisator", "unitId": "karbonisator", "name": "Karbonisator", "cout": 0, "min": 0, "max": 8 }
+            ]
+          },
+          "variantes": [
+            { "id": "mastok", "name": "Mastok'", "cout": 350, "total_composition": 16 },
+            { "id": "tre_mastok", "name": "Tré Mastok'", "cout": 500, "total_composition": 24 }
+          ],
+          "ameliorations": ["motos", "buggy", "karbonisator", "kopter", "chariot_flak", "chariot_kanon", "brikolo"]
+        },
+        {
+          "id": "brigade_blitz",
+          "name": "Brigade Blitz",
+          "cout": 150,
+          "composition_personnalisee": {
+            "type": "choix_multiples",
+            "total": 4,
+            "description": "Choisir parmi Chariots Kanons, Chariots Flak, Kopters",
+            "options": [
+              { "id": "chariot_kanon", "unitId": "chariot_kanon", "name": "Chariot Kanon", "cout": 0, "min": 0, "max": 4 },
+              { "id": "chariot_flak", "unitId": "chariot_flak", "name": "Chariot Flak", "cout": 0, "min": 0, "max": 4 },
+              { "id": "kopter", "unitId": "kopter", "name": "Kopter", "cout": 0, "min": 0, "max": 4 }
+            ]
+          },
+          "variantes": [
+            { "id": "mastok", "name": "Mastok'", "cout": 250, "total_composition": 8 },
+            { "id": "tre_mastok", "name": "Tré Mastok'", "cout": 350, "total_composition": 12 }
+          ],
+          "ameliorations": ["motos", "buggy", "karbonisator", "kopter", "chariot_flak", "chariot_kanon", "brikolo", "forteresse_kanons"]
+        },
+        {
+          "id": "batterie_grokalibr",
+          "name": "Batterie de Grokalibr",
+          "cout": 125,
+          "unites": [
+            { "id": "grokalibr", "name": "Grokalibr", "nombre": 5 }
+          ],
+          "variantes": [
+            { "id": "mastok", "name": "Mastok'", "multiplicateur": 2, "cout": 225 },
+            { "id": "tre_mastok", "name": "Tré Mastok'", "multiplicateur": 3, "cout": 325 }
+          ],
+          "ameliorations": ["grokalibr", "chariot_guerre", "nobz", "chariot_flak", "brikolo", "forteresse_kanons"]
+        },
+        {
+          "id": "bande_chokboyz",
+          "name": "Bande de Chokboyz",
+          "cout": 150,
+          "unites": [
+            { "id": "chokboyz", "name": "Chokboyz", "nombre": 6 }
+          ],
+          "ameliorations": ["kommandos", "chokboyz", "motos", "buggy", "karbonisator", "kopter"]
+        },
+        {
+          "id": "bande_kommandos",
+          "name": "Bande de Kommandos",
+          "cout": 150,
+          "unites": [
+            { "id": "kommandos", "name": "Kommandos", "nombre": 6 }
+          ],
+          "ameliorations": ["kommandos"]
+        },
+        {
+          "id": "bande_krabouillators",
+          "name": "Bande de Krabouillators",
+          "cout": 200,
+          "unites": [
+            { "id": "krabouillator", "name": "Krabouillator", "nombre": 3 }
+          ],
+          "variantes": [
+            { "id": "mastok", "name": "Mastok'", "multiplicateur": 2, "cout": 375 },
+            { "id": "tre_mastok", "name": "Tré Mastok'", "multiplicateur": 3, "cout": 550 }
+          ],
+          "ameliorations": ["boit_kitu", "dreadnought", "chariot_flak", "krabouillators_amelio"]
+        },
+        {
+          "id": "bande_superkrabouillator",
+          "name": "Bande de Superkrabouillator",
+          "cout": 500,
+          "unites": [
+            { "id": "super_krabouillator", "name": "Super Krabouillator", "nombre": 1 },
+            { "id": "krabouillator", "name": "Krabouillator", "nombre": 3 }
+          ],
+          "ameliorations": ["boit_kitu", "dreadnought", "chariot_flak", "krabouillators_amelio"]
+        }
+      ]
+    },
+    {
+      "id": "truk_eudmek",
+      "name": "TRUK'EUD'MEK",
+      "type": "rab",
+      "formations": [
+        {
+          "id": "super_krabouillator",
+          "name": "Super Krabouillator",
+          "cout": 300,
+          "rare": true,
+          "unites": [
+            { "id": "super_krabouillator", "name": "Super Krabouillator", "nombre": 1 }
+          ],
+          "ameliorations": []
+        },
+        {
+          "id": "gargant",
+          "name": "Gargant",
+          "cout": 650,
+          "rare": true,
+          "unites": [
+            { "id": "gargant", "name": "Gargant", "nombre": 1 }
+          ],
+          "ameliorations": []
+        },
+        {
+          "id": "grand_gargant",
+          "name": "Grand Gargant",
+          "cout": 850,
+          "rare": true,
+          "unites": [
+            { "id": "grand_gargant", "name": "Grand Gargant", "nombre": 1 }
+          ],
+          "ameliorations": []
+        },
+        {
+          "id": "chassa_bombas",
+          "name": "Chassa-Bombas",
+          "cout": 200,
+          "rare": true,
+          "unites": [
+            { "id": "chassa_bomba", "name": "Chassa-Bomba", "nombre": 4 }
+          ],
+          "ameliorations": ["chassa_bomba_supp"]
+        },
+        {
+          "id": "vesso_debarkment",
+          "name": "Vesso de Débark'ment",
+          "cout": 250,
+          "rare": true,
+          "unites": [
+            { "id": "vesso_debarkment", "name": "Vesso de Débark'ment", "nombre": 1 }
+          ],
+          "ameliorations": []
+        },
+        {
+          "id": "kroiseur_kitu",
+          "name": "Kroiseur Kitu",
+          "cout": 200,
+          "rare": true,
+          "unites": [
+            { "id": "kroiseur_kitu", "name": "Kroiseur Kitu", "nombre": 1 }
+          ],
+          "ameliorations": []
+        },
+        {
+          "id": "kroiseur_la_mort",
+          "name": "Kroiseur d'la Mort",
+          "cout": 250,
+          "rare": true,
+          "unites": [
+            { "id": "kroiseur_la_mort", "name": "Kroiseur d'la Mort", "nombre": 1 }
+          ],
+          "ameliorations": []
+        }
+      ]
+    }
+  ]
+}

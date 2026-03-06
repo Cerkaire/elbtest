@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "black_legion",
+        "name": "Black Légion",
+        "version": "1.6.1",
+        "faction": "Chaos",
+        "color": "#3B2F2F",
+        "logo": "bl.png",
+        "categorie": "armees-chaos",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 4,
+            "initiative_defaut": "1+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

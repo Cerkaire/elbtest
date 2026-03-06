@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "black_templar",
+        "name": "Black Templar",
+        "version": "1.2",
+        "faction": "Astartes",
+        "color": "#2c3036",
+        "logo": "bt.png",
+        "categorie": "armees-astartes",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 5,
+            "initiative_defaut": "1+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

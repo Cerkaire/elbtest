@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "squats",
+        "name": "Squats",
+        "version": "1.2.2",
+        "faction": "Squat",
+        "color": "#18524c",
+        "logo": "squat.png",
+        "categorie": "armees-xenos",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 3,
+            "initiative_defaut": "2+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

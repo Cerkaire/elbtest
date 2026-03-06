@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "adeptus_mechanicus",
+        "name": "Adeptus Mechanicus",
+        "version": "1.5",
+        "faction": "Titanicus",
+        "color": "#610505",
+        "logo": "mechanicus.png",
+        "categorie": "armees-imperiales",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 3,
+            "initiative_defaut": "2+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

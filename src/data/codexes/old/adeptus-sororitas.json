@@ -1,0 +1,575 @@
+{
+  "codex": "Adeptus sororitas",
+  "color": "#610505",
+  "version": "1.0.1",
+  "logo": "sororita.png",
+  "categorie": "Armées de l Imperium",
+  "faction": "Impérium",
+  "codexRare": 0.33333333,
+  "strategie": "3",
+  "initiative": "Les formations d’ordre militant, d’Incinérator et de Cathédrale, initiative 1+, Les autres formations, initiative 2+",
+  "groupes": [
+    {
+      "name": "FORMATION DE L'ORDRE MILITANT",
+      "detail": "Vous pouvez prendre une formation de support par formation d'ordre militant prise",
+      "formation": [
+        {
+          "name": "Couvent Sororita",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1
+            }
+          ],
+          "options": [
+            {
+              "name": "8 unités de Soeurs de Bataille",
+              "value": 225,
+              "limit": 1,
+              "ref": [
+                "Soeur de Bataille"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Céleste",
+              "ref": "Céleste",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "Supérieure Palatine",
+              "value": 50,
+              "ref": "Palatine",
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Supérieure Chanoinesse",
+              "ref": "Chanoinesse",
+              "value": 75,
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "3 Transport - Rhinos",
+              "ref": "Rhino",
+              "value": 25,
+              "limit": 1,
+              "unique": "RH"
+            },
+            {
+              "name": "4 Transport - Rhinos",
+              "ref": "Rhino",
+              "value": 50,
+              "limit": 1,
+              "unique": "RH"
+            },
+            {
+              "name": "Transport - Immolators",
+              "ref": [
+                "Immolator (Immolation)",
+                "Immolator (Inferno)"
+              ],
+              "value": 25,
+              "limit": 1,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "name": "Exorciste",
+              "ref": "Exorciste",
+              "value": 50,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Hunter",
+              "ref": "Hunter",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "3 Repressor",
+              "ref": "Repressor",
+              "value": 50,
+              "limit": 1,
+              "unique": "RP"
+            },
+            {
+              "name": "4 Repressor",
+              "ref": "Repressor",
+              "value": 75,
+              "limit": 1,
+              "unique": "RP"
+            }
+          ]
+        },
+        {
+          "name": "Couvent Retributor",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "6 unités de Retributors",
+              "limit": 1,
+              "value": 200,
+              "ref": [
+                "Retributor"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Supérieure Palatine",
+              "value": 50,
+              "ref": "Palatine",
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Supérieure Chanoinesse",
+              "ref": "Chanoinesse",
+              "value": 75,
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "3 Transport - Rhinos",
+              "ref": "Rhino",
+              "value": 25,
+              "limit": 1,
+              "unique": "RH"
+            },
+            {
+              "name": "Transport - Immolators",
+              "ref": [
+                "Immolator (Immolation)",
+                "Immolator (Inferno)"
+              ],
+              "value": 25,
+              "limit": 1,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "name": "Hunter",
+              "ref": "Hunter",
+              "value": 50,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Couvent Séraphin",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "6 unités de Séraphines",
+              "limit": 1,
+              "value": 225,
+              "ref": [
+                "Séraphine"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Supérieure Palatine",
+              "value": 50,
+              "ref": "Palatine",
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Supérieure Chanoinesse",
+              "ref": "Chanoinesse",
+              "value": 75,
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "unique": "SU"
+            }
+          ]
+        },
+        {
+          "name": "Couvent Dominus",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "4 unités de Dominions et 4 Immolators (tous types)",
+              "limit": 1,
+              "ref": [
+                "Dominion"
+              ],
+              "value": 250,
+              "principale": true,
+              "tagrefoptions": "A",
+              "nbrefoptions": 4
+            },
+            {
+              "name": "Immolator (Immolation)",
+              "ref": [
+                "Immolator (Immolation)"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 4
+            },
+            {
+              "name": "Immolator (Inferno)",
+              "ref": [
+                "Immolator (Inferno)"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 4
+            },
+            {
+              "name": "Supérieure Palatine",
+              "value": 50,
+              "ref": "Palatine",
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Supérieure Chanoinesse",
+              "ref": "Chanoinesse",
+              "value": 75,
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "unique": "SU"
+            }
+          ]
+        },
+        {
+          "name": "Couvent Purification",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "6 Immolators (tous types)",
+              "limit": 1,
+              "ref": [
+                "Immolator (Immolation)",
+                "Immolator (Inferno)"
+              ],
+              "value": 200,
+              "principale": true,
+              "tagrefoptions": "A",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Immolator (Immolation)",
+              "ref": [
+                "Immolator (Immolation)"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Immolator (Inferno)",
+              "ref": [
+                "Immolator (Inferno)"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Hunter",
+              "ref": "Hunter",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Exorciste",
+              "ref": "Exorciste",
+              "value": 50,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Couvent d’Exorcisme",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "6 Exorcistes",
+              "limit": 1,
+              "ref": [
+                "Exorciste"
+              ],
+              "value": 300,
+              "principale": true
+            },
+            {
+              "name": "Hunter",
+              "ref": "Hunter",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Exorciste",
+              "ref": "Exorciste",
+              "value": 50,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Couvent de Repentance",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1
+            }
+          ],
+          "options": [
+            {
+              "name": "6 unités de Repentias + 1 personnage de Maîtresse",
+              "ref": [
+                "Repentia",
+                "Maitresse"
+              ],
+              "value": 200,
+              "limit": 1,
+              "principale": true
+            },
+            {
+              "name": "2 Machines de Pénitence",
+              "ref": "Machine de pénitence",
+              "value": 75,
+              "limit": 1
+            },
+            {
+              "name": "3 Transport - Rhinos",
+              "ref": "Rhino",
+              "value": 25,
+              "limit": 1,
+              "unique": "RH"
+            },
+            {
+              "name": "3 Repressor",
+              "ref": "Repressor",
+              "value": 50,
+              "limit": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATION DE L'ECCLÉSIARCHIE",
+      "detail": "Vous pouvez prendre une formation de support par formation d'ordre militant prise",
+      "formation": [
+        {
+          "name": "Croisade",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "10 unités de Rédemptionnistes + 1 personnage de Prêcheur",
+              "ref": [
+                "Rédemptionniste",
+                "Prêcheur"
+              ],
+              "value": 150,
+              "limit": 1,
+              "principale": true
+            },
+            {
+              "name": "2 Machines de Pénitence",
+              "ref": "Machine de pénitence",
+              "value": 75,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "0-1 Suite inquisitoriale",
+          "LimitationTag": "A",
+          "FormationLimite": 1,
+          "options": [
+            {
+              "name": "8 unités de Troupes de Choc Inquisitoriales + 1 personnage d'Inquisiteur de l’Ordo Hereticus",
+              "value": 225,
+              "limit": 1,
+              "principale": true,
+              "ref": [
+                "Troupe de choc inquisitoriale",
+                "Inquisiteur de l’Ordo Hereticus"
+              ],
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "4 Transport Inquisition - Chimère",
+              "value": 100,
+              "principale": true,
+              "ref": [
+                "Chimère"
+              ],
+              "unique": "AB"
+            },
+            {
+              "name": "4 Transport Inquisition - Valkyries",
+              "value": 150,
+              "principale": true,
+              "ref": [
+                "Valkyrie"
+              ],
+              "unique": "AB"
+            },
+            {
+              "name": "Assassins",
+              "value": 25,
+              "note": "Remplacer 2 unités de troupe de choc par 2 unités de Cultiste de Parque",
+              "principale": true,
+              "ref": [
+                "Cultiste de Parque"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Conclave",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "8 unités d’Arco-flagellant",
+              "limit": 1,
+              "ref": "Arco-flagellant",
+              "value": 200,
+              "principale": true
+            },
+            {
+              "name": "2 Machines de Pénitence",
+              "ref": "Machine de pénitence",
+              "value": 75,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Pénitence",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 Machines de pénitence",
+              "ref": "Machine de pénitence",
+              "limit": 1,
+              "value": 250,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS DE LA NAVY IMPÉRIALE ET SUPPORT LOURD",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Incinérator",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Incinérator",
+              "limit": 1,
+              "ref": "Incinérator",
+              "value": 200,
+              "principale": true,
+              "min": 1,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Cathédrale",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Cathédrale",
+              "limit": 1,
+              "ref": "Cathédrale",
+              "value": 650,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Escadrille Avenger",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Avengers",
+              "limit": 1,
+              "ref": "Avenger",
+              "value": 150,
+              "principale": true
+            },
+            {
+              "name": "1 Avengers",
+              "ref": "Avenger",
+              "limit": 1,
+              "value": 75,
+              "principale": true,
+              "min": 1,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "0-1 Soutien Orbital",
+          "limiteOptionGlobal": 1,
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Croiseur de classe Lunar",
+              "ref": "Croiseur de Classe Lunar",
+              "value": 100,
+              "limit": 1,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

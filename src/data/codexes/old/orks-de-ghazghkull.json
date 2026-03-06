@@ -1,0 +1,743 @@
+{
+  "codex": "Orks de Ghazghkull",
+  "color": "#236d44",
+  "version": "1.5.1",
+  "logo": "ork.png",
+  "categorie": "Armées Xénos",
+  "faction": "Orks",
+  "codexRare": 0.33333333,
+  "strategie": "3",
+  "initiative": "Initiative de 3+. Reçoivent des modificateurs en fonction des actions choisies lorsqu'elles effectuent un test d'action (Pouvoir de la Waaagh!) ou de leur taille lorsqu'elles tentent de se rallier (R'mise en bande).",
+  "groupes": [
+    {
+      "name": "BANDES ORKS",
+      "detail": "peuvent s’acheter selon 3 tailles, la bande normale, la mastok (doubler l’effectif de départ) ou la tré mastok (tripler l’effectif de départ)",
+      "formation": [
+        {
+          "name": "Bande de Guerre",
+          "options": [
+            {
+              "name": "Normale : 2 unités de Nobz, 6 unités de Boyz, 2 unités de Gretchins",
+              "note": "Normale",
+              "ref": [
+                "Nobz",
+                "Boyz",
+                "Gretchins"
+              ],
+              "value": 200,
+              "principale": true,
+              "unique": "A",
+              "kustomlimit": 1
+            },
+            {
+              "name": "Mastok : 4 unités de Nobz, 12 unités de Boyz, 4 unités de Gretchins",
+              "note": "Mastok",
+              "ref": [
+                "Nobz",
+                "Boyz",
+                "Gretchins"
+              ],
+              "value": 350,
+              "principale": true,
+              "unique": "A",
+              "kustomlimit": 2
+            },
+            {
+              "name": "Tré Mastok : 6 unités de Nobz, 18 unités de Boyz, 6 unités de Gretchins",
+              "note": "Tré Mastok ",
+              "ref": [
+                "Nobz",
+                "Boyz",
+                "Gretchins"
+              ],
+              "value": 500,
+              "principale": true,
+              "unique": "A",
+              "kustomlimit": 3
+            },
+            {
+              "name": "Boyz (+1 Gretchin)",
+              "note": "plus une unité de gretchins gratuite",
+              "value": 25,
+              "ref": "Boyz",
+              "limit": 2,
+              "kustomlimitoption": true
+            },
+            {
+              "name": "Kommandos",
+              "ref": "Kommandos",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Chokboyz",
+              "ref": "Chokboyz",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Moto",
+              "ref": "Motos",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Buggy",
+              "ref": "Buggy",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Karbonisator",
+              "ref": "Karbonisator",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Boit'Kitu",
+              "ref": "Boit'Kitu",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Nobz",
+              "ref": "Nobz",
+              "value": 35,
+              "limit": 2,
+              "kustomlimitoption": true
+            },
+            {
+              "name": "Kopter",
+              "ref": "Kopter",
+              "value": 35,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Dreadnought",
+              "ref": "Dreadnought",
+              "value": 35,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Grokalibr",
+              "ref": "Grokalibr",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "2x Chariot flak",
+              "ref": "Chariot Flak",
+              "value": 50,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Chariot Kanon",
+              "ref": "Chariot Kanon",
+              "value": 35,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Chariot de guerre",
+              "ref": "Chariot de Guerre",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Brikolo",
+              "ref": "Brikolo",
+              "value": 50,
+              "limit": 1,
+              "kustomlimitoption": true
+            },
+            {
+              "name": "Krabouillators",
+              "ref": "Krabouillator",
+              "value": 65,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Forteresse de bataille",
+              "ref": "Forteresse de bataille",
+              "unique": "B",
+              "value": 125,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Forteresse à Kanons",
+              "ref": "Forteresse à Kanons",
+              "unique": "B",
+              "value": 125,
+              "min": 0,
+              "max": 20
+            }
+          ]
+        },
+        {
+          "name": "Kulte d’la Vitesse",
+          "options": [
+            {
+              "name": "Normale : 8 unités parmi : Buggy, Motos, Karbonisators",
+              "note": "Normale",
+              "value": 200,
+              "principale": true,
+              "unique": "B",
+              "nbrefoptions": 8,
+              "kustomlimit": 1
+            },
+            {
+              "name": "Mastok : 16 unités parmi : Buggy, Motos, Karbonisators",
+              "note": "Mastok",
+              "value": 350,
+              "principale": true,
+              "unique": "B",
+              "nbrefoptions": 16,
+              "kustomlimit": 2
+            },
+            {
+              "name": "Tré Mastok : 24 unités parmi : Buggy, Motos, Karbonisators",
+              "note": "Tré Mastok",
+              "value": 500,
+              "principale": true,
+              "unique": "B",
+              "nbrefoptions": 24,
+              "kustomlimit": 3
+            },
+            {
+              "name": "Buggys",
+              "ref": "Buggy",
+              "value": 0,
+              "min": 0,
+              "max": 24,
+              "refoption": true
+            },
+            {
+              "name": "Motos",
+              "ref": "Motos",
+              "value": 0,
+              "min": 0,
+              "max": 24,
+              "refoption": true
+            },
+            {
+              "name": "Karbonisators",
+              "ref": "Karbonisator",
+              "value": 0,
+              "min": 0,
+              "max": 24,
+              "refoption": true
+            },
+            {
+              "name": "Moto",
+              "ref": "Motos",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Buggy",
+              "ref": "Buggy",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Karbonisator",
+              "ref": "Karbonisator",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Kopter",
+              "ref": "Kopter",
+              "value": 35,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "x2 Chariot flak",
+              "ref": "Chariot Flak",
+              "value": 50,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Chariot Kanon",
+              "ref": "Chariot Kanon",
+              "value": 35,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Brikolo",
+              "ref": "Brikolo",
+              "value": 50,
+              "limit": 1,
+              "kustomlimitoption": true
+            }
+          ]
+        },
+        {
+          "name": "Brigade Blitz",
+          "options": [
+            {
+              "name": "Normale : 4 unités parmi : Chariots Kanons, Chariots Flak, Kopters",
+              "note": "Normale",
+              "value": 150,
+              "principale": true,
+              "unique": "C",
+              "nbrefoptions": 4,
+              "kustomlimit": 1
+            },
+            {
+              "name": "Mastok : 8 unités parmi : Chariots Kanons, Chariots Flak, Kopters",
+              "note": "Mastok",
+              "value": 250,
+              "principale": true,
+              "unique": "C",
+              "nbrefoptions": 8,
+              "kustomlimit": 2
+            },
+            {
+              "name": "Tré Mastok : 12 unités parmi : Chariots Kanons, Chariots Flak, Kopters",
+              "note": "Tré Mastok",
+              "value": 350,
+              "principale": true,
+              "unique": "C",
+              "nbrefoptions": 12,
+              "kustomlimit": 3
+            },
+            {
+              "name": "Chariots Kanons",
+              "ref": "Chariot Kanon",
+              "value": 0,
+              "min": 0,
+              "max": 12,
+              "refoption": true
+            },
+            {
+              "name": "Chariots Flak",
+              "ref": "Chariot Flak",
+              "value": 0,
+              "min": 0,
+              "max": 12,
+              "refoption": true
+            },
+            {
+              "name": "Kopters",
+              "ref": "Kopter",
+              "value": 0,
+              "min": 0,
+              "max": 12,
+              "refoption": true
+            },
+            {
+              "name": "Moto",
+              "ref": "Motos",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Buggy",
+              "ref": "Buggy",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Karbonisator",
+              "ref": "Karbonisator",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Kopter",
+              "ref": "Kopter",
+              "value": 35,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "x2 Chariot flak",
+              "ref": "Chariot Flak",
+              "value": 50,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Chariot Kanon",
+              "ref": "Chariot Kanon",
+              "value": 35,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Brikolo",
+              "ref": "Brikolo",
+              "value": 50,
+              "limit": 1,
+              "kustomlimitoption": true
+            },
+            {
+              "name": "Forteresse à Kanon",
+              "ref": "Forteresse à Kanons",
+              "limit": 1,
+              "value": 125
+            }
+          ]
+        },
+        {
+          "name": "Batterie de Grokalibr",
+          "options": [
+            {
+              "name": "Normale : 5 unités de Grokalibr",
+              "ref": "Grokalibr",
+              "note": "Normale",
+              "value": 125,
+              "principale": true,
+              "unique": "C",
+              "kustomlimit": 1
+            },
+            {
+              "name": "Mastok : 10 unités de Grokalibr",
+              "ref": "Grokalibr",
+              "note": "Mastok",
+              "value": 225,
+              "principale": true,
+              "unique": "C",
+              "kustomlimit": 2
+            },
+            {
+              "name": "Tré Mastok : 15 unités de Grokalibr",
+              "ref": "Grokalibr",
+              "note": "Tré Mastok",
+              "value": 325,
+              "principale": true,
+              "unique": "C",
+              "kustomlimit": 3
+            },
+            {
+              "name": "Grokalibr",
+              "ref": "Grokalibr",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Chariot de guerre",
+              "ref": "Chariot de Guerre",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Nobz",
+              "ref": "Nobz",
+              "value": 35,
+              "min": 0,
+              "max": 2,
+              "limit": 1
+            },
+            {
+              "name": "2 Chariot flak",
+              "ref": "Chariot Flak",
+              "value": 50,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Brikolo",
+              "ref": "Brikolo",
+              "value": 50,
+              "limit": 1,
+              "kustomlimitoption": true
+            },
+            {
+              "name": "Forteresse à Kanon",
+              "ref": "Forteresse à Kanons",
+              "value": 125
+            }
+          ]
+        },
+        {
+          "name": "Bande de Chokboyz",
+          "options": [
+            {
+              "name": "6 unités de Chokboyz",
+              "ref": "Chokboyz",
+              "value": 150,
+              "principale": true
+            },
+            {
+              "name": "Kommandos",
+              "ref": "Kommandos",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Chokboyz",
+              "ref": "Chokboyz",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Moto",
+              "ref": "Motos",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Buggy",
+              "ref": "Buggy",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Karbonisator",
+              "ref": "Karbonisator",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Kopter",
+              "ref": "Kopter",
+              "value": 35,
+              "min": 0,
+              "max": 20
+            }
+          ]
+        },
+        {
+          "name": "Bande de Kommandos",
+          "options": [
+            {
+              "name": "6 unités de Kommandos",
+              "ref": "Kommandos",
+              "value": 150,
+              "principale": true
+            },
+            {
+              "name": "Kommandos",
+              "ref": "Kommandos",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            }
+          ]
+        },
+        {
+          "name": "Bande de Krabouillators",
+          "options": [
+            {
+              "name": "Normale : 3 unités de Krabouillators",
+              "ref": "Krabouillator",
+              "note": "Normale",
+              "value": 200,
+              "principale": true,
+              "unique": "D"
+            },
+            {
+              "name": "Mastok : 6 unités de Krabouillators",
+              "ref": "Krabouillator",
+              "note": "Mastok",
+              "value": 375,
+              "principale": true,
+              "unique": "D"
+            },
+            {
+              "name": "Tré Mastok : 9 unités de Krabouillators",
+              "ref": "Krabouillator",
+              "note": "Tré Mastok ",
+              "value": 550,
+              "principale": true,
+              "unique": "D"
+            },
+            {
+              "name": "Boit'Kitu",
+              "ref": "Boit'Kitu",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Dreadnought",
+              "ref": "Dreadnought",
+              "value": 35,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "x2 Chariot flak",
+              "ref": "Chariot Flak",
+              "value": 50,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Krabouillators",
+              "ref": "Krabouillator",
+              "value": 65,
+              "min": 0,
+              "max": 20
+            }
+          ]
+        },
+        {
+          "name": "Bande de Superkrabouillator",
+          "options": [
+            {
+              "name": "1 Superkrabouillator et 3 unités de Krabouillators",
+              "ref": [
+                "Krabouillator",
+                "Super Krabouillator"
+              ],
+              "value": 500,
+              "principale": true
+            },
+            {
+              "name": "Boit'Kitu",
+              "ref": "Boit'Kitu",
+              "value": 25,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Dreadnought",
+              "ref": "Dreadnought",
+              "value": 35,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "x2 Chariot flak",
+              "ref": "Chariot Flak",
+              "value": 50,
+              "min": 0,
+              "max": 20
+            },
+            {
+              "name": "Krabouillators",
+              "ref": "Krabouillator",
+              "value": 65,
+              "min": 0,
+              "max": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TRUK'EUD'MEK",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Super Krabouillator",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Super Krabouillator",
+              "ref": "Super Krabouillator",
+              "value": 300,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Gargant",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Gargant",
+              "ref": "Gargant",
+              "value": 650,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Grand Gargant",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Grand Gargant",
+              "ref": "Grand Gargant",
+              "value": 850,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Chassa-Bombas",
+          "rare": true,
+          "options": [
+            {
+              "name": "Chassa-Bombas",
+              "ref": "Chassa-Bomba",
+              "value": 50,
+              "min": 4,
+              "max": 9,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Vesso de Debark'ment",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Vesso de Debark'ment",
+              "ref": "Vesso de Débark'ment",
+              "value": 250,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Kroiseur Kitu",
+          "rare": true,
+          "options": [
+            {
+              "name": "Kroiseur Kitu",
+              "ref": "Kroiseur Kitu",
+              "value": 200,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Kroiseur d'la Mort",
+          "rare": true,
+          "options": [
+            {
+              "name": "Kroiseur d'la Mort",
+              "ref": "Kroiseur d'la Mort",
+              "value": 250,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

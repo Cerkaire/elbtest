@@ -76,10 +76,12 @@ function VarianteSelectorDialog({ open, onClose, formation, onConfirm }) {
                   <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, width: '100%' }}>
                     <Box sx={{ flexGrow: 1 }}>
                       <Typography variant="body1">
-                        Standard
+                        Normale
                       </Typography>
                       <Typography variant="caption" color="textSecondary">
-                        {formation.unites.map(u => `${u.nombre}x ${u.name || u.id}`).join(', ')}
+                        {formation.composition_personnalisee
+                          ? `${formation.composition_personnalisee.total} unités — ${formation.composition_personnalisee.description}`
+                          : (formation.unites || []).map(u => `${u.nombre}x ${u.name || u.id}`).join(', ')}
                       </Typography>
                     </Box>
                     <Chip label={`${formation.cout} pts`} size="small" />
@@ -99,13 +101,15 @@ function VarianteSelectorDialog({ open, onClose, formation, onConfirm }) {
                         <Typography variant="body1">
                           {variante.name}
                         </Typography>
-                        {variante.multiplicateur && (
-                          <Typography variant="caption" color="textSecondary">
-                            {formation.unites.map(u =>
-                              `${Math.round(u.nombre * variante.multiplicateur)}x ${u.name || u.id}`
-                            ).join(', ')}
-                          </Typography>
-                        )}
+                        <Typography variant="caption" color="textSecondary">
+                          {variante.total_composition
+                            ? `${variante.total_composition} unités — ${formation.composition_personnalisee?.description || ''}`
+                            : variante.multiplicateur
+                              ? (formation.unites || []).map(u =>
+                                  `${Math.round(u.nombre * variante.multiplicateur)}x ${u.name || u.id}`
+                                ).join(', ')
+                              : ''}
+                        </Typography>
                       </Box>
                       <Chip label={`${variante.cout} pts`} size="small" color="primary" />
                     </Box>

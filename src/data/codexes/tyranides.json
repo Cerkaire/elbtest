@@ -1,0 +1,1224 @@
+{
+  "codex": {
+    "id": "tyranides",
+    "name": "Tyranides",
+    "version": "1.2",
+    "faction": "Tyranides",
+    "color": "#96009e",
+    "logo": "ty.png",
+    "categorie": "armees-xenos",
+    "regles_speciales": {
+      "max_formations_rares_ratio": 0.33,
+      "valeur_strategique": 1,
+      "initiative_defaut": "2+",
+      "notes": "Groupe Nexus, Briseur de siège, Bio-titan, Bio-vaisseau : initiative 1+. 0-1 Groupe Nexus par armée (Dominatrix ou Prince Maître). Par Groupe Synaptique : max 1 essaim indépendant commun + max 1 essaim indépendant rare."
+    }
+  },
+  "ameliorations": [
+    {
+      "id": "alpha_prince",
+      "name": "Prince Tyranide Alpha (Charismatique)",
+      "description": "Un seul Prince Tyranide par armée peut devenir Alpha",
+      "cout": 25,
+      "cout_par_unite": false,
+      "max": 1,
+      "unites": []
+    },
+    {
+      "id": "harridan_supp",
+      "name": "Harridan supplémentaire",
+      "cout": 125,
+      "cout_par_unite": false,
+      "max": 1,
+      "unites": [
+        {
+          "id": "harridan",
+          "name": "Harridan",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "alpha_genestealer",
+      "name": "Genestealer Alpha",
+      "cout": 25,
+      "cout_par_unite": false,
+      "max": 1,
+      "unites": [
+        {
+          "id": "genestealer_alpha",
+          "name": "Genestealer Alpha",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "genestealers_supp",
+      "name": "Genestealers supplémentaires",
+      "cout": 25,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 3,
+      "unites": [
+        {
+          "id": "genestealer",
+          "name": "Genestealer",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "lictors_supp",
+      "name": "Lictors supplémentaires",
+      "cout": 50,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 2,
+      "unites": [
+        {
+          "id": "lictor",
+          "name": "Lictor",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "harpies_supp",
+      "name": "Harpies supplémentaires",
+      "cout": 50,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 2,
+      "unites": [
+        {
+          "id": "harpie",
+          "name": "Harpie",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "hierodule_supp_cracheur",
+      "name": "Hiérodule Cracheur supplémentaire",
+      "cout": 125,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 2,
+      "unites": [
+        {
+          "id": "hierodule_cracheur",
+          "name": "Hiérodule Cracheur",
+          "nombre": 1
+        }
+      ]
+    },
+    {
+      "id": "hierodule_supp_faucheur",
+      "name": "Hiérodule Faucheur supplémentaire",
+      "cout": 125,
+      "cout_par_unite": true,
+      "min": 0,
+      "max": 2,
+      "unites": [
+        {
+          "id": "hierodule_faucheur",
+          "name": "Hiérodule Faucheur",
+          "nombre": 1
+        }
+      ]
+    }
+  ],
+  "groupes": [
+    {
+      "id": "groupe_synaptique",
+      "name": "GROUPE SYNAPTIQUE",
+      "type": "principale",
+      "formations": [
+        {
+          "id": "groupe_nexus_dominatrix",
+          "name": "Groupe Nexus (Dominatrix)",
+          "cout": 400,
+          "rare": true,
+          "FormationLimitationTag": { "slot_essaim_commun": 1, "slot_essaim_rare": 1 },
+          "description": "0-1 Groupe Nexus par armée. Initiative 1+. Choisir 2 unités synaptiques. Prendre 2-6 essaims instinctifs. Pas de Spore mycétique.",
+          "unites": [
+            {
+              "id": "dominatrix",
+              "name": "Dominatrix",
+              "nombre": 1
+            }
+          ],
+          "composition_essaims": {
+            "type": "choix_multiples",
+            "min_total": 2,
+            "max_total": 6,
+            "description": "2 à 6 essaims instinctifs (pas de Spore mycétique)",
+            "options": [
+              {
+                "id": "hormagaunt",
+                "unitId": "hormagaunt",
+                "name": "Gaunts : 6 Hormagaunts",
+                "cout": 75,
+                "nombre_par_slot": 6,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "termagant",
+                "unitId": "termagant",
+                "name": "Gaunts : 6 Termagants",
+                "cout": 75,
+                "nombre_par_slot": 6,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "biovore",
+                "unitId": "biovore",
+                "name": "Bio-artillerie : Biovores",
+                "cout": 75,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "gargouille",
+                "unitId": "gargouille",
+                "name": "Gargouilles",
+                "cout": 75,
+                "nombre_par_slot": 4,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "carnifex",
+                "unitId": "carnifex",
+                "name": "Carnifex",
+                "cout": 125,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "dactylis",
+                "unitId": "dactylis",
+                "name": "Bio-soutien : Dactylis",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "exocrine",
+                "unitId": "exocrine",
+                "name": "Bio-soutien : Exocrines",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "haruspex",
+                "unitId": "haruspex",
+                "name": "Bio-tank : Haruspex",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "malefactor",
+                "unitId": "malefactor",
+                "name": "Bio-tank : Malefactors",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "hierodule_cracheur",
+                "unitId": "hierodule_cracheur",
+                "name": "Hiérodule Cracheur",
+                "cout": 125,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "hierodule_faucheur",
+                "unitId": "hierodule_faucheur",
+                "name": "Hiérodule Faucheur",
+                "cout": 125,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "trygon",
+                "unitId": "trygon",
+                "name": "Fouisseur : Trygon",
+                "cout": 100,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "rodeur",
+                "unitId": "rodeur",
+                "name": "Fouisseur : Rôdeurs",
+                "cout": 50,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              }
+            ]
+          },
+          "ameliorations": []
+        },
+        {
+          "id": "groupe_nexus_prince_maitre",
+          "name": "Groupe Nexus (Prince Maître des Essaims)",
+          "cout": 175,
+          "FormationLimitationTag": { "slot_essaim_commun": 1, "slot_essaim_rare": 1 },
+          "description": "0-1 Groupe Nexus par armée. Choisir 2 unités synaptiques. Prendre 2-6 essaims instinctifs.",
+          "unites": [
+            {
+              "id": "prince_maitre_essaims",
+              "name": "Prince Maître des Essaims",
+              "nombre": 1
+            }
+          ],
+          "composition_synaptique": {
+            "type": "choix_multiples",
+            "total": 2,
+            "description": "2 unités synaptiques (Guerriers Tyranides ou Zoanthropes)",
+            "options": [
+              {
+                "id": "guerrier_tyranide",
+                "unitId": "guerrier_tyranide",
+                "name": "Guerrier Tyranide",
+                "cout": 0,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "zoanthrope",
+                "unitId": "zoanthrope",
+                "name": "Zoanthrope",
+                "cout": 0,
+                "min": 0,
+                "max": 2
+              }
+            ]
+          },
+          "composition_essaims": {
+            "type": "choix_multiples",
+            "min_total": 2,
+            "max_total": 6,
+            "description": "2 à 6 essaims instinctifs",
+            "options": [
+              {
+                "id": "hormagaunt",
+                "unitId": "hormagaunt",
+                "name": "Gaunts : 6 Hormagaunts",
+                "cout": 75,
+                "nombre_par_slot": 6,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "termagant",
+                "unitId": "termagant",
+                "name": "Gaunts : 6 Termagants",
+                "cout": 75,
+                "nombre_par_slot": 6,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "biovore",
+                "unitId": "biovore",
+                "name": "Bio-artillerie : Biovores",
+                "cout": 75,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "gargouille",
+                "unitId": "gargouille",
+                "name": "Gargouilles",
+                "cout": 75,
+                "nombre_par_slot": 4,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "carnifex",
+                "unitId": "carnifex",
+                "name": "Carnifex",
+                "cout": 125,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "dactylis",
+                "unitId": "dactylis",
+                "name": "Bio-soutien : Dactylis",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "exocrine",
+                "unitId": "exocrine",
+                "name": "Bio-soutien : Exocrines",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "haruspex",
+                "unitId": "haruspex",
+                "name": "Bio-tank : Haruspex",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "malefactor",
+                "unitId": "malefactor",
+                "name": "Bio-tank : Malefactors",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "hierodule_cracheur",
+                "unitId": "hierodule_cracheur",
+                "name": "Hiérodule Cracheur",
+                "cout": 125,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "hierodule_faucheur",
+                "unitId": "hierodule_faucheur",
+                "name": "Hiérodule Faucheur",
+                "cout": 125,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "trygon",
+                "unitId": "trygon",
+                "name": "Fouisseur : Trygon",
+                "cout": 100,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "rodeur",
+                "unitId": "rodeur",
+                "name": "Fouisseur : Rôdeurs",
+                "cout": 50,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 6
+              },
+              {
+                "id": "spore_mycetique",
+                "unitId": "spore_mycetique",
+                "name": "Spore mycétique",
+                "cout": 50,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 6
+              }
+            ]
+          },
+          "ameliorations": []
+        },
+        {
+          "id": "centre_synaptique",
+          "name": "Centre Synaptique",
+          "cout": 125,
+          "FormationLimitationTag": { "slot_essaim_commun": 1, "slot_essaim_rare": 1 },
+          "description": "1 Prince Tyranide et 2 unités synaptiques. Prendre 2-5 essaims instinctifs. Un seul Prince Tyranide par armée peut devenir Alpha (+25 pts, capacité Charismatique).",
+          "unites": [
+            {
+              "id": "prince_tyranide",
+              "name": "Prince Tyranide",
+              "nombre": 1
+            }
+          ],
+          "composition_synaptique": {
+            "type": "choix_multiples",
+            "total": 2,
+            "description": "2 unités synaptiques (Guerriers Tyranides ou Zoanthropes)",
+            "options": [
+              {
+                "id": "guerrier_tyranide",
+                "unitId": "guerrier_tyranide",
+                "name": "Guerrier Tyranide",
+                "cout": 0,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "zoanthrope",
+                "unitId": "zoanthrope",
+                "name": "Zoanthrope",
+                "cout": 0,
+                "min": 0,
+                "max": 2
+              }
+            ]
+          },
+          "composition_essaims": {
+            "type": "choix_multiples",
+            "min_total": 2,
+            "max_total": 5,
+            "description": "2 à 5 essaims instinctifs",
+            "options": [
+              {
+                "id": "hormagaunt",
+                "unitId": "hormagaunt",
+                "name": "Gaunts : 6 Hormagaunts",
+                "cout": 75,
+                "nombre_par_slot": 6,
+                "min": 0,
+                "max": 5
+              },
+              {
+                "id": "termagant",
+                "unitId": "termagant",
+                "name": "Gaunts : 6 Termagants",
+                "cout": 75,
+                "nombre_par_slot": 6,
+                "min": 0,
+                "max": 5
+              },
+              {
+                "id": "biovore",
+                "unitId": "biovore",
+                "name": "Bio-artillerie : Biovores",
+                "cout": 75,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 5
+              },
+              {
+                "id": "gargouille",
+                "unitId": "gargouille",
+                "name": "Gargouilles",
+                "cout": 75,
+                "nombre_par_slot": 4,
+                "min": 0,
+                "max": 5
+              },
+              {
+                "id": "carnifex",
+                "unitId": "carnifex",
+                "name": "Carnifex",
+                "cout": 125,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 5
+              },
+              {
+                "id": "dactylis",
+                "unitId": "dactylis",
+                "name": "Bio-soutien : Dactylis",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 5
+              },
+              {
+                "id": "exocrine",
+                "unitId": "exocrine",
+                "name": "Bio-soutien : Exocrines",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 5
+              },
+              {
+                "id": "haruspex",
+                "unitId": "haruspex",
+                "name": "Bio-tank : Haruspex",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 5
+              },
+              {
+                "id": "malefactor",
+                "unitId": "malefactor",
+                "name": "Bio-tank : Malefactors",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 5
+              },
+              {
+                "id": "hierodule_cracheur",
+                "unitId": "hierodule_cracheur",
+                "name": "Hiérodule Cracheur",
+                "cout": 125,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "hierodule_faucheur",
+                "unitId": "hierodule_faucheur",
+                "name": "Hiérodule Faucheur",
+                "cout": 125,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "trygon",
+                "unitId": "trygon",
+                "name": "Fouisseur : Trygon",
+                "cout": 100,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 5
+              },
+              {
+                "id": "rodeur",
+                "unitId": "rodeur",
+                "name": "Fouisseur : Rôdeurs",
+                "cout": 50,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 5
+              },
+              {
+                "id": "spore_mycetique",
+                "unitId": "spore_mycetique",
+                "name": "Spore mycétique",
+                "cout": 50,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 5
+              }
+            ]
+          },
+          "ameliorations": [
+            "alpha_prince"
+          ]
+        },
+        {
+          "id": "relais_synaptique",
+          "name": "Relais Synaptique",
+          "cout": 100,
+          "FormationLimitationTag": { "slot_essaim_commun": 1, "slot_essaim_rare": 1 },
+          "description": "Choisir 3 unités synaptiques (au moins 1 Guerrier Tyranide, max 2 Zoanthropes). Prendre 2-4 essaims instinctifs.",
+          "composition_synaptique": {
+            "type": "choix_multiples",
+            "total": 3,
+            "description": "3 unités synaptiques (au moins 1 Guerrier Tyranide, max 2 Zoanthropes)",
+            "options": [
+              {
+                "id": "guerrier_tyranide",
+                "unitId": "guerrier_tyranide",
+                "name": "Guerrier Tyranide",
+                "cout": 0,
+                "min": 1,
+                "max": 3
+              },
+              {
+                "id": "zoanthrope",
+                "unitId": "zoanthrope",
+                "name": "Zoanthrope",
+                "cout": 0,
+                "min": 0,
+                "max": 2
+              }
+            ]
+          },
+          "composition_essaims": {
+            "type": "choix_multiples",
+            "min_total": 2,
+            "max_total": 4,
+            "description": "2 à 4 essaims instinctifs",
+            "options": [
+              {
+                "id": "hormagaunt",
+                "unitId": "hormagaunt",
+                "name": "Gaunts : 6 Hormagaunts",
+                "cout": 75,
+                "nombre_par_slot": 6,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "termagant",
+                "unitId": "termagant",
+                "name": "Gaunts : 6 Termagants",
+                "cout": 75,
+                "nombre_par_slot": 6,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "biovore",
+                "unitId": "biovore",
+                "name": "Bio-artillerie : Biovores",
+                "cout": 75,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "gargouille",
+                "unitId": "gargouille",
+                "name": "Gargouilles",
+                "cout": 75,
+                "nombre_par_slot": 4,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "carnifex",
+                "unitId": "carnifex",
+                "name": "Carnifex",
+                "cout": 125,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "dactylis",
+                "unitId": "dactylis",
+                "name": "Bio-soutien : Dactylis",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "exocrine",
+                "unitId": "exocrine",
+                "name": "Bio-soutien : Exocrines",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "haruspex",
+                "unitId": "haruspex",
+                "name": "Bio-tank : Haruspex",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "malefactor",
+                "unitId": "malefactor",
+                "name": "Bio-tank : Malefactors",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "hierodule_cracheur",
+                "unitId": "hierodule_cracheur",
+                "name": "Hiérodule Cracheur",
+                "cout": 125,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "hierodule_faucheur",
+                "unitId": "hierodule_faucheur",
+                "name": "Hiérodule Faucheur",
+                "cout": 125,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "trygon",
+                "unitId": "trygon",
+                "name": "Fouisseur : Trygon",
+                "cout": 100,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "rodeur",
+                "unitId": "rodeur",
+                "name": "Fouisseur : Rôdeurs",
+                "cout": 50,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "spore_mycetique",
+                "unitId": "spore_mycetique",
+                "name": "Spore mycétique",
+                "cout": 50,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 4
+              }
+            ]
+          },
+          "ameliorations": []
+        },
+        {
+          "id": "soutien_synaptique",
+          "name": "Soutien Synaptique",
+          "cout": 150,
+          "FormationLimitationTag": { "slot_essaim_commun": 1, "slot_essaim_rare": 1 },
+          "description": "1 Hiérodule Prime (Cracheur ou Faucheur). Prendre 2-4 essaims parmi : Gaunts, Gargouilles, Bio-artillerie, Bio-soutien, Bio-tank, Carnifex.",
+          "composition_personnalisee": {
+            "type": "choix_multiples",
+            "total": 1,
+            "description": "1 Hiérodule Prime (Cracheur ou Faucheur)",
+            "options": [
+              {
+                "id": "hierodule_cracheur",
+                "unitId": "hierodule_cracheur",
+                "name": "Hiérodule Cracheur",
+                "cout": 0,
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "hierodule_faucheur",
+                "unitId": "hierodule_faucheur",
+                "name": "Hiérodule Faucheur",
+                "cout": 0,
+                "min": 0,
+                "max": 1
+              }
+            ]
+          },
+          "composition_essaims": {
+            "type": "choix_multiples",
+            "min_total": 2,
+            "max_total": 4,
+            "description": "2 à 4 essaims instinctifs (Gaunts, Gargouilles, Bio-artillerie, Bio-soutien, Bio-tank, Carnifex)",
+            "options": [
+              {
+                "id": "hormagaunt",
+                "unitId": "hormagaunt",
+                "name": "Gaunts : 6 Hormagaunts",
+                "cout": 75,
+                "nombre_par_slot": 6,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "termagant",
+                "unitId": "termagant",
+                "name": "Gaunts : 6 Termagants",
+                "cout": 75,
+                "nombre_par_slot": 6,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "biovore",
+                "unitId": "biovore",
+                "name": "Bio-artillerie : Biovores",
+                "cout": 75,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "gargouille",
+                "unitId": "gargouille",
+                "name": "Gargouilles",
+                "cout": 75,
+                "nombre_par_slot": 4,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "carnifex",
+                "unitId": "carnifex",
+                "name": "Carnifex",
+                "cout": 125,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "dactylis",
+                "unitId": "dactylis",
+                "name": "Bio-soutien : Dactylis",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "exocrine",
+                "unitId": "exocrine",
+                "name": "Bio-soutien : Exocrines",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "haruspex",
+                "unitId": "haruspex",
+                "name": "Bio-tank : Haruspex",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "malefactor",
+                "unitId": "malefactor",
+                "name": "Bio-tank : Malefactors",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 4
+              }
+            ]
+          },
+          "ameliorations": []
+        },
+        {
+          "id": "groupe_appui",
+          "name": "Groupe d'Appui",
+          "cout": 125,
+          "FormationLimitationTag": { "slot_essaim_commun": 1, "slot_essaim_rare": 1 },
+          "description": "1 Trygon Prime. Prendre 1-2 essaims instinctifs. Option A (Trygon conserve tunnelier) : Gaunts Fouisseurs, Trygon, Rôdeurs. Option B (Trygon perd tunnelier) : Bio-soutien, Bio-tank.",
+          "unites": [
+            {
+              "id": "trygon_prime",
+              "name": "Trygon Prime",
+              "nombre": 1
+            }
+          ],
+          "composition_essaims": {
+            "type": "choix_multiples",
+            "min_total": 1,
+            "max_total": 2,
+            "description": "1 à 2 essaims (Gaunts/Fouisseurs = Trygon garde tunnelier ; Bio-soutien/Bio-tank = Trygon perd tunnelier)",
+            "options": [
+              {
+                "id": "hormagaunt",
+                "unitId": "hormagaunt",
+                "name": "Gaunts Fouisseurs : Hormagaunts",
+                "cout": 75,
+                "nombre_par_slot": 6,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "termagant",
+                "unitId": "termagant",
+                "name": "Gaunts Fouisseurs : Termagants",
+                "cout": 75,
+                "nombre_par_slot": 6,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "trygon",
+                "unitId": "trygon",
+                "name": "Fouisseur : Trygon",
+                "cout": 100,
+                "nombre_par_slot": 1,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "rodeur",
+                "unitId": "rodeur",
+                "name": "Fouisseur : Rôdeurs",
+                "cout": 50,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "dactylis",
+                "unitId": "dactylis",
+                "name": "Bio-soutien : Dactylis",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "exocrine",
+                "unitId": "exocrine",
+                "name": "Bio-soutien : Exocrines",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "haruspex",
+                "unitId": "haruspex",
+                "name": "Bio-tank : Haruspex",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "malefactor",
+                "unitId": "malefactor",
+                "name": "Bio-tank : Malefactors",
+                "cout": 150,
+                "nombre_par_slot": 3,
+                "min": 0,
+                "max": 2
+              }
+            ]
+          },
+          "ameliorations": []
+        },
+        {
+          "id": "groupe_chasse",
+          "name": "Groupe de Chasse",
+          "cout": 0,
+          "FormationLimitationTag": { "slot_essaim_commun": 1, "slot_essaim_rare": 1 },
+          "description": "1 ou 2 Harridans (125 pts l'unité). Prendre 1-2 essaims de Gargouilles.",
+          "composition_personnalisee": {
+            "type": "choix_multiples",
+            "min_total": 1,
+            "max_total": 2,
+            "description": "1 ou 2 Harridans (125 pts chacun)",
+            "options": [
+              {
+                "id": "harridan",
+                "unitId": "harridan",
+                "name": "Harridan",
+                "cout": 125,
+                "nombre_par_slot": 1,
+                "min": 1,
+                "max": 2
+              }
+            ]
+          },
+          "composition_essaims": {
+            "type": "choix_multiples",
+            "min_total": 1,
+            "max_total": 2,
+            "description": "1 à 2 essaims de Gargouilles",
+            "options": [
+              {
+                "id": "gargouille",
+                "unitId": "gargouille",
+                "name": "Gargouilles",
+                "cout": 75,
+                "nombre_par_slot": 4,
+                "min": 0,
+                "max": 2
+              }
+            ]
+          },
+          "ameliorations": []
+        }
+      ]
+    },
+    {
+      "id": "essaims_communs",
+      "name": "ESSAIMS INDÉPENDANTS COMMUNS",
+      "type": "rab",
+      "LimitationTag": "slot_essaim_commun",
+      "formations": [
+        {
+          "id": "essaim_genestealers",
+          "name": "Essaim de Genestealers",
+          "cout": 150,
+          "description": "Max 1 essaim commun par Groupe Synaptique. Compte dans le quota 1/3.",
+          "unites": [
+            {
+              "id": "genestealer",
+              "name": "Genestealer",
+              "nombre": 6
+            }
+          ],
+          "ameliorations": [
+            "alpha_genestealer",
+            "genestealers_supp"
+          ]
+        },
+        {
+          "id": "essaim_lictors",
+          "name": "Essaim de Lictors",
+          "cout": 175,
+          "description": "Max 1 essaim commun par Groupe Synaptique. Compte dans le quota 1/3.",
+          "unites": [
+            {
+              "id": "lictor",
+              "name": "Lictor",
+              "nombre": 4
+            }
+          ],
+          "ameliorations": [
+            "lictors_supp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "essaims_rares",
+      "name": "ESSAIMS INDÉPENDANTS RARES",
+      "type": "rab",
+      "LimitationTag": "slot_essaim_rare",
+      "formations": [
+        {
+          "id": "bio_aviations_harpies",
+          "name": "Bio-aviations (Harpies)",
+          "cout": 125,
+          "rare": true,
+          "description": "Max 1 essaim rare par Groupe Synaptique. Compte dans le quota 1/3.",
+          "unites": [
+            {
+              "id": "harpie",
+              "name": "Harpie",
+              "nombre": 2
+            }
+          ],
+          "ameliorations": [
+            "harpies_supp"
+          ]
+        },
+        {
+          "id": "bio_aviations_viragos",
+          "name": "Bio-aviations (Viragos)",
+          "cout": 150,
+          "rare": true,
+          "description": "Max 1 essaim rare par Groupe Synaptique. Compte dans le quota 1/3.",
+          "unites": [
+            {
+              "id": "virago",
+              "name": "Virago",
+              "nombre": 3
+            }
+          ],
+          "ameliorations": []
+        },
+        {
+          "id": "briseur_siege",
+          "name": "Briseur de siège",
+          "cout": 125,
+          "rare": true,
+          "description": "Initiative 1+. Max 1 essaim rare par Groupe Synaptique. Compte dans le quota 1/3. Peut ajouter jusqu'à 2 Hiérodules supplémentaires.",
+          "composition_personnalisee": {
+            "type": "choix_multiples",
+            "total": 1,
+            "description": "1 Hiérodule (Cracheur ou Faucheur)",
+            "options": [
+              {
+                "id": "hierodule_cracheur",
+                "unitId": "hierodule_cracheur",
+                "name": "Hiérodule Cracheur",
+                "cout": 0,
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "hierodule_faucheur",
+                "unitId": "hierodule_faucheur",
+                "name": "Hiérodule Faucheur",
+                "cout": 0,
+                "min": 0,
+                "max": 1
+              }
+            ]
+          },
+          "ameliorations": [
+            "hierodule_supp_cracheur",
+            "hierodule_supp_faucheur"
+          ]
+        },
+        {
+          "id": "bio_titan_hierophant",
+          "name": "Bio-titan (Hiérophant)",
+          "cout": 350,
+          "rare": true,
+          "description": "Initiative 1+. Max 1 essaim rare par Groupe Synaptique. Compte dans le quota 1/3.",
+          "unites": [
+            {
+              "id": "hierophant",
+              "name": "Hiérophant",
+              "nombre": 1
+            }
+          ],
+          "ameliorations": []
+        },
+        {
+          "id": "bio_titan_hydraphant",
+          "name": "Bio-titan (Hydraphant)",
+          "cout": 550,
+          "rare": true,
+          "description": "Initiative 1+. Max 1 essaim rare par Groupe Synaptique. Compte dans le quota 1/3.",
+          "unites": [
+            {
+              "id": "hydraphant",
+              "name": "Hydraphant",
+              "nombre": 1
+            }
+          ],
+          "ameliorations": []
+        },
+        {
+          "id": "bio_vaisseau_razorfiend",
+          "name": "Bio-vaisseau (Croiseur Razorfiend)",
+          "cout": 150,
+          "rare": true,
+          "description": "Initiative 1+. Max 1 essaim rare par Groupe Synaptique. Compte dans le quota 1/3.",
+          "unites": [
+            {
+              "id": "croiseur_razorfiend",
+              "name": "Croiseur Razorfiend",
+              "nombre": 1
+            }
+          ],
+          "ameliorations": []
+        },
+        {
+          "id": "bio_vaisseau_ruche",
+          "name": "Bio-vaisseau (Vaisseau Ruche)",
+          "cout": 250,
+          "rare": true,
+          "description": "Initiative 1+. Max 1 essaim rare par Groupe Synaptique. Compte dans le quota 1/3.",
+          "unites": [
+            {
+              "id": "vaisseau_ruche",
+              "name": "Vaisseau Ruche",
+              "nombre": 1
+            }
+          ],
+          "ameliorations": []
+        }
+      ]
+    }
+  ]
+}

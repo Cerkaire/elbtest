@@ -1,0 +1,1056 @@
+{
+  "codex": "Légion Titanique",
+  "color": "#a75502",
+  "version": "1.4.1",
+  "logo": "titan.png",
+  "categorie": "Armées de l Imperium",
+  "faction": "Titanicus",
+  "codexRare": 0.33333333,
+  "strategie": "3",
+  "initiative": "Les formations de l’armée ont une initiative de 1+",
+  "groupes": [
+    {
+      "name": "FORMATIONS DE BASES",
+      "formation": [
+        {
+          "name": "Titan Warlord",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 8,
+          "options": [
+            {
+              "name": "1 titan Warlord",
+              "principale": true,
+              "ref": "Titan Warlord",
+              "note": "Un Titan Warlord doit être équipé de 4 armes aux choix parmi les armes d'assaut, tactiques et de support",
+              "value": 725,
+              "carapace": "2",
+              "bras": "2"
+            },
+            {
+              "name": "0-1 Légat",
+              "limiteOptionGlobal": 1,
+              "value": 50,
+              "ref": "Légat"
+            },
+            {
+              "name": "Princeps Vétéran",
+              "value": 25,
+              "ref": "Princeps Vétéran"
+            },
+            {
+              "name": "Icône sacrée (Equipé)",
+              "value": 50,
+              "note": "Charismatique",
+              "unique": "W",
+              "ref": "Icône Sacrée"
+            },
+            {
+              "name": "Auspex amélioré",
+              "value": 25,
+              "note": "Ajouter la Note Tir Indirect à toutes les Armes ayant une valeur de Barrage.",
+              "ref": "Auspex Amélioré"
+            },
+            {
+              "name": "Multi-Laser de Carapace",
+              "ref": "Multi-Laser de Carapace",
+              "value": 25,
+              "emplacement": "carapace"
+            },
+            {
+              "name": "Cloche de Dévotion (Ajouter)",
+              "value": 100,
+              "note": "Mouvement Titan +5cm, ajouter la Note Charismatique, Meneur et Sauvegarde Invulnérable au Titan.",
+              "unique": "WW",
+              "ref": "Cloche de Dévotion",
+              "limit": 1
+            },
+            {
+              "name": "Armement de carapace",
+              "value": 0,
+              "limit": 1,
+              "nbrefoptions": 2,
+              "tagrefoptions": "carapace"
+            },
+            {
+              "name": "Cloche de Dévotion (Remplacement)",
+              "value": 0,
+              "note": "Remplacer deux systèmes d'arme de carapace pour une Cloche de Dévotion",
+              "unique": "WW",
+              "ref": "Cloche de Dévotion",
+              "refoption": "carapace",
+              "min": 2,
+              "max": 2
+            },
+            {
+              "name": "Icône sacrée (Remplacement)",
+              "value": 0,
+              "note": "Charismatique, Remplacer 1 système d'arme de carapace pour une Icône sacrée",
+              "unique": "W",
+              "ref": "Icône Sacrée",
+              "refoption": "carapace",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "0-1 Missile Warp",
+              "ref": "Missile Warp",
+              "note": "Cette Arme ignore les boucliers du Vide. Emplacement de carapace uniquement",
+              "limiteOptionGlobal": 1,
+              "value": 50,
+              "limit": 1,
+              "refoption": "carapace",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Missile de barrage",
+              "ref": "Missile de barrage",
+              "note": "Emplacement de carapace uniquement",
+              "value": 50,
+              "refoption": "carapace",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Lance-roquettes Apocalypse",
+              "ref": "Lance-roquettes Apocalypse",
+              "note": "Emplacement de Carapace uniquement",
+              "value": 25,
+              "refoption": "carapace",
+              "unique": "LRA",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Lance-roquettes Apocalypse (1 gratuit)",
+              "ref": "Lance-roquettes Apocalypse",
+              "note": "Emplacement de Carapace uniquement",
+              "value": 12.5,
+              "refoption": "carapace",
+              "unique": "LRA",
+              "min": 2,
+              "max": 2
+            },
+            {
+              "name": "Destructeur Turbo Laser",
+              "ref": "Destructeur Turbo Laser",
+              "value": 25,
+              "refoption": "carapace",
+              "unique": "DTL",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Destructeur Turbo Laser (1 gratuit)",
+              "ref": "Destructeur Turbo Laser",
+              "unique": "DTL",
+              "value": 12.5,
+              "refoption": "carapace",
+              "min": 2,
+              "max": 2
+            },
+            {
+              "name": "Méga Bolter Vulcain",
+              "ref": "Méga Bolter Vulcain",
+              "unique": "MBV",
+              "value": 25,
+              "refoption": "carapace",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Méga Bolter Vulcain (1 gratuit)",
+              "ref": "Méga Bolter Vulcain",
+              "unique": "MBV",
+              "value": 12.5,
+              "refoption": "carapace",
+              "min": 2,
+              "max": 2
+            },
+            {
+              "name": "Canon Gatling (Titan)",
+              "ref": "Canon Gatling (Titan)",
+              "unique": "CGT",
+              "value": 25,
+              "refoption": "carapace",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Canon Gatling (Titan) (1 gratuit)",
+              "ref": "Canon Gatling (Titan)",
+              "unique": "CGT",
+              "value": 12.5,
+              "refoption": "carapace",
+              "min": 2,
+              "max": 2
+            },
+            {
+              "name": "Armement de bras",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "bras",
+              "nbrefoptions": 2
+            },
+            {
+              "name": "Canon Gatling (Titan)",
+              "ref": "Canon Gatling (Titan)",
+              "value": 25,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Méga Bolter Vulcain",
+              "ref": "Méga Bolter Vulcain",
+              "value": 25,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Destructeur Turbo Laser",
+              "ref": "Destructeur Turbo Laser",
+              "value": 25,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Module d'assaut Corvus",
+              "ref": "Module d'assaut Corvus",
+              "value": 0,
+              "refoption": "bras",
+              "limit": 2,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Poing de Combat",
+              "ref": "Poing de Combat",
+              "value": 0,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Poing tronçonneur",
+              "ref": "Poing tronçonneur",
+              "value": 0,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Démolisseur",
+              "ref": "Démolisseur",
+              "value": 0,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Canon à Plasma",
+              "ref": "Canon à Plasma",
+              "note": "Emplacement de Bras uniquement",
+              "value": 25,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Canon Inferno (PB)",
+              "ref": "Canon Inferno (PB)",
+              "note": "Emplacement de Bras uniquement",
+              "value": 25,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Thermo Fuseur",
+              "ref": "Thermo Fuseur",
+              "note": "Emplacement de Bras uniquement",
+              "value": 25,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Canon Fuseur",
+              "ref": "Canon Fuseur",
+              "note": "Emplacement de Bras uniquement",
+              "value": 25,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Poing de Combat Arioch",
+              "ref": "Poing de Combat Arioch",
+              "note": "Emplacement de Bras uniquement",
+              "value": 25,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Annihilateur à plasma",
+              "ref": "Annihilateur à plasma",
+              "note": "Emplacement de Bras uniquement",
+              "value": 50,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Sismo Canon (Titan)",
+              "ref": "Sismo Canon (Titan)",
+              "note": "Emplacement de Bras uniquement",
+              "value": 50,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Canon Volcano (Titan)",
+              "ref": "Canon Volcano (Titan)",
+              "note": "Emplacement de Bras uniquement",
+              "value": 50,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Titan Warbringer Nemesis",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 6,
+          "options": [
+            {
+              "name": "1 titan Warbringer",
+              "ref": "Titan Warbringer Nemesis",
+              "principale": true,
+              "note": "Un Titan Warbringer Nemesis doit être équipé de 2 Armes de bras à choisir parmi Canon Gatling, Turbo Laser, Canon Fuseur et Canon Volcano (Titan).",
+              "value": 700
+            },
+            {
+              "name": "0-1 Légat",
+              "limiteOptionGlobal": 1,
+              "value": 50,
+              "ref": "Légat"
+            },
+            {
+              "name": "Princeps Vétéran",
+              "value": 25,
+              "ref": "Princeps Vétéran"
+            },
+            {
+              "name": "Icône sacrée (Equipé)",
+              "value": 50,
+              "note": "Charismatique",
+              "unique": "TR",
+              "ref": "Icône Sacrée"
+            },
+            {
+              "name": "Icône sacrée (Remplacement)",
+              "value": 0,
+              "note": "Charismatique",
+              "unique": "TR",
+              "ref": "Icône Sacrée"
+            },
+            {
+              "name": "Auspex amélioré",
+              "value": 25,
+              "note": "Ajouter la Note Tir Indirect à toutes les Armes ayant une valeur de Barrage.",
+              "ref": "Auspex Amélioré"
+            },
+            {
+              "name": "Armement de bras Droit",
+              "principale": true,
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "brasD",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Canon Gatling (Titan)",
+              "ref": "Canon Gatling (Titan)",
+              "value": 25,
+              "limit": 1,
+              "refoption": "brasD",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Destructeur Turbo Laser",
+              "ref": "Destructeur Turbo Laser",
+              "value": 25,
+              "limit": 1,
+              "refoption": "brasD",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Canon Fuseur",
+              "ref": "Canon Fuseur",
+              "note": "Emplacement de Bras uniquement",
+              "value": 25,
+              "limit": 1,
+              "refoption": "brasD",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Canon Volcano (Titan)",
+              "ref": "Canon Volcano (Titan)",
+              "note": "Emplacement de Bras uniquement",
+              "value": 50,
+              "limit": 1,
+              "refoption": "brasD",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Armement de bras Gauche",
+              "principale": true,
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "brasG",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Canon Gatling (Titan)",
+              "ref": "Canon Gatling (Titan)",
+              "value": 25,
+              "limit": 1,
+              "refoption": "brasG",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Destructeur Turbo Laser",
+              "ref": "Destructeur Turbo Laser",
+              "value": 25,
+              "limit": 1,
+              "refoption": "brasG",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Canon Fuseur",
+              "ref": "Canon Fuseur",
+              "note": "Emplacement de Bras uniquement",
+              "value": 25,
+              "limit": 1,
+              "refoption": "brasG",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Canon Volcano (Titan)",
+              "ref": "Canon Volcano (Titan)",
+              "note": "Emplacement de Bras uniquement",
+              "value": 50,
+              "limit": 1,
+              "refoption": "brasG",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        },
+        {
+          "name": "Titan Reaver",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 7,
+          "options": [
+            {
+              "name": "1 titan Reaver",
+              "ref": "Titan Reaver",
+              "principale": true,
+              "note": "Un Titan Reaver doit être équipé de 3 armes aux choix parmi les armes d'assaut, tactiques et de support",
+              "value": 575
+            },
+            {
+              "name": "0-1 Légat",
+              "limiteOptionGlobal": 1,
+              "value": 50,
+              "ref": "Légat"
+            },
+            {
+              "name": "Princeps Vétéran",
+              "value": 25,
+              "ref": "Princeps Vétéran"
+            },
+            {
+              "name": "Icône sacrée (Equipé)",
+              "value": 50,
+              "note": "Charismatique",
+              "unique": "TR",
+              "ref": "Icône Sacrée"
+            },
+            {
+              "name": "Auspex amélioré",
+              "value": 25,
+              "note": "Ajouter la Note Tir Indirect à toutes les Armes ayant une valeur de Barrage.",
+              "ref": "Auspex Amélioré"
+            },
+            {
+              "name": "Armement de carapace",
+              "value": 0,
+              "limit": 1,
+              "nbrefoptions": 1,
+              "tagrefoptions": "carapace"
+            },
+            {
+              "name": "Icône sacrée (Remplacement)",
+              "value": 0,
+              "note": "Charismatique, Remplacer 1 système d'arme de carapace pour une Icône sacrée",
+              "unique": "TR",
+              "ref": "Icône Sacrée",
+              "refoption": "carapace",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "0-1 Missile Warp",
+              "ref": "Missile Warp",
+              "note": "Cette Arme ignore les boucliers du Vide. Emplacement de carapace uniquement",
+              "limiteOptionGlobal": 1,
+              "value": 50,
+              "limit": 1,
+              "refoption": "carapace",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Missile de barrage",
+              "ref": "Missile de barrage",
+              "note": "Emplacement de carapace uniquement",
+              "value": 50,
+              "limit": 1,
+              "refoption": "carapace",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Lance-roquettes Apocalypse",
+              "ref": "Lance-roquettes Apocalypse",
+              "note": "Emplacement de Carapace uniquement",
+              "value": 25,
+              "limit": 1,
+              "refoption": "carapace",
+              "unique": "LRA",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Destructeur Turbo Laser",
+              "ref": "Destructeur Turbo Laser",
+              "value": 25,
+              "limit": 1,
+              "refoption": "carapace",
+              "unique": "DTL",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Méga Bolter Vulcain",
+              "ref": "Méga Bolter Vulcain",
+              "unique": "MBV",
+              "value": 25,
+              "limit": 1,
+              "refoption": "carapace",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Canon Gatling (Titan)",
+              "ref": "Canon Gatling (Titan)",
+              "unique": "CGT",
+              "value": 25,
+              "limit": 1,
+              "refoption": "carapace",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Multi-Laser de Carapace",
+              "ref": "Multi-Laser de Carapace",
+              "value": 25,
+              "emplacement": "carapace",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Armement de bras",
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "bras",
+              "nbrefoptions": 2
+            },
+            {
+              "name": "Canon Gatling (Titan)",
+              "ref": "Canon Gatling (Titan)",
+              "value": 25,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Méga Bolter Vulcain",
+              "ref": "Méga Bolter Vulcain",
+              "value": 25,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Destructeur Turbo Laser",
+              "ref": "Destructeur Turbo Laser",
+              "value": 25,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Poing de Combat",
+              "ref": "Poing de Combat",
+              "value": 0,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Poing tronçonneur",
+              "ref": "Poing tronçonneur",
+              "value": 0,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Démolisseur",
+              "ref": "Démolisseur",
+              "value": 0,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Canon à Plasma",
+              "ref": "Canon à Plasma",
+              "note": "Emplacement de Bras uniquement",
+              "value": 25,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Canon Inferno (PB)",
+              "ref": "Canon Inferno (PB)",
+              "note": "Emplacement de Bras uniquement",
+              "value": 25,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Thermo Fuseur",
+              "ref": "Thermo Fuseur",
+              "note": "Emplacement de Bras uniquement",
+              "value": 25,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Canon Fuseur",
+              "ref": "Canon Fuseur",
+              "note": "Emplacement de Bras uniquement",
+              "value": 25,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Annihilateur à plasma",
+              "ref": "Annihilateur à plasma",
+              "note": "Emplacement de Bras uniquement",
+              "value": 50,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Sismo Canon (Titan)",
+              "ref": "Sismo Canon (Titan)",
+              "note": "Emplacement de Bras uniquement",
+              "value": 50,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Canon Volcano (Titan)",
+              "ref": "Canon Volcano (Titan)",
+              "note": "Emplacement de Bras uniquement",
+              "value": 50,
+              "limit": 2,
+              "refoption": "bras",
+              "min": 0,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "0-2 Meutes de Warhounds",
+          "FormationLimite": 2,
+          "limiteOptionFormation": 6,
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2,
+              "B": 1
+            }
+          ],
+          "options": [
+            {
+              "name": "2 titans Warhounds",
+              "ref": "Titan Warhound",
+              "principale": true,
+              "note": "Un Titan Warhound est équipé de deux armes légères",
+              "value": 500
+            },
+            {
+              "name": "Princeps Vétéran",
+              "value": 25,
+              "ref": "Princeps Vétéran",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warhound 1",
+              "value": 0,
+              "tagrefoptions": "warh1",
+              "nbrefoptions": 2
+            },
+            {
+              "name": "Griffe d’Ursus",
+              "ref": "Griffe d’Ursus",
+              "value": 0,
+              "refoption": "warh1",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Natrix Shock Lance",
+              "ref": "Natrix Shock Lance",
+              "value": 0,
+              "refoption": "warh1",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Canon à Plasma Léger",
+              "ref": "Canon à Plasma Léger",
+              "value": 0,
+              "refoption": "warh1",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Canon Inferno Léger",
+              "ref": "Canon Inferno Léger",
+              "value": 0,
+              "refoption": "warh1",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Destructeur Turbo Laser Léger",
+              "ref": "Destructeur Turbo Laser Léger",
+              "value": 0,
+              "refoption": "warh1",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Méga Bolter Vulcain Léger",
+              "ref": "Méga Bolter Vulcain Léger",
+              "value": 0,
+              "refoption": "warh1",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Warhound 2",
+              "value": 0,
+              "tagrefoptions": "warh2",
+              "nbrefoptions": 2
+            },
+            {
+              "name": "Griffe d’Ursus",
+              "ref": "Griffe d’Ursus",
+              "value": 0,
+              "refoption": "warh2",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Natrix Shock Lance",
+              "ref": "Natrix Shock Lance",
+              "value": 0,
+              "refoption": "warh2",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Canon à Plasma Léger",
+              "ref": "Canon à Plasma Léger",
+              "value": 0,
+              "refoption": "warh2",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Canon Inferno Léger",
+              "ref": "Canon Inferno Léger",
+              "value": 0,
+              "refoption": "warh2",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Destructeur Turbo Laser Léger",
+              "ref": "Destructeur Turbo Laser Léger",
+              "value": 0,
+              "refoption": "warh2",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Méga Bolter Vulcain Léger",
+              "ref": "Méga Bolter Vulcain Léger",
+              "value": 0,
+              "refoption": "warh2",
+              "min": 0,
+              "max": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS DE SOUTIEN",
+      "detail": "Deux formations de soutiens par formations de bases",
+      "formation": [
+        {
+          "name": "Titan Warhound",
+          "LimitationTag": "A",
+          "limiteOptionFormation": 6,
+          "options": [
+            {
+              "name": "1 titan Warhound",
+              "principale": true,
+              "ref": "Titan Warhound",
+              "note": "Un Titan Warhound est équipé de deux armes légères",
+              "value": 275
+            },
+            {
+              "name": "Princeps Vétéran",
+              "value": 25,
+              "ref": "Princeps Vétéran"
+            },
+            {
+              "name": "Griffe d’Ursus",
+              "ref": "Griffe d’Ursus",
+              "value": 0,
+              "limit": 2
+            },
+            {
+              "name": "Natrix Shock Lance",
+              "ref": "Natrix Shock Lance",
+              "value": 0,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Canon à Plasma Léger",
+              "ref": "Canon à Plasma Léger",
+              "value": 0,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Canon Inferno Léger",
+              "ref": "Canon Inferno Léger",
+              "value": 0,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Destructeur Turbo Laser Léger",
+              "ref": "Destructeur Turbo Laser Léger",
+              "value": 0,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Méga Bolter Vulcain Léger",
+              "ref": "Méga Bolter Vulcain Léger",
+              "value": 0,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Cohorte de Secutarii Peltastes",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "8 unités de Secutarii Peltastes",
+              "ref": "Secutarii Peltastes",
+              "principale": true,
+              "value": 200
+            },
+            {
+              "name": "Ajouter 4 Termites à la formation",
+              "ref": "Termite (AMTL)",
+              "value": 100
+            },
+            {
+              "name": "Ajouter 1 Taupe à la formation",
+              "ref": "Taupe (AMTL)",
+              "value": 50
+            },
+            {
+              "name": "Ajouter 1 Fouisseuse à la formation",
+              "ref": "Fouisseuse (AMTL)",
+              "value": 75
+            }
+          ]
+        },
+        {
+          "name": "Cohorte de Secutarii Hoplites",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "8 unités de Secutarii Hoplites",
+              "ref": "Secutarii Hoplites",
+              "principale": true,
+              "value": 200
+            },
+            {
+              "name": "Ajouter 4 Termites à la formation",
+              "ref": "Termite (AMTL)",
+              "value": 50
+            },
+            {
+              "name": "Ajouter 1 Taupe à la formation",
+              "ref": "Taupe (AMTL)",
+              "value": 50
+            },
+            {
+              "name": "Ajouter 1 Fouisseuse à la formation",
+              "ref": "Fouisseuse (AMTL)",
+              "value": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS DE SOUTIEN RARE",
+      "detail": "Une formation de soutien rare par formation de base jusqu'à 1/3 des points maximum",
+      "formation": [
+        {
+          "name": "Titan Imperator",
+          "LimitationTag": "B",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Imperator",
+              "ref": "Titan Imperator",
+              "principale": true,
+              "value": 1250
+            },
+            {
+              "name": "0-1 Légat",
+              "limiteOptionGlobal": 1,
+              "value": 50,
+              "ref": "Légat"
+            }
+          ]
+        },
+        {
+          "name": "Titan Imperator Warmonger",
+          "LimitationTag": "B",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Imperator Warmonger",
+              "ref": "Titan Imperator Warmonger",
+              "principale": true,
+              "value": 1250
+            },
+            {
+              "name": "0-1 Légat",
+              "limiteOptionGlobal": 1,
+              "value": 50,
+              "ref": "Légat"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

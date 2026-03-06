@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "paras_elyseens",
+        "name": "Paras Élyséens",
+        "version": "1.2.1",
+        "faction": "Impérium",
+        "color": "#1e3f59",
+        "logo": "para.png",
+        "categorie": "armees-imperiales",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 3,
+            "initiative_defaut": "2+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

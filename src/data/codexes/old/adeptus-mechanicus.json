@@ -1,0 +1,639 @@
+{
+  "codex": "Adeptus mechanicus",
+  "color": "#610505",
+  "version": "1.5",
+  "logo": "mechanicus.png",
+  "categorie": "Armées de l Imperium",
+  "faction": "Titanicus",
+  "codexRare": 0.33333333,
+  "strategie": "3",
+  "initiative": "Les formations ont une initiative de 2+. Les Tech Priests, Tech Priests Dominus donnent une valeur d’initiative de 1+ à leur formation.",
+  "groupes": [
+    {
+      "name": "DÉTACHEMENTS PRINCIPAUX DE L’ADEPTUS MECHANICUS",
+      "detail": "Vous pouvez prendre une formation de support par formation d'ordre militant prise",
+      "formation": [
+        {
+          "name": "1+ Skitarii Vanguards",
+          "obligatoire": true,
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2
+            }
+          ],
+          "options": [
+            {
+              "name": "8 unités de Skitarii Vanguard et 4 Skorpius Duneriders",
+              "value": 275,
+              "ref": [
+                "Skitarii Vanguard",
+                "Skorpius Dunerider"
+              ],
+              "principale": true,
+              "unique": "A"
+            },
+            {
+              "name": "12 unités de Skitarii Vanguard et 6 Skorpius Duneriders",
+              "ref": [
+                "Skitarii Vanguard",
+                "Skorpius Dunerider"
+              ],
+              "value": 425,
+              "limit": 1,
+              "principale": true,
+              "unique": "A"
+            },
+            {
+              "name": "Magos : Tech priest",
+              "value": 50,
+              "ref": "Tech priest",
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Magos : 0-1 Tech-priest Dominus",
+              "ref": "Tech-priest Dominus",
+              "value": 75,
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Skorpius Desintegrators",
+              "ref": "Skorpius Desintegrator",
+              "value": 50,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Onagre Icarus",
+              "ref": "Onagre Icarus",
+              "value": 75,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Kataphrons",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2
+            }
+          ],
+          "options": [
+            {
+              "name": "6 unités de Kataphrons",
+              "value": 275,
+              "ref": [
+                "Kataphron"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Magos : Tech priest",
+              "value": 50,
+              "ref": "Tech priest",
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Magos : 0-1 Tech-priest Dominus",
+              "ref": "Tech-priest Dominus",
+              "value": 75,
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Onagre Icarus",
+              "ref": "Onagre Icarus",
+              "value": 75,
+              "limit": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DÉTACHEMENTS DE SOUTIEN DE L’ADEPTUS MECHANICUS",
+      "detail": "Jusqu'à 2 détachements de soutien par détachement principal",
+      "formation": [
+        {
+          "name": "Groupe d'assaut souterrain",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "8 unités de Skitarii Vanguard et 4 Termites",
+              "ref": [
+                "Skitarii Vanguard",
+                "Termite (Skitarii)"
+              ],
+              "value": 275,
+              "principale": true,
+              "unique": "AA"
+            },
+            {
+              "name": "8 unités de Skitarii Vanguard et 1 Taupe",
+              "ref": [
+                "Skitarii Vanguard",
+                "Taupe (Skitarii)"
+              ],
+              "value": 275,
+              "principale": true,
+              "unique": "AA"
+            },
+            {
+              "name": "Magos : Tech priest",
+              "value": 50,
+              "ref": "Tech priest",
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Magos : 0-1 Tech-priest Dominus",
+              "ref": "Tech-priest Dominus",
+              "value": 75,
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "unique": "SU"
+            }
+          ]
+        },
+        {
+          "name": "Skitarii Rangers",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Skitarii Rangers",
+              "value": 150,
+              "principale": true,
+              "ref": [
+                "Skitarii Ranger"
+              ]
+            },
+            {
+              "name": "Magos : Tech priest",
+              "value": 50,
+              "ref": "Tech priest",
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Magos : 0-1 Tech-priest Dominus",
+              "ref": "Tech-priest Dominus",
+              "value": 75,
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Skorpius Duneriders",
+              "value": 25,
+              "note": "Ajoutez suffisamment de Skorpius Duneriders pour transporter toute la formation",
+              "min": 1,
+              "max": 6,
+              "ref": [
+                "Skorpius Dunerider"
+              ]
+            },
+            {
+              "name": "Avant Garde",
+              "value": 25,
+              "note": "Les unités de formation gagnent la note Éclaireur, la formation ne peut pas recevoir simultanément l'amélioration Skorpius Dunerider",
+              "limiteOptionGlobal": 2
+            }
+          ]
+        },
+        {
+          "name": "Electro-Prêtre",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "8 unités d'Electro-prêtre",
+              "ref": "Electro-prêtre",
+              "value": 200,
+              "principale": true
+            },
+            {
+              "name": "Magos : Tech priest",
+              "value": 50,
+              "ref": "Tech priest",
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Magos : 0-1 Tech-priest Dominus",
+              "ref": "Tech-priest Dominus",
+              "value": 75,
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Skorpius Duneriders",
+              "value": 25,
+              "note": "Ajoutez suffisamment de Skorpius Duneriders pour transporter toute la formation",
+              "min": 1,
+              "max": 6,
+              "ref": [
+                "Skorpius Dunerider"
+              ]
+            },
+            {
+              "name": "Skorpius Desintegrators",
+              "value": 50,
+              "note": "Ajoutez suffisamment de Skorpius Duneriders pour transporter toute la formation",
+              "min": 1,
+              "max": 2,
+              "ref": [
+                "Skorpius Desintegrator"
+              ]
+            },
+            {
+              "name": "Tunnelier - Termites",
+              "value": 25,
+              "note": "Ajouter suffisamment de Termites pour transporter toute la formation",
+              "min": 1,
+              "max": 4,
+              "ref": [
+                "Termite (Skitarii)"
+              ]
+            },
+            {
+              "name": "Tunnelier - Taupe",
+              "value": 50,
+              "note": "Ajouter suffisamment de Taupe pour transporter toute la formation",
+              "limit": 1,
+              "ref": [
+                "Taupe (Skitarii)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sicarian Infiltrators",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Sicarian Infiltrators",
+              "ref": "Skitarii Sicarian Infiltrator",
+              "value": 200,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Téléportation",
+              "value": 50,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Sicarian Ruststalkers",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Sicarian Ruststalkers",
+              "ref": "Skitarii Sicarian Ruststalker",
+              "value": 200,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Skorpius Duneriders",
+              "value": 25,
+              "note": "Ajoutez suffisamment de Skorpius Duneriders pour transporter toute la formation",
+              "min": 1,
+              "max": 6,
+              "ref": [
+                "Skorpius Dunerider"
+              ]
+            },
+            {
+              "name": "Tunnelier - Termites",
+              "value": 25,
+              "note": "Ajouter suffisamment de Termites pour transporter toute la formation",
+              "min": 1,
+              "max": 4,
+              "ref": [
+                "Termite (Skitarii)"
+              ]
+            },
+            {
+              "name": "Tunnelier - Taupe",
+              "value": 50,
+              "note": "Ajouter suffisamment de Taupe pour transporter toute la formation",
+              "limit": 1,
+              "ref": [
+                "Taupe (Skitarii)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Serberys Raiders",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Serberys Raiders",
+              "ref": "Serberys Raiders",
+              "value": 150,
+              "principale": true,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "0-2 Pteraxii",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "4 unités de Pteraxii",
+              "ref": "Pteraxii",
+              "value": 175,
+              "principale": true,
+              "limit": 1,
+              "limiteOptionGlobal": 2
+            }
+          ]
+        },
+        {
+          "name": "Ballistarii Ironstriders",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Ballistarii Ironstriders",
+              "ref": "Ballistarii Ironstriders",
+              "value": 200,
+              "principale": true,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Sydonian Dragoons",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Sydonian Dragons",
+              "ref": "Sydonian Dragoons",
+              "value": 225,
+              "principale": true,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Kastellan Automata",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Kastellan dont un Cybernetica Datasmith",
+              "ref": [
+                "Kastelan automata",
+                "Cybernetica Datasmith"
+              ],
+              "value": 350,
+              "principale": true,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Onagre",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités Onagre",
+              "ref": [
+                "Onagre"
+              ],
+              "value": 325,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Onagre Icarus (remplacement)",
+              "ref": [
+                "Onagre Icarus"
+              ],
+              "value": 25,
+              "note": "Remplacer un Onagre de la formation par un Onagre Icarus",
+              "limit": 1
+            },
+            {
+              "name": "Onagre Icarus",
+              "ref": [
+                "Onagre Icarus"
+              ],
+              "value": 75,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Skorpius Desintegrator",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Skorpius Desintegrator",
+              "ref": [
+                "Skorpius Desintegrator"
+              ],
+              "value": 275,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Skorpius Desintegrator",
+              "ref": [
+                "Skorpius Desintegrator"
+              ],
+              "value": 50,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Archeopter Transvector",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités d'Archeopter Transvector et 6 Vanguard Skitarii",
+              "ref": [
+                "Archeopter Transvector",
+                "Skitarii Vanguard"
+              ],
+              "value": 300,
+              "principale": true,
+              "limit": 1,
+              "unique": "AT"
+            },
+            {
+              "name": "6 unités d'Archeopter Transvector et 6 d'Electro-prêtre",
+              "ref": [
+                "Archeopter Transvector",
+                "Electro-prêtre"
+              ],
+              "value": 325,
+              "principale": true,
+              "limit": 1,
+              "unique": "AT"
+            },
+            {
+              "name": "Magos : Tech priest",
+              "value": 50,
+              "ref": "Tech priest",
+              "limit": 1,
+              "unique": "SU"
+            },
+            {
+              "name": "Magos : 0-1 Tech-priest Dominus",
+              "ref": "Tech-priest Dominus",
+              "value": 75,
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "unique": "SU"
+            }
+          ]
+        },
+        {
+          "name": "Ordinatus Minoris",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "1 Ordinatus Minoris Sagittar",
+              "ref": [
+                "Ordinatus Minoris Sagittar"
+              ],
+              "value": 200,
+              "principale": true,
+              "limit": 1,
+              "unique": "OR"
+            },
+            {
+              "name": "1 Ordinatus Minoris Ulator",
+              "ref": [
+                "Ordinatus Minoris Ulator"
+              ],
+              "value": 200,
+              "principale": true,
+              "limit": 1,
+              "unique": "OR"
+            },
+            {
+              "name": "Ordinatus Minoris",
+              "ref": [
+                "Ordinatus Minoris Ulator",
+                "Ordinatus Minoris Sagittar"
+              ],
+              "value": 125,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SOUTIENS DU CENTURIO ORDINATUS",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Ordinatus Mars",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Ordinatus Mars",
+              "ref": "Ordinatus Mars",
+              "value": 400,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Ordinatus Armageddon",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Ordinatus Armageddon",
+              "ref": "Ordinatus Armageddon",
+              "value": 450,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Ordinatus Golgotha",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Ordinatus Golgotha",
+              "ref": "Ordinatus Golgotha",
+              "value": 550,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLOTTE DE L'OMNIMESSIE",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Escadrille Archeopter Stratoraptor",
+          "rare": true,
+          "options": [
+            {
+              "name": "Escadrille Archeopter Stratoraptor",
+              "ref": "Archeopter Stratoraptor",
+              "value": 75,
+              "principale": true,
+              "min": 2,
+              "max": 4
+            }
+          ]
+        },
+        {
+          "name": "Escadrille Archeopter Fusilave",
+          "rare": true,
+          "options": [
+            {
+              "name": "Escadrille Archeopter Fusilave",
+              "ref": "Archeopter Fusilave",
+              "value": 50,
+              "principale": true,
+              "min": 4,
+              "max": 6
+            }
+          ]
+        },
+        {
+          "name": "Soutien Orbital",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Croiseur",
+              "ref": "Cruiser",
+              "value": 150,
+              "principale": true
+            },
+            {
+              "name": "1 Ark Mechanicus",
+              "ref": "Ark Mechanicus",
+              "value": 300,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

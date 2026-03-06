@@ -1,0 +1,18 @@
+{
+    "codex": {
+        "id": "legion_dacier",
+        "name": "Légion d'Acier",
+        "version": "1.2.1",
+        "faction": "Impérium",
+        "color": "#686000",
+        "logo": "steel.png",
+        "categorie": "armees-imperiales",
+        "regles_speciales": {
+            "max_formations_rares_ratio": 0.3333,
+            "valeur_strategique": 2,
+            "initiative_defaut": "2+"
+        }
+    },
+    "ameliorations": [],
+    "groupes": []
+}

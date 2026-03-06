@@ -1,0 +1,705 @@
+{
+  "codex": "Squats",
+  "color": "#18524c",
+  "version": "1.2.2",
+  "logo": "squat.png",
+  "categorie": "Armées Xénos",
+  "faction": "Squat",
+  "codexRare": 0.33333333,
+  "strategie": "3",
+  "initiative": "Initiative  2+. Les Gardes du Foyer, Colossus, Cyclope et Train Blindé initiative : 1+. ",
+  "groupes": [
+    {
+      "name": "CONFRÉRIES",
+      "detail": "Chaque amélioration ne peut être prise qu'une seule fois par formation et jusqu'à un maximum de 3",
+      "formation": [
+        {
+          "name": "Confrérie de Guerriers",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "1 unité de Seigneur + 7 unités de Guerriers",
+              "value": 200,
+              "ref": [
+                "Seigneur",
+                "Guerriers"
+              ],
+              "principale": true
+            },
+            {
+              "name": "1 unité de Seigneur + 11 unités de Guerriers",
+              "value": 300,
+              "ref": [
+                "Seigneur",
+                "Guerriers"
+              ],
+              "principale": true
+            },
+            {
+              "name": "0-1 Seigneur de Guerre",
+              "value": 50,
+              "ref": "Seigneur de Guerre",
+              "limit": 1,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Ancêtre Vivant",
+              "ref": "Ancêtre Vivant",
+              "value": 50,
+              "limit": 1,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Léviathan",
+              "ref": "Léviathan",
+              "value": 350,
+              "limit": 1
+            },
+            {
+              "name": "1 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 75,
+              "limit": 1
+            },
+            {
+              "name": "2 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 125,
+              "limit": 1
+            },
+            {
+              "name": "3 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 200,
+              "limit": 1
+            },
+            {
+              "name": "4 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 250,
+              "limit": 1
+            },
+            {
+              "name": "5 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 325,
+              "limit": 1
+            },
+            {
+              "name": "6 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 400,
+              "limit": 1
+            },
+            {
+              "name": "Exo-armure",
+              "value": 25,
+              "limit": 1,
+              "note": "Le seigneur gagne la compétence Blindage Renforcé"
+            }
+          ]
+        },
+        {
+          "name": "Confrérie de Berserkers",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "1 unité de Seigneur + 7 unités de Berserkers",
+              "value": 175,
+              "ref": [
+                "Seigneur",
+                "Berserkers"
+              ],
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "1 unité de Seigneur + 11 unités de Berserkers",
+              "value": 250,
+              "ref": [
+                "Seigneur",
+                "Berserkers"
+              ],
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Seigneur de Guerre",
+              "value": 50,
+              "ref": "Seigneur de Guerre",
+              "limit": 1,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Léviathan",
+              "ref": "Léviathan",
+              "value": 350,
+              "limit": 1
+            },
+            {
+              "name": "Rhinos",
+              "ref": "Rhino",
+              "value": 15,
+              "limit": 1,
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Tunneliers - Fouisseuse",
+              "ref": "Fouisseuse",
+              "value": 75,
+              "limit": 1
+            },
+            {
+              "name": "Tunneliers - Taupe",
+              "ref": "Taupe",
+              "value": 50,
+              "limit": 1,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Tunneliers - Termite",
+              "ref": "Termite",
+              "value": 25,
+              "limit": 1,
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Exo-armure",
+              "value": 25,
+              "limit": 1,
+              "note": "Le seigneur gagne la compétence Blindage Renforcé"
+            }
+          ]
+        },
+        {
+          "name": "Confrérie de Motards de la Guilde",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "8 unités de Motards de la Guilde",
+              "value": 200,
+              "ref": [
+                "Motards de la Guilde"
+              ],
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "10 unités de Motards de la Guilde",
+              "value": 250,
+              "ref": [
+                "Motards de la Guilde"
+              ],
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Seigneur de Guerre",
+              "value": 50,
+              "ref": "Seigneur de Guerre",
+              "limit": 1,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Maître de la Guilde",
+              "ref": "Maître de la Guilde",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Trikes",
+              "ref": "Trike",
+              "note": "Remplacer des unités de Motards de la Guilde par autant de Trikes",
+              "value": 5,
+              "limit": 1,
+              "min": 0,
+              "max": 10
+            },
+            {
+              "name": "Exotrikes",
+              "ref": "Exotrikes",
+              "value": 50,
+              "limit": 1,
+              "min": 0,
+              "max": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS DE SOUTIEN",
+      "detail": "Deux formations de soutien par Confrérie",
+      "formation": [
+        {
+          "name": "Confrérie de Gardes du Foyer",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Gardes du Foyer",
+              "ref": "Gardes du Foyer",
+              "value": 275,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "8 unités de Gardes du Foyer",
+              "ref": "Gardes du Foyer",
+              "value": 375,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Seigneur de Guerre",
+              "value": 50,
+              "ref": "Seigneur de Guerre",
+              "limit": 1,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Ancêtre Vivant",
+              "ref": "Ancêtre Vivant",
+              "value": 50,
+              "limit": 1,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Léviathan",
+              "ref": "Léviathan",
+              "value": 350,
+              "limit": 1
+            },
+            {
+              "name": "1 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 75,
+              "limit": 1
+            },
+            {
+              "name": "2 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 125,
+              "limit": 1
+            },
+            {
+              "name": "3 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 200,
+              "limit": 1
+            },
+            {
+              "name": "4 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 250,
+              "limit": 1
+            },
+            {
+              "name": "5 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 325,
+              "limit": 1
+            },
+            {
+              "name": "6 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 400,
+              "limit": 1
+            },
+            {
+              "name": "7 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 475,
+              "limit": 1
+            },
+            {
+              "name": "8 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 525,
+              "limit": 1
+            },
+            {
+              "name": "Tunneliers - Fouisseuse",
+              "ref": "Fouisseuse",
+              "value": 75,
+              "limit": 1
+            },
+            {
+              "name": "Tunneliers - Taupe",
+              "ref": "Taupe",
+              "value": 50,
+              "limit": 1,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Tunneliers - Termite",
+              "ref": "Termite",
+              "value": 25,
+              "limit": 1,
+              "min": 0,
+              "max": 8
+            }
+          ]
+        },
+        {
+          "name": "Confrérie de Guerriers Tonnerre",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Guerriers Tonnerre",
+              "ref": "Guerriers Tonnerre",
+              "value": 225,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "8 unités de Guerriers Tonnerre",
+              "ref": "Guerriers Tonnerre",
+              "value": 300,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "0-1 Seigneur de Guerre",
+              "value": 50,
+              "ref": "Seigneur de Guerre",
+              "limit": 1,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "0-1 Ancêtre Vivant",
+              "ref": "Ancêtre Vivant",
+              "value": 50,
+              "limit": 1,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Léviathan",
+              "ref": "Léviathan",
+              "value": 350,
+              "limit": 1
+            },
+            {
+              "name": "Rhinos",
+              "ref": "Rhino",
+              "value": 15,
+              "limit": 1,
+              "min": 0,
+              "max": 8
+            },
+            {
+              "name": "1 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 75,
+              "limit": 1
+            },
+            {
+              "name": "2 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 125,
+              "limit": 1
+            },
+            {
+              "name": "3 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 200,
+              "limit": 1
+            },
+            {
+              "name": "4 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 250,
+              "limit": 1
+            },
+            {
+              "name": "5 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 325,
+              "limit": 1
+            },
+            {
+              "name": "6 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 400,
+              "limit": 1
+            },
+            {
+              "name": "7 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 475,
+              "limit": 1
+            },
+            {
+              "name": "8 Land Raiders",
+              "ref": "Land Raiders",
+              "value": 525,
+              "limit": 1
+            },
+            {
+              "name": "Tunneliers - Fouisseuse",
+              "ref": "Fouisseuse",
+              "value": 75,
+              "limit": 1
+            },
+            {
+              "name": "Tunneliers - Taupe",
+              "ref": "Taupe",
+              "value": 50,
+              "limit": 1,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Tunneliers - Termite",
+              "ref": "Termite",
+              "value": 25,
+              "limit": 1,
+              "min": 0,
+              "max": 8
+            }
+          ]
+        },
+        {
+          "name": "Formation de Robots de la Guilde",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "5 Robots de la Guilde",
+              "ref": "Robots de la Guilde",
+              "value": 200,
+              "principale": true,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Dirigeable Overlord",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "Dirigeable Overlord",
+              "ref": "Dirigeable Overlord",
+              "value": 200,
+              "principale": true,
+              "min": 0,
+              "max": 2,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Formation de Gyrocoptères",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "5 unités de Gyrocoptères",
+              "ref": "Gyrocoptères",
+              "value": 275,
+              "principale": true,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Batterie Foudre",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "Canons Foudre",
+              "ref": "Canon Foudre",
+              "value": 50,
+              "principale": true,
+              "min": 3,
+              "max": 5,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Batterie d'artillerie",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 unités de Thudd Guns",
+              "ref": "Thudd Guns",
+              "value": 225,
+              "principale": true,
+              "limit": 1,
+              "unique": "BA"
+            },
+            {
+              "name": "6 unités de Mortiers-Taupe",
+              "ref": "Mortier-Taupe",
+              "value": 200,
+              "principale": true,
+              "limit": 1,
+              "unique": "BA"
+            },
+            {
+              "name": "6 unités de Tarentules",
+              "ref": "Tarentule",
+              "value": 175,
+              "principale": true,
+              "limit": 1,
+              "unique": "BA"
+            },
+            {
+              "name": "Canons Foudre",
+              "ref": "Canon Foudre",
+              "value": 50,
+              "min": 1,
+              "max": 2,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Batterie d'artillerie lourde",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "1 Méga-Canon Goliath",
+              "ref": "Méga-Canon Goliath",
+              "value": 250,
+              "principale": true,
+              "unique": "CG"
+            },
+            {
+              "name": "2 Méga-Canon Goliath",
+              "ref": "Méga-Canon Goliath",
+              "value": 400,
+              "principale": true,
+              "unique": "CG"
+            },
+            {
+              "name": "Canons Foudre",
+              "ref": "Canon Foudre",
+              "value": 50,
+              "min": 1,
+              "max": 2,
+              "limit": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ENGINS DE GUERRE",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Léviathan",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Léviathan",
+              "ref": "Léviathan",
+              "value": 350,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Colossus",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Colossus",
+              "ref": "Colossus",
+              "value": 500,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Cyclope",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Cyclope",
+              "ref": "Cyclope",
+              "value": 500,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Train Blindé",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Locomotive (4 à 7 Wagons)",
+              "ref": "Locomotive",
+              "value": 200,
+              "principale": true,
+              "note": "1 Locomotive et de 4 à 7 Wagons"
+            },
+            {
+              "name": "Wagon Canon",
+              "ref": "Wagon Canon",
+              "value": 100,
+              "min": 0,
+              "max": 7
+            },
+            {
+              "name": "Wagon Berserker",
+              "ref": "Wagon Berserker",
+              "value": 75,
+              "min": 0,
+              "max": 7
+            },
+            {
+              "name": "Wagon Mortier",
+              "ref": "Wagon Mortier",
+              "value": 125,
+              "min": 0,
+              "max": 7
+            },
+            {
+              "name": "Wagon Marteau Céleste",
+              "ref": "Wagon Marteau Céleste",
+              "value": 125,
+              "min": 0,
+              "max": 7
+            },
+            {
+              "name": "Wagon Dragon",
+              "ref": "Wagon Dragon",
+              "value": 100,
+              "min": 0,
+              "max": 7
+            },
+            {
+              "name": "Wagon Bombe H",
+              "ref": "Wagon Bombe H",
+              "value": 150,
+              "min": 0,
+              "max": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

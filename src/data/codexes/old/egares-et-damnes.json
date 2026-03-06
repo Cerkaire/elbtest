@@ -1,0 +1,1228 @@
+{
+  "codex": "Egarés et damnés",
+  "color": "#086b6f",
+  "version": "1.6.1",
+  "logo": "eed.png",
+  "categorie": "Armées du Chaos",
+  "faction": "Chaos",
+  "codexRare": 0.33333333,
+  "strategie": "2",
+  "initiative": "Initiative 2+. Les Engins de Guerre démoniaques (hors Firelords et Doomwings) ou toute formation contenant un Démon majeur: initiative 1+",
+  "groupes": [
+    {
+      "name": "LOGES RENÉGATES",
+      "detail": "Chaque Loge Stigmatus permet de sélectionner une Loge Gigantis et jusqu'à 4 améliorations différentes par Loge Renégates",
+      "formation": [
+        {
+          "name": "Loge Stigmatus",
+          "limiteOptionFormation": 4,
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1,
+              "B": 1,
+              "C": 1
+            }
+          ],
+          "options": [
+            {
+              "name": "Aspirant Champion Marine du Chaos ou Démagogue",
+              "principale": true,
+              "limit": 1,
+              "nbrefoptions": 1,
+              "tagrefoptions": "BB",
+              "ref": [
+                "Aspirant Champion Space Marine du Chaos",
+                "Démagogue"
+              ],
+              "value": 0
+            },
+            {
+              "name": "Aspirant Champion Marine du Chaos",
+              "principale": true,
+              "refoption": "BB",
+              "ref": [
+                "Aspirant Champion Space Marine du Chaos"
+              ],
+              "limit": 1,
+              "min": 0,
+              "max": 1,
+              "value": 0
+            },
+            {
+              "name": "Démagogue",
+              "principale": true,
+              "refoption": "BB",
+              "ref": [
+                "Démagogue"
+              ],
+              "limit": 1,
+              "min": 0,
+              "max": 1,
+              "value": 0
+            },
+            {
+              "name": "11 unités de cultistes et/ou de Mutants",
+              "ref": [
+                "Cultiste",
+                "Mutant"
+              ],
+              "principale": true,
+              "limit": 1,
+              "nbrefoptions": 11,
+              "tagrefoptions": "AA",
+              "value": 175
+            },
+            {
+              "name": "Cultistes",
+              "principale": true,
+              "refoption": "AA",
+              "ref": [
+                "Cultiste"
+              ],
+              "min": 0,
+              "max": 11,
+              "limit": 1,
+              "value": 0
+            },
+            {
+              "name": "Mutants",
+              "principale": true,
+              "refoption": "AA",
+              "ref": [
+                "Mutant"
+              ],
+              "min": 0,
+              "max": 11,
+              "limit": 1,
+              "value": 0
+            },
+            {
+              "name": "0-1 Autel du Chaos",
+              "ref": "Autel du Chaos",
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "value": 200
+            },
+            {
+              "name": "0-1 Prince Démon/Prince Démon Ailé",
+              "nbrefoptions": 1,
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "tagrefoptions": "B",
+              "value": 50,
+              "note": "Remplacer l'Aspirant Champion Space Marine du Chaos ou le Démagogue par un un Prince Démon"
+            },
+            {
+              "name": "Prince Démon",
+              "ref": [
+                "Prince Démon"
+              ],
+              "refoption": "B",
+              "limit": 1,
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "note": "Remplacer l'Aspirant Champion Space Marine du Chaos ou le Démagogue par un un Prince Démon"
+            },
+            {
+              "name": "Prince Démon Ailé",
+              "ref": [
+                "Prince Démon Ailé"
+              ],
+              "refoption": "B",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "note": "Remplacer l'Aspirant Champion Space Marine du Chaos ou le Démagogue par un un Prince Démon"
+            },
+            {
+              "name": "Champion des Dieux Sombres",
+              "ref": "Champion des Dieux Sombres",
+              "value": 100,
+              "limit": 1,
+              "note": "Remplacer une unité d'Aspirant Champion ou de Démagogue - Meneur, Sauvegarde invulnérable, Concentration démoniaque (2d3)"
+            },
+            {
+              "name": "0-1 Cardinal",
+              "limiteOptionGlobal": 1,
+              "limit": 1,
+              "value": 25,
+              "note": "Un Démagogue gagne la capacité Charismatique"
+            },
+            {
+              "name": "Pacte Démoniaque",
+              "limit": 1,
+              "value": 25,
+              "note": "Ajouter un personnage de Porte-icône à une unité de la formation"
+            },
+            {
+              "name": "1 Defilers",
+              "ref": "Defiler",
+              "limit": 1,
+              "value": 75,
+              "unique": "DF"
+            },
+            {
+              "name": "2 Defilers",
+              "ref": "Defiler",
+              "limit": 1,
+              "value": 125,
+              "unique": "DF"
+            },
+            {
+              "name": "Cultistes ou Mutants",
+              "ref": [
+                "Cultiste",
+                "Mutant"
+              ],
+              "value": 10,
+              "limit": 1,
+              "min": 0,
+              "max": 8,
+              "nbrefoptions": 8,
+              "tagrefoptions": "C"
+            },
+            {
+              "name": "Cultistes",
+              "refoption": "C",
+              "ref": [
+                "Cultiste"
+              ],
+              "limit": 1,
+              "min": 0,
+              "max": 8,
+              "value": 0
+            },
+            {
+              "name": "Mutants",
+              "refoption": "C",
+              "ref": [
+                "Mutant"
+              ],
+              "limit": 1,
+              "min": 0,
+              "max": 8,
+              "value": 0
+            },
+            {
+              "name": "Transporteur terrestre",
+              "ref": "Transporteur Terrestre",
+              "value": 10,
+              "limit": 1,
+              "min": 0,
+              "max": 16
+            },
+            {
+              "name": "Transports Renégats : Chimère",
+              "ref": "Chimère",
+              "limit": 1,
+              "value": 25,
+              "min": 0,
+              "max": 16
+            },
+            {
+              "name": "Enfants du Chaos",
+              "ref": "Enfant du Chaos",
+              "limit": 1,
+              "value": 25,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Chien du Chaos",
+              "ref": "Chien du Chaos",
+              "limit": 1,
+              "value": 10,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Appui-feu",
+              "ref": "Appui-feu",
+              "limit": 1,
+              "value": 25,
+              "min": 0,
+              "max": 4
+            },
+            {
+              "name": "Griffons Renégats",
+              "ref": "Griffon",
+              "limit": 1,
+              "value": 35,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Hellhounds Renégats",
+              "ref": "Hellhound",
+              "limit": 1,
+              "value": 50,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Leman Russ",
+              "ref": "Leman Russ",
+              "limit": 1,
+              "value": 75,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Leman Russ Démolisseurs",
+              "ref": "Leman Russ Démolisseur",
+              "limit": 1,
+              "value": 85,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Flak Renégate",
+              "ref": "Hydre",
+              "limit": 1,
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "Loge Gigantis",
+          "limiteOptionFormation": 4,
+          "GrpPrincipal": true,
+          "limit": 1,
+          "FormationLimitationTag": [
+            {
+              "B": 1,
+              "C": 1
+            }
+          ],
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "1 Aspirant Champion Marine du Chaos et 5 mutants géants et/ou Ogryns renégats",
+              "ref": [
+                "Aspirant Champion Space Marine du Chaos"
+              ],
+              "principale": true,
+              "limit": 1,
+              "unique": "B",
+              "value": 275,
+              "note": "Sauvegarde invulnérable, Commandant, Meneur",
+              "tagrefoptions": "A",
+              "nbrefoptions": 5
+            },
+            {
+              "name": "1 Démagogue et 5 mutants géants et/ou Ogryns renégats",
+              "ref": [
+                "Démagogue"
+              ],
+              "principale": true,
+              "limit": 1,
+              "unique": "B",
+              "value": 275,
+              "note": "Sauvegarde invulnérable, Meneur, Icône démoniaque",
+              "tagrefoptions": "A",
+              "nbrefoptions": 5
+            },
+            {
+              "name": "6 Mutants Géants et/ou Ogryns Renégats",
+              "principale": true,
+              "limit": 1,
+              "unique": "B",
+              "value": 250,
+              "tagrefoptions": "A",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Mutants Géants",
+              "principale": true,
+              "ref": [
+                "Mutant Géant"
+              ],
+              "value": 0,
+              "limit": 1,
+              "refoption": "A",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Ogryn renégat",
+              "principale": true,
+              "ref": [
+                "Ogryn renégat"
+              ],
+              "value": 0,
+              "limit": 1,
+              "refoption": "A",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "0-1 Autel du Chaos",
+              "ref": "Autel du Chaos",
+              "limit": 1,
+              "limiteOptionGlobal": 1,
+              "value": 200
+            },
+            {
+              "name": "0-1 Prince Démon/Prince Démon Ailé",
+              "nbrefoptions": 1,
+              "limit": 1,
+              "tagrefoptions": "PD",
+              "value": 50,
+              "note": "Remplacer l'Aspirant Champion Space Marine du Chaos ou le Démagogue par un un Prince Démon"
+            },
+            {
+              "name": "Prince Démon",
+              "ref": [
+                "Prince Démon"
+              ],
+              "refoption": "PD",
+              "limit": 1,
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "note": "Remplacer l'Aspirant Champion Space Marine du Chaos ou le Démagogue par un un Prince Démon"
+            },
+            {
+              "name": "Prince Démon Ailé",
+              "ref": [
+                "Prince Démon Ailé"
+              ],
+              "refoption": "PD",
+              "limit": 1,
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "note": "Remplacer l'Aspirant Champion Space Marine du Chaos ou le Démagogue par un un Prince Démon"
+            },
+            {
+              "name": "Champion des Dieux Sombres",
+              "ref": "Champion des Dieux Sombres",
+              "limit": 1,
+              "value": 100,
+              "note": "Remplacer une unité d'Aspirant Champion ou de Démagogue - Meneur, Sauvegarde invulnérable, Concentration démoniaque (2d3)"
+            },
+            {
+              "name": "0-1 Cardinal",
+              "limit": 1,
+              "limiteOptionGlobal": 1,
+              "value": 25,
+              "note": "Un Démagogue gagne la capacité Charismatique"
+            },
+            {
+              "name": "Pacte Démoniaque",
+              "limit": 1,
+              "value": 25,
+              "note": "Ajouter un personnage de Porte-icône à une unité de la formation : Sauvegarde Invulnérable, Icône Démoniaque"
+            },
+            {
+              "name": "1 Defilers",
+              "limit": 1,
+              "ref": "Defiler",
+              "value": 75,
+              "unique": "DF"
+            },
+            {
+              "name": "2 Defilers",
+              "limit": 1,
+              "ref": "Defiler",
+              "value": 125,
+              "unique": "DF"
+            },
+            {
+              "name": "Cultistes ou Mutants",
+              "limit": 1,
+              "value": 0,
+              "min": 0,
+              "max": 8,
+              "tagrefoptions": "B",
+              "nbrefoptions": 8
+            },
+            {
+              "name": "Cultistes",
+              "ref": [
+                "Cultiste"
+              ],
+              "value": 10,
+              "limit": 1,
+              "refoption": "B",
+              "min": 0,
+              "max": 8
+            },
+            {
+              "name": "Mutants",
+              "ref": [
+                "Mutant Géant"
+              ],
+              "value": 10,
+              "limit": 1,
+              "refoption": "B",
+              "min": 0,
+              "max": 8
+            },
+            {
+              "name": "Transporteur terrestre",
+              "ref": "Transporteur Terrestre",
+              "limit": 1,
+              "value": 10,
+              "min": 0,
+              "max": 16
+            },
+            {
+              "name": "Transports Renégats : Chimère",
+              "ref": "Chimère",
+              "limit": 1,
+              "value": 25,
+              "min": 0,
+              "max": 16
+            },
+            {
+              "name": "Enfants du Chaos",
+              "ref": "Enfant du Chaos",
+              "limit": 1,
+              "value": 25,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Chien du Chaos",
+              "ref": "Chien du Chaos",
+              "limit": 1,
+              "value": 10,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Appui-feu",
+              "ref": "Appui-feu",
+              "limit": 1,
+              "value": 25,
+              "min": 0,
+              "max": 4
+            },
+            {
+              "name": "Griffons Renégats",
+              "ref": "Griffon",
+              "limit": 1,
+              "value": 35,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Hellhounds Renégats",
+              "ref": "Hellhound",
+              "limit": 1,
+              "value": 50,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Leman Russ",
+              "ref": "Leman Russ",
+              "limit": 1,
+              "value": 75,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Leman Russ Démolisseurs",
+              "ref": "Leman Russ Démolisseur",
+              "limit": 1,
+              "value": 85,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Flak Renégate",
+              "ref": "Hydre",
+              "limit": 1,
+              "value": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS D'APPUI RENÉGATES",
+      "detail": "Jusqu'à 1 Formation d'Appui par Loge Renégate + 1 Formation du Chaos Universel, de Démons ou de Machines Démons",
+      "formation": [
+        {
+          "name": "Peloton de Cavaliers",
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "6 unités de Cavaliers Renégats",
+              "principale": true,
+              "ref": "Cavalier Renégat",
+              "value": 150
+            }
+          ]
+        },
+        {
+          "name": "Escadron de Sentinelles",
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "4 Sentinelles",
+              "ref": "Sentinelle",
+              "principale": true,
+              "value": 100
+            }
+          ]
+        },
+        {
+          "name": "Batterie Antiaérienne",
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "3 Hydres",
+              "ref": "Hydre",
+              "principale": true,
+              "value": 150
+            }
+          ]
+        },
+        {
+          "name": "Batterie d'Artillerie",
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "3 Basilisks",
+              "ref": "Basilisk",
+              "principale": true,
+              "value": 225
+            }
+          ]
+        },
+        {
+          "name": "Compagnie Blindée",
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "6 Leman Russ",
+              "ref": "Leman Russ",
+              "principale": true,
+              "value": 350
+            }
+          ]
+        },
+        {
+          "name": "Escadrilles de Chasseurs",
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "2 Chasseurs thunderbolts",
+              "ref": "Thunderbolt",
+              "principale": true,
+              "value": 150
+            }
+          ]
+        },
+        {
+          "name": "Escadrille de Bombardiers",
+          "LimitationTag": "B",
+          "options": [
+            {
+              "name": "2 Bombardiers Marauders",
+              "ref": "Bombardier Marauder",
+              "principale": true,
+              "value": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS DU CHAOS UNIVERSEL",
+      "detail": "Jusqu'à 1 Formation d'Appui par Loge Renégate + 1 Formation du Chaos Universel, de Démons ou de Machines Démons",
+      "formation": [
+        {
+          "name": "Loge Primatus",
+          "LimitationTag": "C",
+          "limit": 1,
+          "limiteOptionFormation": 4,
+          "options": [
+            {
+              "name": "1 Démagogue ou Aspirant Champion du Chaos, 7 unités d'Acolytes et 4 Chimères",
+              "ref": [
+                "Démagogue",
+                "Aspirant Champion Space Marine du Chaos",
+                "Acolyte",
+                "Chimère"
+              ],
+              "principale": true,
+              "value": 300
+            },
+            {
+              "name": "0-1 Prince Démon/Prince Démon Ailé",
+              "nbrefoptions": 1,
+              "tagrefoptions": "B",
+              "value": 50,
+              "note": "Remplacer l'Aspirant Champion Space Marine du Chaos ou le Démagogue par un un Prince Démon"
+            },
+            {
+              "name": "Prince Démon",
+              "ref": [
+                "Prince Démon"
+              ],
+              "refoption": "B",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "note": "Remplacer l'Aspirant Champion Space Marine du Chaos ou le Démagogue par un un Prince Démon"
+            },
+            {
+              "name": "Prince Démon Ailé",
+              "ref": [
+                "Prince Démon Ailé"
+              ],
+              "refoption": "B",
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "note": "Remplacer l'Aspirant Champion Space Marine du Chaos ou le Démagogue par un un Prince Démon"
+            },
+            {
+              "name": "Champion des Dieux Sombres",
+              "ref": "Champion des Dieux Sombres",
+              "value": 100,
+              "note": "Remplacer une unité d'Aspirant Champion ou de Démagogue - Meneur, Sauvegarde invulnérable, Concentration démoniaque (2d3)"
+            },
+            {
+              "name": "Pacte Démoniaque",
+              "value": 25,
+              "note": "Ajouter un personnage de Porte-icône à une unité de la formation"
+            },
+            {
+              "name": "Flak Renégate",
+              "ref": "Hydre",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "Defilers",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "4 Defilers",
+              "ref": "Defiler",
+              "principale": true,
+              "value": 300
+            },
+            {
+              "name": "Defilers",
+              "ref": "Defiler",
+              "value": 0,
+              "nbrefoptions": 1,
+              "tagrefoptions": "DE"
+            },
+            {
+              "name": "Defilers x1",
+              "ref": "Defiler",
+              "value": 75,
+              "refoption": "DE",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Defilers x2",
+              "ref": "Defiler",
+              "value": 125,
+              "refoption": "DE",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        },
+        {
+          "name": "Meute sauvage",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "8 unités de Chiens du Chaos",
+              "ref": "Chien du Chaos",
+              "principale": true,
+              "value": 150
+            },
+            {
+              "name": "Chien du Chaos",
+              "ref": "Chien du Chaos",
+              "value": 10,
+              "min": 0,
+              "max": 3
+            }
+          ]
+        },
+        {
+          "name": "Horde mutante",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "6 enfants du Chaos",
+              "ref": "Enfant du Chaos",
+              "principale": true,
+              "value": 200
+            },
+            {
+              "name": "Enfants du Chaos",
+              "ref": "Enfant du Chaos",
+              "value": 25,
+              "min": 0,
+              "max": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS DE DÉMONS",
+      "detail": "Jusqu'à 1 Formation d'Appui par Loge Renégate + 1 Formation du Chaos Universel, de Démons ou de Machines Démons",
+      "formation": [
+        {
+          "name": "0-1 Démon Majeur",
+          "LimitationTag": "C",
+          "FormationLimite": 1,
+          "options": [
+            {
+              "name": "Buveur de Sang",
+              "ref": "Buveur de Sang",
+              "principale": true,
+              "unique": "D",
+              "limiteOptionGlobal": 1,
+              "value": 200
+            },
+            {
+              "name": "Duc du Changement",
+              "ref": "Duc du Changement",
+              "principale": true,
+              "unique": "D",
+              "limiteOptionGlobal": 1,
+              "value": 200
+            },
+            {
+              "name": "Grand Immonde",
+              "ref": "Grand Immonde",
+              "principale": true,
+              "unique": "D",
+              "limiteOptionGlobal": 1,
+              "value": 200
+            },
+            {
+              "name": "Gardien des Secrets",
+              "ref": "Gardien des Secrets",
+              "principale": true,
+              "unique": "D",
+              "limiteOptionGlobal": 1,
+              "value": 200
+            }
+          ]
+        },
+        {
+          "name": "0-2 Démons Mineurs",
+          "LimitationTag": "C",
+          "FormationLimite": 1,
+          "options": [
+            {
+              "name": "8 unités de Démons Mineurs",
+              "principale": true,
+              "unique": "E",
+              "value": 175,
+              "tagrefoptions": "A",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Bêtes démoniaques",
+              "ref": [
+                "Bêtes démoniaques"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Sanguinaires",
+              "ref": [
+                "Sanguinaires"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Incendiaires",
+              "ref": [
+                "Incendiaires"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Portepestes",
+              "ref": [
+                "Portepestes"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Démonettes",
+              "ref": [
+                "Démonettes"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "12 unités de Démons Mineurs",
+              "principale": true,
+              "unique": "E",
+              "value": 275,
+              "tagrefoptions": "B",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Bêtes démoniaques",
+              "ref": [
+                "Bêtes démoniaques"
+              ],
+              "value": 0,
+              "refoption": "B",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Sanguinaires",
+              "ref": [
+                "Sanguinaires"
+              ],
+              "value": 0,
+              "refoption": "B",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Incendiaires",
+              "ref": [
+                "Incendiaires"
+              ],
+              "value": 0,
+              "refoption": "B",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Portepestes",
+              "ref": [
+                "Portepestes"
+              ],
+              "value": 0,
+              "refoption": "B",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Démonettes",
+              "ref": [
+                "Démonettes"
+              ],
+              "value": 0,
+              "refoption": "B",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Démon majeur (0-1)",
+              "value": 150,
+              "ref": [
+                "Buveur de Sang",
+                "Duc du Changement",
+                "Grand Immonde",
+                "Gardien des Secrets"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS DE MACHINES DÉMONS",
+      "detail": "Jusqu'à 1 Formation d'Appui par Loge Renégate + 1 Formation du Chaos Universel, de Démons ou de Machines Démons",
+      "formation": [
+        {
+          "name": "Seigneurs de Batailles",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "Seigneurs de Batailles",
+              "ref": "Seigneur de Bataille",
+              "principale": true,
+              "value": 400,
+              "min": 0,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Scorpions d'Airain",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "Scorpions d'Airain",
+              "ref": "Grand Scorpion d'Airain",
+              "principale": true,
+              "value": 225,
+              "min": 0,
+              "max": 3
+            }
+          ]
+        },
+        {
+          "name": "Meute du Carnage",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "4 Machines Démon de Khorne",
+              "ref": "Machine Démon de Khorne",
+              "principale": true,
+              "unique": "F",
+              "value": 275
+            },
+            {
+              "name": "6 Machines Démon de Khorne",
+              "ref": "Machine Démon de Khorne",
+              "principale": true,
+              "unique": "F",
+              "value": 400
+            }
+          ]
+        },
+        {
+          "name": "Batterie Feu d'Enfer",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "4 Canons de Khorne",
+              "ref": "Canon de Khorne",
+              "principale": true,
+              "unique": "G",
+              "value": 225
+            },
+            {
+              "name": "6 Canons de Khorne",
+              "ref": "Canon de Khorne",
+              "principale": true,
+              "unique": "G",
+              "value": 325
+            }
+          ]
+        },
+        {
+          "name": "Palais du Warp",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "Palais du Warp",
+              "ref": "Palais du Warp",
+              "principale": true,
+              "value": 375,
+              "min": 0,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Flèche des Arcanes",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "4 Tours d'Argent",
+              "ref": "Tour d'Argent",
+              "principale": true,
+              "unique": "H",
+              "value": 250
+            },
+            {
+              "name": "6 Tours d'Argent",
+              "ref": "Tour d'Argent",
+              "principale": true,
+              "unique": "H",
+              "value": 375
+            }
+          ]
+        },
+        {
+          "name": "Vol de Bombardiers Firelords",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "2 Firelords",
+              "ref": "Firelord",
+              "principale": true,
+              "unique": "I",
+              "value": 150
+            },
+            {
+              "name": "3 Firelords",
+              "ref": "Firelord",
+              "principale": true,
+              "unique": "I",
+              "value": 150
+            }
+          ]
+        },
+        {
+          "name": "Vol de Bombardiers Doomwings",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "Doomwings",
+              "ref": "Doomwing",
+              "principale": true,
+              "value": 150
+            }
+          ]
+        },
+        {
+          "name": "Tours de la Peste",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "Tours de la Peste",
+              "ref": "Tour de la Peste",
+              "principale": true,
+              "value": 375,
+              "min": 0,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Avant-garde de la Ruine",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "4 Drônes de la Ruine",
+              "ref": "Drone de la ruine",
+              "principale": true,
+              "unique": "J",
+              "value": 225
+            },
+            {
+              "name": "6 Drônes de la Ruine",
+              "ref": "Drone de la ruine",
+              "principale": true,
+              "unique": "J",
+              "value": 325
+            }
+          ]
+        },
+        {
+          "name": "Artillerie de la Peste",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "4 Machines de Contagion",
+              "ref": "Machine de Contagion",
+              "principale": true,
+              "unique": "K",
+              "value": 300
+            },
+            {
+              "name": "6 Machines de Contagion",
+              "ref": "Machine de Contagion",
+              "principale": true,
+              "unique": "K",
+              "value": 450
+            }
+          ]
+        },
+        {
+          "name": "Infestation de Zombies",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "2D6+6 Zombies de la Peste",
+              "ref": "Zombies de la Peste",
+              "principale": true,
+              "value": 175
+            }
+          ]
+        },
+        {
+          "name": "Titan Léger Démoniaque",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "Subjugator",
+              "ref": "Titan Subjugator",
+              "note": "1 ou 2 Titans Légers",
+              "principale": true,
+              "value": 250,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Questor",
+              "ref": "Titan Questor",
+              "note": "1 ou 2 Titans Légers",
+              "principale": true,
+              "value": 275,
+              "min": 0,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Phalange Infernale",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "4 Chevaliers Hell-Scourge",
+              "ref": "Chevalier Hell-Scourge",
+              "principale": true,
+              "unique": "L",
+              "value": 275
+            },
+            {
+              "name": "6 Chevaliers Hell-Scourge",
+              "ref": "Chevalier Hell-Scourge",
+              "principale": true,
+              "unique": "L",
+              "value": 400
+            }
+          ]
+        },
+        {
+          "name": "Cohorte Infernale",
+          "LimitationTag": "C",
+          "options": [
+            {
+              "name": "4 Chevaliers Hell-Striders",
+              "ref": "Chevalier Hell-Strider",
+              "principale": true,
+              "unique": "M",
+              "value": 225
+            },
+            {
+              "name": "6 Chevaliers Hell-Striders",
+              "ref": "Chevalier Hell-Strider",
+              "principale": true,
+              "unique": "M",
+              "value": 325
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -51,18 +51,13 @@ export class AmeliorationValidator {
     /**
      * Vérifie l'unicité dans une formation
      */
-    static validateUnique(formation, ameliorationDef) {
+    static validateUnique(formation, ameliorationDef, codex) {
         if (!ameliorationDef.unique) return { valid: true };
 
-        // Cherche si une autre amélioration avec le même tag unique existe
         const hasConflict = formation.ameliorations.some(amelio => {
             if (amelio.ameliorationId === ameliorationDef.id) return false;
-
-            // TODO: Récupérer amelioDef et vérifier son unique
-            // const otherDef = getAmeliorationDef(amelio.ameliorationId);
-            // return otherDef.unique === ameliorationDef.unique;
-
-            return false;
+            const otherDef = codex.ameliorations.find(a => a.id === amelio.ameliorationId);
+            return otherDef && otherDef.unique === ameliorationDef.unique;
         });
 
         if (hasConflict) {

@@ -1,0 +1,1370 @@
+{
+  "codex": "Space Wolves",
+  "color": "#505a5d",
+  "version": "1.0",
+  "logo": "wolf.png",
+  "categorie": "Chapitres Astartes",
+  "faction": "Astartes",
+  "codexRare": 0.33333333,
+  "strategie": "5",
+  "initiative": "Initiative de 1+",
+  "groupes": [
+    {
+      "name": "DÉTACHEMENTS SPACE WOLVES",
+      "formation": [
+        {
+          "name": "Chasseur gris",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "6 unités de Chasseur gris + Transports",
+              "ref": [
+                "Chasseurs Gris",
+                "Rhino"
+              ],
+              "value": 275,
+              "principale": true
+            },
+            {
+              "name": "Remplacer les transports par 1 Dreadnought ou Modules d'atterrissage",
+              "value": 0,
+              "unique": "TR",
+              "tagrefoptions": "DMA",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Dreadnoughts",
+              "ref": [
+                "Dreadnought Feu d'Enfer",
+                "Dreadnought"
+              ],
+              "value": 0,
+              "limit": 1,
+              "IsNotOption": true,
+              "tagrefoptions": "DMA",
+              "nbrefoptions": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Feu d'Enfer",
+              "ref": [
+                "Dreadnought Feu d'Enfer"
+              ],
+              "value": 50,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought",
+              "ref": [
+                "Dreadnought"
+              ],
+              "value": 50,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Modules d'atterrissage",
+              "ref": "Module d'atterrissage",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Commandant : Seigneur Loup",
+              "ref": [
+                "Seigneur Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre des Runes",
+              "ref": [
+                "Prêtre des Runes"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre Loup",
+              "ref": [
+                "Prêtre Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Support lourd : Predators Annihilator / Destructor, Vindicator, Land Raider",
+              "value": 0,
+              "note": "N'importe quelle combinaison : Predators Annihilator ou Destructor, Vindicator",
+              "limit": 1,
+              "nbrefoptions": 1,
+              "min": 1,
+              "max": 2,
+              "tagrefoptions": "SL"
+            },
+            {
+              "name": "Predators Destructor",
+              "ref": "Predator Destructor",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Predators Annihilator",
+              "ref": "Predator Annihilator",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Vindicator",
+              "ref": "Vindicator",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Land Raiders",
+              "ref": "Land Raider",
+              "value": 75,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Dreadnoughts",
+              "ref": [
+                "Dreadnought Feu d'Enfer",
+                "Dreadnought"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "D",
+              "nbrefoptions": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Feu d'Enfer",
+              "ref": [
+                "Dreadnought Feu d'Enfer"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought",
+              "ref": [
+                "Dreadnought"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Razorback",
+              "value": 25,
+              "min": 0,
+              "max": 6,
+              "tagrefoptions": "RAZ",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Razorback Bolters Lourds",
+              "ref": [
+                "Razorback Bolters Lourds"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 6,
+              "refoption": "RAZ"
+            },
+            {
+              "name": "Razorback Canons Laser",
+              "ref": [
+                "Razorback Canons Laser"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 6,
+              "refoption": "RAZ"
+            },
+            {
+              "name": "Gardes Loups",
+              "ref": "Terminators",
+              "value": 75,
+              "min": 1,
+              "max": 2,
+              "limit": 1
+            },
+            {
+              "name": "1 Hunter",
+              "ref": "Hunter",
+              "value": 50,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Longs Crocs",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "4 unités de Longs Crocs + Transports",
+              "ref": [
+                "Longs Crocs",
+                "Rhino"
+              ],
+              "value": 250,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Remplacer les transports par 1 Dreadnought ou Modules d'atterrissage",
+              "value": 0,
+              "unique": "TR",
+              "tagrefoptions": "DMA",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Dreadnoughts",
+              "ref": [
+                "Dreadnought Feu d'Enfer",
+                "Dreadnought"
+              ],
+              "value": 0,
+              "limit": 1,
+              "IsNotOption": true,
+              "tagrefoptions": "DMA",
+              "nbrefoptions": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Feu d'Enfer",
+              "ref": [
+                "Dreadnought Feu d'Enfer"
+              ],
+              "value": 50,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought",
+              "ref": [
+                "Dreadnought"
+              ],
+              "value": 50,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Modules d'atterrissage",
+              "ref": "Module d'atterrissage",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Commandant : Seigneur Loup",
+              "ref": [
+                "Seigneur Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre des Runes",
+              "ref": [
+                "Prêtre des Runes"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre Loup",
+              "ref": [
+                "Prêtre Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Support lourd : Predators Annihilator / Destructor, Vindicator, Land Raider",
+              "value": 0,
+              "note": "N'importe quelle combinaison : Predators Annihilator ou Destructor, Vindicator",
+              "limit": 1,
+              "nbrefoptions": 1,
+              "min": 1,
+              "max": 2,
+              "tagrefoptions": "SL"
+            },
+            {
+              "name": "Predators Destructor",
+              "ref": "Predator Destructor",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Predators Annihilator",
+              "ref": "Predator Annihilator",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Vindicator",
+              "ref": "Vindicator",
+              "value": 65,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Land Raiders",
+              "ref": "Land Raider",
+              "value": 75,
+              "min": 0,
+              "max": 2,
+              "refoption": "SL"
+            },
+            {
+              "name": "Dreadnoughts",
+              "ref": [
+                "Dreadnought Feu d'Enfer",
+                "Dreadnought"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "D",
+              "nbrefoptions": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Feu d'Enfer",
+              "ref": [
+                "Dreadnought Feu d'Enfer"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought",
+              "ref": [
+                "Dreadnought"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Razorback",
+              "value": 25,
+              "min": 0,
+              "max": 6,
+              "tagrefoptions": "RAZ",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Razorback Bolters Lourds",
+              "ref": [
+                "Razorback Bolters Lourds"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 6,
+              "refoption": "RAZ"
+            },
+            {
+              "name": "Razorback Canons Laser",
+              "ref": [
+                "Razorback Canons Laser"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 6,
+              "refoption": "RAZ"
+            },
+            {
+              "name": "Gardes Loups",
+              "ref": "Terminators",
+              "value": 75,
+              "min": 1,
+              "max": 2,
+              "limit": 1
+            },
+            {
+              "name": "1 Hunter",
+              "ref": "Hunter",
+              "value": 50,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Griffes Sanglantes",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "6 unités de Griffes Sanglantes + transports",
+              "ref": [
+                "Griffes Sanglantes",
+                "Rhino"
+              ],
+              "value": 225,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Remplacer les transports par 1 Dreadnought ou Modules d'atterrissage",
+              "value": 0,
+              "unique": "TR",
+              "tagrefoptions": "DMA",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Dreadnoughts",
+              "ref": [
+                "Dreadnought Feu d'Enfer",
+                "Dreadnought"
+              ],
+              "value": 0,
+              "limit": 1,
+              "IsNotOption": true,
+              "tagrefoptions": "DMA",
+              "nbrefoptions": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Feu d'Enfer",
+              "ref": [
+                "Dreadnought Feu d'Enfer"
+              ],
+              "value": 50,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought",
+              "ref": [
+                "Dreadnought"
+              ],
+              "value": 50,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Modules d'atterrissage",
+              "ref": "Module d'atterrissage",
+              "value": 0,
+              "refoption": "DMA",
+              "IsNotOption": true,
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Commandant : Seigneur Loup",
+              "ref": [
+                "Seigneur Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre des Runes",
+              "ref": [
+                "Prêtre des Runes"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre Loup",
+              "ref": [
+                "Prêtre Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Dreadnoughts",
+              "ref": [
+                "Dreadnought Feu d'Enfer",
+                "Dreadnought"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "D",
+              "nbrefoptions": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Feu d'Enfer",
+              "ref": [
+                "Dreadnought Feu d'Enfer"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought",
+              "ref": [
+                "Dreadnought"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "2 Griffes Sanglantes",
+              "ref": "Griffes Sanglantes",
+              "value": 50,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Serres Sanglantes",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "4 unités de Serres Sanglantes",
+              "ref": "Serres Sanglantes",
+              "value": 150,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Commandant : Seigneur Loup",
+              "ref": [
+                "Seigneur Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre des Runes",
+              "ref": [
+                "Prêtre des Runes"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre Loup",
+              "ref": [
+                "Prêtre Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Gardes Loups",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "4 unités de Terminators",
+              "ref": "Terminators",
+              "value": 300,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Commandant : Seigneur Loup",
+              "ref": [
+                "Seigneur Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre des Runes",
+              "ref": [
+                "Prêtre des Runes"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre Loup",
+              "ref": [
+                "Prêtre Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Dreadnoughts",
+              "ref": [
+                "Dreadnought Feu d'Enfer",
+                "Dreadnought"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "D",
+              "nbrefoptions": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought Feu d'Enfer",
+              "ref": [
+                "Dreadnought Feu d'Enfer"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Dreadnought",
+              "ref": [
+                "Dreadnought"
+              ],
+              "value": 50,
+              "refoption": "D",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "4 Land Raiders",
+              "ref": "Land Raider",
+              "value": 300,
+              "limit": 1
+            },
+            {
+              "name": "Modules d'Atterrissage Mk II",
+              "ref": "Module d'atterrissage",
+              "value": 50,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Scouts",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "4 unités de Scouts + Transports",
+              "ref": [
+                "Scouts Space Wolves",
+                "Rhino"
+              ],
+              "value": 175,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Remplacer les transports par 1 Dreadnought ",
+              "ref": "Dreadnought",
+              "value": 0,
+              "limit": 1,
+              "nbacti": false
+            },
+            {
+              "name": "Commandant : Seigneur Loup",
+              "ref": [
+                "Seigneur Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre des Runes",
+              "ref": [
+                "Prêtre des Runes"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre Loup",
+              "ref": [
+                "Prêtre Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Motos",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "5 unités de Griffes Sanglantes à Motos",
+              "ref": [
+                "Motos",
+                "Motos d'Assaut"
+              ],
+              "value": 175,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Motos d'Assaut (remplacement)",
+              "ref": "Motos d'Assaut",
+              "value": 5,
+              "limit": 1,
+              "min": 1,
+              "max": 5
+            },
+            {
+              "name": "Commandant : Seigneur Loup",
+              "ref": [
+                "Seigneur Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre des Runes",
+              "ref": [
+                "Prêtre des Runes"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre Loup",
+              "ref": [
+                "Prêtre Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Land Speeders",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "5 Land Speeders",
+              "value": 200,
+              "principale": true,
+              "limit": 1,
+              "tagrefoptions": "LS",
+              "nbrefoptions": 5
+            },
+            {
+              "name": "Land Speeders",
+              "ref": "Land Speeder",
+              "value": 0,
+              "min": 0,
+              "max": 5,
+              "refoption": "LS"
+            },
+            {
+              "name": "Tornado",
+              "ref": "Land Speeder Tornado",
+              "value": 5,
+              "min": 0,
+              "max": 5,
+              "refoption": "LS"
+            },
+            {
+              "name": "Typhoon",
+              "ref": "Land Speeder Typhoon",
+              "value": 15,
+              "min": 0,
+              "max": 5,
+              "refoption": "LS"
+            },
+            {
+              "name": "Commandant : Seigneur Loup",
+              "ref": [
+                "Seigneur Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre des Runes",
+              "ref": [
+                "Prêtre des Runes"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre Loup",
+              "ref": [
+                "Prêtre Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Land Raiders",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "4 Land Raiders",
+              "ref": "Land Raider",
+              "value": 350,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Commandant : Seigneur Loup",
+              "ref": [
+                "Seigneur Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre des Runes",
+              "ref": [
+                "Prêtre des Runes"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre Loup",
+              "ref": [
+                "Prêtre Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Vindicator",
+              "ref": "Vindicator",
+              "value": 65,
+              "min": 0,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Prédators",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "4 Predators Destructor",
+              "ref": "Predator Destructor",
+              "value": 225,
+              "principale": true,
+              "unique": "A"
+            },
+            {
+              "name": "4 Predators Annihilator",
+              "ref": "Predator Annihilator",
+              "value": 275,
+              "principale": true,
+              "unique": "A"
+            },
+            {
+              "name": "Vindicator",
+              "ref": "Vindicator",
+              "value": 65,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Commandant : Seigneur Loup",
+              "ref": [
+                "Seigneur Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre des Runes",
+              "ref": [
+                "Prêtre des Runes"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre Loup",
+              "ref": [
+                "Prêtre Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Vindicator",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "4 Vindicator",
+              "ref": "Vindicator",
+              "value": 250,
+              "principale": true
+            },
+            {
+              "name": "Commandant : Seigneur Loup",
+              "ref": [
+                "Seigneur Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre des Runes",
+              "ref": [
+                "Prêtre des Runes"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre Loup",
+              "ref": [
+                "Prêtre Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            }
+          ]
+        },
+        {
+          "name": "Whirlwinds",
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "4 Whirlwinds",
+              "ref": "Whirlwind",
+              "value": 300,
+              "principale": true
+            },
+            {
+              "name": "Commandant : Seigneur Loup",
+              "ref": [
+                "Seigneur Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre des Runes",
+              "ref": [
+                "Prêtre des Runes"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Prêtre Loup",
+              "ref": [
+                "Prêtre Loup"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM"
+            },
+            {
+              "name": "Commandant : Maître de Chapitre",
+              "ref": [
+                "Maître de Chapitre"
+              ],
+              "value": 50,
+              "limit": 1,
+              "unique": "COM",
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "1 Hunter",
+              "ref": "Hunter",
+              "value": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLOTTE DE L'ADEPTUS ASTARTES",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Thunderhawks Transporteurs",
+          "rare": true,
+          "options": [
+            {
+              "name": "Thunderhawk Transporteurs",
+              "ref": "Thunderhawk Transporteur",
+              "value": 150,
+              "principale": true,
+              "min": 2,
+              "max": 3,
+              "unique": "B",
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Thunderhawk",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Thunderhawk",
+              "ref": "Thunderhawk",
+              "value": 225,
+              "principale": true,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Barge de Débarquement",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Barge de Débarquement",
+              "ref": "Barge de Débarquement",
+              "value": 400,
+              "principale": true,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Stormeagles",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Stormeagles",
+              "ref": "Stormeagle",
+              "value": 275,
+              "principale": true,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Stormwolves",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Stormwolves",
+              "ref": "Stormwolf",
+              "value": 275,
+              "principale": true,
+              "unique": "D",
+              "limit": 1
+            },
+            {
+              "name": "3 Stormwolves",
+              "ref": "Stormwolf",
+              "value": 400,
+              "principale": true,
+              "unique": "D",
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Stormfang Gunship",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Stormfang Gunship",
+              "ref": "Stormfang Gunship",
+              "value": 275,
+              "principale": true,
+              "unique": "D",
+              "limit": 1
+            },
+            {
+              "name": "3 Stormfang Gunship",
+              "ref": "Stormfang Gunship",
+              "value": 400,
+              "principale": true,
+              "unique": "D",
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Béliers d’Assaut Caestus",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Caestus",
+              "ref": "Bélier d'Assaut Caestus",
+              "value": 250,
+              "principale": true,
+              "unique": "E"
+            },
+            {
+              "name": "3 Caestus",
+              "ref": "Bélier d'Assaut Caestus",
+              "value": 350,
+              "principale": true,
+              "unique": "E"
+            }
+          ]
+        },
+        {
+          "name": "0-1 Soutien Orbital",
+          "FormationLimite": 1,
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Croiseur d'attaque",
+              "value": 200,
+              "ref": "Croiseur d'Attaque",
+              "principale": true,
+              "unique": "F"
+            },
+            {
+              "name": "1 barge de bataille",
+              "ref": "Barge de Bataille",
+              "value": 350,
+              "principale": true,
+              "unique": "F"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SOUTIENS DES LÉGIONS TITANIQUES",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Titan Warhound",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Warhound",
+              "ref": "Warhound",
+              "value": 275,
+              "principale": true,
+              "unique": "G",
+              "limit": 1
+            },
+            {
+              "name": "2 Titan Warhound",
+              "ref": "Warhound",
+              "value": 500,
+              "principale": true,
+              "unique": "G",
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Titan Reaver",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Reaver",
+              "ref": "Reaver",
+              "value": 650,
+              "principale": true,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Titan Warlord",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Warlord",
+              "ref": "Warlord",
+              "value": 850,
+              "principale": true,
+              "limit": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

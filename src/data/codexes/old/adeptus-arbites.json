@@ -1,0 +1,751 @@
+{
+  "codex": "Adeptus arbites",
+  "color": "#2a3a8c",
+  "version": "1.1.1",
+  "logo": "arbites.png",
+  "categorie": "Armées de l Imperium",
+  "faction": "Impérium",
+  "codexRare": 0.33333333,
+  "strategie": "3",
+  "initiative": "Les Détachements incluant un personnage ont une initiative de 1+. Les autres détachements ont une initiative de 2+",
+  "groupes": [
+    {
+      "name": "DÉTACHEMENTS PRINCIPAUX DE L'ADEPTUS ARBITES",
+      "detail": "Au moins une patrouille Repressor obligatoire",
+      "formation": [
+        {
+          "name": "1+ Patrouille Repressor",
+          "obligatoire": true,
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2
+            }
+          ],
+          "options": [
+            {
+              "name": "8 unités parmis Arbitrators de Choc / Assaut",
+              "value": 225,
+              "ref": [
+                "Arbitrators de Choc",
+                "Arbitrators d'Assaut"
+              ],
+              "principale": true,
+              "tagrefoptions": "A",
+              "nbrefoptions": 8
+            },
+            {
+              "name": "Arbitrators de Choc",
+              "ref": "Arbitrators de Choc",
+              "value": 0,
+              "limit": 1,
+              "refoption": "A",
+              "min": 0,
+              "max": 8
+            },
+            {
+              "name": "Arbitrators d'Assaut",
+              "ref": "Arbitrators d'Assaut",
+              "value": 0,
+              "limit": 1,
+              "refoption": "A",
+              "min": 0,
+              "max": 8
+            },
+            {
+              "name": "Juge suprême",
+              "value": 50,
+              "ref": "Juge Suprême",
+              "limit": 1,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Officiers",
+              "ref": [
+                "Marshall",
+                "Sheriff"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "Of",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Marshall",
+              "ref": [
+                "Marshall"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Sheriff",
+              "ref": [
+                "Sheriff"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "K9 Team",
+              "ref": "K9 Team",
+              "value": 25,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Sniper Team",
+              "ref": "Sniper Team",
+              "value": 25,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Plateforme Sabre",
+              "ref": "Plateforme Sabre",
+              "value": 25,
+              "limit": 1,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "name": "Transport",
+              "ref": [
+                "Rhino",
+                "Repressor",
+                "Chimère"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "TR",
+              "nbrefoptions": 0,
+              "unique": "TR"
+            },
+            {
+              "name": "Rhino",
+              "ref": "Rhino",
+              "value": 10,
+              "limit": 1,
+              "refoption": "TR",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Repressor",
+              "ref": "Repressor",
+              "value": 15,
+              "limit": 1,
+              "refoption": "TR",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Chimère",
+              "ref": "Chimère",
+              "value": 25,
+              "limit": 1,
+              "refoption": "TR",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Mastodon",
+              "ref": "Mastodon",
+              "value": 225,
+              "limit": 1,
+              "unique": "TR"
+            }
+          ]
+        },
+        {
+          "name": "Patrouille Interceptor",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2
+            }
+          ],
+          "options": [
+            {
+              "name": "8 Motos Arbites",
+              "value": 225,
+              "ref": [
+                "Motos Arbites"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Juge suprême",
+              "value": 50,
+              "ref": "Juge Suprême",
+              "limit": 1,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Officiers",
+              "ref": [
+                "Marshall",
+                "Sheriff"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "Of",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Marshall",
+              "ref": [
+                "Marshall"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Sheriff",
+              "ref": [
+                "Sheriff"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        },
+        {
+          "name": "Patrouille Purgator",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 2
+            }
+          ],
+          "options": [
+            {
+              "name": "8 Unités d'Arbitrators de Soutien",
+              "value": 250,
+              "ref": [
+                "Arbitrators de Soutien"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Juge suprême",
+              "value": 50,
+              "ref": "Juge Suprême",
+              "limit": 1,
+              "limiteOptionGlobal": 1
+            },
+            {
+              "name": "Officiers",
+              "ref": [
+                "Marshall",
+                "Sheriff"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "Of",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Marshall",
+              "ref": [
+                "Marshall"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Sheriff",
+              "ref": [
+                "Sheriff"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Transport",
+              "ref": [
+                "Rhino",
+                "Repressor",
+                "Chimère"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "TR",
+              "nbrefoptions": 0,
+              "unique": "TR"
+            },
+            {
+              "name": "Rhino",
+              "ref": "Rhino",
+              "value": 10,
+              "limit": 1,
+              "refoption": "TR",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Repressor",
+              "ref": "Repressor",
+              "value": 15,
+              "limit": 1,
+              "refoption": "TR",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Chimère",
+              "ref": "Chimère",
+              "value": 25,
+              "limit": 1,
+              "refoption": "TR",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Mastodon",
+              "ref": "Mastodon",
+              "value": 225,
+              "limit": 1,
+              "unique": "TR"
+            },
+            {
+              "name": "Plateforme Sabre",
+              "ref": "Plateforme Sabre",
+              "value": 25,
+              "limit": 1,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "name": "K9 Team",
+              "ref": "K9 Team",
+              "value": 25,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "name": "Sniper Team",
+              "ref": "Sniper Team",
+              "value": 25,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DÉTACHEMENTS DE SOUTIEN DE L'ADEPTUS ARBITES",
+      "detail": "Jusqu'à 2 détachements de soutien par détachement principal",
+      "formation": [
+        {
+          "name": "Patrouille Tormentor",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "8 unités d’Arbitrators de Choc/Assaut + 4 Valkyries",
+              "ref": [
+                "Arbitrators de Choc",
+                "Arbitrators d'Assaut",
+                "Valkyrie"
+              ],
+              "principale": true,
+              "tagrefoptions": "A",
+              "nbrefoptions": 8,
+              "value": 350
+            },
+            {
+              "name": "Arbitrators de Choc",
+              "ref": "Arbitrators de Choc",
+              "value": 0,
+              "limit": 1,
+              "refoption": "A",
+              "min": 0,
+              "max": 8
+            },
+            {
+              "name": "Arbitrators d'Assaut",
+              "ref": "Arbitrators d'Assaut",
+              "value": 0,
+              "limit": 1,
+              "refoption": "A",
+              "min": 0,
+              "max": 8
+            },
+            {
+              "name": "Officiers",
+              "ref": [
+                "Marshall",
+                "Sheriff"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "Of",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Marshall",
+              "ref": [
+                "Marshall"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Sheriff",
+              "ref": [
+                "Sheriff"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        },
+        {
+          "name": "Patrouille Lupus",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 K9 Team",
+              "value": 150,
+              "principale": true,
+              "ref": [
+                "K9 Team"
+              ]
+            },
+            {
+              "name": "Officiers",
+              "ref": [
+                "Marshall",
+                "Sheriff"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "Of",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Marshall",
+              "ref": [
+                "Marshall"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Sheriff",
+              "ref": [
+                "Sheriff"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Sniper Team",
+              "ref": "Sniper Team",
+              "value": 25,
+              "limit": 1,
+              "min": 1,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Patrouille Fortitude",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 Leman russ",
+              "note": "Remplacer jusqu’à 3 Leman Russ par des Leman Russ Punisher",
+              "ref": [
+                "Leman Russ",
+                "Leman Russ Punisher"
+              ],
+              "value": 350,
+              "principale": true,
+              "tagrefoptions": "A",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Leman Russ (obligatoire)",
+              "ref": "Leman Russ",
+              "value": 0,
+              "refoption": "A",
+              "min": 3,
+              "max": 3
+            },
+            {
+              "name": "Leman Russ",
+              "ref": "Leman Russ",
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Leman russ punisher",
+              "ref": "Leman Russ Punisher",
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Officiers",
+              "ref": [
+                "Marshall",
+                "Sheriff"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "Of",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Marshall",
+              "ref": [
+                "Marshall"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Sheriff",
+              "ref": [
+                "Sheriff"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        },
+        {
+          "name": "Patrouille Punition",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "3 Black Maria",
+              "ref": "Black Maria",
+              "value": 250,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Patrouille Interception",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 Sentinelles Arbites",
+              "ref": "Sentinelle Arbites",
+              "value": 125,
+              "principale": true
+            },
+            {
+              "name": "Officiers",
+              "ref": [
+                "Marshall",
+                "Sheriff"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "Of",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Marshall",
+              "ref": [
+                "Marshall"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Sheriff",
+              "ref": [
+                "Sheriff"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        },
+        {
+          "name": "Patrouille Soumission",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "1 Marshall + 4 unités d’Ogryns",
+              "ref": [
+                "Marshall",
+                "Ogryns"
+              ],
+              "value": 150,
+              "principale": true
+            },
+            {
+              "name": "Ogryns",
+              "ref": [
+                "Ogryns"
+              ],
+              "value": 25,
+              "limit": 1,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Chimère",
+              "ref": [
+                "Chimère"
+              ],
+              "value": 25,
+              "limit": 1,
+              "min": 0,
+              "max": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUPPORTS DE L'ADEPTUS ARBITES",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Rédemptionistes",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 unité de Magister + 9 unités de Dévots",
+              "ref": [
+                "Magister",
+                "Dévots"
+              ],
+              "value": 150,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Légions Pénales",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 unité d’Arbitrators de Choc + 12 unités de Légionnaires",
+              "ref": [
+                "Arbitrators de Choc",
+                "Légionnaires"
+              ],
+              "value": 225,
+              "principale": true
+            },
+            {
+              "name": "Officiers",
+              "ref": [
+                "Marshall",
+                "Sheriff"
+              ],
+              "value": 0,
+              "limit": 1,
+              "tagrefoptions": "Of",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Marshall",
+              "ref": [
+                "Marshall"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Sheriff",
+              "ref": [
+                "Sheriff"
+              ],
+              "value": 25,
+              "limit": 1,
+              "refoption": "Of",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        },
+        {
+          "name": "Escadron d’interception",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Avengers",
+              "ref": "Avenger",
+              "value": 150,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "0-1 Soutien Orbital",
+          "limiteOptionGlobal": 1,
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Croiseur de classe Lunar",
+              "ref": "Croiseur de Classe Lunar",
+              "value": 100,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

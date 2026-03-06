@@ -1,0 +1,932 @@
+{
+  "codex": "Légion d'Acier",
+  "color": "#686000",
+  "version": "1.2.1",
+  "logo": "steel.png",
+  "categorie": "Armées de l Imperium",
+  "faction": "Impérium",
+  "codexRare": 0.33333333,
+  "strategie": "2",
+  "initiative": "Initiative de 2+, sauf soutiens de l’Adeptus Titanicus initiative 1+",
+  "groupes": [
+    {
+      "name": "COMPAGNIES DE LA LÉGION D'ACIER",
+      "detail": "Chaque amélioration ne peut être prise qu'une seule fois par formation et jusqu'à un maximum de 3",
+      "formation": [
+        {
+          "name": "0-1 QG Régimentaire",
+          "FormationLimite": 1,
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 3
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "1 QG Régimentaire, 12 unités de Gardes Impériaux et 7 Chimère",
+              "value": 450,
+              "ref": [
+                "Quartier Général",
+                "Gardes Impériaux",
+                "Chimère",
+                "Commissaire"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Peloton d’Appui-feu (x4)",
+              "ref": "Appui-feu",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Peloton d’Infanterie (x6)",
+              "value": 100,
+              "ref": "Gardes Impériaux",
+              "limit": 1
+            },
+            {
+              "name": "Chimère",
+              "ref": "Chimère",
+              "IsNotOption": true,
+              "value": 25,
+              "min": 0,
+              "max": 3,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de Chars - 3 Leman Russ",
+              "ref": "Leman Russ",
+              "value": 175,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de Chars - 3 Leman Russ Démolisseurs",
+              "ref": "Leman Russ Démolisseur",
+              "value": 225,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de 3 Hellhounds",
+              "ref": "Hellhound",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Batterie de Griffons",
+              "ref": "Griffon",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "1 Hydre",
+              "ref": "Hydre",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Sniper Ratling",
+              "ref": "Ratlings",
+              "value": 25,
+              "min": 0,
+              "max": 2,
+              "limit": 1
+            },
+            {
+              "name": "Ogryns",
+              "ref": "Ogryns",
+              "value": 25,
+              "min": 0,
+              "max": 2,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Compagnie d’Infanterie Mécanisée",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 3
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "1 unité de Commandement, 12 de Gardes Impériaux et 7 Chimère",
+              "value": 400,
+              "ref": [
+                "Commandement",
+                "Gardes Impériaux",
+                "Chimère",
+                "Commissaire"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Peloton d’Appui-feu (x4)",
+              "ref": "Appui-feu",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Peloton d’Infanterie (x6)",
+              "ref": "Gardes Impériaux",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Chimère",
+              "ref": "Chimère",
+              "IsNotOption": true,
+              "value": 25,
+              "min": 0,
+              "max": 3,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de Chars - 3 Leman Russ",
+              "ref": "Leman Russ",
+              "value": 175,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de Chars - 3 Leman Russ Démolisseurs",
+              "ref": "Leman Russ Démolisseur",
+              "value": 225
+            },
+            {
+              "name": "Escadron de 3 Hellhounds",
+              "ref": "Hellhound",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Batterie de Griffons",
+              "ref": "Griffon",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "1 Hydre",
+              "ref": "Hydre",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Sniper Ratling",
+              "ref": "Ratlings",
+              "value": 25,
+              "min": 0,
+              "max": 2,
+              "limit": 1
+            },
+            {
+              "name": "Ogryns",
+              "ref": "Ogryns",
+              "value": 25,
+              "min": 0,
+              "max": 2,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Compagnie d’Infanterie",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 3
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "1 unité de Commandement et 12 de Gardes Impériaux",
+              "value": 250,
+              "ref": [
+                "Commandement",
+                "Gardes Impériaux",
+                "Commissaire"
+              ],
+              "principale": true
+            },
+            {
+              "name": "Peloton d’Appui-feu (x4)",
+              "ref": "Appui-feu",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Peloton d’Infanterie (x6)",
+              "ref": "Gardes Impériaux",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Chimère",
+              "ref": "Chimère",
+              "IsNotOption": true,
+              "value": 25,
+              "min": 0,
+              "max": 3,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de Chars - 3 Leman Russ",
+              "ref": "Leman Russ",
+              "value": 175,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de Chars - 3 Leman Russ Démolisseurs",
+              "ref": "Leman Russ Démolisseur",
+              "value": 225,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de 3 Hellhounds",
+              "ref": "Hellhound",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Batterie de Griffons",
+              "ref": "Griffon",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "1 Hydre",
+              "ref": "Hydre",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Sniper Ratling",
+              "ref": "Ratlings",
+              "value": 25,
+              "min": 0,
+              "max": 2,
+              "limit": 1
+            },
+            {
+              "name": "Ogryns",
+              "ref": "Ogryns",
+              "value": 25,
+              "min": 0,
+              "max": 2,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Compagnie Blindée",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 3
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "10 Leman Russ, dont 1 peut devenir un Vanquisher gratuitement",
+              "ref": [
+                "Leman Russ",
+                "Leman Russ Vanquisher",
+                "Commissaire"
+              ],
+              "value": 600,
+              "principale": true
+            },
+            {
+              "name": "Remplacez 3 Leman Russ par 3 Leman Russ Démolisseurs",
+              "ref": "Leman Russ Démolisseur",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Peloton d’Appui-feu (x4)",
+              "ref": "Appui-feu",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Peloton d’Infanterie (x6)",
+              "ref": "Gardes Impériaux",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Chimère",
+              "ref": "Chimère",
+              "IsNotOption": true,
+              "value": 25,
+              "min": 0,
+              "max": 3,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de Chars - 3 Leman Russ",
+              "ref": "Leman Russ",
+              "value": 175,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de Chars - 3 Leman Russ Démolisseurs",
+              "ref": "Leman Russ Démolisseur",
+              "value": 225,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de 3 Hellhounds",
+              "ref": "Hellhound",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Batterie de Griffons",
+              "ref": "Griffon",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "1 Hydre",
+              "ref": "Hydre",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Sniper Ratling",
+              "ref": "Ratlings",
+              "value": 25,
+              "min": 0,
+              "max": 2,
+              "limit": 1
+            },
+            {
+              "name": "Ogryns",
+              "ref": "Ogryns",
+              "value": 25,
+              "min": 0,
+              "max": 2,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Compagnie de Super Lourds",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 3
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "3 Baneblades et/ou Shadowswords, selon n’importe quelle combinaison",
+              "ref": [
+                "Commissaire"
+              ],
+              "value": 500,
+              "principale": true,
+              "nbrefoptions": 3,
+              "tagrefoptions": "A"
+            },
+            {
+              "name": "Baneblade",
+              "ref": "Baneblade",
+              "value": 0,
+              "min": 1,
+              "max": 3,
+              "refoption": "A"
+            },
+            {
+              "name": "Shadowswords",
+              "ref": "Shadowsword",
+              "value": 0,
+              "min": 1,
+              "max": 3,
+              "refoption": "A"
+            },
+            {
+              "name": "4 unités d’Appui-feu",
+              "ref": "Appui-feu",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Peloton d’Infanterie (x6)",
+              "ref": "Gardes Impériaux",
+              "value": 100,
+              "limit": 1
+            },
+            {
+              "name": "Chimère",
+              "ref": "Chimère",
+              "IsNotOption": true,
+              "value": 25,
+              "min": 0,
+              "max": 3,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de Chars - 3 Leman Russ",
+              "ref": "Leman Russ",
+              "value": 175,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de Chars - 3 Leman Russ Démolisseurs",
+              "ref": "Leman Russ Démolisseur",
+              "value": 225,
+              "limit": 1
+            },
+            {
+              "name": "Escadron de 3 Hellhounds",
+              "ref": "Hellhound",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "Batterie de Griffons",
+              "ref": "Griffon",
+              "value": 150,
+              "limit": 1
+            },
+            {
+              "name": "1 Hydre",
+              "ref": "Hydre",
+              "value": 50,
+              "limit": 1
+            },
+            {
+              "name": "Sniper Ratling",
+              "ref": "Ratlings",
+              "value": 25,
+              "min": 0,
+              "max": 2,
+              "limit": 1
+            },
+            {
+              "name": "Ogryns",
+              "ref": "Ogryns",
+              "value": 25,
+              "min": 0,
+              "max": 2,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "Compagnie d'artillerie",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 3
+            }
+          ],
+          "limiteOptionFormation": 3,
+          "options": [
+            {
+              "name": "9 unités d’Artillerie parmi : Basilisks, Manticores, Bombardes",
+              "ref": [
+                "Commissaire"
+              ],
+              "value": 550,
+              "principale": true,
+              "nbrefoptions": 9,
+              "tagrefoptions": "A"
+            },
+            {
+              "name": "Basilisk",
+              "ref": "Basilisk",
+              "value": 0,
+              "min": 1,
+              "max": 9,
+              "refoption": "A"
+            },
+            {
+              "name": "Manticore",
+              "ref": "Manticore",
+              "value": 0,
+              "min": 1,
+              "max": 9,
+              "refoption": "A"
+            },
+            {
+              "name": "Bombarde",
+              "ref": "Bombarde",
+              "value": 0,
+              "min": 1,
+              "max": 9,
+              "refoption": "A"
+            },
+            {
+              "name": "4 unités d’Appui-feu",
+              "ref": "Appui-feu",
+              "value": 100
+            },
+            {
+              "name": "Peloton d’Infanterie (x6)",
+              "ref": "Gardes Impériaux",
+              "value": 100
+            },
+            {
+              "name": "Chimère",
+              "ref": "Chimère",
+              "IsNotOption": true,
+              "value": 25,
+              "min": 0,
+              "max": 3
+            },
+            {
+              "name": "Escadron de Chars - 3 Leman Russ",
+              "ref": "Leman Russ",
+              "value": 175
+            },
+            {
+              "name": "Escadron de Chars - 3 Leman Russ Démolisseurs",
+              "ref": "Leman Russ Démolisseur",
+              "value": 225
+            },
+            {
+              "name": "Escadron de 3 Hellhounds",
+              "ref": "Hellhound",
+              "value": 150
+            },
+            {
+              "name": "Batterie de Griffons",
+              "ref": "Griffon",
+              "value": 150
+            },
+            {
+              "name": "1 Hydre",
+              "ref": "Hydre",
+              "value": 50
+            },
+            {
+              "name": "Sniper Ratling",
+              "ref": "Ratlings",
+              "value": 25,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Ogryns",
+              "ref": "Ogryns",
+              "value": 25,
+              "min": 0,
+              "max": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORMATIONS D'APPUI DE LA LÉGION D'ACIER",
+      "detail": "Jusqu’à 2 formations de support par compagnie",
+      "formation": [
+        {
+          "name": "Peloton de char Super Lourd",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "1 Baneblade",
+              "ref": [
+                "Baneblade"
+              ],
+              "value": 200,
+              "principale": true,
+              "unique": "SL"
+            },
+            {
+              "name": "1 Shadowsword",
+              "ref": [
+                "Shadowsword"
+              ],
+              "value": 200,
+              "principale": true,
+              "unique": "SL"
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Peloton de Leman Russ",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 Leman Russ",
+              "ref": [
+                "Leman Russ"
+              ],
+              "value": 350,
+              "principale": true
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Batterie d’Artilleries",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "3 Basilisks",
+              "ref": [
+                "Basilisk"
+              ],
+              "value": 225,
+              "principale": true,
+              "unique": "MB"
+            },
+            {
+              "name": "3 Bombardes",
+              "ref": [
+                "Bombarde"
+              ],
+              "value": 250,
+              "principale": true,
+              "unique": "MB"
+            },
+            {
+              "name": "3 Manticores",
+              "ref": [
+                "Manticore"
+              ],
+              "value": 250,
+              "principale": true,
+              "unique": "MB"
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "0-1 Batterie de Missiles Deathstrike",
+          "LimitationTag": "A",
+          "FormationLimite": 1,
+          "options": [
+            {
+              "name": "2 Lances-Missiles Deathstrike",
+              "ref": [
+                "Deathstrike"
+              ],
+              "value": 225,
+              "principale": true
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Batterie Anti-Aérienne",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "3 Hydre",
+              "ref": [
+                "Hydre"
+              ],
+              "value": 150,
+              "principale": true
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Escadron de Sentinelles",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "4 Sentinelles",
+              "ref": [
+                "Sentinelle"
+              ],
+              "value": 100,
+              "principale": true
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Peloton de Rough Riders",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "6 escouades de Rough Riders",
+              "ref": [
+                "Rough Riders"
+              ],
+              "value": 150,
+              "principale": true
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Militarum Tempestus",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "8 unités de Tempestus Scions",
+              "ref": [
+                "Tempestus Scions"
+              ],
+              "value": 200,
+              "principale": true
+            },
+            {
+              "name": "Ajouter 4 Valkyries",
+              "ref": [
+                "Valkyrie",
+                "Commissaire"
+              ],
+              "value": 150
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        },
+        {
+          "name": "Escadron de Vultures",
+          "LimitationTag": "A",
+          "options": [
+            {
+              "name": "4 Vultures",
+              "ref": [
+                "Vulture"
+              ],
+              "value": 300,
+              "principale": true
+            },
+            {
+              "name": "Commissaire",
+              "ref": "Commissaire",
+              "value": 0,
+              "limit": 1,
+              "commissaire": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLOTTES DE L'AERONAUTICA IMPERIALIS",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Escadrille d’Intercepteurs",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Chasseurs Thunderbolts",
+              "ref": "Thunderbolt",
+              "value": 150,
+              "principale": true
+            },
+            {
+              "name": "4 Chasseurs Thunderbolts",
+              "ref": "Thunderbolt",
+              "value": 300,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Escadrille de Bombardiers",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Bombardiers Marauders",
+              "ref": "Bombardier Marauder",
+              "value": 250,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Soutien Orbital",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Croiseur Lunar",
+              "ref": "Croiseur Classe Lunar",
+              "value": 100,
+              "principale": true
+            },
+            {
+              "name": "1 Cuirassé Emperor",
+              "ref": "Cuirassé Emperor",
+              "value": 300,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SOUTIENS DE L'ADEPTUS TITANICUS",
+      "detail": "Jusqu'à 1/3 des points disponibles peuvent être dépensés pour ces formations",
+      "formation": [
+        {
+          "name": "Titan Warhound",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Warhound",
+              "ref": "Warhound",
+              "value": 275,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Meute de Warhounds",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Titan Warhound",
+              "ref": "Warhound",
+              "value": 500,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Titan Reaver",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Reaver",
+              "ref": "Reaver",
+              "value": 650,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Titan Warlord",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Titan Warlord",
+              "ref": "Warlord",
+              "value": 850,
+              "principale": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

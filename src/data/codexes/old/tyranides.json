@@ -1,0 +1,918 @@
+{
+  "codex": "Tyranides",
+  "color": "#96009e",
+  "version": "1.2",
+  "logo": "ty.png",
+  "categorie": "Armées Xénos",
+  "faction": "Tyranides",
+  "codexRare": 0.33333333,
+  "strategie": "1",
+  "initiative": "Initiative 2+. Les formations: Groupe Nexus, Briseur de siège, Bio-titan, Bio-vaisseau : initiative 1+",
+  "groupes": [
+    {
+      "name": "GROUPE SYNAPTIQUE",
+      "detail": "Vous devez impérativement prendre le nombre d'options nécessaires au Groupe Synaptique choisi.",
+      "formation": [
+        {
+          "name": "0-1 Groupe Nexus + 2-6 essaims instinctifs",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 6,
+          "options": [
+            {
+              "name": "1 Dominatrix",
+              "value": 400,
+              "ref": "Dominatrix",
+              "principale": true,
+              "unique": "A",
+              "rare": true
+            },
+            {
+              "name": "1 Prince Maître des Essaims",
+              "principale": true,
+              "unique": "A",
+              "value": 175,
+              "ref": "Prince Maître des Essaims"
+            },
+            {
+              "name": "2 unités parmi : Guerriers Tyranides ; Zoanthrope",
+              "principale": true,
+              "value": 0,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2
+            },
+            {
+              "name": "Guerriers Tyranides",
+              "ref": [
+                "Guerrier Tyranide"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Zoanthrope",
+              "ref": [
+                "Zoanthrope"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Gaunts - 6 unités",
+              "value": 75,
+              "limit": 6,
+              "tagrefoptions": "G",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Hormagaunt",
+              "ref": [
+                "Hormagaunt"
+              ],
+              "value": 0,
+              "refoption": "G",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Termagant",
+              "ref": [
+                "Termagant"
+              ],
+              "value": 0,
+              "refoption": "G",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Bio-artillerie - 3 Biovores",
+              "ref": "Biovore",
+              "value": 75,
+              "limit": 6
+            },
+            {
+              "name": "Gargouilles - 4 Gargouilles",
+              "ref": "Gargouille",
+              "value": 75,
+              "limit": 6
+            },
+            {
+              "name": "Carnifex - 3 Carnifex",
+              "ref": "Carnifex",
+              "value": 125,
+              "limit": 6
+            },
+            {
+              "name": "Bio-soutien - 3 Dactylis",
+              "ref": "Dactylis",
+              "value": 150,
+              "limit": 6
+            },
+            {
+              "name": "Bio-soutien - 3 Exocrines",
+              "ref": "Exocrine",
+              "value": 150,
+              "limit": 6
+            },
+            {
+              "name": "Bio-tank - 3 Haruspex",
+              "ref": "Haruspex",
+              "value": 150,
+              "limit": 6
+            },
+            {
+              "name": "Bio-tank - 3 Malefactors",
+              "ref": "Malefactor",
+              "value": 150,
+              "limit": 6
+            },
+            {
+              "name": "1 Hiérodule (Cracheur ou Faucheur)",
+              "value": 125,
+              "limit": 6,
+              "tagrefoptions": "H",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Hiérodule Cracheur",
+              "ref": [
+                "Hiérodule Cracheur"
+              ],
+              "value": 0,
+              "refoption": "H",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Hiérodule Faucheur",
+              "ref": [
+                "Hiérodule Faucheur"
+              ],
+              "value": 0,
+              "refoption": "H",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Fouisseurs - 1 Trygon",
+              "ref": "Trygon",
+              "value": 100,
+              "limit": 6
+            },
+            {
+              "name": "Fouisseurs - 3 Rôdeurs",
+              "ref": "Rôdeur",
+              "value": 50,
+              "limit": 6
+            },
+            {
+              "name": "Spore mycétique",
+              "ref": "Spore mycétique",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "Centre Synaptique + 2-5 essaims instinctifs",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 5,
+          "options": [
+            {
+              "name": "1 Prince Tyranide",
+              "ref": "Prince Tyranide",
+              "value": 125,
+              "principale": true
+            },
+            {
+              "name": "Prince Tyranide Alpha (Charismatique)",
+              "ref": "Prince Tyranide",
+              "value": 25,
+              "principale": true
+            },
+            {
+              "name": "2 unités parmi : Guerriers Tyranides ; Zoanthrope",
+              "principale": true,
+              "value": 0,
+              "tagrefoptions": "A",
+              "nbrefoptions": 2
+            },
+            {
+              "name": "Zoanthrope",
+              "ref": [
+                "Zoanthrope"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Guerriers Tyranides",
+              "ref": [
+                "Guerrier Tyranide"
+              ],
+              "value": 0,
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Gaunts - 6 unités",
+              "value": 75,
+              "limit": 6,
+              "tagrefoptions": "G",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Hormagaunt",
+              "ref": [
+                "Hormagaunt"
+              ],
+              "value": 0,
+              "refoption": "G",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Termagant",
+              "ref": [
+                "Termagant"
+              ],
+              "value": 0,
+              "refoption": "G",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Bio-artillerie - 3 Biovores",
+              "ref": "Biovore",
+              "value": 75,
+              "limit": 5
+            },
+            {
+              "name": "Gargouilles - 4 Gargouilles",
+              "ref": "Gargouille",
+              "value": 75,
+              "limit": 5
+            },
+            {
+              "name": "Carnifex - 3 Carnifex",
+              "ref": "Carnifex",
+              "value": 125,
+              "limit": 5
+            },
+            {
+              "name": "Bio-soutien - 3 Dactylis",
+              "ref": "Dactylis",
+              "value": 150,
+              "limit": 5
+            },
+            {
+              "name": "Bio-soutien - 3 Exocrines",
+              "ref": "Exocrine",
+              "value": 150,
+              "limit": 5
+            },
+            {
+              "name": "Bio-tank - 3 Haruspex",
+              "ref": "Haruspex",
+              "value": 150,
+              "limit": 5
+            },
+            {
+              "name": "Bio-tank - 3 Malefactors",
+              "ref": "Malefactor",
+              "value": 150,
+              "limit": 5
+            },
+            {
+              "name": "1 Hiérodule (Cracheur ou Faucheur)",
+              "value": 125,
+              "limit": 4,
+              "tagrefoptions": "H",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Hiérodule Cracheur",
+              "ref": [
+                "Hiérodule Cracheur"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "H"
+            },
+            {
+              "name": "Hiérodule Faucheur",
+              "ref": [
+                "Hiérodule Faucheur"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "H"
+            },
+            {
+              "name": "Fouisseurs - 1 Trygon",
+              "ref": "Trygon",
+              "value": 100,
+              "limit": 5
+            },
+            {
+              "name": "Fouisseurs - 3 Rôdeurs",
+              "ref": "Rôdeur",
+              "value": 50,
+              "limit": 5
+            },
+            {
+              "name": "Spore mycétique",
+              "ref": "Spore mycétique",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "Relais Synaptique + 2-4 essaims instinctifs",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 4,
+          "options": [
+            {
+              "name": "3 unités de Guerriers Tyranides (jusqu’à 2 unités peuvent être remplacées gratuitement par des Zoanthropes)",
+              "ref": "Guerrier Tyranide",
+              "principale": true,
+              "value": 100,
+              "tagrefoptions": "A",
+              "nbrefoptions": 3
+            },
+            {
+              "name": "Guerriers Tyranides",
+              "ref": [
+                "Guerrier Tyranide"
+              ],
+              "value": 0,
+              "principale": true,
+              "refoption": "A",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "name": "Zoanthrope",
+              "ref": [
+                "Zoanthrope"
+              ],
+              "value": 0,
+              "principale": true,
+              "refoption": "A",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Gaunts - 6 unités",
+              "value": 75,
+              "limit": 6,
+              "tagrefoptions": "G",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Hormagaunt",
+              "ref": [
+                "Hormagaunt"
+              ],
+              "value": 0,
+              "refoption": "G",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Termagant",
+              "ref": [
+                "Termagant"
+              ],
+              "value": 0,
+              "refoption": "G",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Bio-artillerie - 3 Biovores",
+              "ref": "Biovore",
+              "value": 75,
+              "limit": 4
+            },
+            {
+              "name": "Gargouilles - 4 Gargouilles",
+              "ref": "Gargouille",
+              "value": 75,
+              "limit": 4
+            },
+            {
+              "name": "Carnifex - 3 Carnifex",
+              "ref": "Carnifex",
+              "value": 125,
+              "limit": 4
+            },
+            {
+              "name": "Bio-soutien - 3 Dactylis",
+              "ref": "Dactylis",
+              "value": 150,
+              "limit": 4
+            },
+            {
+              "name": "Bio-soutien - 3 Exocrines",
+              "ref": "Exocrine",
+              "value": 150,
+              "limit": 4
+            },
+            {
+              "name": "Bio-tank - 3 Haruspex",
+              "ref": "Haruspex",
+              "value": 150,
+              "limit": 4
+            },
+            {
+              "name": "Bio-tank - 3 Malefactors",
+              "ref": "Malefactor",
+              "value": 150,
+              "limit": 4
+            },
+            {
+              "name": "1 Hiérodule (Cracheur ou Faucheur)",
+              "value": 125,
+              "limit": 4,
+              "tagrefoptions": "H",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Hiérodule Prime Cracheur",
+              "ref": [
+                "Hiérodule Cracheur"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "H"
+            },
+            {
+              "name": "Hiérodule Prime Faucheur",
+              "ref": [
+                "Hiérodule Faucheur"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "H"
+            },
+            {
+              "name": "Fouisseurs - 1 Trygon",
+              "ref": "Trygon",
+              "value": 100,
+              "limit": 4
+            },
+            {
+              "name": "Fouisseurs - 3 Rôdeurs",
+              "ref": "Rôdeur",
+              "value": 50,
+              "limit": 4
+            },
+            {
+              "name": "Spore mycétique",
+              "ref": "Spore mycétique",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "Soutien Synaptique + 2-4 essaims instinctifs",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 4,
+          "options": [
+            {
+              "name": "1 Hiérodule Prime (Cracheur ou Faucheur)",
+              "value": 150,
+              "principale": true,
+              "tagrefoptions": "H",
+              "nbrefoptions": 1
+            },
+            {
+              "name": "Hiérodule Prime Cracheur",
+              "ref": [
+                "Hiérodule Cracheur"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "H"
+            },
+            {
+              "name": "Hiérodule Prime Faucheur",
+              "ref": [
+                "Hiérodule Faucheur"
+              ],
+              "value": 0,
+              "min": 0,
+              "max": 1,
+              "refoption": "H"
+            },
+            {
+              "name": "Gaunts - 6 unités",
+              "value": 75,
+              "limit": 6,
+              "tagrefoptions": "G",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Hormagaunt",
+              "ref": [
+                "Hormagaunt"
+              ],
+              "value": 0,
+              "refoption": "G",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Termagant",
+              "ref": [
+                "Termagant"
+              ],
+              "value": 0,
+              "refoption": "G",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Bio-artillerie - 3 Biovores",
+              "ref": "Biovore",
+              "value": 75,
+              "limit": 4
+            },
+            {
+              "name": "Gargouilles - 4 Gargouilles",
+              "ref": "Gargouille",
+              "value": 75,
+              "limit": 4
+            },
+            {
+              "name": "Carnifex - 3 Carnifex",
+              "ref": "Carnifex",
+              "value": 125,
+              "limit": 4
+            },
+            {
+              "name": "Bio-soutien - 3 Dactylis",
+              "ref": "Dactylis",
+              "value": 150,
+              "limit": 4
+            },
+            {
+              "name": "Bio-soutien - 3 Exocrines",
+              "ref": "Exocrine",
+              "value": 150,
+              "limit": 4
+            },
+            {
+              "name": "Bio-tank - 3 Haruspex",
+              "ref": "Haruspex",
+              "value": 150,
+              "limit": 4
+            },
+            {
+              "name": "Bio-tank - 3 Malefactors",
+              "ref": "Malefactor",
+              "value": 150,
+              "limit": 4
+            }
+          ]
+        },
+        {
+          "name": "Groupe d’Appui + 1-2 essaims instinctifs",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 2,
+          "options": [
+            {
+              "name": "1 Trygon Primes",
+              "ref": "Trygon",
+              "principale": true,
+              "value": 125
+            },
+            {
+              "name": "Gaunts Fouisseurs - 6 unités",
+              "value": 75,
+              "limit": 6,
+              "tagrefoptions": "G",
+              "nbrefoptions": 6
+            },
+            {
+              "name": "Hormagaunt",
+              "ref": [
+                "Hormagaunt"
+              ],
+              "value": 0,
+              "refoption": "G",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Termagant",
+              "ref": [
+                "Termagant"
+              ],
+              "value": 0,
+              "refoption": "G",
+              "min": 0,
+              "max": 6
+            },
+            {
+              "name": "Bio-soutien - 3 Dactylis (le Trygon Prime perd la capacité tunnelier)",
+              "ref": "Dactylis",
+              "value": 150,
+              "limit": 2
+            },
+            {
+              "name": "Bio-soutien - 3 Exocrines (le Trygon Prime perd la capacité tunnelier)",
+              "ref": "Exocrine",
+              "value": 150,
+              "limit": 2
+            },
+            {
+              "name": "Bio-tank - 3 Haruspex (le Trygon Prime perd la capacité tunnelier)",
+              "ref": "Haruspex",
+              "value": 150,
+              "limit": 2
+            },
+            {
+              "name": "Bio-tank - 3 Malefactors (le Trygon Prime perd la capacité tunnelier)",
+              "ref": "Malefactor",
+              "value": 150,
+              "limit": 2
+            },
+            {
+              "name": "Fouisseurs - 1 Trygon",
+              "ref": "Trygon",
+              "value": 100,
+              "limit": 2
+            },
+            {
+              "name": "Fouisseurs - 3 Rôdeurs",
+              "ref": "Rôdeur",
+              "value": 50,
+              "limit": 2
+            }
+          ]
+        },
+        {
+          "name": "Groupe de Chasse + 1-2 essaims instinctifs",
+          "GrpPrincipal": true,
+          "FormationLimitationTag": [
+            {
+              "A": 1,
+              "B": 1
+            }
+          ],
+          "limiteOptionFormation": 2,
+          "options": [
+            {
+              "name": "Harridan",
+              "ref": "Harridan",
+              "principale": true,
+              "value": 125,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "4 Gargouilles",
+              "ref": "Gargouille",
+              "value": 75,
+              "limit": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ESSAIMS INDÉPENDANTS COMMUNS",
+      "detail": "jusqu'à 1 essaim indépendant commun par Groupe Synaptique. Les essaims indépendants communs ne doivent pas dépasser un tiers des points de l'armée",
+      "formation": [
+        {
+          "name": "Essaim de Genestealers",
+          "LimitationTag": "A",
+          "rarespe": true,
+          "options": [
+            {
+              "name": "6 Genestealers",
+              "ref": "Genestealer",
+              "value": 150,
+              "principale": true,
+              "limit": 1
+            },
+            {
+              "name": "Genestealers Alpha",
+              "ref": "Genestealer Alpha",
+              "value": 25,
+              "limit": 1
+            },
+            {
+              "name": "Genestealers",
+              "ref": "Genestealer",
+              "value": 25,
+              "min": 0,
+              "max": 3,
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "name": "0-2 Essaim de Lictor",
+          "LimitationTag": "A",
+          "rarespe": true,
+          "limit": 1,
+          "options": [
+            {
+              "name": "4 Lictors",
+              "ref": "Lictor",
+              "principale": true,
+              "value": 175
+            },
+            {
+              "name": "Lictors",
+              "ref": "Lictor",
+              "value": 50,
+              "min": 0,
+              "max": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ESSAIMS INDÉPENDANTS RARES",
+      "detail": "Vous pouvez prendre jusqu’à un essaim indépendant rare par groupe synaptique. Les essaims indépendants rares ne doivent pas dépasser un tiers des points de l’armée. Notez que le coût d’une Dominatrix soit 400pts doit être inclus dans ce tiers",
+      "formation": [
+        {
+          "name": "Bio-aviations",
+          "LimitationTag": "B",
+          "rare": true,
+          "options": [
+            {
+              "name": "2 Harpies",
+              "ref": "Harpie",
+              "value": 125,
+              "principale": true
+            },
+            {
+              "name": "Harpies",
+              "ref": "Harpie",
+              "value": 50,
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "3 Viragos",
+              "ref": "Virago",
+              "value": 150,
+              "principale": true
+            }
+          ]
+        },
+        {
+          "name": "Briseur de siège",
+          "LimitationTag": "B",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Hiérodule (Cracheur ou Faucheur)",
+              "value": 125,
+              "limit": 6,
+              "tagrefoptions": "H",
+              "nbrefoptions": 1,
+              "principale": true
+            },
+            {
+              "name": "Hiérodule Cracheur",
+              "ref": [
+                "Hiérodule Cracheur"
+              ],
+              "value": 0,
+              "refoption": "H",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Hiérodule Faucheur",
+              "ref": [
+                "Hiérodule Faucheur"
+              ],
+              "value": 0,
+              "refoption": "H",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "name": "Hiérodule (Cracheur ou Faucheur)",
+              "value": 125,
+              "min": 0,
+              "max": 2,
+              "tagrefoptions": "HH",
+              "nbrefoptions": 2
+            },
+            {
+              "name": "Hiérodule Cracheur",
+              "ref": [
+                "Hiérodule Cracheur"
+              ],
+              "value": 0,
+              "refoption": "HH",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "name": "Hiérodule Faucheur",
+              "ref": [
+                "Hiérodule Faucheur"
+              ],
+              "value": 0,
+              "refoption": "HH",
+              "min": 0,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "Bio-titans",
+          "LimitationTag": "B",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Bio-titan Hiérophant",
+              "principale": true,
+              "unique": "C",
+              "ref": "Hiérophant",
+              "value": 350
+            },
+            {
+              "name": "1 Bio-titan Hydraphant",
+              "principale": true,
+              "unique": "C",
+              "ref": "Hydraphant",
+              "value": 550
+            }
+          ]
+        },
+        {
+          "name": "Bio-vaisseaux",
+          "LimitationTag": "B",
+          "rare": true,
+          "options": [
+            {
+              "name": "1 Croiseur Razorfiend",
+              "ref": "Croiseur Razorfiend",
+              "principale": true,
+              "unique": "D",
+              "value": 150
+            },
+            {
+              "name": "1 Vaisseau Ruche",
+              "ref": "Vaisseau Ruche",
+              "principale": true,
+              "unique": "D",
+              "value": 250
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

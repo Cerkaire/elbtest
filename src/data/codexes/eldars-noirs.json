@@ -133,44 +133,23 @@
             "unites": []
         },
         {
-            "id": "grotesques_2",
-            "name": "2 Grotesques",
+            "id": "grotesques_remplacement",
+            "name": "Grotesques",
             "cout": 25,
-            "description": "Remplacer jusqu'à 6 unités par autant d'unités de Grotesques",
-            "unique": "grotesques",
+            "cout_par_unite": true,
+            "description": "Remplacer jusqu'à 6 unités par des Grotesques (25 pts la paire)",
+            "min": 1,
+            "max": 3,
+            "type_remplacement": {
+                "remplace_unites": ["gorgone", "hemoxyte"],
+                "par_unite": "grotesque",
+                "taille_lot": 2
+            },
             "unites": [
                 {
                     "id": "grotesque",
                     "name": "Grotesque",
-                    "nombre": 2
-                }
-            ]
-        },
-        {
-            "id": "grotesques_4",
-            "name": "4 Grotesques",
-            "cout": 50,
-            "description": "Remplacer jusqu'à 6 unités par autant d'unités de Grotesques",
-            "unique": "grotesques",
-            "unites": [
-                {
-                    "id": "grotesque",
-                    "name": "Grotesque",
-                    "nombre": 4
-                }
-            ]
-        },
-        {
-            "id": "grotesques_6",
-            "name": "6 Grotesques",
-            "cout": 75,
-            "description": "Remplacer jusqu'à 6 unités par autant d'unités de Grotesques",
-            "unique": "grotesques",
-            "unites": [
-                {
-                    "id": "grotesque",
-                    "name": "Grotesque",
-                    "nombre": 6
+                    "nombre": 1
                 }
             ]
         },
@@ -317,9 +296,7 @@
                     "ameliorations": [
                         "tourmenteur",
                         "portail_noir",
-                        "grotesques_2",
-                        "grotesques_4",
-                        "grotesques_6",
+                        "grotesques_remplacement",
                         "talos",
                         "cronos",
                         "barge_tantale",
@@ -444,9 +421,7 @@
                         "grand_voivode",
                         "tourmenteur",
                         "portail_noir",
-                        "grotesques_2",
-                        "grotesques_4",
-                        "grotesques_6",
+                        "grotesques_remplacement",
                         "talos",
                         "cronos",
                         "barge_tantale",

@@ -84,7 +84,13 @@
             "cout": 25,
             "description": "Ajouter la Note Meneur à 1 unité de la formation",
             "limit": 1,
-            "unites": []
+            "unites": [
+                {
+                    "id": "talissera",
+                    "name": "Ta'lissera",
+                    "nombre": 1
+                }
+            ]
         },
         {
             "id": "skyray",
@@ -134,7 +140,13 @@
             "description": "Ajouter 1 Ethéré à une unité de la formation",
             "limiteOptionGlobal": 1,
             "limit": 1,
-            "unites": []
+            "unites": [
+                {
+                    "id": "ethere",
+                    "name": "Ethéré",
+                    "nombre": 1
+                }
+            ]
         },
         {
             "id": "cibleurs",
@@ -156,11 +168,26 @@
         },
         {
             "id": "cibleurs_remplacement",
-            "name": "Remplacer 2 Strike team par 2 Cibleurs",
+            "name": "Cibleurs (remplacement)",
             "cout": 25,
-            "description": "Remplace des unités existantes",
-            "limit": null,
-            "unites": []
+            "cout_par_unite": true,
+            "description": "Remplacer des Strike team par des Cibleurs (25 pts la paire)",
+            "min": 1,
+            "max": 4,
+            "type_remplacement": {
+                "remplace_unites": [
+                    "strike_team"
+                ],
+                "par_unite": "cibleur",
+                "taille_lot": 2
+            },
+            "unites": [
+                {
+                    "id": "cibleur",
+                    "name": "Cibleur",
+                    "nombre": 1
+                }
+            ]
         },
         {
             "id": "drones_snipers",
@@ -185,7 +212,16 @@
             "cout": 175,
             "description": "Ajouter 3 véhicules parmi : Hammerheads (tous types), Stingray",
             "limit": null,
-            "unites": []
+            "unites": [],
+            "composition_personnalisee": {
+                "total": 3,
+                "description": "Choisir 3 véhicules parmi Hammerheads et Stingray",
+                "options": [
+                    { "id": "hammerhead_rail", "name": "Hammerhead (Canon rail)", "unitId": "hammerhead_rail", "tags": ["Hammerhead (Canon rail)"], "cout": 0, "min": 0, "max": 3 },
+                    { "id": "hammerhead_ion", "name": "Hammerhead (Canon à ion)", "unitId": "hammerhead_ion", "tags": ["Hammerhead (Canon à ion)"], "cout": 0, "min": 0, "max": 3 },
+                    { "id": "stingray", "name": "Stingray", "unitId": "stingray", "tags": ["Stingray"], "cout": 0, "min": 0, "max": 3 }
+                ]
+            }
         },
         {
             "id": "drone_communication",
@@ -193,7 +229,13 @@
             "cout": 25,
             "description": "Ajouter la Note Meneur à 1 véhicule de la formation",
             "limit": 1,
-            "unites": []
+            "unites": [
+                {
+                    "id": "drone_communication",
+                    "name": "Drone de communication",
+                    "nombre": 1
+                }
+            ]
         }
     ],
     "groupes": [
